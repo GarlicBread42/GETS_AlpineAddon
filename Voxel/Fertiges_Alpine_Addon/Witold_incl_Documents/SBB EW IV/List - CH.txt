@@ -1,0 +1,10 @@
+Model by Sweduke
+EW IV Cars
+
+EW IV SBB CFF FFS 1998 livery	
+	- EWIV_SBB_1998_A.vox (EWIV_SBB_1998_A_loading.vox)							(https://www.flickr.com/photos/ernstgoed/14833424895/)
+	- EWIV_SBB_1998_B.vox (EWIV_SBB_1998_B_loading.vox)
+	- EWIV_SBB_1998_Bt.vox (EWIV_SBB_1998_Bt_loading.vox)							(https://www.flickr.com/photos/luethiro/14794759274/)(https://www.flickr.com/photos/lastarial/3191032398)
+	- EWIV_SBB_1998_Bt_2.vox (EWIV_SBB_1998_Bt_loading.vox)							(https://www.flickr.com/photos/luethiro/31178061846/)
+														(https://www.flickr.com/search/?text=sbb%20ew%20iv&sort=date-taken-desc&max_taken_date=1136156399)
+	

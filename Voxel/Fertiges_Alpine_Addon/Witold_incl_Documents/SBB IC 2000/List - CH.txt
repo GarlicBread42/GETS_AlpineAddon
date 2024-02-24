@@ -1,0 +1,23 @@
+IC 2000 Cars
+
+IC 2000 SBB CFF FFS 1997 livery											(note, because of lack of good quality photos fom '97 this is more or less late '90s/early '00 livery)
+	- IC_2000_SBB_1997_A.vox (IC_2000_SBB_1997_A_loading.vox)
+	- IC_2000_SBB_1997_Ad.vox (IC_2000_SBB_1997_Ad_loading.vox)
+	- IC_2000_SBB_1997_B.vox (IC_2000_SBB_1997_B_loading.vox)						(https://www.flickr.com/photos/42309484@N03/52221755979/)
+	- IC_2000_SBB_1997_Bt.vox (IC_2000_SBB_1997_Bt_loading.vox)						(https://www.bahnbilder.de/bild/Schweiz~Galerien~IC2000/6687/der-brandneue-ic2000-am-220597-in.html)
+
+IC 2000 SBB CFF FFS 1999 livery											(notes, added led panels; could have been used in '98, but idk)
+	- IC_2000_SBB_1999_A.vox (IC_2000_SBB_1997_A_loading.vox)
+	- IC_2000_SBB_1999_Ad.vox (IC_2000_SBB_1997_Ad_loading.vox)
+	- IC_2000_SBB_1999_B.vox (IC_2000_SBB_1997_B_loading.vox)						
+	- IC_2000_SBB_1999_Bt.vox (IC_2000_SBB_1997_Bt_loading.vox)
+
+IC 2000 SBB CFF FFS 2001 livery											
+	- IC_2000_SBB_2001_Br.vox (IC_2000_SBB_2008_Br_loading.vox)						(https://www.bahnbilder.de/bild/Schweiz~Galerien~IC2000/5116/ic-2000-zuerich---zug-am.html)																		(https://www.bahnbilder.de/bild/schweiz~personenwagen~ic2000-mittelwagen/265/sbbic-2000-bistrowagen-am-200501-in.html)
+
+IC 2000 SBB CFF FFS 2008 livery	
+	- IC_2000_SBB_2008_Br.vox (IC_2000_SBB_2008_Br_loading.vox)						(https://www.flickr.com/photos/tmt_perchloric_acid/2393106797/)(https://www.vagonweb.cz/fotogalerie/CH/SBB_IC2000-BR-6694.php)
+
+
+
+*yers of the liveries may by completely inaccurate
