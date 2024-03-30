@@ -1,0 +1,73 @@
+ETR 610 "Cisalpino due"
+
+ETR 610 Cisalpino 2009 livery																
+	- ETR610_CIS_2009_Front.vox {ETR610_CIS_2009_Front_cover.vox} (ETR610_CIS_2009_Front_loading.vox)	(https://www.flickr.com/search/?text=etr%20610&sort=date-taken-desc&view_all=1&max_taken_date=1262386799)
+	- ETR610_CIS_2009_Middle1.vox (ETR610_CIS_2009_Middle1_loading.vox)
+	- ETR610_CIS_2009_Middle2.vox (ETR610_CIS_2009_Middle2_loading.vox)
+	- ETR610_CIS_2009_Middle3.vox (ETR610_CIS_2009_Middle3_loading.vox)
+	- ETR610_CIS_2009_Middle3.vox,reversed (ETR610_CIS_2009_Middle3_loading.vox,reversed)
+	- ETR610_CIS_2009_Middle5.vox (ETR610_CIS_2009_Middle3_loading.vox,reversed)
+	- ETR610_CIS_2009_Rear.vox {ETR610_CIS_2009_Front_cover.vox,reversed} (ETR610_CIS_2009_Rear_loading.vox)
+
+ETR 610 SBB CFF FFS "Cisalpino" 2010 livery																
+	- ETR610_SBB_2010_CIS_Front.vox {ETR610_CIS_2009_Front_cover.vox} (ETR610_CIS_2009_Front_loading.vox)	
+	- ETR610_SBB_2010_CIS_Middle1.vox (ETR610_CIS_2009_Middle1_loading.vox)
+	- ETR610_SBB_2010_CIS_Middle2.vox (ETR610_CIS_2009_Middle2_loading.vox)				(https://www.flickr.com/search/?text=etr%20610&sort=date-taken-desc&view_all=1&min_taken_date=1262300400&max_taken_date=1325458799)
+	- ETR610_SBB_2010_CIS_Middle3.vox (ETR610_CIS_2009_Middle3_loading.vox)
+	- ETR610_SBB_2010_CIS_Middle3.vox,reversed (ETR610_CIS_2009_Middle3_loading.vox,reversed)
+	- ETR610_SBB_2010_CIS_Middle5.vox (ETR610_CIS_2009_Middle3_loading.vox,reversed)
+	- ETR610_SBB_2010_CIS_Rear.vox {ETR610_CIS_2009_Front_cover.vox,reversed} (ETR610_CIS_2009_Rear_loading.vox)
+
+ETR 610 SBB CFF FFS 2011 livery																	
+	- ETR610_SBB_2011_Front.vox {ETR610_SBB_2011_Front_cover.vox} (ETR610_SBB_2011_Front_loading.vox)	(https://www.vagonweb.cz/fotogalerie/CH/SBB_610.php)
+	- ETR610_SBB_2011_Middle1.vox (ETR610_SBB_2011_Middle1_loading.vox)
+	- ETR610_SBB_2011_Middle2.vox (ETR610_SBB_2011_Middle2_loading.vox)				(https://www.flickr.com/search/?text=etr%20610&sort=date-taken-desc&view_all=1&min_taken_date=1262300400&max_taken_date=1325458799)
+	- ETR610_SBB_2011_Middle3.vox (ETR610_SBB_2011_Middle3_loading.vox)
+	- ETR610_SBB_2011_Middle3.vox,reversed (ETR610_SBB_2011_Middle3_loading.vox,reversed)
+	- ETR610_SBB_2011_Middle5.vox (ETR610_SBB_2011_Middle3_loading.vox,reversed)
+	- ETR610_SBB_2011_Rear.vox {ETR610_SBB_2011_Front_cover.vox,reversed} (ETR610_SBB_2011_Rear_loading.vox)
+
+ETR 610 SBB CFF FFS 2015 livery											(note, changes from '11: newer lights, SBB logo on the nose, few labels)
+	- ETR610_SBB_2015_Front.vox {ETR610_SBB_2015_Front_cover.vox} (ETR610_SBB_2011_Front_loading.vox)
+	- ETR610_SBB_2015_Middle1.vox (ETR610_SBB_2011_Middle1_loading.vox)
+	- ETR610_SBB_2015_Middle2.vox (ETR610_SBB_2011_Middle2_loading.vox)				(https://www.flickr.com/search/?text=etr%20610&sort=date-taken-desc&view_all=1&min_taken_date=1262300400&max_taken_date=1483311599)
+	- ETR610_SBB_2015_Middle3.vox (ETR610_SBB_2011_Middle3_loading.vox)
+	- ETR610_SBB_2015_Middle3.vox,reversed (ETR610_SBB_2011_Middle3_loading.vox,reversed)
+	- ETR610_SBB_2015_Middle5.vox (ETR610_SBB_2011_Middle3_loading.vox,reversed)
+	- ETR610_SBB_2015_Rear.vox {ETR610_SBB_2015_Front_cover.vox,reversed} (ETR610_SBB_2011_Rear_loading.vox)
+
+ETR 610 SBB CFF FFS "Ticino" 2016 livery											
+	- ETR610_SBB_2016_T_Front.vox {ETR610_SBB_2015_Front_cover.vox} (ETR610_SBB_2011_Front_loading.vox)
+	- ETR610_SBB_2015_Middle1.vox (ETR610_SBB_2011_Middle1_loading.vox)					(https://www.flickr.com/photos/111403923@N05/28538982980/)
+	- ETR610_SBB_2015_Middle2.vox (ETR610_SBB_2011_Middle2_loading.vox)				
+	- ETR610_SBB_2015_Middle3.vox (ETR610_SBB_2011_Middle3_loading.vox)
+	- ETR610_SBB_2015_Middle3.vox,reversed (ETR610_SBB_2011_Middle3_loading.vox,reversed)
+	- ETR610_SBB_2015_Middle5.vox (ETR610_SBB_2011_Middle3_loading.vox,reversed)
+	- ETR610_SBB_2016_T_Rear.vox {ETR610_SBB_2015_Front_cover.vox,reversed} (ETR610_SBB_2011_Rear_loading.vox)
+
+ETR 610 SBB CFF FFS "Valais/Wallis" 2016 livery											
+	- ETR610_SBB_2016_W_Front.vox {ETR610_SBB_2015_Front_cover.vox} (ETR610_SBB_2011_Front_loading.vox)
+	- ETR610_SBB_2015_Middle1.vox (ETR610_SBB_2011_Middle1_loading.vox)					(https://www.flickr.com/photos/fototak/31411902036/)
+	- ETR610_SBB_2015_Middle2.vox (ETR610_SBB_2011_Middle2_loading.vox)				
+	- ETR610_SBB_2015_Middle3.vox (ETR610_SBB_2011_Middle3_loading.vox)
+	- ETR610_SBB_2015_Middle3.vox,reversed (ETR610_SBB_2011_Middle3_loading.vox,reversed)
+	- ETR610_SBB_2015_Middle5.vox (ETR610_SBB_2011_Middle3_loading.vox,reversed)
+	- ETR610_SBB_2016_W_Rear.vox {ETR610_SBB_2015_Front_cover.vox,reversed} (ETR610_SBB_2011_Rear_loading.vox)
+
+ETR 610 SBB CFF FFS "Trinationale" 2018 livery									(note, to do restaurant car)									
+	- ETR610_SBB_2018_Tr_Front.vox {ETR610_SBB_2018_Tr_Front_cover.vox} (ETR610_SBB_2011_Front_loading.vox)	(https://www.flickr.com/photos/limaramada/44723151400/) (https://www.flickr.com/photos/40826712@N00/26268950417/)
+	- ETR610_SBB_2015_Middle1.vox (ETR610_SBB_2011_Middle1_loading.vox)					
+	- ETR610_SBB_2018_Tr_Middle2.vox (ETR610_SBB_2011_Middle2_loading.vox)					(https://www.flickr.com/photos/limaramada/31601031847/)	(https://www.flickr.com/photos/40826712@N00/39331680230/)
+	- ETR610_SBB_2015_Middle3.vox (ETR610_SBB_2011_Middle3_loading.vox)					(https://www.flickr.com/photos/40826712@N00/40012597810/)
+	- ETR610_SBB_2015_Middle3.vox,reversed (ETR610_SBB_2011_Middle3_loading.vox,reversed)			(https://www.dm-toys.de/files/produktfotos/Arnold/2023/Arnold_HN3505.jpg)
+	- ETR610_SBB_2015_Middle5.vox (ETR610_SBB_2011_Middle3_loading.vox,reversed)
+	- ETR610_SBB_2018_Tr_Rear.vox {ETR610_SBB_2018_Tr_Front_cover.vox,reversed} (ETR610_SBB_2011_Rear_loading.vox)	(https://www.flickr.com/photos/40826712@N00/41140809121/)
+
+ETR 610 SBB CFF FFS "München-Zürich" 2022 livery	
+	- ETR610_SBB_2022_MZ_Front.vox {ETR610_SBB_2018_Tr_Front_cover.vox} (ETR610_SBB_2011_Front_loading.vox)	(https://upload.wikimedia.org/wikipedia/commons/3/38/M%C3%BCnchen%2C_ETR_610_mit_Dekoration%2C_3.jpeg)
+	- ETR610_SBB_2015_Middle1.vox (ETR610_SBB_2011_Middle1_loading.vox)					(https://www.flickr.com/photos/40826712@N00/52295968049/)
+	- ETR610_SBB_2022_MZ_Middle2.vox (ETR610_SBB_2011_Middle2_loading.vox)					(https://upload.wikimedia.org/wikipedia/commons/b/b1/M%C3%BCnchen%2C_ETR_610_Z%C3%BCrich%2C_Speisewagen%2C_1.jpeg)
+	- ETR610_SBB_2015_Middle3.vox (ETR610_SBB_2011_Middle3_loading.vox)
+	- ETR610_SBB_2015_Middle3.vox,reversed (ETR610_SBB_2011_Middle3_loading.vox,reversed)
+	- ETR610_SBB_2015_Middle5.vox (ETR610_SBB_2011_Middle3_loading.vox,reversed)
+	- ETR610_SBB_2022_MZ_Rear.vox {ETR610_SBB_2018_Tr_Front_cover.vox,reversed} (ETR610_SBB_2011_Rear_loading.vox)`(https://upload.wikimedia.org/wikipedia/commons/3/38/M%C3%BCnchen%2C_ETR_610_mit_Dekoration%2C_3.jpeg)

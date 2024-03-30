@@ -1,0 +1,6 @@
+end carriages should be 15.5/8 (if not then there is something wrong)
+
+pantographs from most middle one:
+-25 kV 50 Hz AC, 15 kV 16⅔ Hz AC (used in switzerland, italy)
+-3 kV DC (used in italy)
+-15 kV 16⅔ Hz AC (used in germany)
