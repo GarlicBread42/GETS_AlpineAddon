@@ -1,0 +1,95 @@
+//####################################
+//### KFNB First Passenger Coaches ###
+//####################################
+
+//Spriteset A/First Class
+
+spriteset(spriteset_OBB_KFNB_1869_Baggage, "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1869_Baggage, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_1x_32bpp.png", "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1869_Baggage, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_2x_32bpp.png", "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1869_Baggage, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_4x_32bpp.png", "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+
+spriteset(spriteset_OBB_KFNB_1869_Baggage_loading, "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_loading_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1869_Baggage_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_loading_1x_32bpp.png", "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_loading_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1869_Baggage_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_loading_2x_32bpp.png", "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_loading_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1869_Baggage_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_loading_4x_32bpp.png", "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_loading_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+
+spritegroup spritegroup_OBB_KFNB_1869_Baggage
+		{loaded: 	[spriteset_OBB_KFNB_1869_Baggage];
+		loading: 	[spriteset_OBB_KFNB_1869_Baggage_loading];}	
+
+
+//Spritesets purchase
+
+spriteset(spriteset_OBB_KFNB_1869_Baggage_purchase, "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1869_Baggage_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_1x_32bpp.png", "gfx/OBB_KFNB_1869_Baggage/OBB_KFNB_1869_Baggage_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+//Switches							
+							  								   							  					   												
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_KFNB_1869_Baggage, 1){
+							return 500;}
+																						
+item (FEAT_TRAINS , ITEM_OBB_KFNB_1869_BAGGAGE, 7001)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_1869_BAGGAGE);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1869,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					3;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						9 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					36;
+						ai_engine_rank: 				0;
+						length: 						5;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: spritegroup_OBB_KFNB_1869_Baggage;
+			additional_text				    : string(STR_CONCAT_2, 
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_BAGG),);
+			purchase						: spriteset_OBB_KFNB_1869_Baggage_purchase;
+			cost_factor						: 96;
+			running_cost_factor				: switch_running_cost_OBB_KFNB_1869_Baggage;
+			}
+		}

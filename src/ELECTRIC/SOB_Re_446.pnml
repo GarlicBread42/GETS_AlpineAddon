@@ -1,0 +1,426 @@
+//##################
+//### SOB Re 446 ###
+//##################
+
+										
+//Spriteset old
+
+spriteset(spriteset_SOB_Re_446_old, "gfx/SOB_Re_446/SOB_Re_446_old_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SOB_Re_446_old, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_old_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_old_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SOB_Re_446_old, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_old_2x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_old_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SOB_Re_446_old, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_old_4x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_old_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+									
+//Spriteset new
+
+spriteset(spriteset_SOB_Re_446_new, "gfx/SOB_Re_446/SOB_Re_446_new_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SOB_Re_446_new, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_new_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_new_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SOB_Re_446_new, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_new_2x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_new_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SOB_Re_446_new, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_new_4x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_new_4x_mask.png")
+									{template_108trains_4x(0, 0)}									
+
+//Spriteset Silber
+
+spriteset(spriteset_SOB_Re_446_silver, "gfx/SOB_Re_446/SOB_Re_446_silver_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SOB_Re_446_silver, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_silver_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_silver_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SOB_Re_446_silver, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_silver_2x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_silver_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SOB_Re_446_silver, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_silver_4x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_silver_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+
+
+//Spriteset purchase
+
+spriteset(spriteset_SOB_Re_446_old_purchase, "gfx/SOB_Re_446/SOB_Re_446_old_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SOB_Re_446_old_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_old_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_old_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SOB_Re_446_new_purchase, "gfx/SOB_Re_446/SOB_Re_446_new_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SOB_Re_446_new_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_new_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_new_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SOB_Re_446_silver_purchase, "gfx/SOB_Re_446/SOB_Re_446_silver_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SOB_Re_446_silver_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_silver_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_silver_1x_mask.png")
+									{template_purchase(0, 0)}
+																		
+									
+//Switches
+
+						switch(FEAT_TRAINS,SELF, switch_purchase_SOB_Re_446, current_year){
+							   0 .. 2000: spriteset_SOB_Re_446_old_purchase;
+							2001 .. 2006: spriteset_SOB_Re_446_new_purchase;
+							2007 .. 2050: spriteset_SOB_Re_446_silver_purchase;
+								spriteset_SOB_Re_446_silver_purchase;}									
+
+						switch(FEAT_TRAINS, SELF, switch_length_SOB_Re_446, position_in_vehid_chain % 2) {
+							0: 4;
+							1: 6;}
+	
+						switch(FEAT_TRAINS, SELF, switch_FX_SOB_Re_446, position_in_vehid_chain % 2) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}							
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SOB_Re_446, 1){
+							return 3700;}
+					
+																								
+						switch (FEAT_TRAINS,SELF, switch_SOB_Re_446_build_year,build_year){
+							   0 .. 2000: spriteset_SOB_Re_446_old;
+							2001 .. 2006: spriteset_SOB_Re_446_new;
+							2007 .. 2050: spriteset_SOB_Re_446_silver;
+								spriteset_SOB_Re_446_silver;}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SOB_Re_446_build, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     return switch_SOB_Re_446_build_year;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SOB_Re_446_build, extra_callback_info1) {
+						1: return ITEM_SOB_RE_446_BUILD; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SOB_RE_446_BUILD, 1845)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SOB_RE_446_BUILD);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1994,01,01);
+						model_life: 					45;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6745 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SOB_Re_446_build;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SOB_Re_446;
+			articulated_part				:switch_articulated_SOB_Re_446_build;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:switch_purchase_SOB_Re_446;
+			cost_factor						:190;
+			running_cost_factor				:switch_running_cost_SOB_Re_446;			
+			visual_effect_and_powered		:switch_FX_SOB_Re_446;	
+			}
+	}	
+
+																								
+						switch (FEAT_TRAINS,SELF, switch_SOB_Re_446_current_year,current_year){
+							   0 .. 2000: spriteset_SOB_Re_446_old;
+							2001 .. 2006: spriteset_SOB_Re_446_new;
+							2007 .. 2050: spriteset_SOB_Re_446_silver;
+								spriteset_SOB_Re_446_silver;}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SOB_Re_446_current, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     return switch_SOB_Re_446_current_year;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SOB_Re_446_current, extra_callback_info1) {
+						1: return ITEM_SOB_RE_446_CURRENT; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SOB_RE_446_CURRENT, 1846)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SOB_RE_446_CURRENT);	
+						variant_group:					1845;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1994,01,01);
+						model_life: 					45;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6745 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SOB_Re_446_current;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SOB_Re_446;
+			articulated_part				:switch_articulated_SOB_Re_446_current;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:switch_purchase_SOB_Re_446;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SOB_Re_446;			
+			visual_effect_and_powered		:switch_FX_SOB_Re_446;	
+			}
+	}	
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SOB_Re_446_old, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     spriteset_SOB_Re_446_old;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SOB_Re_446_old, extra_callback_info1) {
+						1: return ITEM_SOB_RE_446_OLD; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SOB_RE_446_OLD, 1847)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SOB_RE_446_OLD);	
+						variant_group:					1845;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1994,01,01);
+						model_life: 					45;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6745 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SOB_Re_446_old;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SOB_Re_446;
+			articulated_part				:switch_articulated_SOB_Re_446_old;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SOB_Re_446_old_purchase;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SOB_Re_446;			
+			visual_effect_and_powered		:switch_FX_SOB_Re_446;	
+			}
+	}
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SOB_Re_446_new, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     spriteset_SOB_Re_446_new;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SOB_Re_446_new, extra_callback_info1) {
+						1: return ITEM_SOB_RE_446_NEW; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SOB_RE_446_NEW, 1848)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SOB_RE_446_NEW);	
+						variant_group:					1845;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2001,01,01);
+						model_life: 					45;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6745 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SOB_Re_446_new;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SOB_Re_446;
+			articulated_part				:switch_articulated_SOB_Re_446_new;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SOB_Re_446_new_purchase;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SOB_Re_446;			
+			visual_effect_and_powered		:switch_FX_SOB_Re_446;	
+			}
+	}
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SOB_Re_446_silver, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     spriteset_SOB_Re_446_silver;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SOB_Re_446_silver, extra_callback_info1) {
+						1: return ITEM_SOB_RE_446_SILVER; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SOB_RE_446_SILVER, 1849)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SOB_RE_446_SILVER);	
+						variant_group:					1845;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2007,01,01);
+						model_life: 					45;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6745 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SOB_Re_446_silver;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SOB_Re_446;
+			articulated_part				:switch_articulated_SOB_Re_446_silver;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SOB_Re_446_silver_purchase;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SOB_Re_446;			
+			visual_effect_and_powered		:switch_FX_SOB_Re_446;	
+			}
+	}

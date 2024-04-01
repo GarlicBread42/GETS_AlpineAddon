@@ -1,0 +1,1824 @@
+//############################
+//### SBB ETR 610 "Habero" ###
+//############################
+
+//Spriteset front Cisalpino livery
+
+spriteset(spriteset_SBB_ETR_610_front_CIS, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_CIS_tiltleft, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltleft_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_tiltleft, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltleft_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_tiltleft, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltleft_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_tiltleft, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltleft_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_CIS_tiltright, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltright_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_tiltright, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltright_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_tiltright, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltright_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_tiltright, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltright_4x_mask.png")
+									{template_168trains_4x(0, 0)}									
+									
+spriteset(spriteset_SBB_ETR_610_front_CIS_loading, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_loading_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_loading_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_loading_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_loading_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_loading_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_loading_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_loading_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_ETR_610_front_CIS_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_ETR_610_front_CIS_loading];}	
+
+//Spriteset front Cisalpino livery REVERSED
+
+spriteset(spriteset_SBB_ETR_610_front_CIS_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_CIS_tiltleft_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltleft_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_tiltleft_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltleft_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_tiltleft_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltleft_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_tiltleft_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltleft_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_CIS_tiltright_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltright_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_tiltright_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltright_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_tiltright_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltright_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_tiltright_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_tiltright_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}									
+									
+spriteset(spriteset_SBB_ETR_610_front_CIS_loading_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_loading_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_loading_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_loading_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_loading_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_loading_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_loading_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_loading_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_ETR_610_front_CIS_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_ETR_610_front_CIS_loading_REV];}	
+		
+
+
+//Spriteset back Cisalpino livery
+
+spriteset(spriteset_SBB_ETR_610_back_CIS, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_back_CIS_tiltleft, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltleft_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_tiltleft, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltleft_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_tiltleft, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltleft_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_tiltleft, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltleft_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_back_CIS_tiltright, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltright_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_tiltright, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltright_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_tiltright, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltright_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_tiltright, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltright_4x_mask.png")
+									{template_168trains_4x(0, 0)}									
+									
+spriteset(spriteset_SBB_ETR_610_back_CIS_loading, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_loading_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_loading_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_loading_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_loading_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_loading_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_loading_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_loading_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_ETR_610_back_CIS_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_ETR_610_back_CIS_loading];}	
+
+//Spriteset back Cisalpino livery REVERSED
+
+spriteset(spriteset_SBB_ETR_610_back_CIS_REV, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_back_CIS_tiltleft_REV, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltleft_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_tiltleft_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltleft_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_tiltleft_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltleft_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_tiltleft_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltleft_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_back_CIS_tiltright_REV, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltright_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_tiltright_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltright_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_tiltright_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltright_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_tiltright_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_tiltright_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}									
+									
+spriteset(spriteset_SBB_ETR_610_back_CIS_loading_REV, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_loading_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_loading_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_loading_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_loading_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_loading_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_loading_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_loading_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_ETR_610_back_CIS_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_ETR_610_back_CIS_loading_REV];}			
+
+
+//Spriteset middle1 Cisalpino livery
+
+spriteset(spriteset_SBB_ETR_610_middle1_CIS, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle1_CIS_tiltleft, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltleft_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_tiltleft, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltleft_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_tiltleft, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltleft_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_tiltleft, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltleft_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle1_CIS_tiltright, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltright_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_tiltright, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltright_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_tiltright, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltright_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_tiltright, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltright_4x_mask.png")
+									{template_148trains_4x(0, 0)}									
+									
+spriteset(spriteset_SBB_ETR_610_middle1_CIS_loading, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_loading_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_loading_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_loading_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_ETR_610_middle1_CIS_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_ETR_610_middle1_CIS_loading];}	
+
+//Spriteset middle1 Cisalpino livery REVERSED
+
+spriteset(spriteset_SBB_ETR_610_middle1_CIS_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle1_CIS_tiltleft_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltleft_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_tiltleft_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltleft_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_tiltleft_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltleft_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_tiltleft_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltleft_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle1_CIS_tiltright_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltright_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_tiltright_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltright_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_tiltright_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltright_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_tiltright_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_tiltright_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}									
+									
+spriteset(spriteset_SBB_ETR_610_middle1_CIS_loading_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_loading_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_loading_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_loading_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_loading_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_loading_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle1_CIS_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_loading_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle1_CIS_loading_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_ETR_610_middle1_CIS_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_ETR_610_middle1_CIS_loading_REV];}	
+
+
+//Spriteset middle2 Cisalpino livery
+
+spriteset(spriteset_SBB_ETR_610_middle2_CIS, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle2_CIS_tiltleft, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltleft_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_tiltleft, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltleft_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_tiltleft, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltleft_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_tiltleft, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltleft_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle2_CIS_tiltright, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltright_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_tiltright, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltright_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_tiltright, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltright_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_tiltright, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltright_4x_mask.png")
+									{template_148trains_4x(0, 0)}									
+									
+spriteset(spriteset_SBB_ETR_610_middle2_CIS_loading, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_loading_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_loading_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_loading_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_ETR_610_middle2_CIS_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_ETR_610_middle2_CIS_loading];}	
+
+//Spriteset middle2 Cisalpino livery REVERSED
+
+spriteset(spriteset_SBB_ETR_610_middle2_CIS_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle2_CIS_tiltleft_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltleft_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_tiltleft_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltleft_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_tiltleft_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltleft_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_tiltleft_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltleft_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle2_CIS_tiltright_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltright_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_tiltright_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltright_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_tiltright_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltright_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_tiltright_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_tiltright_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}									
+									
+spriteset(spriteset_SBB_ETR_610_middle2_CIS_loading_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_loading_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_loading_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_loading_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_loading_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_loading_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle2_CIS_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_loading_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle2_CIS_loading_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_ETR_610_middle2_CIS_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_ETR_610_middle2_CIS_loading_REV];}	
+
+
+//Spriteset middle3 Cisalpino livery
+
+spriteset(spriteset_SBB_ETR_610_middle3_CIS, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle3_CIS_tiltleft, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltleft_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_tiltleft, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltleft_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_tiltleft, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltleft_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_tiltleft, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltleft_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle3_CIS_tiltright, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltright_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_tiltright, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltright_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_tiltright, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltright_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_tiltright, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltright_4x_mask.png")
+									{template_148trains_4x(0, 0)}									
+									
+spriteset(spriteset_SBB_ETR_610_middle3_CIS_loading, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_loading_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_loading_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_loading_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_ETR_610_middle3_CIS_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_ETR_610_middle3_CIS_loading];}	
+
+//Spriteset middle3 Cisalpino livery REVERSED
+
+spriteset(spriteset_SBB_ETR_610_middle3_CIS_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle3_CIS_tiltleft_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltleft_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_tiltleft_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltleft_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_tiltleft_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltleft_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_tiltleft_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltleft_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle3_CIS_tiltright_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltright_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_tiltright_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltright_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_tiltright_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltright_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_tiltright_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_tiltright_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}									
+									
+spriteset(spriteset_SBB_ETR_610_middle3_CIS_loading_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_loading_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_loading_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_loading_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_loading_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_loading_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle3_CIS_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_loading_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle3_CIS_loading_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_ETR_610_middle3_CIS_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_ETR_610_middle3_CIS_loading_REV];}	
+		
+
+//Spriteset middle4 Cisalpino livery
+
+spriteset(spriteset_SBB_ETR_610_middle4_CIS, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle4_CIS_tiltleft, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltleft_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_tiltleft, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltleft_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_tiltleft, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltleft_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_tiltleft, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltleft_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle4_CIS_tiltright, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltright_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_tiltright, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltright_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_tiltright, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltright_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_tiltright, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltright_4x_mask.png")
+									{template_148trains_4x(0, 0)}									
+									
+spriteset(spriteset_SBB_ETR_610_middle4_CIS_loading, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_loading_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_loading_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_loading_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_ETR_610_middle4_CIS_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_ETR_610_middle4_CIS_loading];}	
+
+//Spriteset middle4 Cisalpino livery REVERSED
+
+spriteset(spriteset_SBB_ETR_610_middle4_CIS_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle4_CIS_tiltleft_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltleft_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_tiltleft_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltleft_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_tiltleft_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltleft_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_tiltleft_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltleft_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle4_CIS_tiltright_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltright_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_tiltright_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltright_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_tiltright_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltright_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_tiltright_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_tiltright_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}									
+									
+spriteset(spriteset_SBB_ETR_610_middle4_CIS_loading_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_loading_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_loading_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_loading_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_loading_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_loading_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle4_CIS_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_loading_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle4_CIS_loading_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_ETR_610_middle4_CIS_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_ETR_610_middle4_CIS_loading_REV];}			,
+		
+		
+
+//Spriteset middle5 Cisalpino livery
+
+spriteset(spriteset_SBB_ETR_610_middle5_CIS, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle5_CIS_tiltleft, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltleft_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_tiltleft, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltleft_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_tiltleft, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltleft_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_tiltleft, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltleft_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle5_CIS_tiltright, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltright_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_tiltright, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltright_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_tiltright, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltright_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_tiltright, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltright_4x_mask.png")
+									{template_148trains_4x(0, 0)}									
+									
+spriteset(spriteset_SBB_ETR_610_middle5_CIS_loading, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_loading_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_loading_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_loading_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_ETR_610_middle5_CIS_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_ETR_610_middle5_CIS_loading];}	
+
+//Spriteset middle5 Cisalpino livery REVERSED
+
+spriteset(spriteset_SBB_ETR_610_middle5_CIS_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle5_CIS_tiltleft_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltleft_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_tiltleft_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltleft_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_tiltleft_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltleft_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_tiltleft_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltleft_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_middle5_CIS_tiltright_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltright_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_tiltright_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltright_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_tiltright_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltright_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_tiltright_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_tiltright_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}									
+									
+spriteset(spriteset_SBB_ETR_610_middle5_CIS_loading_REV, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_loading_1x_8bpp.png")
+									{ template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_loading_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_loading_1x_mask.png")
+									{template_148trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_loading_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_loading_2x_mask.png")
+									{template_148trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_middle5_CIS_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_loading_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_middle5_CIS_loading_4x_mask.png")
+									{template_148trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_ETR_610_middle5_CIS_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_ETR_610_middle5_CIS_loading_REV];}			
+
+
+
+//Spriteset front Cisalpino Coupling cover
+
+spriteset(spriteset_SBB_ETR_610_front_CIS_cover, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_CIS_cover_tiltleft, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltleft_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_tiltleft, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltleft_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_tiltleft, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltleft_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_tiltleft, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltleft_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_CIS_cover_tiltright, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltright_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_tiltright, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltright_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_tiltright, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltright_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_tiltright, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltright_4x_mask.png")
+									{template_168trains_4x(0, 0)}	
+
+//Spriteset front Cisalpino Coupling cover livery REVERSED
+
+spriteset(spriteset_SBB_ETR_610_front_CIS_cover_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_CIS_cover_tiltleft_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltleft_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_tiltleft_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltleft_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_tiltleft_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltleft_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_tiltleft_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltleft_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_CIS_cover_tiltright_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltright_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_tiltright_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltright_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_tiltright_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltright_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_cover_tiltright_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_cover_tiltright_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+
+//Spriteset back Cisalpino Coupling cover
+
+spriteset(spriteset_SBB_ETR_610_back_CIS_cover, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_back_CIS_cover_tiltleft, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltleft_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_tiltleft, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltleft_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_tiltleft, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltleft_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_tiltleft, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltleft_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_back_CIS_cover_tiltright, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltright_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_tiltright, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltright_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_tiltright, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltright_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_tiltright, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltright_4x_mask.png")
+									{template_168trains_4x(0, 0)}	
+
+//Spriteset back Cisalpino Coupling cover livery REVERSED
+
+spriteset(spriteset_SBB_ETR_610_back_CIS_cover_REV, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_back_CIS_cover_tiltleft_REV, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltleft_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_tiltleft_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltleft_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_tiltleft_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltleft_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_tiltleft_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltleft_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_back_CIS_cover_tiltright_REV, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltright_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_tiltright_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltright_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_tiltright_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltright_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_CIS_cover_tiltright_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_CIS_cover_tiltright_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+
+//Spriteset front lights on
+
+spriteset(spriteset_SBB_ETR_610_front_lights_on, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_lights_on_tiltleft, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltleft, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltleft, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltleft, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_lights_on_tiltright, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltright, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltright, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltright, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_4x_mask.png")
+									{template_168trains_4x(0, 0)}	
+
+//Spriteset front lights off REVERSED
+
+spriteset(spriteset_SBB_ETR_610_front_lights_on_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_lights_on_tiltleft_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltleft_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltleft_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltleft_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_lights_on_tiltright_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltright_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltright_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltright_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+//Spriteset front lights on
+
+spriteset(spriteset_SBB_ETR_610_front_lights_off, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_lights_off_tiltleft, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltleft_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_tiltleft, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltleft_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_tiltleft, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltleft_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_tiltleft, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltleft_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_lights_off_tiltright, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltright_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_tiltright, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltright_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_tiltright, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltright_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_tiltright, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltright_4x_mask.png")
+									{template_168trains_4x(0, 0)}	
+
+//Spriteset front lights off REVERSED
+
+spriteset(spriteset_SBB_ETR_610_front_lights_off_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_lights_off_tiltleft_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltleft_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_tiltleft_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltleft_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_tiltleft_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltleft_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_tiltleft_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltleft_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_lights_off_tiltright_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltright_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_tiltright_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltright_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_tiltright_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltright_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_off_tiltright_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_off_tiltright_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+
+//Spriteset front lights on
+
+spriteset(spriteset_SBB_ETR_610_front_lights_on, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_lights_on_tiltleft, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltleft, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltleft, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltleft, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_lights_on_tiltright, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltright, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltright, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltright, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_4x_mask.png")
+									{template_168trains_4x(0, 0)}	
+
+//Spriteset front lights off REVERSED
+
+spriteset(spriteset_SBB_ETR_610_front_lights_on_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_lights_on_tiltleft_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltleft_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltleft_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltleft_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltleft_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_front_lights_on_tiltright_REV, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltright_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltright_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_lights_on_tiltright_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_lights_on_tiltright_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+//Spriteset back lights on
+
+spriteset(spriteset_SBB_ETR_610_back_lights_off, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_back_lights_off_tiltleft, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltleft_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_tiltleft, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltleft_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_tiltleft, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltleft_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_tiltleft, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltleft_4x_mask.png")
+									{template_168trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_back_lights_off_tiltright, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltright_1x_8bpp.png")
+									{ template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_tiltright, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltright_1x_mask.png")
+									{template_168trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_tiltright, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltright_2x_mask.png")
+									{template_168trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_tiltright, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltright_4x_mask.png")
+									{template_168trains_4x(0, 0)}	
+
+//Spriteset back lights off REVERSED
+
+spriteset(spriteset_SBB_ETR_610_back_lights_off_REV, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_back_lights_off_tiltleft_REV, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltleft_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_tiltleft_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltleft_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltleft_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_tiltleft_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltleft_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltleft_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_tiltleft_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltleft_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltleft_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_ETR_610_back_lights_off_tiltright_REV, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltright_1x_8bpp.png")
+									{ template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_tiltright_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltright_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltright_1x_mask.png")
+									{template_168trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_tiltright_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltright_2x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltright_2x_mask.png")
+									{template_168trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_back_lights_off_tiltright_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltright_4x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_back_lights_off_tiltright_4x_mask.png")
+									{template_168trains_REV_4x(0, 0)}
+
+
+//Spritesets purchase
+
+
+spriteset(spriteset_SBB_ETR_610_front_CIS_purchase, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_ETR_610_front_CIS_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_1x_32bpp.png", "gfx/SBB_ETR_610/SBB_ETR_610_front_CIS_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_front_CIS_open, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_front_CIS;
+							1: spritegroup_SBB_ETR_610_front_CIS_loading;
+							2: spriteset_SBB_ETR_610_front_lights_on;}	
+									
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_front_CIS_open_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_front_CIS_REV;
+							1: spritegroup_SBB_ETR_610_front_CIS_loading_REV;
+							2: spriteset_SBB_ETR_610_front_lights_off_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_front_CIS_open_tiltleft, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_front_CIS_tiltleft;
+							1: spriteset_SBB_ETR_610_front_lights_on_tiltleft;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_front_CIS_open_tiltleft_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_front_CIS_tiltleft_REV;
+							1: spriteset_SBB_ETR_610_front_lights_on_tiltleft_REV;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_front_CIS_open_tiltright, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_front_CIS_tiltright;
+							1: spriteset_SBB_ETR_610_front_lights_on_tiltright;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_front_CIS_open_tiltright_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_front_CIS_tiltright_REV;
+							1: spriteset_SBB_ETR_610_front_lights_on_tiltright_REV;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_front_CIS_closed, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_front_CIS;
+							1: spritegroup_SBB_ETR_610_front_CIS_loading;
+							2: spriteset_SBB_ETR_610_front_CIS_cover;
+							3: spriteset_SBB_ETR_610_front_lights_on;}	
+									
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_front_CIS_closed_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_front_CIS_REV;
+							1: spritegroup_SBB_ETR_610_front_CIS_loading_REV;
+							2: spriteset_SBB_ETR_610_front_CIS_cover_REV;
+							3: spriteset_SBB_ETR_610_front_lights_off_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltleft, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_front_CIS_tiltleft;
+							1: spriteset_SBB_ETR_610_front_CIS_cover_tiltleft;
+							2: spriteset_SBB_ETR_610_front_lights_on_tiltleft;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltleft_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_front_CIS_tiltleft_REV;
+							1: spriteset_SBB_ETR_610_front_CIS_cover_tiltleft_REV;
+							2: spriteset_SBB_ETR_610_front_lights_on_tiltleft_REV;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltright, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_front_CIS_tiltright;
+							1: spriteset_SBB_ETR_610_front_CIS_cover_tiltright;
+							2: spriteset_SBB_ETR_610_front_lights_on_tiltright;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltright_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_front_CIS_tiltright_REV;
+							1: spriteset_SBB_ETR_610_front_CIS_cover_tiltright_REV;
+							2: spriteset_SBB_ETR_610_front_lights_on_tiltright_REV;}																		
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_back_CIS_open, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_back_CIS;
+							1: spritegroup_SBB_ETR_610_back_CIS_loading;
+							2: spriteset_SBB_ETR_610_back_lights_on;}	
+									
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_back_CIS_open_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_back_CIS_REV;
+							1: spritegroup_SBB_ETR_610_back_CIS_loading_REV;
+							2: spriteset_SBB_ETR_610_back_lights_off_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_back_CIS_open_tiltleft, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_back_CIS_tiltleft;
+							1: spriteset_SBB_ETR_610_back_lights_on_tiltleft;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_back_CIS_open_tiltleft_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_back_CIS_tiltleft_REV;
+							1: spriteset_SBB_ETR_610_back_lights_on_tiltleft_REV;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_back_CIS_open_tiltright, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_back_CIS_tiltright;
+							1: spriteset_SBB_ETR_610_back_lights_on_tiltright;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_back_CIS_open_tiltright_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_back_CIS_tiltright_REV;
+							1: spriteset_SBB_ETR_610_back_lights_on_tiltright_REV;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_back_CIS_closed, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_back_CIS;
+							1: spritegroup_SBB_ETR_610_back_CIS_loading;
+							2: spriteset_SBB_ETR_610_back_CIS_cover;
+							3: spriteset_SBB_ETR_610_back_lights_on;}	
+									
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_back_CIS_closed_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_back_CIS_REV;
+							1: spritegroup_SBB_ETR_610_back_CIS_loading_REV;
+							2: spriteset_SBB_ETR_610_back_CIS_cover_REV;
+							3: spriteset_SBB_ETR_610_back_lights_off_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltleft, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_back_CIS_tiltleft;
+							1: spriteset_SBB_ETR_610_back_CIS_cover_tiltleft;
+							2: spriteset_SBB_ETR_610_back_lights_on_tiltleft;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltleft_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_back_CIS_tiltleft_REV;
+							1: spriteset_SBB_ETR_610_back_CIS_cover_tiltleft_REV;
+							2: spriteset_SBB_ETR_610_back_lights_on_tiltleft_REV;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltright, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_back_CIS_tiltright;
+							1: spriteset_SBB_ETR_610_back_CIS_cover_tiltright;
+							2: spriteset_SBB_ETR_610_back_lights_on_tiltright;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltright_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_back_CIS_tiltright_REV;
+							1: spriteset_SBB_ETR_610_back_CIS_cover_tiltright_REV;
+							2: spriteset_SBB_ETR_610_back_lights_on_tiltright_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_middle1_CIS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_middle1_CIS;
+							1: spritegroup_SBB_ETR_610_middle1_CIS_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_middle1_CIS_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_middle1_CIS_REV;
+							1: spritegroup_SBB_ETR_610_middle1_CIS_loading_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_middle2_CIS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_middle2_CIS;
+							1: spritegroup_SBB_ETR_610_middle2_CIS_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_middle2_CIS_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_middle2_CIS_REV;
+							1: spritegroup_SBB_ETR_610_middle2_CIS_loading_REV;}							
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_middle3_CIS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_middle3_CIS;
+							1: spritegroup_SBB_ETR_610_middle3_CIS_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_middle3_CIS_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_middle3_CIS_REV;
+							1: spritegroup_SBB_ETR_610_middle3_CIS_loading_REV;}								
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_middle4_CIS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_middle4_CIS;
+							1: spritegroup_SBB_ETR_610_middle4_CIS_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_middle4_CIS_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_middle4_CIS_REV;
+							1: spritegroup_SBB_ETR_610_middle4_CIS_loading_REV;}							
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_middle5_CIS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_middle5_CIS;
+							1: spritegroup_SBB_ETR_610_middle5_CIS_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_ETR_610_middle5_CIS_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_ETR_610_middle5_CIS_REV;
+							1: spritegroup_SBB_ETR_610_middle5_CIS_loading_REV;}
+							
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_front_CIS_open_curv, curv_info){
+							vehicle_curv_info (2,1): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltleft;	
+							vehicle_curv_info (2,0): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltleft;													
+							vehicle_curv_info (1,0): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltleft;
+							vehicle_curv_info (0,1): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltleft;
+							vehicle_curv_info (0,2): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltleft;		
+							vehicle_curv_info (1,2): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltleft;												
+							vehicle_curv_info (-1,0): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltright;
+							vehicle_curv_info (-2,0): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltright;
+							vehicle_curv_info (-2,1): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltright;														
+							vehicle_curv_info (0,-1): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltright;	
+							vehicle_curv_info (0,-2): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltright;		
+							vehicle_curv_info (1,-2): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltright;																		
+								return switch_spritestack_SBB_ETR_610_front_CIS_open;}																											
+
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_front_CIS_open_curv_REV, curv_info){
+							vehicle_curv_info (2,1): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltleft_REV;	
+							vehicle_curv_info (2,0): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltleft_REV;													
+							vehicle_curv_info (1,0): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltleft_REV;
+							vehicle_curv_info (0,1): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltleft_REV;
+							vehicle_curv_info (0,2): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltleft_REV;		
+							vehicle_curv_info (1,2): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltleft_REV;												
+							vehicle_curv_info (-1,0): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltright_REV;
+							vehicle_curv_info (-2,0): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltright_REV;
+							vehicle_curv_info (-2,1): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltright_REV;														
+							vehicle_curv_info (0,-1): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltright_REV;	
+							vehicle_curv_info (0,-2): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltright_REV;		
+							vehicle_curv_info (1,-2): switch_spritestack_SBB_ETR_610_front_CIS_open_tiltright_REV;																		
+								return switch_spritestack_SBB_ETR_610_front_CIS_open_REV;}
+
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_front_CIS_closed_curv, curv_info){
+							vehicle_curv_info (2,1): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltleft;	
+							vehicle_curv_info (2,0): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltleft;													
+							vehicle_curv_info (1,0): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltleft;
+							vehicle_curv_info (0,1): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltleft;
+							vehicle_curv_info (0,2): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltleft;		
+							vehicle_curv_info (1,2): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltleft;												
+							vehicle_curv_info (-1,0): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltright;
+							vehicle_curv_info (-2,0): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltright;
+							vehicle_curv_info (-2,1): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltright;														
+							vehicle_curv_info (0,-1): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltright;	
+							vehicle_curv_info (0,-2): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltright;		
+							vehicle_curv_info (1,-2): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltright;																		
+								return switch_spritestack_SBB_ETR_610_front_CIS_closed;}																											
+
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_front_CIS_closed_curv_REV, curv_info){
+							vehicle_curv_info (2,1): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltleft_REV;	
+							vehicle_curv_info (2,0): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltleft_REV;													
+							vehicle_curv_info (1,0): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltleft_REV;
+							vehicle_curv_info (0,1): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltleft_REV;
+							vehicle_curv_info (0,2): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltleft_REV;		
+							vehicle_curv_info (1,2): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltleft_REV;												
+							vehicle_curv_info (-1,0): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltright_REV;
+							vehicle_curv_info (-2,0): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltright_REV;
+							vehicle_curv_info (-2,1): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltright_REV;														
+							vehicle_curv_info (0,-1): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltright_REV;	
+							vehicle_curv_info (0,-2): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltright_REV;		
+							vehicle_curv_info (1,-2): switch_spritestack_SBB_ETR_610_front_CIS_closed_tiltright_REV;																		
+								return switch_spritestack_SBB_ETR_610_front_CIS_closed_REV;}
+
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_back_CIS_open_curv, curv_info){
+							vehicle_curv_info (2,1): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltleft;	
+							vehicle_curv_info (2,0): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltleft;													
+							vehicle_curv_info (1,0): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltleft;
+							vehicle_curv_info (0,1): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltleft;
+							vehicle_curv_info (0,2): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltleft;		
+							vehicle_curv_info (1,2): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltleft;												
+							vehicle_curv_info (-1,0): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltright;
+							vehicle_curv_info (-2,0): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltright;
+							vehicle_curv_info (-2,1): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltright;														
+							vehicle_curv_info (0,-1): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltright;	
+							vehicle_curv_info (0,-2): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltright;		
+							vehicle_curv_info (1,-2): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltright;																		
+								return switch_spritestack_SBB_ETR_610_back_CIS_open;}																											
+
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_back_CIS_open_curv_REV, curv_info){
+							vehicle_curv_info (2,1): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltleft_REV;	
+							vehicle_curv_info (2,0): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltleft_REV;													
+							vehicle_curv_info (1,0): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltleft_REV;
+							vehicle_curv_info (0,1): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltleft_REV;
+							vehicle_curv_info (0,2): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltleft_REV;		
+							vehicle_curv_info (1,2): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltleft_REV;												
+							vehicle_curv_info (-1,0): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltright_REV;
+							vehicle_curv_info (-2,0): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltright_REV;
+							vehicle_curv_info (-2,1): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltright_REV;														
+							vehicle_curv_info (0,-1): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltright_REV;	
+							vehicle_curv_info (0,-2): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltright_REV;		
+							vehicle_curv_info (1,-2): switch_spritestack_SBB_ETR_610_back_CIS_open_tiltright_REV;																		
+								return switch_spritestack_SBB_ETR_610_back_CIS_open_REV;}
+
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_back_CIS_closed_curv, curv_info){
+							vehicle_curv_info (2,1): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltleft;	
+							vehicle_curv_info (2,0): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltleft;													
+							vehicle_curv_info (1,0): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltleft;
+							vehicle_curv_info (0,1): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltleft;
+							vehicle_curv_info (0,2): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltleft;		
+							vehicle_curv_info (1,2): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltleft;												
+							vehicle_curv_info (-1,0): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltright;
+							vehicle_curv_info (-2,0): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltright;
+							vehicle_curv_info (-2,1): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltright;														
+							vehicle_curv_info (0,-1): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltright;	
+							vehicle_curv_info (0,-2): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltright;		
+							vehicle_curv_info (1,-2): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltright;																		
+								return switch_spritestack_SBB_ETR_610_back_CIS_closed;}																											
+
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_back_CIS_closed_curv_REV, curv_info){
+							vehicle_curv_info (2,1): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltleft_REV;	
+							vehicle_curv_info (2,0): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltleft_REV;													
+							vehicle_curv_info (1,0): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltleft_REV;
+							vehicle_curv_info (0,1): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltleft_REV;
+							vehicle_curv_info (0,2): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltleft_REV;		
+							vehicle_curv_info (1,2): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltleft_REV;												
+							vehicle_curv_info (-1,0): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltright_REV;
+							vehicle_curv_info (-2,0): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltright_REV;
+							vehicle_curv_info (-2,1): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltright_REV;														
+							vehicle_curv_info (0,-1): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltright_REV;	
+							vehicle_curv_info (0,-2): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltright_REV;		
+							vehicle_curv_info (1,-2): switch_spritestack_SBB_ETR_610_back_CIS_closed_tiltright_REV;																		
+								return switch_spritestack_SBB_ETR_610_back_CIS_closed_REV;}
+
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_middle1_CIS_curv, curv_info){
+							vehicle_curv_info (2,1): spriteset_SBB_ETR_610_middle1_CIS_tiltleft;	
+							vehicle_curv_info (2,0): spriteset_SBB_ETR_610_middle1_CIS_tiltleft;													
+							vehicle_curv_info (1,0): spriteset_SBB_ETR_610_middle1_CIS_tiltleft;
+							vehicle_curv_info (0,1): spriteset_SBB_ETR_610_middle1_CIS_tiltleft;
+							vehicle_curv_info (0,2): spriteset_SBB_ETR_610_middle1_CIS_tiltleft;		
+							vehicle_curv_info (1,2): spriteset_SBB_ETR_610_middle1_CIS_tiltleft;												
+							vehicle_curv_info (-1,0): spriteset_SBB_ETR_610_middle1_CIS_tiltright;
+							vehicle_curv_info (-2,0): spriteset_SBB_ETR_610_middle1_CIS_tiltright;
+							vehicle_curv_info (-2,1): spriteset_SBB_ETR_610_middle1_CIS_tiltright;														
+							vehicle_curv_info (0,-1): spriteset_SBB_ETR_610_middle1_CIS_tiltright;	
+							vehicle_curv_info (0,-2): spriteset_SBB_ETR_610_middle1_CIS_tiltright;		
+							vehicle_curv_info (1,-2): spriteset_SBB_ETR_610_middle1_CIS_tiltright;																		
+								return switch_spritestack_SBB_ETR_610_middle1_CIS;}
+
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_middle1_CIS_curv_REV, curv_info){
+							vehicle_curv_info (2,1): spriteset_SBB_ETR_610_middle1_CIS_tiltleft_REV;	
+							vehicle_curv_info (2,0): spriteset_SBB_ETR_610_middle1_CIS_tiltleft_REV;													
+							vehicle_curv_info (1,0): spriteset_SBB_ETR_610_middle1_CIS_tiltleft_REV;
+							vehicle_curv_info (0,1): spriteset_SBB_ETR_610_middle1_CIS_tiltleft_REV;
+							vehicle_curv_info (0,2): spriteset_SBB_ETR_610_middle1_CIS_tiltleft_REV;		
+							vehicle_curv_info (1,2): spriteset_SBB_ETR_610_middle1_CIS_tiltleft_REV;												
+							vehicle_curv_info (-1,0): spriteset_SBB_ETR_610_middle1_CIS_tiltright_REV;
+							vehicle_curv_info (-2,0): spriteset_SBB_ETR_610_middle1_CIS_tiltright_REV;
+							vehicle_curv_info (-2,1): spriteset_SBB_ETR_610_middle1_CIS_tiltright_REV;														
+							vehicle_curv_info (0,-1): spriteset_SBB_ETR_610_middle1_CIS_tiltright_REV;	
+							vehicle_curv_info (0,-2): spriteset_SBB_ETR_610_middle1_CIS_tiltright_REV;		
+							vehicle_curv_info (1,-2): spriteset_SBB_ETR_610_middle1_CIS_tiltright_REV;																		
+								return switch_spritestack_SBB_ETR_610_middle1_CIS_REV;}
+								
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_middle2_CIS_curv, curv_info){
+							vehicle_curv_info (2,1): spriteset_SBB_ETR_610_middle2_CIS_tiltleft;	
+							vehicle_curv_info (2,0): spriteset_SBB_ETR_610_middle2_CIS_tiltleft;													
+							vehicle_curv_info (1,0): spriteset_SBB_ETR_610_middle2_CIS_tiltleft;
+							vehicle_curv_info (0,1): spriteset_SBB_ETR_610_middle2_CIS_tiltleft;
+							vehicle_curv_info (0,2): spriteset_SBB_ETR_610_middle2_CIS_tiltleft;		
+							vehicle_curv_info (1,2): spriteset_SBB_ETR_610_middle2_CIS_tiltleft;												
+							vehicle_curv_info (-1,0): spriteset_SBB_ETR_610_middle2_CIS_tiltright;
+							vehicle_curv_info (-2,0): spriteset_SBB_ETR_610_middle2_CIS_tiltright;
+							vehicle_curv_info (-2,1): spriteset_SBB_ETR_610_middle2_CIS_tiltright;														
+							vehicle_curv_info (0,-1): spriteset_SBB_ETR_610_middle2_CIS_tiltright;	
+							vehicle_curv_info (0,-2): spriteset_SBB_ETR_610_middle2_CIS_tiltright;		
+							vehicle_curv_info (1,-2): spriteset_SBB_ETR_610_middle2_CIS_tiltright;																		
+								return switch_spritestack_SBB_ETR_610_middle2_CIS;}
+
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_middle2_CIS_curv_REV, curv_info){
+							vehicle_curv_info (2,1): spriteset_SBB_ETR_610_middle2_CIS_tiltleft_REV;	
+							vehicle_curv_info (2,0): spriteset_SBB_ETR_610_middle2_CIS_tiltleft_REV;													
+							vehicle_curv_info (1,0): spriteset_SBB_ETR_610_middle2_CIS_tiltleft_REV;
+							vehicle_curv_info (0,1): spriteset_SBB_ETR_610_middle2_CIS_tiltleft_REV;
+							vehicle_curv_info (0,2): spriteset_SBB_ETR_610_middle2_CIS_tiltleft_REV;		
+							vehicle_curv_info (1,2): spriteset_SBB_ETR_610_middle2_CIS_tiltleft_REV;												
+							vehicle_curv_info (-1,0): spriteset_SBB_ETR_610_middle2_CIS_tiltright_REV;
+							vehicle_curv_info (-2,0): spriteset_SBB_ETR_610_middle2_CIS_tiltright_REV;
+							vehicle_curv_info (-2,1): spriteset_SBB_ETR_610_middle2_CIS_tiltright_REV;														
+							vehicle_curv_info (0,-1): spriteset_SBB_ETR_610_middle2_CIS_tiltright_REV;	
+							vehicle_curv_info (0,-2): spriteset_SBB_ETR_610_middle2_CIS_tiltright_REV;		
+							vehicle_curv_info (1,-2): spriteset_SBB_ETR_610_middle2_CIS_tiltright_REV;																		
+								return switch_spritestack_SBB_ETR_610_middle2_CIS_REV;}		
+								
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_middle3_CIS_curv, curv_info){
+							vehicle_curv_info (2,1): spriteset_SBB_ETR_610_middle3_CIS_tiltleft;	
+							vehicle_curv_info (2,0): spriteset_SBB_ETR_610_middle3_CIS_tiltleft;													
+							vehicle_curv_info (1,0): spriteset_SBB_ETR_610_middle3_CIS_tiltleft;
+							vehicle_curv_info (0,1): spriteset_SBB_ETR_610_middle3_CIS_tiltleft;
+							vehicle_curv_info (0,2): spriteset_SBB_ETR_610_middle3_CIS_tiltleft;		
+							vehicle_curv_info (1,2): spriteset_SBB_ETR_610_middle3_CIS_tiltleft;												
+							vehicle_curv_info (-1,0): spriteset_SBB_ETR_610_middle3_CIS_tiltright;
+							vehicle_curv_info (-2,0): spriteset_SBB_ETR_610_middle3_CIS_tiltright;
+							vehicle_curv_info (-2,1): spriteset_SBB_ETR_610_middle3_CIS_tiltright;														
+							vehicle_curv_info (0,-1): spriteset_SBB_ETR_610_middle3_CIS_tiltright;	
+							vehicle_curv_info (0,-2): spriteset_SBB_ETR_610_middle3_CIS_tiltright;		
+							vehicle_curv_info (1,-2): spriteset_SBB_ETR_610_middle3_CIS_tiltright;																		
+								return switch_spritestack_SBB_ETR_610_middle3_CIS;}
+
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_middle3_CIS_curv_REV, curv_info){
+							vehicle_curv_info (2,1): spriteset_SBB_ETR_610_middle3_CIS_tiltleft_REV;	
+							vehicle_curv_info (2,0): spriteset_SBB_ETR_610_middle3_CIS_tiltleft_REV;													
+							vehicle_curv_info (1,0): spriteset_SBB_ETR_610_middle3_CIS_tiltleft_REV;
+							vehicle_curv_info (0,1): spriteset_SBB_ETR_610_middle3_CIS_tiltleft_REV;
+							vehicle_curv_info (0,2): spriteset_SBB_ETR_610_middle3_CIS_tiltleft_REV;		
+							vehicle_curv_info (1,2): spriteset_SBB_ETR_610_middle3_CIS_tiltleft_REV;												
+							vehicle_curv_info (-1,0): spriteset_SBB_ETR_610_middle3_CIS_tiltright_REV;
+							vehicle_curv_info (-2,0): spriteset_SBB_ETR_610_middle3_CIS_tiltright_REV;
+							vehicle_curv_info (-2,1): spriteset_SBB_ETR_610_middle3_CIS_tiltright_REV;														
+							vehicle_curv_info (0,-1): spriteset_SBB_ETR_610_middle3_CIS_tiltright_REV;	
+							vehicle_curv_info (0,-2): spriteset_SBB_ETR_610_middle3_CIS_tiltright_REV;		
+							vehicle_curv_info (1,-2): spriteset_SBB_ETR_610_middle3_CIS_tiltright_REV;																		
+								return switch_spritestack_SBB_ETR_610_middle3_CIS_REV;}	
+								
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_middle4_CIS_curv, curv_info){
+							vehicle_curv_info (2,1): spriteset_SBB_ETR_610_middle4_CIS_tiltleft;	
+							vehicle_curv_info (2,0): spriteset_SBB_ETR_610_middle4_CIS_tiltleft;													
+							vehicle_curv_info (1,0): spriteset_SBB_ETR_610_middle4_CIS_tiltleft;
+							vehicle_curv_info (0,1): spriteset_SBB_ETR_610_middle4_CIS_tiltleft;
+							vehicle_curv_info (0,2): spriteset_SBB_ETR_610_middle4_CIS_tiltleft;		
+							vehicle_curv_info (1,2): spriteset_SBB_ETR_610_middle4_CIS_tiltleft;												
+							vehicle_curv_info (-1,0): spriteset_SBB_ETR_610_middle4_CIS_tiltright;
+							vehicle_curv_info (-2,0): spriteset_SBB_ETR_610_middle4_CIS_tiltright;
+							vehicle_curv_info (-2,1): spriteset_SBB_ETR_610_middle4_CIS_tiltright;														
+							vehicle_curv_info (0,-1): spriteset_SBB_ETR_610_middle4_CIS_tiltright;	
+							vehicle_curv_info (0,-2): spriteset_SBB_ETR_610_middle4_CIS_tiltright;		
+							vehicle_curv_info (1,-2): spriteset_SBB_ETR_610_middle4_CIS_tiltright;																		
+								return switch_spritestack_SBB_ETR_610_middle4_CIS;}
+
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_middle4_CIS_curv_REV, curv_info){
+							vehicle_curv_info (2,1): spriteset_SBB_ETR_610_middle4_CIS_tiltleft_REV;	
+							vehicle_curv_info (2,0): spriteset_SBB_ETR_610_middle4_CIS_tiltleft_REV;													
+							vehicle_curv_info (1,0): spriteset_SBB_ETR_610_middle4_CIS_tiltleft_REV;
+							vehicle_curv_info (0,1): spriteset_SBB_ETR_610_middle4_CIS_tiltleft_REV;
+							vehicle_curv_info (0,2): spriteset_SBB_ETR_610_middle4_CIS_tiltleft_REV;		
+							vehicle_curv_info (1,2): spriteset_SBB_ETR_610_middle4_CIS_tiltleft_REV;												
+							vehicle_curv_info (-1,0): spriteset_SBB_ETR_610_middle4_CIS_tiltright_REV;
+							vehicle_curv_info (-2,0): spriteset_SBB_ETR_610_middle4_CIS_tiltright_REV;
+							vehicle_curv_info (-2,1): spriteset_SBB_ETR_610_middle4_CIS_tiltright_REV;														
+							vehicle_curv_info (0,-1): spriteset_SBB_ETR_610_middle4_CIS_tiltright_REV;	
+							vehicle_curv_info (0,-2): spriteset_SBB_ETR_610_middle4_CIS_tiltright_REV;		
+							vehicle_curv_info (1,-2): spriteset_SBB_ETR_610_middle4_CIS_tiltright_REV;																		
+								return switch_spritestack_SBB_ETR_610_middle4_CIS_REV;}	
+								
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_middle5_CIS_curv, curv_info){
+							vehicle_curv_info (2,1): spriteset_SBB_ETR_610_middle5_CIS_tiltleft;	
+							vehicle_curv_info (2,0): spriteset_SBB_ETR_610_middle5_CIS_tiltleft;													
+							vehicle_curv_info (1,0): spriteset_SBB_ETR_610_middle5_CIS_tiltleft;
+							vehicle_curv_info (0,1): spriteset_SBB_ETR_610_middle5_CIS_tiltleft;
+							vehicle_curv_info (0,2): spriteset_SBB_ETR_610_middle5_CIS_tiltleft;		
+							vehicle_curv_info (1,2): spriteset_SBB_ETR_610_middle5_CIS_tiltleft;												
+							vehicle_curv_info (-1,0): spriteset_SBB_ETR_610_middle5_CIS_tiltright;
+							vehicle_curv_info (-2,0): spriteset_SBB_ETR_610_middle5_CIS_tiltright;
+							vehicle_curv_info (-2,1): spriteset_SBB_ETR_610_middle5_CIS_tiltright;														
+							vehicle_curv_info (0,-1): spriteset_SBB_ETR_610_middle5_CIS_tiltright;	
+							vehicle_curv_info (0,-2): spriteset_SBB_ETR_610_middle5_CIS_tiltright;		
+							vehicle_curv_info (1,-2): spriteset_SBB_ETR_610_middle5_CIS_tiltright;																		
+								return switch_spritestack_SBB_ETR_610_middle5_CIS;}
+
+						switch(FEAT_TRAINS,SELF, switch_SBB_ETR_610_middle5_CIS_curv_REV, curv_info){
+							vehicle_curv_info (2,1): spriteset_SBB_ETR_610_middle5_CIS_tiltleft_REV;	
+							vehicle_curv_info (2,0): spriteset_SBB_ETR_610_middle5_CIS_tiltleft_REV;													
+							vehicle_curv_info (1,0): spriteset_SBB_ETR_610_middle5_CIS_tiltleft_REV;
+							vehicle_curv_info (0,1): spriteset_SBB_ETR_610_middle5_CIS_tiltleft_REV;
+							vehicle_curv_info (0,2): spriteset_SBB_ETR_610_middle5_CIS_tiltleft_REV;		
+							vehicle_curv_info (1,2): spriteset_SBB_ETR_610_middle5_CIS_tiltleft_REV;												
+							vehicle_curv_info (-1,0): spriteset_SBB_ETR_610_middle5_CIS_tiltright_REV;
+							vehicle_curv_info (-2,0): spriteset_SBB_ETR_610_middle5_CIS_tiltright_REV;
+							vehicle_curv_info (-2,1): spriteset_SBB_ETR_610_middle5_CIS_tiltright_REV;														
+							vehicle_curv_info (0,-1): spriteset_SBB_ETR_610_middle5_CIS_tiltright_REV;	
+							vehicle_curv_info (0,-2): spriteset_SBB_ETR_610_middle5_CIS_tiltright_REV;		
+							vehicle_curv_info (1,-2): spriteset_SBB_ETR_610_middle5_CIS_tiltright_REV;																		
+								return switch_spritestack_SBB_ETR_610_middle5_CIS_REV;}																												
+
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_ETR_610, position_in_articulated_veh % 21) {
+							0: 4;
+							1: 8;
+							2: 4;
+							3: 4;
+							4: 6;
+							5: 4;
+							6: 4;
+							7: 6;
+							8: 4;							
+							9: 4;
+						   10: 6;
+						   11: 4;							
+						   12: 4;
+						   13: 6;
+						   14: 4;							
+						   15: 4;
+						   16: 6;
+						   17: 4;							
+						   18: 4;
+						   19: 8;
+						   20: 4;}
+
+						switch(FEAT_TRAINS, SELF, switch_FX_SBB_SBB_ETR_610, position_in_vehid_chain % 21) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);	
+							3 .. 20: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+							
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_ETR_610, 1){
+							return 3425;}								
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_ETR_610_front_CIS_open, vehicle_is_reversed) {
+							0: switch_SBB_ETR_610_front_CIS_open_curv;
+								switch_SBB_ETR_610_back_CIS_open_curv_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_ETR_610_front_CIS_closed, vehicle_is_reversed) {
+							0: switch_SBB_ETR_610_front_CIS_closed_curv;
+								switch_SBB_ETR_610_back_CIS_closed_curv_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_ETR_610_middle1_CIS, vehicle_is_reversed) {
+							0: switch_SBB_ETR_610_middle1_CIS_curv;
+								switch_SBB_ETR_610_middle5_CIS_curv_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_ETR_610_middle2_CIS, vehicle_is_reversed) {
+							0: switch_SBB_ETR_610_middle2_CIS_curv;
+								switch_SBB_ETR_610_middle4_CIS_curv_REV;}	
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_ETR_610_middle3_CIS, vehicle_is_reversed) {
+							0: switch_SBB_ETR_610_middle3_CIS_curv;
+								switch_SBB_ETR_610_middle3_CIS_curv_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_ETR_610_middle4_CIS, vehicle_is_reversed) {
+							0: switch_SBB_ETR_610_middle4_CIS_curv;
+								switch_SBB_ETR_610_middle2_CIS_curv_REV;}	
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_ETR_610_middle5_CIS, vehicle_is_reversed) {
+							0: switch_SBB_ETR_610_middle5_CIS_curv;
+								switch_SBB_ETR_610_middle1_CIS_curv_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_ETR_610_back_CIS_open, vehicle_is_reversed) {
+							0: switch_SBB_ETR_610_back_CIS_open_curv;
+								switch_SBB_ETR_610_front_CIS_open_curv_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_ETR_610_back_CIS_closed, vehicle_is_reversed) {
+							0: switch_SBB_ETR_610_back_CIS_closed_curv;
+								switch_SBB_ETR_610_front_CIS_closed_curv_REV;}																																						
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_ETR_610_CIS_front_coupling, position_in_consist) {
+							1: return switch_reverse_SBB_ETR_610_front_CIS_closed;
+								default: return switch_reverse_SBB_ETR_610_front_CIS_open;}
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_ETR_610_CIS_back_coupling, position_in_consist_from_end) {
+							1: return switch_reverse_SBB_ETR_610_back_CIS_closed;
+								default: return switch_reverse_SBB_ETR_610_back_CIS_open;}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_ETR_610_CIS, position_in_vehid_chain % 21) {
+							0:	   spriteset_empty;
+							1:     return switch_SBB_ETR_610_CIS_front_coupling;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_reverse_SBB_ETR_610_middle1_CIS;
+							5:	   spriteset_empty;
+							6:	   spriteset_empty;
+							7:	   return switch_reverse_SBB_ETR_610_middle2_CIS;
+							8:	   spriteset_empty;
+							9:	   spriteset_empty;
+						   10:	   return switch_reverse_SBB_ETR_610_middle3_CIS;
+						   11:	   spriteset_empty;
+						   12:	   spriteset_empty;
+						   13:	   return switch_reverse_SBB_ETR_610_middle4_CIS;
+						   14:	   spriteset_empty;
+						   15:	   spriteset_empty;
+						   16:	   return switch_reverse_SBB_ETR_610_middle5_CIS;
+						   17:	   spriteset_empty;	
+						   18:	   spriteset_empty;
+						   19:	   return switch_SBB_ETR_610_CIS_back_coupling;
+						   20:	   spriteset_empty;}					   					   
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_ETR_610_CIS, extra_callback_info1) {
+							1 .. 20: return ITEM_SBB_ETR_610_CIS; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_ETR_610_CIS, 4530)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_ETR_610_CIS);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2010,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity:                 28 ;
+						loading_speed:					5;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						8160 hp;
+						weight: 						212 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.189;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_SBB_ETR_610_CIS;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
+			length							: switch_length_SBB_ETR_610;
+			articulated_part				: switch_articulated_SBB_ETR_610_CIS;
+			visual_effect_and_powered		: switch_FX_SBB_SBB_ETR_610;
+			purchase						: spriteset_SBB_ETR_610_front_CIS_purchase;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SBB_ETR_610;			
+			}
+	}

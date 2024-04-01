@@ -1,0 +1,401 @@
+//#######################
+//###KFNB 1845 Box Car###
+//#######################				
+	
+	
+//Spriteset
+
+spriteset (spriteset_OBB_KFNB_1837_Open, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_1x_mask.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_2x_mask.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_4x_mask.png")
+						{template_48trains_4x(0, 0)}		
+
+
+//Spriteset load 0
+				
+spriteset (spriteset_OBB_KFNB_1837_Open_load_0, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_0_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_0_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_0_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_0_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_0_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_0_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_0_4x_mask.png")
+					{template_48trains_4x(0,0)}	
+
+					
+//Spriteset load Barrell
+				
+spriteset (spriteset_OBB_KFNB_1837_Open_load_Barrell_50, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Barrell_50_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Barrell_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Barrell_50_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Barrell_50_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Barrell_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Barrell_50_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Barrell_50_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Barrell_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Barrell_50_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Barrell_50_4x_mask.png")
+					{template_48trains_4x(0,0)}	
+
+spriteset (spriteset_OBB_KFNB_1837_Open_load_Barrell_100, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Barrell_100_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Barrell_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Barrell_100_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Barrell_100_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Barrell_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Barrell_100_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Barrell_100_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Barrell_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Barrell_100_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Barrell_100_4x_mask.png")
+					{template_48trains_4x(0,0)}
+						
+spritegroup spritegroup_OBB_KFNB_1837_Open_load_Barrell
+		{loaded: 	[spriteset_OBB_KFNB_1837_Open_load_0, spriteset_OBB_KFNB_1837_Open_load_Barrell_50, spriteset_OBB_KFNB_1837_Open_load_Barrell_100];
+			loading: 	[spriteset_OBB_KFNB_1837_Open_load_0, spriteset_OBB_KFNB_1837_Open_load_Barrell_50, spriteset_OBB_KFNB_1837_Open_load_Barrell_100];}
+
+					
+//Spriteset load Box
+
+spriteset (spriteset_OBB_KFNB_1837_Open_load_Box_25, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_25_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Box_25, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_25_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_25_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Box_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_25_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_25_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Box_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_25_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_25_4x_mask.png")
+					{template_48trains_4x(0,0)}	
+									
+spriteset (spriteset_OBB_KFNB_1837_Open_load_Box_50, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_50_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Box_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_50_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_50_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Box_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_50_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_50_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Box_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_50_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_50_4x_mask.png")
+					{template_48trains_4x(0,0)}	
+
+spriteset (spriteset_OBB_KFNB_1837_Open_load_Box_75, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_75_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Box_75, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_75_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_75_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Box_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_75_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_75_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Box_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_75_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_75_4x_mask.png")
+					{template_48trains_4x(0,0)}	
+					
+spriteset (spriteset_OBB_KFNB_1837_Open_load_Box_100, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_100_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Box_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_100_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_100_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Box_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_100_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_100_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Box_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_100_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Box_100_4x_mask.png")
+					{template_48trains_4x(0,0)}
+						
+spritegroup spritegroup_OBB_KFNB_1837_Open_load_Box
+		{loaded: 	[spriteset_OBB_KFNB_1837_Open_load_0, spriteset_OBB_KFNB_1837_Open_load_Box_25, spriteset_OBB_KFNB_1837_Open_load_Box_50, spriteset_OBB_KFNB_1837_Open_load_Box_75, spriteset_OBB_KFNB_1837_Open_load_Box_100];
+			loading: [spriteset_OBB_KFNB_1837_Open_load_0, spriteset_OBB_KFNB_1837_Open_load_Box_25, spriteset_OBB_KFNB_1837_Open_load_Box_50, spriteset_OBB_KFNB_1837_Open_load_Box_75, spriteset_OBB_KFNB_1837_Open_load_Box_100];}
+
+
+					
+//Spriteset Load Bulk
+					
+spriteset (spriteset_OBB_KFNB_1837_Open_load_Bulk_50, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Bulk_50_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Bulk_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Bulk_50_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Bulk_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Bulk_50_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+					
+spriteset (spriteset_OBB_KFNB_1837_Open_load_Bulk_100, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Bulk_100_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Bulk_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Bulk_100_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Bulk_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Bulk_100_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+
+spriteset (spriteset_OBB_KFNB_1837_Open_load_Bulk_100_Tarp, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Bulk_100_Tarp_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Bulk_100_Tarp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Bulk_100_Tarp_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Bulk_100_Tarp_1x_mask.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Bulk_100_Tarp, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Bulk_100_Tarp_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Bulk_100_Tarp_2x_mask.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Bulk_100_Tarp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Bulk_100_Tarp_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Bulk_100_Tarp_4x_mask.png")
+					{template_48trains_4x(0, 0)}
+
+spritegroup spritegroup_OBB_KFNB_1837_Open_load_Bulk
+		{loaded: 	[spriteset_OBB_KFNB_1837_Open_load_0, spriteset_OBB_KFNB_1837_Open_load_Bulk_50, spriteset_OBB_KFNB_1837_Open_load_Bulk_100];
+			loading: 	[spriteset_OBB_KFNB_1837_Open_load_0, spriteset_OBB_KFNB_1837_Open_load_Bulk_50, spriteset_OBB_KFNB_1837_Open_load_Bulk_100];}
+			
+spritegroup spritegroup_OBB_KFNB_1837_Open_load_Bulk_covered
+		{loaded: 	[spriteset_OBB_KFNB_1837_Open_load_0, spriteset_OBB_KFNB_1837_Open_load_Bulk_100_Tarp];
+			loading: 	[spriteset_OBB_KFNB_1837_Open_load_0, spriteset_OBB_KFNB_1837_Open_load_Bulk_50, spriteset_OBB_KFNB_1837_Open_load_Bulk_100];}
+
+					
+//Spriteset load LVST
+				
+spriteset (spriteset_OBB_KFNB_1837_Open_load_LVST_50, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_LVST_50_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_LVST_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_LVST_50_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_LVST_50_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_LVST_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_LVST_50_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_LVST_50_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_LVST_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_LVST_50_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_LVST_50_4x_mask.png")
+					{template_48trains_4x(0,0)}	
+
+spriteset (spriteset_OBB_KFNB_1837_Open_load_LVST_100, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_LVST_100_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_LVST_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_LVST_100_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_LVST_100_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_LVST_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_LVST_100_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_LVST_100_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_LVST_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_LVST_100_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_LVST_100_4x_mask.png")
+					{template_48trains_4x(0,0)}
+						
+spritegroup spritegroup_OBB_KFNB_1837_Open_load_LVST
+		{loaded: 	[spriteset_OBB_KFNB_1837_Open_load_0, spriteset_OBB_KFNB_1837_Open_load_LVST_50, spriteset_OBB_KFNB_1837_Open_load_LVST_100];
+			loading: 	[spriteset_OBB_KFNB_1837_Open_load_0, spriteset_OBB_KFNB_1837_Open_load_LVST_50, spriteset_OBB_KFNB_1837_Open_load_LVST_100];}			
+
+					
+//Spriteset load Steel
+				
+spriteset (spriteset_OBB_KFNB_1837_Open_load_Steel_50, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Steel_50_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Steel_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Steel_50_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Steel_50_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Steel_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Steel_50_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Steel_50_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Steel_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Steel_50_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Steel_50_4x_mask.png")
+					{template_48trains_4x(0,0)}	
+
+spriteset (spriteset_OBB_KFNB_1837_Open_load_Steel_100, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Steel_100_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Steel_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Steel_100_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Steel_100_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Steel_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Steel_100_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Steel_100_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Steel_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Steel_100_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Steel_100_4x_mask.png")
+					{template_48trains_4x(0,0)}
+						
+spritegroup spritegroup_OBB_KFNB_1837_Open_load_Steel
+		{loaded: 	[spriteset_OBB_KFNB_1837_Open_load_0, spriteset_OBB_KFNB_1837_Open_load_Steel_50, spriteset_OBB_KFNB_1837_Open_load_Steel_100];
+			loading: 	[spriteset_OBB_KFNB_1837_Open_load_0, spriteset_OBB_KFNB_1837_Open_load_Steel_50, spriteset_OBB_KFNB_1837_Open_load_Steel_100];}
+
+					
+//Spriteset load Wood
+				
+spriteset (spriteset_OBB_KFNB_1837_Open_load_Wood_50, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Wood_50_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Wood_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Wood_50_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Wood_50_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Wood_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Wood_50_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Wood_50_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Wood_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Wood_50_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Wood_50_4x_mask.png")
+					{template_48trains_4x(0,0)}	
+
+spriteset (spriteset_OBB_KFNB_1837_Open_load_Wood_100, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Wood_100_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Wood_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Wood_100_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Wood_100_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Wood_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Wood_100_2x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Wood_100_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_load_Wood_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Wood_100_4x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_load_Wood_100_4x_mask.png")
+					{template_48trains_4x(0,0)}
+						
+spritegroup spritegroup_OBB_KFNB_1837_Open_load_Wood
+		{loaded: 	[spriteset_OBB_KFNB_1837_Open_load_0, spriteset_OBB_KFNB_1837_Open_load_Wood_50, spriteset_OBB_KFNB_1837_Open_load_Wood_100];
+			loading: 	[spriteset_OBB_KFNB_1837_Open_load_0, spriteset_OBB_KFNB_1837_Open_load_Wood_50, spriteset_OBB_KFNB_1837_Open_load_Wood_100];}
+
+
+//Spritesets purchase
+
+spriteset (spriteset_OBB_KFNB_1837_Open_purchase, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1837_Open_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_1x_32bpp.png", "gfx\OBB_KFNB_1837_Open/OBB_KFNB_1837_Open_1x_mask.png")
+					{template_purchase(0, 0)}
+
+//Switches
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_KFNB_1837_Open_Barrell, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_OBB_KFNB_1837_Open;
+						1: spritegroup_OBB_KFNB_1837_Open_load_Barrell;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_KFNB_1837_Open_Box, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_OBB_KFNB_1837_Open;
+						1: spritegroup_OBB_KFNB_1837_Open_load_Box;}						
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_KFNB_1837_Open_Bulk, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_OBB_KFNB_1837_Open;
+						1: spritegroup_OBB_KFNB_1837_Open_load_Bulk;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_KFNB_1837_Open_Bulk_covered, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_OBB_KFNB_1837_Open;
+						1: spritegroup_OBB_KFNB_1837_Open_load_Bulk_covered;}						
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_KFNB_1837_Open_LVST, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_OBB_KFNB_1837_Open;
+						1: spritegroup_OBB_KFNB_1837_Open_load_LVST;}	
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_KFNB_1837_Open_Steel, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_OBB_KFNB_1837_Open;
+						1: spritegroup_OBB_KFNB_1837_Open_load_Steel;}		
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_KFNB_1837_Open_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_OBB_KFNB_1837_Open;
+						1: spritegroup_OBB_KFNB_1837_Open_load_Wood;}
+								
+					switch(FEAT_TRAINS, SELF, switch_OBB_KFNB_1837_Open_cargo_classes, cargo_classes) {
+							bitmask(CC_BULK): return switch_loadstack_OBB_KFNB_1837_Open_Bulk;
+							bitmask(CC_COVERED): return switch_loadstack_OBB_KFNB_1837_Open_Bulk_covered;
+							bitmask(CC_POWDERIZED): return switch_loadstack_OBB_KFNB_1837_Open_Box;
+							bitmask(CC_PIECE_GOODS) : return switch_loadstack_OBB_KFNB_1837_Open_Box;
+							bitmask(CC_LIQUID): return switch_loadstack_OBB_KFNB_1837_Open_Barrell;
+								switch_loadstack_OBB_KFNB_1837_Open_Box;}
+						
+					switch (FEAT_TRAINS, SELF, switch_OBB_KFNB_1837_Open_cargo_type, cargo_type_in_veh) {
+							STEL: return switch_loadstack_OBB_KFNB_1837_Open_Steel;
+							METL: return switch_loadstack_OBB_KFNB_1837_Open_Steel;
+							ZINC: return switch_loadstack_OBB_KFNB_1837_Open_Steel;
+							COPR: return switch_loadstack_OBB_KFNB_1837_Open_Steel;
+							STST: return switch_loadstack_OBB_KFNB_1837_Open_Steel;
+							STSH: return switch_loadstack_OBB_KFNB_1837_Open_Steel;
+							STSE: return switch_loadstack_OBB_KFNB_1837_Open_Steel;
+							STAL: return switch_loadstack_OBB_KFNB_1837_Open_Steel;
+							STCB: return switch_loadstack_OBB_KFNB_1837_Open_Steel;
+							STWR: return switch_loadstack_OBB_KFNB_1837_Open_Steel; 
+							CSTI: return switch_loadstack_OBB_KFNB_1837_Open_Steel;
+							PIPE: return switch_loadstack_OBB_KFNB_1837_Open_Steel;
+
+							ENSP: return switch_loadstack_OBB_KFNB_1837_Open_Box;
+							FMSP: return switch_loadstack_OBB_KFNB_1837_Open_Box;
+							MNSP: return switch_loadstack_OBB_KFNB_1837_Open_Box;
+							POWR: return switch_loadstack_OBB_KFNB_1837_Open_Box;
+							VPTS: return switch_loadstack_OBB_KFNB_1837_Open_Box;
+							MPTS: return switch_loadstack_OBB_KFNB_1837_Open_Box;
+							GOOD: return switch_loadstack_OBB_KFNB_1837_Open_Box;
+							PAPR: return switch_loadstack_OBB_KFNB_1837_Open_Box;
+							TYRE: return switch_loadstack_OBB_KFNB_1837_Open_Box;
+							WOOL: return switch_loadstack_OBB_KFNB_1837_Open_Box;
+							TEXT: return switch_loadstack_OBB_KFNB_1837_Open_Box;	
+							
+							SEED: return switch_loadstack_OBB_KFNB_1837_Open_Bulk_covered;	
+							FERT: return switch_loadstack_OBB_KFNB_1837_Open_Bulk_covered;	
+							FRVG: return switch_loadstack_OBB_KFNB_1837_Open_Bulk_covered;
+							TATO: return switch_loadstack_OBB_KFNB_1837_Open_Bulk_covered;
+							SALT: return switch_loadstack_OBB_KFNB_1837_Open_Bulk_covered;	
+	
+							BDMT: return switch_loadstack_OBB_KFNB_1837_Open_Wood;
+							WDPR: return switch_loadstack_OBB_KFNB_1837_Open_Wood;
+							WOOD: return switch_loadstack_OBB_KFNB_1837_Open_Wood;
+							GLAS: return switch_loadstack_OBB_KFNB_1837_Open_Box;
+							BRCK: return switch_loadstack_OBB_KFNB_1837_Open_Box;
+							
+							ACID: return switch_loadstack_OBB_KFNB_1837_Open_Barrell;
+							COAT: return switch_loadstack_OBB_KFNB_1837_Open_Barrell;
+							
+							LVST: return switch_loadstack_OBB_KFNB_1837_Open_LVST;
+								switch_OBB_KFNB_1837_Open_cargo_classes;}																								
+																		
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_KFNB_1837_Open, 1){
+						return 45;}						
+						
+item (FEAT_TRAINS , ITEM_OBB_KFNB_1837_OPEN, 8000)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_1837_OPEN);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1837,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_MAIL, CC_EXPRESS, CC_BULK, CC_ARMOURED, CC_PIECE_GOODS, CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_COVERED, CC_POWDERIZED, CC_NON_POURABLE, CC_NEO_BULK);
+						non_refittable_cargo_classes:	bitmask(CC_OVERSIZED);
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [MAIL,GOOD];
+						cargo_disallow_refit: 			[PASS];
+						loading_speed:					4;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							40 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						9 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						4;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_OBB_KFNB_1837_Open_cargo_type;
+			additional_text				    : string(STR_CONCAT_2, 
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_GOODS),);
+			purchase						: spriteset_OBB_KFNB_1837_Open_purchase;
+			cost_factor						: 2;
+			running_cost_factor				: switch_running_cost_OBB_KFNB_1837_Open;	
+			colour_mapping					: switch_generic_recolour;			
+			
+			 }
+		}

@@ -1,0 +1,966 @@
+//##################
+//### SBB Re 420 ###
+//##################
+
+//Spriteset green old
+
+spriteset(spriteset_SBB_Re_420_green_old, "gfx/SBB_Re_420/SBB_Re_420_green_old_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_green_old, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_green_old_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_green_old_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_green_old, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_green_old_2x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_green_old_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_green_old, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_green_old_4x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_green_old_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+										
+//Spriteset green new
+
+spriteset(spriteset_SBB_Re_420_green_new, "gfx/SBB_Re_420/SBB_Re_420_green_new_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_green_new, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_green_new_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_green_new_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_green_new, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_green_new_2x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_green_new_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_green_new, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_green_new_4x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_green_new_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+
+//Spriteset TEE
+
+spriteset(spriteset_SBB_Re_420_TEE, "gfx/SBB_Re_420/SBB_Re_420_TEE_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_TEE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_TEE_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_TEE_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_TEE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_TEE_2x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_TEE_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_TEE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_TEE_4x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_TEE_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+
+//Spriteset SwissExpress old
+
+spriteset(spriteset_SBB_Re_420_SwissEx_old, "gfx/SBB_Re_420/SBB_Re_420_SwissEx_old_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_SwissEx_old, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_SwissEx_old_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_SwissEx_old_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_SwissEx_old, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_SwissEx_old_2x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_SwissEx_old_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_SwissEx_old, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_SwissEx_old_4x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_SwissEx_old_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+
+//Spriteset SwissExpress new
+
+spriteset(spriteset_SBB_Re_420_SwissEx_new, "gfx/SBB_Re_420/SBB_Re_420_SwissEx_new_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_SwissEx_new, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_SwissEx_new_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_SwissEx_new_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_SwissEx_new, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_SwissEx_new_2x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_SwissEx_new_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_SwissEx_new, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_SwissEx_new_4x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_SwissEx_new_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+
+//Spriteset red
+
+spriteset(spriteset_SBB_Re_420_red, "gfx/SBB_Re_420/SBB_Re_420_red_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_red_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_red_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_red_2x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_red_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_red_4x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_red_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+
+//Spriteset SBB Cargo old
+
+spriteset(spriteset_SBB_Re_420_Cargo_old, "gfx/SBB_Re_420/SBB_Re_420_Cargo_old_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_Cargo_old, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_Cargo_old_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_Cargo_old_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_Cargo_old, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_Cargo_old_2x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_Cargo_old_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_Cargo_old, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_Cargo_old_4x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_Cargo_old_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+
+//Spriteset SBB Cargo new
+
+spriteset(spriteset_SBB_Re_420_Cargo_new, "gfx/SBB_Re_420/SBB_Re_420_Cargo_new_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_Cargo_new, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_Cargo_new_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_Cargo_new_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_Cargo_new, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_Cargo_new_2x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_Cargo_new_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_Cargo_new, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_Cargo_new_4x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_Cargo_new_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+
+//Spriteset LION
+
+spriteset(spriteset_SBB_Re_420_LION, "gfx/SBB_Re_420/SBB_Re_420_LION_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_LION, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_LION_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_LION_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_LION, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_LION_2x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_LION_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_LION, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_LION_4x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_LION_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+
+//Spritesets Special liveries
+
+
+spriteset(spriteset_SBB_Re_420_Special1, "gfx/SBB_Re_420/SBB_Re_420_Special1_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_Special1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_Special1_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_Special1_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_Special1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_Special1_2x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_Special1_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_Special1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_Special1_4x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_Special1_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+									
+//Spriteset TR TransRail
+
+spriteset(spriteset_SBB_Re_420_TR, "gfx/SBB_Re_420/SBB_Re_420_TR_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_TR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_TR_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_TR_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_TR, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_TR_2x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_TR_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_TR, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_TR_4x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_TR_4x_mask.png")
+									{template_108trains_4x(0, 0)}									
+
+
+
+//Spriteset purchase
+
+spriteset(spriteset_SBB_Re_420_green_old_purchase, "gfx/SBB_Re_420/SBB_Re_420_green_old_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_green_old_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_green_old_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_green_old_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+spriteset(spriteset_SBB_Re_420_green_new_purchase, "gfx/SBB_Re_420/SBB_Re_420_green_new_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_green_new_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_green_new_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_green_new_1x_mask.png")
+									{template_purchase(0, 0)}									
+
+spriteset(spriteset_SBB_Re_420_TEE_purchase, "gfx/SBB_Re_420/SBB_Re_420_TEE_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_TEE_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_TEE_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_TEE_1x_mask.png")
+									{template_purchase(0, 0)}									
+
+spriteset(spriteset_SBB_Re_420_SwissEx_old_purchase, "gfx/SBB_Re_420/SBB_Re_420_SwissEx_old_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_SwissEx_old_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_SwissEx_old_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_SwissEx_old_1x_mask.png")
+									{template_purchase(0, 0)}									
+
+spriteset(spriteset_SBB_Re_420_red_purchase, "gfx/SBB_Re_420/SBB_Re_420_red_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_red_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_red_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_red_1x_mask.png")
+									{template_purchase(0, 0)}									
+
+spriteset(spriteset_SBB_Re_420_Cargo_old_purchase, "gfx/SBB_Re_420/SBB_Re_420_Cargo_old_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_Cargo_old_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_Cargo_old_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_Cargo_old_1x_mask.png")
+									{template_purchase(0, 0)}									
+
+spriteset(spriteset_SBB_Re_420_Cargo_new_purchase, "gfx/SBB_Re_420/SBB_Re_420_Cargo_new_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_Cargo_new_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_Cargo_new_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_Cargo_new_1x_mask.png")
+									{template_purchase(0, 0)}									
+
+spriteset(spriteset_SBB_Re_420_LION_purchase, "gfx/SBB_Re_420/SBB_Re_420_LION_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_LION_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_LION_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_LION_1x_mask.png")
+									{template_purchase(0, 0)}									
+
+spriteset(spriteset_SBB_Re_420_Special_purchase, "gfx/SBB_Re_420/SBB_Re_420_Special1_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_Special_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_Special1_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_Special1_1x_mask.png")
+									{template_purchase(0, 0)}									
+
+spriteset(spriteset_SBB_Re_420_TR_purchase, "gfx/SBB_Re_420/SBB_Re_420_TR_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SBB_Re_420_TR_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_420/SBB_Re_420_TR_1x_32bpp.png", "gfx/SBB_Re_420/SBB_Re_420_TR_1x_mask.png")
+									{template_purchase(0, 0)}									
+									
+									
+//Switches
+
+						switch(FEAT_TRAINS,SELF, switch_purchase_SBB_Re_420, current_year){
+							   0 .. 1980: spriteset_SBB_Re_420_green_old_purchase;
+							1981 .. 1987: spriteset_SBB_Re_420_green_new_purchase;
+							1988 .. 2010: spriteset_SBB_Re_420_red_purchase;
+							2011 .. 2050: spriteset_SBB_Re_420_LION_purchase;
+								spriteset_SBB_Re_420_LION_purchase;}									
+
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_Re_420, position_in_vehid_chain % 2) {
+							0: 4;
+							1: 6;}
+	
+						switch(FEAT_TRAINS, SELF, switch_FX_SBB_Re_420, position_in_vehid_chain % 2) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}							
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Re_420, 1){
+							return 3400;}
+
+						switch (FEAT_TRAINS,PARENT,switch_enginecheck_SBB_Re_420_SwissEx1,(count_veh_id(6724))) {
+							0: spriteset_SBB_Re_420_green_old; 
+								spriteset_SBB_Re_420_SwissEx_old;}
+
+						switch (FEAT_TRAINS,PARENT,switch_enginecheck_SBB_Re_420_SwissEx2,(count_veh_id(6724))) {
+							0: spriteset_SBB_Re_420_green_new; 
+								spriteset_SBB_Re_420_SwissEx_new;}
+
+						switch(FEAT_TRAINS, SELF, switch_cargo_dependant_SBB_Re_420_era1, most_common_cargo_type){
+							PASS: spriteset_SBB_Re_420_red;
+							MAIL: spriteset_SBB_Re_420_red;
+								spriteset_SBB_Re_420_Cargo_old;}
+
+						switch(FEAT_TRAINS, SELF, switch_cargo_dependant_SBB_Re_420_era2, most_common_cargo_type){
+							PASS: spriteset_SBB_Re_420_red;
+							MAIL: spriteset_SBB_Re_420_red;
+								spriteset_SBB_Re_420_Cargo_new;}
+								
+						switch(FEAT_TRAINS, SELF, switch_cargo_dependant_SBB_Re_420_era3, most_common_cargo_type){
+							PASS: spriteset_SBB_Re_420_LION;
+							MAIL: spriteset_SBB_Re_420_LION;
+								spriteset_SBB_Re_420_Cargo_new;}								
+																								
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_420_build_year,build_year){
+							   0 .. 1974: spriteset_SBB_Re_420_green_old;
+							1975 .. 1980: switch_enginecheck_SBB_Re_420_SwissEx1;
+							1981 .. 1987: switch_enginecheck_SBB_Re_420_SwissEx2;
+							1988 .. 1999: spriteset_SBB_Re_420_red;
+							2000 .. 2007: switch_cargo_dependant_SBB_Re_420_era1;
+							2008 .. 2010: switch_cargo_dependant_SBB_Re_420_era2;
+							2011 .. 2050: switch_cargo_dependant_SBB_Re_420_era3;
+								switch_cargo_dependant_SBB_Re_420_era3;}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_420_build, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     return switch_SBB_Re_420_build_year;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_420_build, extra_callback_info1) {
+						1: return ITEM_SBB_RE_420_BUILD; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_420_BUILD, 1606)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_420_BUILD);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1964,01,01);
+						model_life: 					45;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6390 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.318;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_420_build;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Re_420;
+			articulated_part				:switch_articulated_SBB_Re_420_build;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:switch_purchase_SBB_Re_420;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SBB_Re_420;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_420;	
+			}
+	}	
+
+																								
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_420_current_year,current_year){
+							   0 .. 1974: spriteset_SBB_Re_420_green_old;
+							1975 .. 1980: switch_enginecheck_SBB_Re_420_SwissEx1;
+							1981 .. 1987: switch_enginecheck_SBB_Re_420_SwissEx2;
+							1988 .. 1999: spriteset_SBB_Re_420_red;
+							2000 .. 2007: switch_cargo_dependant_SBB_Re_420_era1;
+							2008 .. 2010: switch_cargo_dependant_SBB_Re_420_era2;
+							2011 .. 2050: switch_cargo_dependant_SBB_Re_420_era3;
+								switch_cargo_dependant_SBB_Re_420_era3;}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_420_current, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     return switch_SBB_Re_420_current_year;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_420_current, extra_callback_info1) {
+						1: return ITEM_SBB_RE_420_CURRENT; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_420_CURRENT, 1607)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_420_CURRENT);	
+						variant_group:					1606;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1964,01,01);
+						model_life: 					45;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6390 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.318;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_420_current;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Re_420;
+			articulated_part				:switch_articulated_SBB_Re_420_current;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:switch_purchase_SBB_Re_420;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SBB_Re_420;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_420;	
+			}
+	}	
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_420_green, switch_alternative_var_random_bits(1, 1)) {
+							1: spriteset_SBB_Re_420_green_old;
+							   spriteset_SBB_Re_420_green_new;}
+
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_420_green_build,build_year){
+							   0 .. 1980: spriteset_SBB_Re_420_green_old;
+							1981 .. 2050: random_choose_SBB_Re_420_green;
+								random_choose_SBB_Re_420_green;}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_420_green, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     return switch_SBB_Re_420_green_build;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_420_green, extra_callback_info1) {
+						1: return ITEM_SBB_RE_420_GREEN; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_420_GREEN, 1608)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_420_GREEN);	
+						variant_group:					1606;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1964,01,01);
+						model_life: 					45;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6390 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.318;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_420_green;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Re_420;
+			articulated_part				:switch_articulated_SBB_Re_420_green;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_420_green_new_purchase;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SBB_Re_420;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_420;	
+			}
+	}	
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_420_TEE, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     spriteset_SBB_Re_420_TEE;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_420_TEE, extra_callback_info1) {
+						1: return ITEM_SBB_RE_420_TEE; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_420_TEE, 1609)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_420_TEE);	
+						variant_group:					1606;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1969,01,01);
+						model_life: 					45;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6390 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.318;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_420_TEE;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Re_420;
+			articulated_part				:switch_articulated_SBB_Re_420_TEE;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_420_TEE_purchase;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SBB_Re_420;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_420;	
+			}
+	}	
+
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_420_SwissEx, switch_alternative_var_random_bits(1, 1)) {
+							1: spriteset_SBB_Re_420_SwissEx_old;
+							   spriteset_SBB_Re_420_SwissEx_new;}
+
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_420_SwissEx_build,build_year){
+							   0 .. 1980: spriteset_SBB_Re_420_SwissEx_old;
+							1981 .. 2050: random_choose_SBB_Re_420_SwissEx;
+								random_choose_SBB_Re_420_SwissEx;}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_420_SwissEx, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     return switch_SBB_Re_420_SwissEx_build;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_420_SwissEx, extra_callback_info1) {
+						1: return ITEM_SBB_RE_420_SWISSEX; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_420_SWISSEX, 1610)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_420_SWISSEX);	
+						variant_group:					1606;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1975,01,01);
+						model_life: 					34;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6390 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.318;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_420_SwissEx;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Re_420;
+			articulated_part				:switch_articulated_SBB_Re_420_SwissEx;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_420_SwissEx_old_purchase;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SBB_Re_420;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_420;	
+			}
+	}	
+
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_420_red, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     spriteset_SBB_Re_420_red;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_420_red, extra_callback_info1) {
+						1: return ITEM_SBB_RE_420_RED; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_420_RED, 1611)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_420_RED);	
+						variant_group:					1606;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1988,01,01);
+						model_life: 					21;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6390 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.318;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_420_red;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Re_420;
+			articulated_part				:switch_articulated_SBB_Re_420_red;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_420_red_purchase;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SBB_Re_420;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_420;	
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_420_Cargo_old, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     spriteset_SBB_Re_420_Cargo_old;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_420_Cargo_old, extra_callback_info1) {
+						1: return ITEM_SBB_RE_420_CARGO_OLD; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_420_CARGO_OLD, 1612)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_420_CARGO_OLD);	
+						variant_group:					1606;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					10;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6390 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.318;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_420_Cargo_old;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Re_420;
+			articulated_part				:switch_articulated_SBB_Re_420_Cargo_old;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_420_Cargo_old_purchase;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SBB_Re_420;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_420;	
+			}
+	}
+
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_420_Cargo_new, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     spriteset_SBB_Re_420_Cargo_new;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_420_Cargo_new, extra_callback_info1) {
+						1: return ITEM_SBB_RE_420_CARGO_NEW; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_420_CARGO_NEW, 1613)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_420_CARGO_NEW);	
+						variant_group:					1606;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2008,01,01);
+						model_life: 					10;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6390 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.318;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_420_Cargo_new;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Re_420;
+			articulated_part				:switch_articulated_SBB_Re_420_Cargo_new;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_420_Cargo_new_purchase;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SBB_Re_420;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_420;	
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_420_LION, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     spriteset_SBB_Re_420_LION;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_420_LION, extra_callback_info1) {
+						1: return ITEM_SBB_RE_420_LION; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_420_LION, 1614)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_420_LION);	
+						variant_group:					1606;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2011,01,01);
+						model_life: 					10;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6390 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.318;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_420_LION;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Re_420;
+			articulated_part				:switch_articulated_SBB_Re_420_LION;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_420_LION_purchase;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SBB_Re_420;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_420;	
+			}
+	}
+
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_420_Special, switch_alternative_var_random_bits(1, 1)) {
+							1: spriteset_SBB_Re_420_Special1;
+							   spriteset_SBB_Re_420_Special1;}
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_420_Special, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     return random_choose_SBB_Re_420_Special;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_420_Special, extra_callback_info1) {
+						1: return ITEM_SBB_RE_420_SPECIAL; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_420_SPECIAL, 1615)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_420_SPECIAL);	
+						variant_group:					1606;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2011,01,01);
+						model_life: 					10;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6390 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.318;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_420_Special;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Re_420;
+			articulated_part				:switch_articulated_SBB_Re_420_Special;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_420_Special_purchase;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SBB_Re_420;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_420;	
+			}
+	}
+

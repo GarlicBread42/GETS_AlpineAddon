@@ -1,0 +1,283 @@
+//#######################
+//### KFNB "Juno" ###
+//#######################
+
+//Spriteset Lok
+
+spriteset(spriteset_OBB_Juno, "gfx/OBB_Juno/OBB_Juno_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_1x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_2x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_4x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+									
+//Spriteset Iris
+
+spriteset(spriteset_OBB_Iris, "gfx/OBB_Juno/OBB_Iris_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Iris, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Iris_1x_32bpp.png", "gfx/OBB_Juno/OBB_Iris_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Iris, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Iris_2x_32bpp.png", "gfx/OBB_Juno/OBB_Iris_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Iris, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Iris_4x_32bpp.png", "gfx/OBB_Juno/OBB_Iris_4x_mask.png")
+									{template_58trains_4x(0, 0)}									
+									
+//Spriteset Rods
+
+spriteset(spriteset_OBB_Juno_anim1, "gfx/OBB_Juno/OBB_Juno_anim1_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_anim1_1x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_anim1_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_anim1_2x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_anim1_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_anim1_4x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_anim1_4x_mask.png")
+									{template_58trains_4x(0, 0)}									
+
+spriteset(spriteset_OBB_Juno_anim2, "gfx/OBB_Juno/OBB_Juno_anim2_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_anim2_1x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_anim2_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_anim2_2x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_anim2_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_anim2_4x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_anim2_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_Juno_anim3, "gfx/OBB_Juno/OBB_Juno_anim3_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_anim3_1x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_anim3_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_anim3_2x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_anim3_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_anim3_4x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_anim3_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_Juno_anim4, "gfx/OBB_Juno/OBB_Juno_anim4_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_anim4_1x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_anim4_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_anim4_2x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_anim4_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_anim4_4x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_anim4_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+
+
+//Spriteset Tender
+
+spriteset(spriteset_OBB_Juno_Tender, "gfx/OBB_Juno/OBB_Juno_Tender_1x_8bpp.png")
+									{ template_48trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_Tender, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_Tender_1x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_Tender_1x_mask.png")
+									{template_48trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_Tender, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_Tender_2x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_Tender_2x_mask.png")
+									{template_48trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_Tender, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_Tender_4x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_Tender_4x_mask.png")
+									{template_48trains_4x(0, 0)}
+																																				
+//Spriteset purchase
+
+spriteset(spriteset_OBB_Juno_purchase, "gfx/OBB_Juno/OBB_Juno_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_OBB_Juno_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_1x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_OBB_Iris_purchase, "gfx/OBB_Juno/OBB_Iris_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_OBB_Iris_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Iris_1x_32bpp.png", "gfx/OBB_Juno/OBB_Iris_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+spriteset(spriteset_OBB_Juno_anim_purchase, "gfx/OBB_Juno/OBB_Juno_anim1_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Juno_anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Juno/OBB_Juno_anim1_1x_32bpp.png", "gfx/OBB_Juno/OBB_Juno_anim1_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Juno_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Juno_purchase;
+							1: spriteset_OBB_Juno_anim_purchase;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Iris_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Iris_purchase;
+							1: spriteset_OBB_Juno_anim_purchase;}							
+
+						switch (FEAT_TRAINS, SELF, switch_animation_OBB_Juno, motion_counter % 4) {
+							0: spriteset_OBB_Juno_anim1;
+							1: spriteset_OBB_Juno_anim2;
+							2: spriteset_OBB_Juno_anim3;
+							3: spriteset_OBB_Juno_anim4;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Juno, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Juno;
+							1: return switch_animation_OBB_Juno;}														
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Iris, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Iris;
+							1: return switch_animation_OBB_Juno;}	
+														
+						switch(FEAT_TRAINS, SELF, switch_length_OBB_Juno, position_in_articulated_veh % 2) {
+							0: 5;
+							1: 4;}	
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_Juno, 1){
+							return 160;}
+							
+					switch(FEAT_TRAINS, SELF, switch_FX_OBB_Juno, position_in_vehid_chain % 2) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM,-2, DISABLE_WAGON_POWER);														
+								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}								   
+							   
+					switch(FEAT_TRAINS, SELF, switch_graphics_OBB_Juno, position_in_vehid_chain % 2) {
+							0:	   return switch_spritestack_OBB_Juno;
+							1:     spriteset_OBB_Juno_Tender;}					
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Juno, extra_callback_info1) {
+							1: return ITEM_OBB_JUNO; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_OBB_JUNO, 0030)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_JUNO);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1846,01,01);
+						model_life: 					35;
+						vehicle_life: 					35;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							55 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						148 hp;
+						weight: 						25 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_graphics_OBB_Juno;
+			additional_text				   : string(STR_CONCAT_3, 
+											string(STR_GAUGE_STANDARD),
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_PASS),);
+			length						   : switch_length_OBB_Juno;
+			articulated_part			   : switch_articulated_OBB_Juno;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_spritestack_OBB_Juno_purchase;
+			cost_factor					    :4;
+			running_cost_factor				:switch_running_cost_OBB_Juno;
+			visual_effect_and_powered		:switch_FX_OBB_Juno;
+			
+			}
+	}
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_OBB_Iris, position_in_vehid_chain % 2) {
+							0:	   return switch_spritestack_OBB_Iris;
+							1:     spriteset_OBB_Juno_Tender;}					
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Iris, extra_callback_info1) {
+							1: return ITEM_OBB_IRIS; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_OBB_IRIS, 0031)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_IRIS);
+						variant_group:					0030;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1851,01,01);
+						model_life: 					35;
+						vehicle_life: 					35;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							55 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						124 hp;
+						weight: 						25 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_graphics_OBB_Iris;
+			additional_text				   : string(STR_CONCAT_3, 
+											string(STR_GAUGE_STANDARD),
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_PASS),);
+			length						   : switch_length_OBB_Juno;
+			articulated_part			   : switch_articulated_OBB_Iris;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_spritestack_OBB_Iris_purchase;
+			cost_factor					    :4;
+			running_cost_factor				:switch_running_cost_OBB_Juno;
+			visual_effect_and_powered		:switch_FX_OBB_Juno;
+			
+			}
+	}

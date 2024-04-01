@@ -1,0 +1,312 @@
+//###########################
+//### SOB Revvivo Coaches ###
+//###########################
+
+//Spriteset A
+
+spriteset(spriteset_SOB_Revvivo_A, "gfx/SOB_Revvivo/SOB_Revvivo_A_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_A_1x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_A_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_A, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_A_2x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_A_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_A, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_A_4x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_A_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SOB_Revvivo_A_loading, "gfx/SOB_Revvivo/SOB_Revvivo_A_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_A_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_A_loading_1x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_A_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_A_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_A_loading_2x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_A_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_A_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_A_loading_4x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_A_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SOB_Revvivo_A_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SOB_Revvivo_A_loading];}									
+
+
+//Spriteset B
+
+spriteset(spriteset_SOB_Revvivo_B, "gfx/SOB_Revvivo/SOB_Revvivo_B_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_B_1x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_B_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_B, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_B_2x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_B_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_B, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_B_4x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_B_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SOB_Revvivo_B_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SOB_Revvivo_A_loading];}		
+		
+		
+//Spriteset WR
+
+spriteset(spriteset_SOB_Revvivo_WR, "gfx/SOB_Revvivo/SOB_Revvivo_WR_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_WR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_WR_1x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_WR_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_WR, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_WR_2x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_WR_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_WR, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_WR_4x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_WR_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SOB_Revvivo_WR_loading, "gfx/SOB_Revvivo/SOB_Revvivo_WR_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_WR_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_WR_loading_1x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_WR_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_WR_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_WR_loading_2x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_WR_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_WR_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_WR_loading_4x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_WR_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SOB_Revvivo_WR_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SOB_Revvivo_WR_loading];}
+		
+//Spriteset DVT
+
+spriteset(spriteset_SOB_Revvivo_DVT, "gfx/SOB_Revvivo/SOB_Revvivo_DVT_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_DVT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_DVT_1x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_DVT_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_DVT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_DVT_2x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_DVT_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_DVT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_DVT_4x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_DVT_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SOB_Revvivo_DVT_loading, "gfx/SOB_Revvivo/SOB_Revvivo_DVT_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_DVT_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_DVT_loading_1x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_DVT_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_DVT_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_DVT_loading_2x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_DVT_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_DVT_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_DVT_loading_4x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_DVT_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SOB_Revvivo_DVT_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SOB_Revvivo_DVT_loading];}																													
+
+//Spritesets purchase
+
+spriteset(spriteset_SOB_Revvivo_purchase, "gfx/SOB_Revvivo/SOB_Revvivo_B_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_B_1x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_B_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SOB_Revvivo_WR_purchase, "gfx/SOB_Revvivo/SOB_Revvivo_WR_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_WR_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_WR_1x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_WR_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+spriteset(spriteset_SOB_Revvivo_DVT_purchase, "gfx/SOB_Revvivo/SOB_Revvivo_DVT_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SOB_Revvivo_DVT_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Revvivo/SOB_Revvivo_DVT_1x_32bpp.png", "gfx/SOB_Revvivo/SOB_Revvivo_DVT_1x_mask.png")
+									{template_purchase(0, 0)}
+
+									
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SOB_Revvivo_A, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SOB_Revvivo_A;
+							1: spritegroup_SOB_Revvivo_A_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SOB_Revvivo_B, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SOB_Revvivo_B;
+							1: spritegroup_SOB_Revvivo_B_loading;}																		
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SOB_Revvivo_WR, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SOB_Revvivo_WR;
+							1: spritegroup_SOB_Revvivo_WR_loading;}								
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SOB_Revvivo_DVT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SOB_Revvivo_DVT;
+							1: spritegroup_SOB_Revvivo_DVT_loading;}							
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SOB_Revvivo_Coach, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_SOB_Revvivo_A;
+							   switch_loadstack_SOB_Revvivo_B;}									   	
+							   
+						switch(FEAT_TRAINS, SELF, switch_length_SOB_Revvivo_Coach, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 6;
+							2: 4;}	
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SOB_Revvivo, 1){
+							return 2650;}									
+								
+						switch(FEAT_TRAINS, SELF, switch_autoconsist2_SOB_Revvivo, position_in_vehid_chain) {
+							 1: return switch_loadstack_SOB_Revvivo_B;
+							 4: return switch_loadstack_SOB_Revvivo_B;
+							 7: return switch_loadstack_SOB_Revvivo_A;
+							10: return switch_loadstack_SOB_Revvivo_WR;
+								default: switch_loadstack_SOB_Revvivo_B;}															
+																
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_SOB_Revvivo, position_in_vehid_chain) {
+							 1: return switch_loadstack_SOB_Revvivo_B;
+							 4: return switch_loadstack_SOB_Revvivo_A;
+							 7: return switch_loadstack_SOB_Revvivo_B;
+								default: switch_loadstack_SOB_Revvivo_B;}
+								
+						switch (FEAT_TRAINS, SELF, switch_SOB_Revvivo_lengthcheck2, num_vehs_in_vehid_chain) {
+						     0 .. 10: switch_autoconsist1_SOB_Revvivo;
+								switch_autoconsist2_SOB_Revvivo;}						     
+																
+						switch (FEAT_TRAINS,PARENT,switch_SOB_Revvivo_check_Loco,(count_veh_id(1845))+(count_veh_id(1846))+(count_veh_id(1847))+(count_veh_id(1848))+(count_veh_id(1849))+(count_veh_id(1850))+(count_veh_id(1851))) {
+							0: random_choose_SOB_Revvivo_Coach; 
+								switch_SOB_Revvivo_lengthcheck2;}
+																
+						switch(FEAT_TRAINS, SELF, switch_DVT_SOB_Revvivo, position_in_consist_from_end) {
+							1: return switch_loadstack_SOB_Revvivo_DVT;
+								default: return switch_SOB_Revvivo_check_Loco;}
+								
+						switch(FEAT_TRAINS, SELF, switch_SOB_Revvivo_lenghtcheck, num_vehs_in_consist) {
+							0 .. 5: random_choose_SOB_Revvivo_Coach;
+							6 .. 999: switch_DVT_SOB_Revvivo;}
+							
+						switch(FEAT_TRAINS, SELF, switch_graphics_SOB_Revvivo_Coach, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_SOB_Revvivo_lenghtcheck;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SOB_Revvivo_Coach, extra_callback_info1) {
+							1 .. 2: return ITEM_SOB_REVVIVO_COACH;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SOB_REVVIVO_COACH, 6949)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SOB_REVVIVO_COACH);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						30 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					23;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SOB_Revvivo_Coach;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SOB_Revvivo_Coach;
+			articulated_part				: switch_articulated_SOB_Revvivo_Coach;
+			purchase						: spriteset_SOB_Revvivo_purchase;
+			cost_factor						: 540;
+			purchase_running_cost_factor	: 2650;
+			running_cost_factor				: switch_running_cost_SOB_Revvivo;
+			}
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SOB_Revvivo_DVT, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SOB_Revvivo_DVT;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SOB_Revvivo_DVT, extra_callback_info1) {
+							1 .. 2: return ITEM_SOB_REVVIVO_DVT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SOB_REVVIVO_DVT, 7995)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SOB_REVVIVO_DVT);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						30 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					23;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SOB_Revvivo_DVT;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SOB_Revvivo_Coach;
+			articulated_part				: switch_articulated_SOB_Revvivo_DVT;
+			purchase						: spriteset_SOB_Revvivo_DVT_purchase;
+			cost_factor						: 540;
+			purchase_running_cost_factor	: 2650;
+			running_cost_factor				: switch_running_cost_SOB_Revvivo;
+			}
+		}

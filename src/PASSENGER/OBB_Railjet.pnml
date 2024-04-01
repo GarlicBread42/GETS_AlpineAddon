@@ -1,0 +1,315 @@
+//###################
+//### ÖBB Railjet ###
+//###################
+
+//Spriteset Ampz
+
+spriteset(spriteset_OBB_Railjet_2008_Ampz, "gfx\OBB_Railjet/OBB_Railjet_2008_Ampz_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Ampz, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Ampz_1x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Ampz_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Ampz, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Ampz_2x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Ampz_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Ampz, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Ampz_4x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Ampz_4x_mask.png")
+									{ template_158trains_4x(0, 0)}										
+									
+spriteset(spriteset_OBB_Railjet_2008_Ampz_loading, "gfx\OBB_Railjet/OBB_Railjet_2008_Ampz_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Ampz_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Ampz_loading_1x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Ampz_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Ampz_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Ampz_loading_2x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Ampz_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Ampz_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Ampz_loading_4x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Ampz_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+
+spritegroup spritegroup_OBB_Railjet_2008_Ampz_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_OBB_Railjet_2008_Ampz_loading];}
+
+
+//Spriteset ARbmpz
+
+spriteset(spriteset_OBB_Railjet_2008_ARbmpz, "gfx\OBB_Railjet/OBB_Railjet_2008_ARbmpz_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_ARbmpz, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_ARbmpz_1x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_ARbmpz_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_ARbmpz, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_ARbmpz_2x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_ARbmpz_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_ARbmpz, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_ARbmpz_4x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_ARbmpz_4x_mask.png")
+									{ template_158trains_4x(0, 0)}										
+									
+spriteset(spriteset_OBB_Railjet_2008_ARbmpz_loading, "gfx\OBB_Railjet/OBB_Railjet_2008_ARbmpz_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_ARbmpz_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_ARbmpz_loading_1x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_ARbmpz_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_ARbmpz_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_ARbmpz_loading_2x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_ARbmpz_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_ARbmpz_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_ARbmpz_loading_4x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_ARbmpz_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+
+spritegroup spritegroup_OBB_Railjet_2008_ARbmpz_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_OBB_Railjet_2008_ARbmpz_loading];}
+
+
+//Spriteset Bmpvz
+
+spriteset(spriteset_OBB_Railjet_2008_Bmpvz, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpvz_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Bmpvz, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpvz_1x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpvz_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Bmpvz, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpvz_2x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpvz_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Bmpvz, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpvz_4x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpvz_4x_mask.png")
+									{ template_158trains_4x(0, 0)}										
+									
+spriteset(spriteset_OBB_Railjet_2008_Bmpvz_loading, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpvz_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Bmpvz_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpvz_loading_1x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpvz_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Bmpvz_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpvz_loading_2x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpvz_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Bmpvz_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpvz_loading_4x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpvz_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+
+spritegroup spritegroup_OBB_Railjet_2008_Bmpvz_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_OBB_Railjet_2008_Bmpvz_loading];}		
+
+
+//Spriteset Bmpz
+
+spriteset(spriteset_OBB_Railjet_2008_Bmpz, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpz_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Bmpz, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpz_1x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpz_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Bmpz, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpz_2x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpz_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Bmpz, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpz_4x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpz_4x_mask.png")
+									{ template_158trains_4x(0, 0)}										
+									
+spriteset(spriteset_OBB_Railjet_2008_Bmpz_loading, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpz_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Bmpz_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpz_loading_1x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpz_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Bmpz_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpz_loading_2x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpz_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_Bmpz_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpz_loading_4x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_Bmpz_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+
+spritegroup spritegroup_OBB_Railjet_2008_Bmpz_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_OBB_Railjet_2008_Bmpz_loading];}				
+		
+
+//Spriteset DVT
+
+spriteset(spriteset_OBB_Railjet_2008_DVT, "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_DVT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_1x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_DVT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_2x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_DVT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_4x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_4x_mask.png")
+									{ template_158trains_4x(0, 0)}										
+									
+spriteset(spriteset_OBB_Railjet_2008_DVT_loading, "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_DVT_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_loading_1x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_DVT_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_loading_2x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_DVT_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_loading_4x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+
+spritegroup spritegroup_OBB_Railjet_2008_DVT_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_OBB_Railjet_2008_DVT_loading];}		
+
+//Spriteset purchase
+
+spriteset(spriteset_OBB_Railjet_2008_purchase, "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Railjet_2008_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_1x_32bpp.png", "gfx\OBB_Railjet/OBB_Railjet_2008_DVT_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Railjet_2008_Ampz, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Railjet_2008_Ampz;
+							1: spritegroup_OBB_Railjet_2008_Ampz_loading;}										
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Railjet_2008_ARbmpz, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Railjet_2008_ARbmpz;
+							1: spritegroup_OBB_Railjet_2008_ARbmpz_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Railjet_2008_Bmpvz, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Railjet_2008_Bmpvz;
+							1: spritegroup_OBB_Railjet_2008_Bmpvz_loading;}		
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Railjet_2008_Bmpz, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Railjet_2008_Bmpz;
+							1: spritegroup_OBB_Railjet_2008_Bmpz_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Railjet_2008_DVT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Railjet_2008_DVT;
+							1: spritegroup_OBB_Railjet_2008_DVT_loading;}																		
+
+						switch(FEAT_TRAINS, SELF, switch_length_OBB_Railjet, position_in_articulated_veh % 21) {
+							0: 4;
+							1: 7;
+							2: 4;
+							3: 4;
+							4: 7;
+							5: 4;
+							6: 4;
+							7: 7;
+							8: 4;
+							9: 4;
+						   10: 7;
+						   11: 4;
+						   12: 4;
+						   13: 7;
+						   14: 4;
+						   15: 4;
+						   16: 7;
+						   17: 4;
+						   18: 4;
+						   19: 7;
+						   20: 4;}	
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_Railjet, 1){
+							return 2225;}
+								
+						switch(FEAT_TRAINS, SELF, switch_graphics_OBB_Railjet_2008_Config1, position_in_articulated_veh  % 21) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_OBB_Railjet_2008_Bmpvz;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_OBB_Railjet_2008_Bmpz;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_OBB_Railjet_2008_Bmpz;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_OBB_Railjet_2008_Bmpz;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_OBB_Railjet_2008_ARbmpz;
+						   14:     spriteset_empty;
+						   15:     spriteset_empty;
+						   16:     return switch_spritestack_OBB_Railjet_2008_Ampz;
+						   17:     spriteset_empty;																																			
+						   18:     spriteset_empty;
+						   19:     return switch_spritestack_OBB_Railjet_2008_DVT;
+						   20:     spriteset_empty;}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_OBB_Railjet_2008_Config2, position_in_articulated_veh  % 21) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_OBB_Railjet_2008_Bmpvz;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_OBB_Railjet_2008_Bmpz;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_OBB_Railjet_2008_Bmpz;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_OBB_Railjet_2008_Bmpz;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_OBB_Railjet_2008_Bmpz;
+						   14:     spriteset_empty;
+						   15:     spriteset_empty;
+						   16:     return switch_spritestack_OBB_Railjet_2008_ARbmpz;
+						   17:     spriteset_empty;																																			
+						   18:     spriteset_empty;
+						   19:     return switch_spritestack_OBB_Railjet_2008_DVT;
+						   20:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_OBB_Railjet_2008_Config, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_graphics_OBB_Railjet_2008_Config2;
+							   switch_graphics_OBB_Railjet_2008_Config1;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Railjet_2008_random, extra_callback_info1) {
+							1 .. 20: return ITEM_OBB_RAILJET_2008_RANDOM;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_OBB_RAILJET_2008_RANDOM, 6470)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_RAILJET_2008_RANDOM);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2008,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							230 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						417 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					20;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: random_choose_OBB_Railjet_2008_Config;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_OBB_Railjet;
+			articulated_part				: switch_articulated_OBB_Railjet_2008_random;
+			purchase						: spriteset_OBB_Railjet_2008_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_OBB_Railjet;
+			}
+		}

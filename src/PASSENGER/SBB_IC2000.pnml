@@ -1,0 +1,1474 @@
+//######################
+//### IC 2000 Coaches###
+//######################
+
+//Spriteset old livery first class
+
+spriteset (spriteset_SBB_IC2000_1997_A, "gfx\SBB_IC2000/SBB_IC2000_1997_A_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_A_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_A_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_A, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_A_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_A_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_1997_A, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_A_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_A_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+spriteset (spriteset_SBB_IC2000_1997_A_loading, "gfx\SBB_IC2000/SBB_IC2000_1997_A_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_A_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_A_loading_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_A_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_A_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_A_loading_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_A_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_1997_A_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_A_loading_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_A_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spritegroup spritegroup_SBB_IC2000_1997_A_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_IC2000_1997_A_loading];}
+
+
+//Spriteset old livery first class with baggage compartment
+
+spriteset (spriteset_SBB_IC2000_1997_AD, "gfx\SBB_IC2000/SBB_IC2000_1997_AD_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_AD, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_AD_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_AD_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_AD, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_AD_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_AD_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_1997_AD, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_AD_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_AD_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+spriteset (spriteset_SBB_IC2000_1997_AD_loading, "gfx\SBB_IC2000/SBB_IC2000_1997_AD_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_AD_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_AD_loading_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_AD_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_AD_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_AD_loading_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_AD_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_1997_AD_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_AD_loading_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_AD_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spritegroup spritegroup_SBB_IC2000_1997_AD_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_IC2000_1997_AD_loading];}
+
+
+//Spriteset old livery second class
+
+spriteset (spriteset_SBB_IC2000_1997_B, "gfx\SBB_IC2000/SBB_IC2000_1997_B_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_B_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_B_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_B, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_B_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_B_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_1997_B, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_B_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_B_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+spriteset (spriteset_SBB_IC2000_1997_B_loading, "gfx\SBB_IC2000/SBB_IC2000_1997_B_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_B_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_B_loading_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_B_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_B_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_B_loading_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_B_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_1997_B_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_B_loading_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_B_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spritegroup spritegroup_SBB_IC2000_1997_B_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_IC2000_1997_B_loading];}
+		
+		
+//Spriteset old livery DVT
+
+spriteset (spriteset_SBB_IC2000_1997_DVT, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_DVT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_DVT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_1997_DVT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+spriteset (spriteset_SBB_IC2000_1997_DVT_loading, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_DVT_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_loading_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_DVT_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_loading_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_1997_DVT_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_loading_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spritegroup spritegroup_SBB_IC2000_1997_DVT_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_IC2000_1997_DVT_loading];}
+		
+//Spriteset old livery Restaurant 2001
+
+spriteset (spriteset_SBB_IC2000_2001_BR, "gfx\SBB_IC2000/SBB_IC2000_2001_BR_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_2001_BR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_2001_BR_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_2001_BR_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_2001_BR, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_2001_BR_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_2001_BR_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_2001_BR, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_2001_BR_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_2001_BR_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+spriteset (spriteset_SBB_IC2000_2001_BR_loading, "gfx\SBB_IC2000/SBB_IC2000_2001_BR_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_2001_BR_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_2001_BR_loading_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_2001_BR_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_2001_BR_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_2001_BR_loading_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_2001_BR_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_2001_BR_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_2001_BR_loading_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_2001_BR_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spritegroup spritegroup_SBB_IC2000_2001_BR_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_IC2000_2001_BR_loading];}		
+		
+		
+//Spriteset old livery Restaurant 2008
+
+spriteset (spriteset_SBB_IC2000_2008_BR, "gfx\SBB_IC2000/SBB_IC2000_2008_BR_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_2008_BR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_2008_BR_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_2008_BR_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_2008_BR, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_2008_BR_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_2008_BR_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_2008_BR, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_2008_BR_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_2008_BR_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+
+//Spriteset new livery first class
+
+spriteset (spriteset_SBB_IC2000_modern_A, "gfx\SBB_IC2000/SBB_IC2000_modern_A_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_A_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_A_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_A, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_A_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_A_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_modern_A, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_A_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_A_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+spriteset (spriteset_SBB_IC2000_modern_A_loading, "gfx\SBB_IC2000/SBB_IC2000_modern_A_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_A_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_A_loading_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_A_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_A_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_A_loading_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_A_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_modern_A_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_A_loading_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_A_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spritegroup spritegroup_SBB_IC2000_modern_A_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_IC2000_modern_A_loading];}
+
+
+//Spriteset new livery first class with baggage compartment
+
+spriteset (spriteset_SBB_IC2000_modern_AD, "gfx\SBB_IC2000/SBB_IC2000_modern_AD_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_AD, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_AD_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_AD_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_AD, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_AD_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_AD_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_modern_AD, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_AD_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_AD_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+spriteset (spriteset_SBB_IC2000_modern_AD_loading, "gfx\SBB_IC2000/SBB_IC2000_modern_AD_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_AD_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_AD_loading_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_AD_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_AD_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_AD_loading_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_AD_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_modern_AD_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_AD_loading_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_AD_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spritegroup spritegroup_SBB_IC2000_modern_AD_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_IC2000_modern_AD_loading];}
+
+
+//Spriteset new livery second class
+
+spriteset (spriteset_SBB_IC2000_modern_B, "gfx\SBB_IC2000/SBB_IC2000_modern_B_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_B_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_B_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_B, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_B_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_B_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_modern_B, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_B_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_B_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+spriteset (spriteset_SBB_IC2000_modern_B_loading, "gfx\SBB_IC2000/SBB_IC2000_modern_B_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_B_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_B_loading_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_B_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_B_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_B_loading_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_B_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_modern_B_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_B_loading_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_B_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spritegroup spritegroup_SBB_IC2000_modern_B_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_IC2000_modern_B_loading];}
+		
+		
+//Spriteset new livery DVT
+
+spriteset (spriteset_SBB_IC2000_modern_DVT, "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_DVT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_DVT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_modern_DVT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+		
+		
+//Spriteset new livery Restaurant 2001
+
+spriteset (spriteset_SBB_IC2000_modern_BR, "gfx\SBB_IC2000/SBB_IC2000_modern_BR_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_BR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_BR_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_BR_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_BR, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_BR_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_BR_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_modern_BR, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_BR_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_BR_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+spriteset (spriteset_SBB_IC2000_modern_BR_loading, "gfx\SBB_IC2000/SBB_IC2000_modern_BR_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_BR_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_BR_loading_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_BR_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_BR_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_BR_loading_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_BR_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_SBB_IC2000_modern_BR_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_BR_loading_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_BR_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spritegroup spritegroup_SBB_IC2000_modern_BR_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_IC2000_modern_BR_loading];}
+
+
+//Spritesets purchase
+
+spriteset (spriteset_SBB_IC2000_1997_purchase, "gfx\SBB_IC2000/SBB_IC2000_1997_B_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+			alternative_sprites (spriteset_SBB_IC2000_1997_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_B_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_B_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_SBB_IC2000_modern_purchase, "gfx\SBB_IC2000/SBB_IC2000_modern_B_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+			alternative_sprites (spriteset_SBB_IC2000_modern_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_B_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_B_1x_mask.png")
+					{template_purchase(0,0)}
+					
+spriteset (spriteset_SBB_IC2000_1997_AD_purchase, "gfx\SBB_IC2000/SBB_IC2000_1997_AD_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+			alternative_sprites (spriteset_SBB_IC2000_1997_AD_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_AD_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_AD_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_SBB_IC2000_modern_AD_purchase, "gfx\SBB_IC2000/SBB_IC2000_modern_AD_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+			alternative_sprites (spriteset_SBB_IC2000_modern_AD_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_AD_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_AD_1x_mask.png")
+					{template_purchase(0,0)}					
+					
+spriteset (spriteset_SBB_IC2000_1997_DVT_purchase, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_1997_DVT_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_1x_mask.png")
+					{template_purchase(0,0)}
+					
+spriteset (spriteset_SBB_IC2000_modern_DVT_purchase, "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_IC2000_modern_DVT_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_1x_mask.png")
+					{template_purchase(0,0)}					
+										
+//Switches
+
+						switch (FEAT_TRAINS, SELF, switch_purchase_SBB_IC2000, current_year){
+							   0 .. 2018 : spriteset_SBB_IC2000_1997_purchase;
+							2019 .. 2050 : spriteset_SBB_IC2000_modern_purchase;														
+								spriteset_SBB_IC2000_modern_purchase;}
+
+						switch (FEAT_TRAINS, SELF, switch_purchase_SBB_IC2000_DVT, current_year){
+							   0 .. 2018 : spriteset_SBB_IC2000_1997_DVT_purchase;
+							2019 .. 2050 : spriteset_SBB_IC2000_modern_DVT_purchase;														
+								spriteset_SBB_IC2000_modern_DVT_purchase;}
+
+						switch (FEAT_TRAINS, SELF, switch_purchase_SBB_IC2000_AD, current_year){
+							   0 .. 2018 : spriteset_SBB_IC2000_1997_AD_purchase;
+							2019 .. 2050 : spriteset_SBB_IC2000_modern_AD_purchase;														
+								spriteset_SBB_IC2000_modern_AD_purchase;}
+																								
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_IC2000_1997_A, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_1997_A;
+							1: spritegroup_SBB_IC2000_1997_A_loading;}								
+					
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_IC2000_1997_AD, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_1997_AD;
+							1: spritegroup_SBB_IC2000_1997_AD_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_IC2000_1997_B, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_1997_B;
+							1: spritegroup_SBB_IC2000_1997_B_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_IC2000_1997_DVT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_1997_DVT;
+							1: spritegroup_SBB_IC2000_1997_DVT_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_IC2000_2001_BR, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_2001_BR;
+							1: spritegroup_SBB_IC2000_2001_BR_loading;}		
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_IC2000_2008_BR, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_2008_BR;
+							1: spritegroup_SBB_IC2000_2001_BR_loading;}																									
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_IC2000_modern_A, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_modern_A;
+							1: spritegroup_SBB_IC2000_modern_A_loading;}								
+					
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_IC2000_modern_AD, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_modern_AD;
+							1: spritegroup_SBB_IC2000_modern_AD_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_IC2000_modern_B, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_modern_B;
+							1: spritegroup_SBB_IC2000_modern_B_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_IC2000_modern_DVT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_modern_DVT;
+							1: spritegroup_SBB_IC2000_modern_B_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_IC2000_modern_BR, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_modern_BR;
+							1: spritegroup_SBB_IC2000_modern_BR_loading;}
+
+							   
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_IC2000, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}	
+
+						switch (FEAT_TRAINS, PARENT, switch_running_cost_SBB_IC2000,  switch_check_Restaurant_0()) {
+							1: return 0;
+							0: return 3700;}	
+							
+						switch (FEAT_TRAINS, PARENT, switch_cargo_aging_SBB_IC2000,  switch_check_Restaurant_0()) {
+							1: return 233;
+							0: return 185;}	
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_IC2000_1997_Coach, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_SBB_IC2000_1997_A;
+							   switch_loadstack_SBB_IC2000_1997_B;}	
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_IC2000_modern_Coach, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_SBB_IC2000_modern_A;
+							   switch_loadstack_SBB_IC2000_modern_B;}								   
+
+//All for build year
+
+						switch (FEAT_TRAINS,SELF,switch_build_year_SBB_IC2000_random,build_year) {
+							   0 .. 2018 : random_choose_SBB_IC2000_1997_Coach;
+							2019 .. 2050 : random_choose_SBB_IC2000_modern_Coach;
+								random_choose_SBB_IC2000_modern_Coach;}
+								
+						switch (FEAT_TRAINS,SELF,switch_build_year_SBB_IC2000_A,build_year) {
+							   0 .. 2018 : switch_loadstack_SBB_IC2000_1997_A;
+							2019 .. 2050 : switch_loadstack_SBB_IC2000_modern_A;
+								switch_loadstack_SBB_IC2000_modern_A;}
+								
+						switch (FEAT_TRAINS,SELF,switch_build_year_SBB_IC2000_AD,build_year) {
+							   0 .. 2018 : switch_loadstack_SBB_IC2000_1997_AD;
+							2019 .. 2050 : switch_loadstack_SBB_IC2000_modern_AD;
+								switch_loadstack_SBB_IC2000_modern_AD;}	
+																
+						switch (FEAT_TRAINS,SELF,switch_build_year_SBB_IC2000_B,build_year) {
+							   0 .. 2018 : switch_loadstack_SBB_IC2000_1997_B;
+							2019 .. 2050 : switch_loadstack_SBB_IC2000_modern_B;
+								switch_loadstack_SBB_IC2000_modern_B;}								
+																
+						switch (FEAT_TRAINS,SELF,switch_build_year_SBB_IC2000_BR,build_year) {
+							   0 .. 2007 : switch_loadstack_SBB_IC2000_2001_BR;
+							2008 .. 2018 : switch_loadstack_SBB_IC2000_2008_BR;
+							2019 .. 2050 : switch_loadstack_SBB_IC2000_modern_BR;
+								switch_loadstack_SBB_IC2000_modern_BR;}
+								
+						switch (FEAT_TRAINS,SELF,switch_build_year_SBB_IC2000_DVT,build_year) {
+							   0 .. 2018 : switch_loadstack_SBB_IC2000_1997_DVT;
+							2019 .. 2050 : switch_loadstack_SBB_IC2000_modern_DVT;
+								switch_loadstack_SBB_IC2000_modern_DVT;}								
+															   
+						switch(FEAT_TRAINS, SELF, switch_AD1_SBB_IC2000_build, position_in_vehid_chain) {
+							 1: return switch_build_year_SBB_IC2000_AD;
+								default: switch_build_year_SBB_IC2000_B;}
+								
+						switch(FEAT_TRAINS, SELF, switch_AD2_SBB_IC2000_build, position_in_vehid_chain) {
+							 1: return switch_build_year_SBB_IC2000_AD;
+							 4: return switch_build_year_SBB_IC2000_A;
+								default: switch_build_year_SBB_IC2000_B;}															
+																
+						switch(FEAT_TRAINS, SELF, switch_AD3_SBB_IC2000_build, position_in_vehid_chain) {
+							 1: return switch_build_year_SBB_IC2000_AD;
+							 4: return switch_build_year_SBB_IC2000_A;
+							 7: return switch_build_year_SBB_IC2000_BR;
+								default: switch_build_year_SBB_IC2000_B;}								
+																
+						switch(FEAT_TRAINS, SELF, switch_AD4_SBB_IC2000_build, position_in_vehid_chain) {
+							 1: return switch_build_year_SBB_IC2000_AD;
+							 4: return switch_build_year_SBB_IC2000_A;
+							 7: return switch_build_year_SBB_IC2000_A;
+							10: return switch_build_year_SBB_IC2000_BR;
+								default: switch_build_year_SBB_IC2000_B;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_AD5_SBB_IC2000_build, position_in_vehid_chain) {
+							 1: return switch_build_year_SBB_IC2000_AD;
+							 4: return switch_build_year_SBB_IC2000_A;
+							 7: return switch_build_year_SBB_IC2000_A;
+							10: return switch_build_year_SBB_IC2000_A;
+							13: return switch_build_year_SBB_IC2000_BR;
+								default: switch_build_year_SBB_IC2000_B;}																
+								
+						switch (FEAT_TRAINS, SELF, switch_SBB_IC2000_build_lengthcheck2, num_vehs_in_vehid_chain) {
+						      0 .. 12: switch_AD1_SBB_IC2000_build;
+						     13 .. 15: switch_AD2_SBB_IC2000_build;
+						     16 .. 21: switch_AD3_SBB_IC2000_build;
+						     22 .. 25: switch_AD4_SBB_IC2000_build;
+								switch_AD5_SBB_IC2000_build;}						     
+																
+						switch (FEAT_TRAINS,PARENT,switch_SBB_IC2000_build_check_AD,(count_veh_id(7862))+(count_veh_id(7863))+(count_veh_id(7864))+(count_veh_id(7756))+(count_veh_id(7757))+(count_veh_id(7758))+(count_veh_id(7759))) {
+							0: switch_SBB_IC2000_build_lengthcheck2; 
+								switch_build_year_SBB_IC2000_random;}
+																
+						switch(FEAT_TRAINS, SELF, switch_DVT_SBB_IC2000_build, position_in_consist_from_end) {
+							1: return switch_build_year_SBB_IC2000_DVT;
+								default: return switch_SBB_IC2000_build_check_AD;}
+								
+						switch(FEAT_TRAINS, SELF, switch_SBB_IC2000_build_lenghtcheck, num_vehs_in_consist) {
+							0 .. 5: switch_build_year_SBB_IC2000_random;
+							6 .. 999: switch_DVT_SBB_IC2000_build;
+								switch_DVT_SBB_IC2000_build;}
+								
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_IC2000_build, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_SBB_IC2000_build_lenghtcheck;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_IC2000_build, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_IC2000_BUILD;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+								
+																						
+item (FEAT_TRAINS , ITEM_SBB_IC2000_BUILD, 6770)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_IC2000_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					42;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_IC2000_build;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_SBB_IC2000;
+			articulated_part				: switch_articulated_SBB_IC2000_build;
+			purchase						: switch_purchase_SBB_IC2000;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_IC2000;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_IC2000;	
+			}
+		}															
+
+
+
+//All for current year
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_SBB_IC2000_random,current_year) {
+							   0 .. 2018 : random_choose_SBB_IC2000_1997_Coach;
+							2019 .. 2050 : random_choose_SBB_IC2000_modern_Coach;
+								random_choose_SBB_IC2000_modern_Coach;}
+								
+						switch (FEAT_TRAINS,SELF,switch_current_year_SBB_IC2000_A,current_year) {
+							   0 .. 2018 : switch_loadstack_SBB_IC2000_1997_A;
+							2019 .. 2050 : switch_loadstack_SBB_IC2000_modern_A;
+								switch_loadstack_SBB_IC2000_modern_A;}
+								
+						switch (FEAT_TRAINS,SELF,switch_current_year_SBB_IC2000_AD,current_year) {
+							   0 .. 2018 : switch_loadstack_SBB_IC2000_1997_AD;
+							2019 .. 2050 : switch_loadstack_SBB_IC2000_modern_AD;
+								switch_loadstack_SBB_IC2000_modern_AD;}	
+																
+						switch (FEAT_TRAINS,SELF,switch_current_year_SBB_IC2000_B,current_year) {
+							   0 .. 2018 : switch_loadstack_SBB_IC2000_1997_B;
+							2019 .. 2050 : switch_loadstack_SBB_IC2000_modern_B;
+								switch_loadstack_SBB_IC2000_modern_B;}								
+																
+						switch (FEAT_TRAINS,SELF,switch_current_year_SBB_IC2000_BR,current_year) {
+							   0 .. 2007 : switch_loadstack_SBB_IC2000_2001_BR;
+							2008 .. 2018 : switch_loadstack_SBB_IC2000_2008_BR;
+							2019 .. 2050 : switch_loadstack_SBB_IC2000_modern_BR;
+								switch_loadstack_SBB_IC2000_modern_BR;}
+								
+						switch (FEAT_TRAINS,SELF,switch_current_year_SBB_IC2000_DVT,current_year) {
+							   0 .. 2018 : switch_loadstack_SBB_IC2000_1997_DVT;
+							2019 .. 2050 : switch_loadstack_SBB_IC2000_modern_DVT;
+								switch_loadstack_SBB_IC2000_modern_DVT;}								
+															   
+						switch(FEAT_TRAINS, SELF, switch_AD1_SBB_IC2000_current, position_in_vehid_chain) {
+							 1: return switch_current_year_SBB_IC2000_AD;
+								default: switch_current_year_SBB_IC2000_B;}
+								
+						switch(FEAT_TRAINS, SELF, switch_AD2_SBB_IC2000_current, position_in_vehid_chain) {
+							 1: return switch_current_year_SBB_IC2000_AD;
+							 4: return switch_current_year_SBB_IC2000_A;
+								default: switch_current_year_SBB_IC2000_B;}															
+																
+						switch(FEAT_TRAINS, SELF, switch_AD3_SBB_IC2000_current, position_in_vehid_chain) {
+							 1: return switch_current_year_SBB_IC2000_AD;
+							 4: return switch_current_year_SBB_IC2000_A;
+							 7: return switch_current_year_SBB_IC2000_BR;
+								default: switch_current_year_SBB_IC2000_B;}								
+																
+						switch(FEAT_TRAINS, SELF, switch_AD4_SBB_IC2000_current, position_in_vehid_chain) {
+							 1: return switch_current_year_SBB_IC2000_AD;
+							 4: return switch_current_year_SBB_IC2000_A;
+							 7: return switch_current_year_SBB_IC2000_A;
+							10: return switch_current_year_SBB_IC2000_BR;
+								default: switch_current_year_SBB_IC2000_B;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_AD5_SBB_IC2000_current, position_in_vehid_chain) {
+							 1: return switch_current_year_SBB_IC2000_AD;
+							 4: return switch_current_year_SBB_IC2000_A;
+							 7: return switch_current_year_SBB_IC2000_A;
+							10: return switch_current_year_SBB_IC2000_A;
+							13: return switch_current_year_SBB_IC2000_BR;
+								default: switch_current_year_SBB_IC2000_B;}																
+								
+						switch (FEAT_TRAINS, SELF, switch_SBB_IC2000_current_lengthcheck2, num_vehs_in_vehid_chain) {
+						      0 .. 12: switch_AD1_SBB_IC2000_current;
+						     13 .. 15: switch_AD2_SBB_IC2000_current;
+						     16 .. 21: switch_AD3_SBB_IC2000_current;
+						     22 .. 25: switch_AD4_SBB_IC2000_current;
+								switch_AD5_SBB_IC2000_current;}						     
+															
+						switch (FEAT_TRAINS,PARENT,switch_SBB_IC2000_current_check_AD,(count_veh_id(7862))+(count_veh_id(7863))+(count_veh_id(7864))+(count_veh_id(7756))+(count_veh_id(7757))+(count_veh_id(7758))+(count_veh_id(7759))) {
+							0: switch_SBB_IC2000_current_lengthcheck2; 
+								switch_current_year_SBB_IC2000_random;}
+																
+						switch(FEAT_TRAINS, SELF, switch_DVT_SBB_IC2000_current, position_in_consist_from_end) {
+							1: return switch_current_year_SBB_IC2000_DVT;
+								default: return switch_SBB_IC2000_current_check_AD;}
+								
+						switch(FEAT_TRAINS, SELF, switch_SBB_IC2000_current_lenghtcheck, num_vehs_in_consist) {
+							0 .. 5: switch_current_year_SBB_IC2000_random;
+							6 .. 999: switch_DVT_SBB_IC2000_current;
+								switch_DVT_SBB_IC2000_current;}
+								
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_IC2000_current, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_SBB_IC2000_current_lenghtcheck;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_IC2000_current, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_IC2000_CURRENT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+								
+																						
+item (FEAT_TRAINS , ITEM_SBB_IC2000_CURRENT, 6771)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_IC2000_CURRENT);
+						variant_group:					6770;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					42;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_IC2000_current;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_SBB_IC2000;
+			articulated_part				: switch_articulated_SBB_IC2000_current;
+			purchase						: switch_purchase_SBB_IC2000;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_IC2000;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_IC2000;	
+			}
+		}	
+
+//old livery
+
+						switch(FEAT_TRAINS, SELF, switch_AD1_SBB_IC2000_old, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_IC2000_1997_AD;
+								default: switch_loadstack_SBB_IC2000_1997_B;}
+								
+						switch(FEAT_TRAINS, SELF, switch_AD2_SBB_IC2000_old, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_IC2000_1997_AD;
+							 4: return switch_loadstack_SBB_IC2000_1997_A;
+								default: switch_loadstack_SBB_IC2000_1997_B;}															
+																
+						switch(FEAT_TRAINS, SELF, switch_AD3_SBB_IC2000_old, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_IC2000_1997_AD;
+							 4: return switch_loadstack_SBB_IC2000_1997_A;
+							 7: return switch_loadstack_SBB_IC2000_2001_BR;
+								default: switch_loadstack_SBB_IC2000_1997_B;}								
+																
+						switch(FEAT_TRAINS, SELF, switch_AD4_SBB_IC2000_old, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_IC2000_1997_AD;
+							 4: return switch_loadstack_SBB_IC2000_1997_A;
+							 7: return switch_loadstack_SBB_IC2000_1997_A;
+							10: return switch_loadstack_SBB_IC2000_2001_BR;
+								default: switch_loadstack_SBB_IC2000_1997_B;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_AD5_SBB_IC2000_old, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_IC2000_1997_AD;
+							 4: return switch_loadstack_SBB_IC2000_1997_A;
+							 7: return switch_loadstack_SBB_IC2000_1997_A;
+							10: return switch_loadstack_SBB_IC2000_1997_A;
+							13: return switch_loadstack_SBB_IC2000_2001_BR;
+								default: switch_loadstack_SBB_IC2000_1997_B;}																
+								
+						switch (FEAT_TRAINS, SELF, switch_SBB_IC2000_old_lengthcheck2, num_vehs_in_vehid_chain) {
+						      0 .. 12: switch_AD1_SBB_IC2000_old;
+						     13 .. 15: switch_AD2_SBB_IC2000_old;
+						     16 .. 21: switch_AD3_SBB_IC2000_old;
+						     22 .. 25: switch_AD4_SBB_IC2000_old;
+								switch_AD5_SBB_IC2000_old;}						     
+																
+						switch (FEAT_TRAINS,PARENT,switch_SBB_IC2000_old_check_AD,(count_veh_id(7862))+(count_veh_id(7863))+(count_veh_id(7864))+(count_veh_id(7865))) {
+							0: switch_SBB_IC2000_old_lengthcheck2; 
+								random_choose_SBB_IC2000_1997_Coach;}
+																
+						switch(FEAT_TRAINS, SELF, switch_DVT_SBB_IC2000_old, position_in_consist_from_end) {
+							1: return switch_loadstack_SBB_IC2000_1997_DVT;
+								default: return switch_SBB_IC2000_old_check_AD;}
+								
+						switch(FEAT_TRAINS, SELF, switch_SBB_IC2000_old_lenghtcheck, num_vehs_in_consist) {
+							0 .. 5: random_choose_SBB_IC2000_1997_Coach;
+							6 .. 999: switch_DVT_SBB_IC2000_old;
+								switch_DVT_SBB_IC2000_old;}
+								
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_IC2000_old, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_SBB_IC2000_old_lenghtcheck;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_IC2000_old, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_IC2000_OLD;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+								
+																						
+item (FEAT_TRAINS , ITEM_SBB_IC2000_OLD, 6772)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_IC2000_OLD);
+						variant_group:					6770;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					42;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_IC2000_old;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_SBB_IC2000;
+			articulated_part				: switch_articulated_SBB_IC2000_old;
+			purchase						: spriteset_SBB_IC2000_1997_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_IC2000;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_IC2000;	
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_AD1_SBB_IC2000_new, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_IC2000_modern_AD;
+								default: switch_loadstack_SBB_IC2000_modern_B;}
+								
+						switch(FEAT_TRAINS, SELF, switch_AD2_SBB_IC2000_new, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_IC2000_modern_AD;
+							 4: return switch_loadstack_SBB_IC2000_modern_A;
+								default: switch_loadstack_SBB_IC2000_modern_B;}															
+																
+						switch(FEAT_TRAINS, SELF, switch_AD3_SBB_IC2000_new, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_IC2000_modern_AD;
+							 4: return switch_loadstack_SBB_IC2000_modern_A;
+							 7: return switch_loadstack_SBB_IC2000_modern_BR;
+								default: switch_loadstack_SBB_IC2000_modern_B;}								
+																
+						switch(FEAT_TRAINS, SELF, switch_AD4_SBB_IC2000_new, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_IC2000_modern_AD;
+							 4: return switch_loadstack_SBB_IC2000_modern_A;
+							 7: return switch_loadstack_SBB_IC2000_modern_A;
+							10: return switch_loadstack_SBB_IC2000_modern_BR;
+								default: switch_loadstack_SBB_IC2000_modern_B;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_AD5_SBB_IC2000_new, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_IC2000_modern_AD;
+							 4: return switch_loadstack_SBB_IC2000_modern_A;
+							 7: return switch_loadstack_SBB_IC2000_modern_A;
+							10: return switch_loadstack_SBB_IC2000_modern_A;
+							13: return switch_loadstack_SBB_IC2000_modern_BR;
+								default: switch_loadstack_SBB_IC2000_modern_B;}																
+								
+						switch (FEAT_TRAINS, SELF, switch_SBB_IC2000_new_lengthcheck2, num_vehs_in_vehid_chain) {
+						      0 .. 12: switch_AD1_SBB_IC2000_new;
+						     13 .. 15: switch_AD2_SBB_IC2000_new;
+						     16 .. 21: switch_AD3_SBB_IC2000_new;
+						     22 .. 25: switch_AD4_SBB_IC2000_new;
+								switch_AD5_SBB_IC2000_new;}						     
+																
+						switch (FEAT_TRAINS,PARENT,switch_SBB_IC2000_new_check_AD,(count_veh_id(7862))+(count_veh_id(7863))+(count_veh_id(7864))+(count_veh_id(7865))) {
+							0: switch_SBB_IC2000_new_lengthcheck2; 
+								random_choose_SBB_IC2000_modern_Coach;}
+																
+						switch(FEAT_TRAINS, SELF, switch_DVT_SBB_IC2000_new, position_in_consist_from_end) {
+							1: return switch_loadstack_SBB_IC2000_modern_DVT;
+								default: return switch_SBB_IC2000_new_check_AD;}
+								
+						switch(FEAT_TRAINS, SELF, switch_SBB_IC2000_new_lenghtcheck, num_vehs_in_consist) {
+							0 .. 5: random_choose_SBB_IC2000_modern_Coach;
+							6 .. 999: switch_DVT_SBB_IC2000_new;
+								switch_DVT_SBB_IC2000_new;}
+								
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_IC2000_new, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_SBB_IC2000_new_lenghtcheck;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_IC2000_new, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_IC2000_NEW;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+								
+																						
+item (FEAT_TRAINS , ITEM_SBB_IC2000_NEW, 6773)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_IC2000_NEW);
+						variant_group:					6770;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2019,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					42;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_IC2000_new;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_SBB_IC2000;
+			articulated_part				: switch_articulated_SBB_IC2000_new;
+			purchase						: spriteset_SBB_IC2000_modern_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_IC2000;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_IC2000;	
+			}
+		}
+		
+		
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_IC2000_DVT_build, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_SBB_IC2000_DVT;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_IC2000_DVT_build, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_IC2000_DVT_BUILD;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+								
+																						
+item (FEAT_TRAINS , ITEM_SBB_IC2000_DVT_BUILD, 7862)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_IC2000_DVT_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					42;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_IC2000_DVT_build;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_DESC_EXPRESS),
+											  string(STR_DESC_DVT),);
+			length							: switch_length_SBB_IC2000;
+			articulated_part				: switch_articulated_SBB_IC2000_DVT_build;
+			purchase						: switch_purchase_SBB_IC2000_DVT;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_IC2000;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_IC2000;	
+			}
+		}		
+
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_IC2000_DVT_current, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_SBB_IC2000_DVT;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_IC2000_DVT_current, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_IC2000_DVT_CURRENT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+								
+																						
+item (FEAT_TRAINS , ITEM_SBB_IC2000_DVT_CURRENT, 7863)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_IC2000_DVT_CURRENT);
+						variant_group:					7862;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					42;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_IC2000_DVT_current;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_DESC_EXPRESS),
+											  string(STR_DESC_DVT),);
+			length							: switch_length_SBB_IC2000;
+			articulated_part				: switch_articulated_SBB_IC2000_DVT_current;
+			purchase						: switch_purchase_SBB_IC2000_DVT;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_IC2000;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_IC2000;	
+			}
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_IC2000_DVT_old, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SBB_IC2000_1997_DVT;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_IC2000_DVT_old, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_IC2000_DVT_OLD;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+								
+																						
+item (FEAT_TRAINS , ITEM_SBB_IC2000_DVT_OLD, 7864)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_IC2000_DVT_OLD);
+						variant_group:					7862;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					42;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_IC2000_DVT_old;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_DESC_EXPRESS),
+											  string(STR_DESC_DVT),);
+			length							: switch_length_SBB_IC2000;
+			articulated_part				: switch_articulated_SBB_IC2000_DVT_old;
+			purchase						: spriteset_SBB_IC2000_1997_DVT_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_IC2000;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_IC2000;	
+			}
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_IC2000_DVT_new, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SBB_IC2000_modern_DVT;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_IC2000_DVT_new, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_IC2000_DVT_NEW;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+								
+																						
+item (FEAT_TRAINS , ITEM_SBB_IC2000_DVT_NEW, 7865)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_IC2000_DVT_NEW);
+						variant_group:					7862;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2019,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					42;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_IC2000_DVT_new;
+			additional_text					: string(STR_CONCAT_4,
+											  string(STR_DESC_EXPRESS),
+											  string(STR_DESC_DVT),
+											  string(STR_DESC_AUTODISABLE),);
+			length							: switch_length_SBB_IC2000;
+			articulated_part				: switch_articulated_SBB_IC2000_DVT_new;
+			purchase						: spriteset_SBB_IC2000_modern_DVT_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_IC2000;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_IC2000;	
+			}
+		}
+
+//Half-Baggage
+
+						switch(FEAT_TRAINS, SELF, switch_cargo_capacity_SBB_IC2000_AD, cargo_type_in_veh ) {
+							PASS: 42;
+							TOUR: 42;
+						    MAIL: 42;
+						    GOOD: 42;
+						    VALU: 42;}		
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_IC2000_AD_build, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_SBB_IC2000_AD;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_IC2000_AD_build, extra_callback_info1) {
+							0: return ITEM_SBB_IC2000_AD_BUILD;		
+							1: return ITEM_SBB_IC2000_AD_BUILD;	
+							2: return ITEM_MAIL_42;											
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+								
+																						
+item (FEAT_TRAINS , ITEM_SBB_IC2000_AD_BUILD, 7756)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_IC2000_AD_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					42;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_IC2000_AD_build;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_DESC_HALFBAGG),
+											  string(STR_DESC_AUTODISABLE));
+			length							: switch_length_SBB_IC2000;
+			articulated_part				: switch_articulated_SBB_IC2000_AD_build;
+			purchase						: switch_purchase_SBB_IC2000_AD;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_IC2000;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_IC2000;
+			cargo_capacity					: switch_cargo_capacity_SBB_IC2000_AD;
+			}
+		}		
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_IC2000_AD_current, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_SBB_IC2000_AD;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_IC2000_AD_current, extra_callback_info1) {
+							0: return ITEM_SBB_IC2000_AD_CURRENT;		
+							1: return ITEM_SBB_IC2000_AD_CURRENT;	
+							2: return ITEM_MAIL_42;														
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+								
+																						
+item (FEAT_TRAINS , ITEM_SBB_IC2000_AD_CURRENT, 7757)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_IC2000_AD_CURRENT);
+						variant_group:					7756;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					42;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_IC2000_AD_current;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_DESC_HALFBAGG),
+											  string(STR_DESC_AUTODISABLE));
+			length							: switch_length_SBB_IC2000;
+			articulated_part				: switch_articulated_SBB_IC2000_AD_current;
+			purchase						: switch_purchase_SBB_IC2000_AD;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_IC2000;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_IC2000;
+			cargo_capacity					: switch_cargo_capacity_SBB_IC2000_AD;
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_IC2000_AD_old, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SBB_IC2000_1997_AD;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_IC2000_AD_old, extra_callback_info1) {
+							0: return ITEM_SBB_IC2000_AD_OLD;		
+							1: return ITEM_SBB_IC2000_AD_OLD;	
+							2: return ITEM_MAIL_42;														
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+								
+																						
+item (FEAT_TRAINS , ITEM_SBB_IC2000_AD_OLD, 7758)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_IC2000_AD_OLD);
+						variant_group:					7756;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					42;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_IC2000_AD_old;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_DESC_HALFBAGG),
+											  string(STR_DESC_AUTODISABLE));
+			length							: switch_length_SBB_IC2000;
+			articulated_part				: switch_articulated_SBB_IC2000_AD_old;
+			purchase						: spriteset_SBB_IC2000_1997_AD_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_IC2000;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_IC2000;
+			cargo_capacity					: switch_cargo_capacity_SBB_IC2000_AD;
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_IC2000_AD_new, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SBB_IC2000_modern_AD;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_IC2000_AD_new, extra_callback_info1) {
+							0: return ITEM_SBB_IC2000_AD_NEW;		
+							1: return ITEM_SBB_IC2000_AD_NEW;	
+							2: return ITEM_MAIL_42;														
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+								
+																						
+item (FEAT_TRAINS , ITEM_SBB_IC2000_AD_NEW, 7759)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_IC2000_AD_NEW);
+						variant_group:					7756;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2019,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					42;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_IC2000_AD_new;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_DESC_HALFBAGG),
+											  string(STR_DESC_AUTODISABLE));
+			length							: switch_length_SBB_IC2000;
+			articulated_part				: switch_articulated_SBB_IC2000_AD_new;
+			purchase						: spriteset_SBB_IC2000_modern_AD_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_IC2000;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_IC2000;
+			cargo_capacity					: switch_cargo_capacity_SBB_IC2000_AD;
+			}
+		}

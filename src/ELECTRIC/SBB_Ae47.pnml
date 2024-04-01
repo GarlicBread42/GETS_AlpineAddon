@@ -1,0 +1,334 @@
+//##################
+//### SBB Ae 4/7 ###
+//##################
+
+spriteset(spriteset_SBB_Ae47_braun, "gfx/SBB_Ae47/SBB_Ae47_braun_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ae47_braun, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae47/SBB_Ae47_braun_1x_32bpp.png", "gfx/SBB_Ae47/SBB_Ae47_braun_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ae47_braun, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae47/SBB_Ae47_braun_2x_32bpp.png", "gfx/SBB_Ae47/SBB_Ae47_braun_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ae47_braun, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae47/SBB_Ae47_braun_4x_32bpp.png", "gfx/SBB_Ae47/SBB_Ae47_braun_4x_mask.png")
+									{template_108trains_4x(0, 0)}	
+									
+
+spriteset(spriteset_SBB_Ae47_gruen, "gfx/SBB_Ae47/SBB_Ae47_gruen_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ae47_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae47/SBB_Ae47_gruen_1x_32bpp.png", "gfx/SBB_Ae47/SBB_Ae47_gruen_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ae47_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae47/SBB_Ae47_gruen_2x_32bpp.png", "gfx/SBB_Ae47/SBB_Ae47_gruen_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ae47_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae47/SBB_Ae47_gruen_4x_32bpp.png", "gfx/SBB_Ae47/SBB_Ae47_gruen_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+																		
+
+//Spriteset purchase
+
+spriteset(spriteset_SBB_Ae47_braun_purchase, "gfx/SBB_Ae47/SBB_Ae47_braun_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ae47_braun_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae47/SBB_Ae47_braun_1x_32bpp.png", "gfx/SBB_Ae47/SBB_Ae47_braun_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Ae47_gruen_purchase, "gfx/SBB_Ae47/SBB_Ae47_gruen_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ae47_gruen_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae47/SBB_Ae47_gruen_1x_32bpp.png", "gfx/SBB_Ae47/SBB_Ae47_gruen_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+//Switches
+
+					switch(FEAT_TRAINS,SELF, switch_purchase_SBB_Ae47, current_year){
+						   0 .. 1927: spriteset_SBB_Ae47_braun_purchase;
+						1928 .. 2050: spriteset_SBB_Ae47_gruen_purchase;
+							spriteset_SBB_Ae47_gruen_purchase;}
+								
+								
+					switch(FEAT_TRAINS, SELF, switch_length_SBB_Ae47, position_in_vehid_chain % 2) {
+						0: 4;
+						1: 6;}		
+						
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_Ae47, position_in_vehid_chain % 2) {
+						0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						 return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}													
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Ae47, 1){
+							return 2275;}
+							
+					switch (FEAT_TRAINS,SELF, switch_SBB_Ae47_build_year,build_year){
+						   0 .. 1927: spriteset_SBB_Ae47_braun;
+						1928 .. 2050: spriteset_SBB_Ae47_gruen;
+							spriteset_SBB_Ae47_gruen;}														
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Ae47_build, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     return switch_SBB_Ae47_build_year;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Ae47_build, extra_callback_info1) {
+						1: return ITEM_SBB_AE47_BUILD; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_AE47_BUILD, 1522)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AE47_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1927,01,01);
+						model_life: 					70;
+						vehicle_life: 					60;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						3120 hp;
+						weight: 						120 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.251;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Ae47_build;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Ae47;
+			articulated_part				:switch_articulated_SBB_Ae47_build;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:switch_purchase_SBB_Ae47;
+			cost_factor						:88;
+			running_cost_factor				:switch_running_cost_SBB_Ae47;			
+			visual_effect_and_powered		:switch_FX_SBB_Ae47;	
+			}
+	}	
+
+
+					switch (FEAT_TRAINS,SELF, switch_SBB_Ae47_current_year,current_year){
+						   0 .. 1927: spriteset_SBB_Ae47_braun;
+						1928 .. 2050: spriteset_SBB_Ae47_gruen;
+							spriteset_SBB_Ae47_gruen;}														
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Ae47_current, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     return switch_SBB_Ae47_current_year;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Ae47_current, extra_callback_info1) {
+						1: return ITEM_SBB_AE47_CURRENT; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_AE47_CURRENT, 1523)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AE47_CURRENT);	
+						variant_group:					1522;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);				
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1927,01,01);
+						model_life: 					70;
+						vehicle_life: 					60;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						3120 hp;
+						weight: 						120 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.251;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Ae47_current;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Ae47;
+			articulated_part				:switch_articulated_SBB_Ae47_current;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:switch_purchase_SBB_Ae47;
+			cost_factor						:88;
+			running_cost_factor				:switch_running_cost_SBB_Ae47;			
+			visual_effect_and_powered		:switch_FX_SBB_Ae47;	
+			}
+	}
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Ae47_braun, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     spriteset_SBB_Ae47_braun;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Ae47_braun, extra_callback_info1) {
+						1: return ITEM_SBB_AE47_BRAUN; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_AE47_BRAUN, 1524)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AE47_BRAUN);	
+						variant_group:					1522;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);				
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1927,01,01);
+						model_life: 					70;
+						vehicle_life: 					60;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						3120 hp;
+						weight: 						120 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.251;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Ae47_braun;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Ae47;
+			articulated_part				:switch_articulated_SBB_Ae47_braun;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Ae47_braun_purchase;
+			cost_factor						:88;
+			running_cost_factor				:switch_running_cost_SBB_Ae47;			
+			visual_effect_and_powered		:switch_FX_SBB_Ae47;	
+			}
+	}
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Ae47_gruen, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     spriteset_SBB_Ae47_gruen;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Ae47_gruen, extra_callback_info1) {
+						1: return ITEM_SBB_AE47_GRUEN; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_AE47_GRUEN, 1525)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AE47_GRUEN);	
+						variant_group:					1522;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);				
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1927,01,01);
+						model_life: 					70;
+						vehicle_life: 					60;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						3120 hp;
+						weight: 						120 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.251;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Ae47_gruen;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Ae47;
+			articulated_part				:switch_articulated_SBB_Ae47_gruen;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Ae47_gruen_purchase;
+			cost_factor						:88;
+			running_cost_factor				:switch_running_cost_SBB_Ae47;			
+			visual_effect_and_powered		:switch_FX_SBB_Ae47;	
+			}
+	}

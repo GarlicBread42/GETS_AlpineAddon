@@ -1,0 +1,565 @@
+//#######################
+//### SZU Doppelstock ###
+//#######################
+
+//Spriteset rot, Hocheinstieg
+
+spriteset(spriteset_SZU_DPZ_rot, "gfx/SZU_DPZ/SZU_DPZ_rot_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_rot_1x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_rot_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_rot_2x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_rot_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_rot_4x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_rot_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SZU_DPZ_rot_loading, "gfx/SZU_DPZ/SZU_DPZ_rot_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_rot_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_rot_loading_1x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_rot_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_rot_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_rot_loading_2x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_rot_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_rot_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_rot_loading_4x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_rot_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+									
+spritegroup spritegroup_SZU_DPZ_rot_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SZU_DPZ_rot_loading];}									
+
+
+//Spriteset weiße Tür, Hocheinstieg
+
+spriteset(spriteset_SZU_DPZ_weiss, "gfx/SZU_DPZ/SZU_DPZ_weiss_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_weiss, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_weiss_1x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_weiss_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_weiss, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_weiss_2x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_weiss_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_weiss, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_weiss_4x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_weiss_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SZU_DPZ_weiss_loading, "gfx/SZU_DPZ/SZU_DPZ_weiss_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_weiss_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_weiss_loading_1x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_weiss_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_weiss_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_weiss_loading_2x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_weiss_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_weiss_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_weiss_loading_4x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_weiss_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+									
+spritegroup spritegroup_SZU_DPZ_weiss_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SZU_DPZ_weiss_loading];}	
+
+//Spriteset rot, Tiefeinstieg
+
+spriteset(spriteset_SZU_DPZ_neu_rot, "gfx/SZU_DPZ/SZU_DPZ_neu_rot_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_neu_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_neu_rot_1x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_neu_rot_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_neu_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_neu_rot_2x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_neu_rot_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_neu_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_neu_rot_4x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_neu_rot_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SZU_DPZ_neu_rot_loading, "gfx/SZU_DPZ/SZU_DPZ_neu_rot_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_neu_rot_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_neu_rot_loading_1x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_neu_rot_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_neu_rot_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_neu_rot_loading_2x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_neu_rot_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_neu_rot_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_neu_rot_loading_4x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_neu_rot_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+									
+spritegroup spritegroup_SZU_DPZ_neu_rot_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SZU_DPZ_neu_rot_loading];}		
+
+
+//Spriteset rot, Tiefeinstieg
+
+spriteset(spriteset_SZU_DPZ_neu_weiss, "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_neu_weiss, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_1x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_neu_weiss, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_2x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_neu_weiss, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_4x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SZU_DPZ_neu_weiss_loading, "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_neu_weiss_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_loading_1x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_neu_weiss_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_loading_2x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_neu_weiss_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_loading_4x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+									
+spritegroup spritegroup_SZU_DPZ_neu_weiss_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SZU_DPZ_neu_weiss_loading];}	
+
+
+																		
+
+//Spritesets purchase
+
+spriteset(spriteset_SZU_DPZ_rot_purchase, "gfx/SZU_DPZ/SZU_DPZ_rot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_rot_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_rot_1x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_rot_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SZU_DPZ_weiss_purchase, "gfx/SZU_DPZ/SZU_DPZ_weiss_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_weiss_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_weiss_1x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_weiss_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SZU_DPZ_neu_rot_purchase, "gfx/SZU_DPZ/SZU_DPZ_neu_rot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_neu_rot_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_neu_rot_1x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_neu_rot_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+spriteset(spriteset_SZU_DPZ_neu_weiss_purchase, "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_DPZ_neu_weiss_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_1x_32bpp.png", "gfx/SZU_DPZ/SZU_DPZ_neu_weiss_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+//Switches
+						
+						switch (FEAT_TRAINS,SELF, switch_purchase_SZU_DPZ,current_year){
+							   0 .. 2010: spriteset_SZU_DPZ_rot_purchase;
+							2011 .. 2015: spriteset_SZU_DPZ_neu_rot_purchase;
+							2016 .. 2050: spriteset_SZU_DPZ_neu_weiss_purchase;															 					 
+								spriteset_SZU_DPZ_neu_weiss_purchase;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SZU_DPZ_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SZU_DPZ_rot;
+							1: spritegroup_SZU_DPZ_rot_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SZU_DPZ_weiss, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SZU_DPZ_weiss;
+							1: spritegroup_SZU_DPZ_weiss_loading;}																		
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SZU_DPZ_neu_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SZU_DPZ_neu_rot;
+							1: spritegroup_SZU_DPZ_neu_rot_loading;}								
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SZU_DPZ_neu_weiss, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SZU_DPZ_neu_weiss;
+							1: spritegroup_SZU_DPZ_neu_weiss_loading;}							
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SZU_DPZ_2011, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_loadstack_SZU_DPZ_neu_rot;
+							2: switch_loadstack_SZU_DPZ_rot;
+							3: switch_loadstack_SZU_DPZ_rot;
+							   switch_loadstack_SZU_DPZ_rot;}			
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SZU_DPZ_2016, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_loadstack_SZU_DPZ_neu_weiss;
+							2: switch_loadstack_SZU_DPZ_weiss;
+							3: switch_loadstack_SZU_DPZ_weiss;
+							   switch_loadstack_SZU_DPZ_weiss;}								   						   	
+							   
+						switch(FEAT_TRAINS, SELF, switch_length_SZU_DPZ, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}	
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SZU_DPZ, 1){
+							return 3100;}									
+								
+						switch (FEAT_TRAINS,SELF, switch_build_year_SZU_DPZ,build_year){
+							   0 .. 2010: switch_loadstack_SZU_DPZ_rot;
+							2011 .. 2015: random_choose_SZU_DPZ_2011;
+							2016 .. 2050: random_choose_SZU_DPZ_2016;															 					 
+								random_choose_SZU_DPZ_2016;}
+							
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_DPZ_build, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_SZU_DPZ;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_DPZ_build, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_DPZ_BUILD;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_DPZ_BUILD, 6994)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_DPZ_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1992,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					50;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_DPZ_build;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_DPZ;
+			articulated_part				: switch_articulated_SZU_DPZ_build;
+			purchase						: switch_purchase_SZU_DPZ;
+			cost_factor						: 660;
+			running_cost_factor				: switch_running_cost_SZU_DPZ;
+			}
+		}
+
+
+							
+						switch (FEAT_TRAINS,SELF, switch_current_year_SZU_DPZ,current_year){
+							   0 .. 2010: switch_loadstack_SZU_DPZ_rot;
+							2011 .. 2015: random_choose_SZU_DPZ_2011;
+							2016 .. 2050: random_choose_SZU_DPZ_2016;															 					 
+								random_choose_SZU_DPZ_2016;}
+							
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_DPZ_current, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_SZU_DPZ;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_DPZ_current, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_DPZ_CURRENT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_DPZ_CURRENT, 6995)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_DPZ_CURRENT);
+						variant_group:					6994;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1992,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					50;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_DPZ_current;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_DPZ;
+			articulated_part				: switch_articulated_SZU_DPZ_current;
+			purchase						: switch_purchase_SZU_DPZ;
+			cost_factor						: 660;
+			running_cost_factor				: switch_running_cost_SZU_DPZ;
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_DPZ_rot, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SZU_DPZ_rot;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_DPZ_rot, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_DPZ_ROT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_DPZ_ROT, 6996)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_DPZ_ROT);
+						variant_group:					6994;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1992,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					50;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_DPZ_rot;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_DPZ;
+			articulated_part				: switch_articulated_SZU_DPZ_rot;
+			purchase						: spriteset_SZU_DPZ_rot_purchase;
+			cost_factor						: 660;
+			running_cost_factor				: switch_running_cost_SZU_DPZ;
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_DPZ_weiss, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SZU_DPZ_weiss;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_DPZ_weiss, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_DPZ_WEISS;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_DPZ_WEISS, 6997)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_DPZ_WEISS);
+						variant_group:					6994;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2016,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					50;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_DPZ_weiss;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_DPZ;
+			articulated_part				: switch_articulated_SZU_DPZ_weiss;
+			purchase						: spriteset_SZU_DPZ_weiss_purchase;
+			cost_factor						: 660;
+			running_cost_factor				: switch_running_cost_SZU_DPZ;
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_DPZ_neu_rot, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SZU_DPZ_neu_rot;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_DPZ_neu_rot, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_DPZ_NEU_ROT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_DPZ_NEU_ROT, 6998)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_DPZ_NEU_ROT);
+						variant_group:					6994;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2011,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					50;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_DPZ_neu_rot;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_DPZ;
+			articulated_part				: switch_articulated_SZU_DPZ_neu_rot;
+			purchase						: spriteset_SZU_DPZ_neu_rot_purchase;
+			cost_factor						: 660;
+			running_cost_factor				: switch_running_cost_SZU_DPZ;
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_DPZ_neu_weiss, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SZU_DPZ_neu_weiss;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_DPZ_neu_weiss, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_DPZ_NEU_WEISS;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_DPZ_NEU_WEISS, 6999)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_DPZ_NEU_WEISS);
+						variant_group:					6994;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2016,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					50;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_DPZ_neu_weiss;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_DPZ;
+			articulated_part				: switch_articulated_SZU_DPZ_neu_weiss;
+			purchase						: spriteset_SZU_DPZ_neu_weiss_purchase;
+			cost_factor						: 660;
+			running_cost_factor				: switch_running_cost_SZU_DPZ;
+			}
+		}

@@ -1,0 +1,1465 @@
+//##########################
+//###BR 428 Stadler FLIRT###
+//##########################
+
+//Spriteset Front SBB
+
+spriteset(spriteset_SBB_RABe_524_front_SBB, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_SBB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_SBB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_SBB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_4x_mask.png")
+									{ template_118trains_4x(0, 0)}	
+									
+spriteset(spriteset_SBB_RABe_524_front_SBB_loading, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_SBB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_SBB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_SBB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_front_SBB_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_front_SBB_loading];}
+			
+
+spriteset(spriteset_SBB_RABe_524_front_SBB_REV, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_SBB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_SBB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_SBB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}	
+									
+spriteset(spriteset_SBB_RABe_524_front_SBB_loading_REV, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_loading_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_SBB_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_loading_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_SBB_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_loading_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_SBB_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_SBB_loading_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_front_SBB_loading_REV
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_front_SBB_loading_REV];}			
+			
+			
+//Spriteset Front TILO
+
+spriteset(spriteset_SBB_RABe_524_front_TILO, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_TILO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_TILO, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_TILO, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_4x_mask.png")
+									{ template_118trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_front_TILO_loading, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_TILO_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_TILO_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_TILO_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_front_TILO_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_front_TILO_loading];}
+
+
+spriteset(spriteset_SBB_RABe_524_front_TILO_REV, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_TILO_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_TILO_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_TILO_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_front_TILO_loading_REV, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_loading_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_TILO_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_loading_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_TILO_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_loading_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_TILO_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_TILO_loading_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_front_TILO_loading_REV
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_front_TILO_loading_REV];}
+
+//Spriteset Front Thurbo
+
+spriteset(spriteset_SBB_RABe_524_front_Thurbo, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_Thurbo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_Thurbo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_Thurbo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_4x_mask.png")
+									{ template_118trains_4x(0, 0)}	
+									
+spriteset(spriteset_SBB_RABe_524_front_Thurbo_loading, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_Thurbo_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_Thurbo_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_Thurbo_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_front_Thurbo_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_front_Thurbo_loading];}	
+
+
+spriteset(spriteset_SBB_RABe_524_front_Thurbo_REV, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_Thurbo_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_Thurbo_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_Thurbo_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}	
+									
+spriteset(spriteset_SBB_RABe_524_front_Thurbo_loading_REV, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_loading_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_Thurbo_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_loading_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_Thurbo_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_loading_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_Thurbo_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_Thurbo_loading_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_front_Thurbo_loading_REV
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_front_Thurbo_loading_REV];}	
+
+//Spriteset Middle 1 SBB
+
+spriteset(spriteset_SBB_RABe_524_middle1_SBB, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_SBB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_SBB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_SBB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_4x_mask.png")
+									{ template_108trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_middle1_SBB_loading, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_SBB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_SBB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_SBB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_middle1_SBB_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_middle1_SBB_loading];}
+
+			
+spriteset(spriteset_SBB_RABe_524_middle1_SBB_REV, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_SBB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_SBB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_SBB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_middle1_SBB_loading_REV, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_loading_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_SBB_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_loading_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_SBB_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_loading_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_SBB_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_SBB_loading_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_middle1_SBB_loading_REV
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_middle1_SBB_loading_REV];}			
+
+//Spriteset Middle 1 TILO
+
+spriteset(spriteset_SBB_RABe_524_middle1_TILO, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_TILO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_TILO, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_TILO, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_4x_mask.png")
+									{ template_108trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_middle1_TILO_loading, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_TILO_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_TILO_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_TILO_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_middle1_TILO_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_middle1_TILO_loading];}			
+
+
+spriteset(spriteset_SBB_RABe_524_middle1_TILO_REV, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_TILO_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_TILO_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_TILO_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_middle1_TILO_loading_REV, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_loading_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_TILO_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_loading_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_TILO_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_loading_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_TILO_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_TILO_loading_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_middle1_TILO_loading_REV
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_middle1_TILO_loading_REV];}	
+
+//Spriteset Middle 1 SBB
+
+spriteset(spriteset_SBB_RABe_524_middle1_Thurbo, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_Thurbo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_Thurbo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_Thurbo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_4x_mask.png")
+									{ template_108trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_middle1_Thurbo_loading, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_Thurbo_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_Thurbo_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_Thurbo_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_middle1_Thurbo_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_middle1_Thurbo_loading];}
+
+
+spriteset(spriteset_SBB_RABe_524_middle1_Thurbo_REV, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_Thurbo_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_Thurbo_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_Thurbo_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_middle1_Thurbo_loading_REV, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_loading_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_Thurbo_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_loading_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_Thurbo_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_loading_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle1_Thurbo_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle1_Thurbo_loading_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_middle1_Thurbo_loading_REV
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_middle1_Thurbo_loading_REV];}			
+
+//Spriteset Middle 2 SBB
+
+spriteset(spriteset_SBB_RABe_524_middle2_SBB, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_SBB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_SBB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_SBB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_4x_mask.png")
+									{ template_108trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_middle2_SBB_loading, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_SBB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_SBB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_SBB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_middle2_SBB_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_middle2_SBB_loading];}
+			
+			
+spriteset(spriteset_SBB_RABe_524_middle2_SBB_REV, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_SBB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_SBB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_SBB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_middle2_SBB_loading_REV, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_loading_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_SBB_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_loading_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_SBB_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_loading_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_SBB_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_SBB_loading_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_middle2_SBB_loading_REV
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_middle2_SBB_loading_REV];}			
+
+//Spriteset Middle 2 TILO
+
+spriteset(spriteset_SBB_RABe_524_middle2_TILO, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_TILO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_TILO, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_TILO, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_4x_mask.png")
+									{ template_108trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_middle2_TILO_loading, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_TILO_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_TILO_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_TILO_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_middle2_TILO_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_middle2_TILO_loading];}	
+
+
+spriteset(spriteset_SBB_RABe_524_middle2_TILO_REV, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_TILO_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_TILO_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_TILO_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_middle2_TILO_loading_REV, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_loading_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_TILO_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_loading_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_TILO_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_loading_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle2_TILO_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle2_TILO_loading_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_middle2_TILO_loading_REV
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_middle2_TILO_loading_REV];}
+
+//Spriteset Middle 3 TILO
+
+spriteset(spriteset_SBB_RABe_524_middle3_TILO, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle3_TILO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle3_TILO, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle3_TILO, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_4x_mask.png")
+									{ template_108trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_middle3_TILO_loading, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle3_TILO_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle3_TILO_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle3_TILO_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_middle3_TILO_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_middle3_TILO_loading];}	
+
+
+
+spriteset(spriteset_SBB_RABe_524_middle3_TILO_REV, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle3_TILO_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle3_TILO_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle3_TILO_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_middle3_TILO_loading_REV, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_loading_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle3_TILO_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_loading_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle3_TILO_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_loading_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle3_TILO_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle3_TILO_loading_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_middle3_TILO_loading_REV
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_middle3_TILO_loading_REV];}
+
+//Spriteset Middle 4 TILO
+
+spriteset(spriteset_SBB_RABe_524_middle4_TILO, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle4_TILO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle4_TILO, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle4_TILO, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_4x_mask.png")
+									{ template_108trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_middle4_TILO_loading, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle4_TILO_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle4_TILO_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle4_TILO_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_middle4_TILO_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_middle4_TILO_loading];}	
+
+
+spriteset(spriteset_SBB_RABe_524_middle4_TILO_REV, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle4_TILO_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle4_TILO_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle4_TILO_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_middle4_TILO_loading_REV, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_loading_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle4_TILO_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_loading_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle4_TILO_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_loading_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_middle4_TILO_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_middle4_TILO_loading_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_middle4_TILO_loading_REV
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_middle4_TILO_loading_REV];}	
+
+//Spriteset Back SBB
+
+spriteset(spriteset_SBB_RABe_524_back_SBB, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_SBB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_SBB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_SBB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_4x_mask.png")
+									{ template_118trains_4x(0, 0)}	
+									
+spriteset(spriteset_SBB_RABe_524_back_SBB_loading, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_SBB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_SBB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_SBB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_back_SBB_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_back_SBB_loading];}
+
+
+spriteset(spriteset_SBB_RABe_524_back_SBB_REV, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_SBB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_SBB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_SBB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}	
+									
+spriteset(spriteset_SBB_RABe_524_back_SBB_loading_REV, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_loading_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_SBB_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_loading_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_SBB_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_loading_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_SBB_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_loading_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_back_SBB_loading_REV
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_back_SBB_loading_REV];}			
+			
+//Spriteset Back TILO
+
+spriteset(spriteset_SBB_RABe_524_back_TILO, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_TILO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_TILO, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_TILO, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_4x_mask.png")
+									{ template_118trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_back_TILO_loading, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_TILO_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_TILO_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_TILO_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_back_TILO_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_back_TILO_loading];}
+
+
+spriteset(spriteset_SBB_RABe_524_back_TILO_REV, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_TILO_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_TILO_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_TILO_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}		
+									
+									
+spriteset(spriteset_SBB_RABe_524_back_TILO_loading_REV, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_loading_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_TILO_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_loading_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_TILO_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_loading_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_TILO_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_loading_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_back_TILO_loading_REV
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_back_TILO_loading_REV];}
+
+//Spriteset Back SBB
+
+spriteset(spriteset_SBB_RABe_524_back_Thurbo, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_Thurbo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_Thurbo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_Thurbo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_4x_mask.png")
+									{ template_118trains_4x(0, 0)}	
+									
+spriteset(spriteset_SBB_RABe_524_back_Thurbo_loading, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_Thurbo_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_Thurbo_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_Thurbo_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_back_Thurbo_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_back_Thurbo_loading];}	
+			
+
+spriteset(spriteset_SBB_RABe_524_back_Thurbo_REV, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_Thurbo_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_Thurbo_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_Thurbo_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}	
+									
+spriteset(spriteset_SBB_RABe_524_back_Thurbo_loading_REV, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_loading_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_Thurbo_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_loading_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_loading_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_Thurbo_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_loading_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_loading_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_Thurbo_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_loading_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_loading_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_RABe_524_back_Thurbo_loading_REV
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_RABe_524_back_Thurbo_loading_REV];}																
+
+
+//Spritesets lights
+
+spriteset(spriteset_SBB_RABe_524_back_lights_back, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_back_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_lights_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_back_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_back_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_lights_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_back_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_back_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_lights_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_back_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_back_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_RABe_524_back_lights_back_REV, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_back_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_lights_back_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_back_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_back_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_lights_back_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_back_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_back_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_lights_back_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_back_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_back_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}
+
+									
+spriteset(spriteset_SBB_RABe_524_back_lights_front, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_front_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_lights_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_front_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_front_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_lights_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_front_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_front_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_lights_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_front_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_front_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_RABe_524_back_lights_front_REV, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_front_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_lights_front_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_front_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_front_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_lights_front_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_front_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_front_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_back_lights_front_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_front_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_lights_front_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}									
+
+spriteset(spriteset_SBB_RABe_524_front_lights_back, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_back_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_lights_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_back_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_back_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_lights_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_back_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_back_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_lights_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_back_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_back_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_RABe_524_front_lights_back_REV, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_back_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_lights_back_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_back_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_back_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_lights_back_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_back_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_back_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_lights_back_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_back_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_back_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}
+
+									
+spriteset(spriteset_SBB_RABe_524_front_lights_front, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_front_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_lights_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_front_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_front_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_lights_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_front_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_front_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_lights_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_front_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_front_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_RABe_524_front_lights_front_REV, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_front_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_lights_front_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_front_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_front_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_lights_front_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_front_2x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_front_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_front_lights_front_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_front_4x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_front_lights_front_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}
+									
+									
+//Spritesets purchase
+
+spriteset(spriteset_SBB_RABe_524_purchase_SBB, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_purchase_SBB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_SBB_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_RABe_524_purchase_TILO, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_purchase_TILO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_TILO_1x_mask.png")
+									{ template_purchase(0, 0)}	
+
+spriteset(spriteset_SBB_RABe_524_purchase_Thurbo, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_SBB_RABe_524_purchase_Thurbo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_1x_32bpp.png", "gfx\SBB_RABe_524/SBB_RABe_524_back_Thurbo_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_front_SBB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_front_SBB;
+							1: spritegroup_SBB_RABe_524_front_SBB_loading;
+							2: spriteset_SBB_RABe_524_front_lights_back;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_front_SBB_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_front_SBB_REV;
+							1: spritegroup_SBB_RABe_524_front_SBB_loading_REV;
+							2: spriteset_SBB_RABe_524_front_lights_front_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_front_TILO, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_front_TILO;
+							1: spritegroup_SBB_RABe_524_front_TILO_loading;
+							2: spriteset_SBB_RABe_524_front_lights_back;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_front_TILO_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_front_TILO_REV;
+							1: spritegroup_SBB_RABe_524_front_TILO_loading_REV;
+							2: spriteset_SBB_RABe_524_front_lights_front_REV;}														
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_front_Thurbo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_front_Thurbo;
+							1: spritegroup_SBB_RABe_524_front_Thurbo_loading;
+							2: spriteset_SBB_RABe_524_front_lights_back;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_front_Thurbo_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_front_Thurbo_REV;
+							1: spritegroup_SBB_RABe_524_front_Thurbo_loading_REV;
+							2: spriteset_SBB_RABe_524_front_lights_front_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_middle1_SBB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_middle1_SBB;
+							1: spritegroup_SBB_RABe_524_middle1_SBB_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_middle1_SBB_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_middle1_SBB_REV;
+							1: spritegroup_SBB_RABe_524_middle1_SBB_loading_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_middle1_TILO, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_middle1_TILO;
+							1: spritegroup_SBB_RABe_524_middle1_TILO_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_middle1_TILO_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_middle1_TILO_REV;
+							1: spritegroup_SBB_RABe_524_middle1_TILO_loading_REV;}
+														
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_middle1_Thurbo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_middle1_Thurbo;
+							1: spritegroup_SBB_RABe_524_middle1_Thurbo_loading;}							
+														
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_middle1_Thurbo_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_middle1_Thurbo_REV;
+							1: spritegroup_SBB_RABe_524_middle1_Thurbo_loading_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_middle2_SBB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_middle2_SBB;
+							1: spritegroup_SBB_RABe_524_middle2_SBB_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_middle2_SBB_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_middle2_SBB_REV;
+							1: spritegroup_SBB_RABe_524_middle2_SBB_loading_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_middle2_TILO, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_middle2_TILO;
+							1: spritegroup_SBB_RABe_524_middle2_TILO_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_middle2_TILO_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_middle2_TILO_REV;
+							1: spritegroup_SBB_RABe_524_middle2_TILO_loading_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_middle3_TILO, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_middle3_TILO;
+							1: spritegroup_SBB_RABe_524_middle3_TILO_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_middle3_TILO_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_middle3_TILO_REV;
+							1: spritegroup_SBB_RABe_524_middle3_TILO_loading_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_middle4_TILO, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_middle4_TILO;
+							1: spritegroup_SBB_RABe_524_middle4_TILO_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_middle4_TILO_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_middle4_TILO_REV;
+							1: spritegroup_SBB_RABe_524_middle4_TILO_loading_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_back_SBB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_back_SBB;
+							1: spritegroup_SBB_RABe_524_back_SBB_loading;
+							2: spriteset_SBB_RABe_524_back_lights_front;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_back_SBB_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_back_SBB_REV;
+							1: spritegroup_SBB_RABe_524_back_SBB_loading_REV;
+							2: spriteset_SBB_RABe_524_back_lights_back_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_back_TILO, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_back_TILO;
+							1: spritegroup_SBB_RABe_524_back_TILO_loading;
+							2: spriteset_SBB_RABe_524_back_lights_front;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_back_TILO_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_back_TILO_REV;
+							1: spritegroup_SBB_RABe_524_back_TILO_loading_REV;
+							2: spriteset_SBB_RABe_524_back_lights_back_REV;}														
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_back_Thurbo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_back_Thurbo;
+							1: spritegroup_SBB_RABe_524_back_Thurbo_loading;
+							2: spriteset_SBB_RABe_524_back_lights_front;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_RABe_524_back_Thurbo_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_RABe_524_back_Thurbo_REV;
+							1: spritegroup_SBB_RABe_524_back_Thurbo_loading_REV;
+							2: spriteset_SBB_RABe_524_back_lights_back_REV;}						
+
+
+					switch(FEAT_TRAINS, SELF, switch_length_SBB_RABe_524_4, position_in_vehid_chain % 10) {
+							0: 4;
+							1: 3;
+							2: 4;
+							3: 4;
+							4: 6;
+							5: 4;
+							6: 6;													
+							7: 4;
+							8: 3;
+							9: 4;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_RABe_524_4, 1){
+							return 2225;}
+							
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_RABe_524_4_front, position_in_vehid_chain % 10) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							3: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);														
+							4: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							5: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							6: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							7: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);									
+							8: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							9: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}	
+
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_RABe_524_4_back, position_in_vehid_chain % 10) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							3: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);														
+							4: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							5: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							6: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							7: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);									
+							8: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							9: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+																				
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_RABe_524_4, vehicle_is_reversed) {
+							0: switch_FX_SBB_RABe_524_4_front;
+								switch_FX_SBB_RABe_524_4_back;}
+															
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_RABe_524_4_SBB_front, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_RABe_524_back_SBB;
+								switch_spritestack_SBB_RABe_524_front_SBB_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_RABe_524_4_SBB_middle2, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_RABe_524_middle2_SBB;
+								switch_spritestack_SBB_RABe_524_middle1_SBB_REV;}								
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_RABe_524_4_SBB_middle1, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_RABe_524_middle1_SBB;
+								switch_spritestack_SBB_RABe_524_middle2_SBB_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_RABe_524_4_SBB_back, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_RABe_524_front_SBB;
+								switch_spritestack_SBB_RABe_524_back_SBB_REV;}
+																															
+					switch(FEAT_TRAINS, SELF, switch_SBB_RABe_524_4_graphics_SBB, position_in_vehid_chain % 10) {
+							0:	   spriteset_empty;
+							1:     switch_reverse_SBB_RABe_524_4_SBB_front;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     switch_reverse_SBB_RABe_524_4_SBB_middle2;
+							5:	   spriteset_empty;
+							6:     switch_reverse_SBB_RABe_524_4_SBB_middle1;														
+							7:	   spriteset_empty;
+							8:	   switch_reverse_SBB_RABe_524_4_SBB_back;
+							9:	   spriteset_empty;}								
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_RABe_524_4_SBB, extra_callback_info1) {
+						1 .. 9: return ITEM_SBB_RABe_524_4_SBB; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_RABe_524_4_SBB, 4804)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RABE_524_4_SBB);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2020,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 22 ;
+						loading_speed:					13;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						3536 hp;
+						weight: 						131 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_RABe_524_4_graphics_SBB;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_RABe_524_4;
+			articulated_part				: switch_articulated_SBB_RABe_524_4_SBB;
+			visual_effect_and_powered		: switch_FX_SBB_RABe_524_4;
+			purchase						: spriteset_SBB_RABe_524_purchase_SBB;
+			cost_factor						: 224;
+			running_cost_factor				: switch_running_cost_SBB_RABe_524_4;
+			
+			}
+	}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_RABe_524_6, 1){
+							return 3550;}
+							
+					switch(FEAT_TRAINS, SELF, switch_length_SBB_RABe_524_6, position_in_vehid_chain % 14) {
+							0: 4;
+							1: 3;
+							2: 4;
+							3: 4;
+							4: 6;
+							5: 4;
+							6: 6;
+							7: 4;
+							8: 6;
+							9: 4;
+						   10: 6;																				
+						   11: 4;
+						   12: 3;
+						   13: 4;}
+
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_RABe_524_6_front, position_in_vehid_chain % 14) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							3: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);														
+							4: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							5: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							6: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							7: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);								
+							8: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							9: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+						   10: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+						   11: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);								
+						   12: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+						   13: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}	
+
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_RABe_524_6_back, position_in_vehid_chain % 14) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							3: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);														
+							4: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							5: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							6: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							7: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);								
+							8: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							9: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+						   10: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);
+						   11: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);								
+						   12: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+						   13: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+																				
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_RABe_524_6, vehicle_is_reversed) {
+							0: switch_FX_SBB_RABe_524_6_front;
+								switch_FX_SBB_RABe_524_6_back;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_RABe_524_4_TILO_front, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_RABe_524_back_TILO;
+								switch_spritestack_SBB_RABe_524_front_TILO_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_RABe_524_4_TILO_middle4, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_RABe_524_middle4_TILO;
+								switch_spritestack_SBB_RABe_524_middle1_TILO_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_RABe_524_4_TILO_middle3, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_RABe_524_middle3_TILO;
+								switch_spritestack_SBB_RABe_524_middle2_TILO_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_RABe_524_4_TILO_middle2, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_RABe_524_middle2_TILO;
+								switch_spritestack_SBB_RABe_524_middle3_TILO_REV;}								
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_RABe_524_4_TILO_middle1, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_RABe_524_middle1_TILO;
+								switch_spritestack_SBB_RABe_524_middle4_TILO_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_RABe_524_4_TILO_back, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_RABe_524_front_TILO;
+								switch_spritestack_SBB_RABe_524_back_TILO_REV;}
+																						
+							
+					switch(FEAT_TRAINS, SELF, switch_SBB_RABe_524_6_graphics_TILO, position_in_vehid_chain % 14) {
+							0:	   spriteset_empty;
+							1:     switch_reverse_SBB_RABe_524_4_TILO_front;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     switch_reverse_SBB_RABe_524_4_TILO_middle4;
+							5:	   spriteset_empty;
+							6:     switch_reverse_SBB_RABe_524_4_TILO_middle3;	
+							7:	   spriteset_empty;
+							8:     switch_reverse_SBB_RABe_524_4_TILO_middle2;
+							9:	   spriteset_empty;
+						   10:     switch_reverse_SBB_RABe_524_4_TILO_middle1;																				
+						   11:	   spriteset_empty;
+						   12:	   switch_reverse_SBB_RABe_524_4_TILO_back;
+						   13:	   spriteset_empty;}								
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_RABe_524_6_TILO, extra_callback_info1) {
+						1 .. 13: return ITEM_SBB_RABe_524_6_TILO; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_RABe_524_6_TILO, 4808)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RABE_524_6_TILO);
+						variant_group:					4804;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2020,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 23 ;
+						loading_speed:					13;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						3536 hp;
+						weight: 						170 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_RABe_524_6_graphics_TILO;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_RABe_524_6;
+			articulated_part				: switch_articulated_SBB_RABe_524_6_TILO;
+			visual_effect_and_powered		: switch_FX_SBB_RABe_524_6;
+			purchase						: spriteset_SBB_RABe_524_purchase_TILO;
+			cost_factor						: 350;
+			running_cost_factor				: switch_running_cost_SBB_RABe_524_6;
+			
+			}
+	}
+
+
+//Switches for new 3-part
+
+
+					switch(FEAT_TRAINS, SELF, switch_length_SBB_RABe_524_3, position_in_vehid_chain % 8) {
+							0: 4;
+							1: 3;
+							2: 4;
+							3: 4;
+							4: 6;						
+							5: 4;
+							6: 3;
+							7: 4;}
+																
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_RABe_524_3, 1){
+							return 2150;}
+							
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_RABe_524_3_front, position_in_vehid_chain % 8) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);
+							3: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							4: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							5: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 0, DISABLE_WAGON_POWER);								
+							6: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							7: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+							
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_RABe_524_3_back, position_in_vehid_chain % 8) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							3: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							4: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							5: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -2, DISABLE_WAGON_POWER);								
+							6: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							7: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+																				
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_RABe_524_3, vehicle_is_reversed) {
+							0: switch_FX_SBB_RABe_524_3_front;
+								switch_FX_SBB_RABe_524_3_back;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_RABe_524_4_Thurbo_front, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_RABe_524_back_Thurbo;
+								switch_spritestack_SBB_RABe_524_front_Thurbo_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_RABe_524_4_Thurbo_middle1, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_RABe_524_middle1_Thurbo;
+								switch_spritestack_SBB_RABe_524_middle1_Thurbo_REV;}								
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_RABe_524_4_Thurbo_back, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_RABe_524_front_Thurbo;
+								switch_spritestack_SBB_RABe_524_back_Thurbo_REV;}
+															
+					switch(FEAT_TRAINS, SELF, switch_SBB_RABe_524_3_graphics_Thurbo, position_in_vehid_chain % 8) {
+							0:	   spriteset_empty;
+							1:     switch_reverse_SBB_RABe_524_4_Thurbo_front;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     switch_reverse_SBB_RABe_524_4_Thurbo_middle1;						
+							5:	   spriteset_empty;
+							6:	   switch_reverse_SBB_RABe_524_4_Thurbo_back;
+							7:	   spriteset_empty;}	
+							
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_RABe_524_3_Thurbo, extra_callback_info1) {
+						1 .. 7: return ITEM_SBB_RABE_524_3_THURBO; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}											
+
+item (FEAT_TRAINS , ITEM_SBB_RABE_524_3_THURBO, 4811)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RABE_524_3_THURBO);
+						variant_group:					4804;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2024,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 23 ;
+						loading_speed:					13;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						3536 hp;
+						weight: 						170 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_RABe_524_3_graphics_Thurbo;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_RABe_524_3;
+			articulated_part				: switch_articulated_SBB_RABe_524_3_Thurbo;
+			visual_effect_and_powered		: switch_FX_SBB_RABe_524_3;
+			purchase						: spriteset_SBB_RABe_524_purchase_Thurbo;
+			cost_factor						: 350;
+			running_cost_factor				: switch_running_cost_SBB_RABe_524_3;
+			
+			}
+	}

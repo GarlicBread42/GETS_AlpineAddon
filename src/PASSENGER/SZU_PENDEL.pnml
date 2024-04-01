@@ -1,0 +1,1230 @@
+//###############################
+//### SZU "Pendelzug" Coaches ###
+//###############################
+
+//Spriteset rot, oranger Streifen
+
+spriteset(spriteset_SZU_PENDEL_orange, "gfx/SZU_PENDEL/SZU_PENDEL_orange_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_orange_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_orange_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_orange, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_orange_2x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_orange_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_orange_4x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_orange_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SZU_PENDEL_orange_loading, "gfx/SZU_PENDEL/SZU_PENDEL_orange_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_orange_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_orange_loading_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_orange_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_orange_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_orange_loading_2x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_orange_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_orange_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_orange_loading_4x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_orange_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SZU_PENDEL_orange_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SZU_PENDEL_orange_loading];}		
+		
+//Spriteset rot
+
+spriteset(spriteset_SZU_PENDEL_rot, "gfx/SZU_PENDEL/SZU_PENDEL_rot_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_rot_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_rot_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_rot_2x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_rot_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_rot_4x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_rot_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SZU_PENDEL_rot_loading, "gfx/SZU_PENDEL/SZU_PENDEL_rot_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_rot_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_rot_loading_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_rot_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_rot_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_rot_loading_2x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_rot_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_rot_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_rot_loading_4x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_rot_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SZU_PENDEL_rot_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SZU_PENDEL_rot_loading];}									
+
+
+//Spriteset weiße Tür
+
+spriteset(spriteset_SZU_PENDEL_weiss, "gfx/SZU_PENDEL/SZU_PENDEL_weiss_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_weiss, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_weiss_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_weiss_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_weiss, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_weiss_2x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_weiss_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_weiss, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_weiss_4x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_weiss_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SZU_PENDEL_weiss_loading, "gfx/SZU_PENDEL/SZU_PENDEL_weiss_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_weiss_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_weiss_loading_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_weiss_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_weiss_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_weiss_loading_2x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_weiss_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_weiss_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_weiss_loading_4x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_weiss_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SZU_PENDEL_weiss_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SZU_PENDEL_weiss_loading];}	
+
+
+//Spriteset rot, oranger Streifen
+
+spriteset(spriteset_SZU_PENDEL_DVT_orange, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_orange, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_2x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_4x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SZU_PENDEL_DVT_orange_loading, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_orange_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_loading_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_orange_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_loading_2x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_orange_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_loading_4x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SZU_PENDEL_DVT_orange_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SZU_PENDEL_DVT_orange_loading];}		
+		
+//Spriteset rot
+
+spriteset(spriteset_SZU_PENDEL_DVT_rot, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_2x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_4x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SZU_PENDEL_DVT_rot_loading, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_rot_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_loading_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_rot_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_loading_2x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_rot_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_loading_4x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SZU_PENDEL_DVT_rot_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SZU_PENDEL_DVT_rot_loading];}									
+
+
+//Spriteset weiße Tür
+
+spriteset(spriteset_SZU_PENDEL_DVT_weiss, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_weiss, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_weiss, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_2x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_weiss, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_4x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SZU_PENDEL_DVT_weiss_loading, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_weiss_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_loading_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_weiss_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_loading_2x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_weiss_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_loading_4x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SZU_PENDEL_DVT_weiss_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SZU_PENDEL_DVT_weiss_loading];}	
+		
+//Spritesets purchase
+
+spriteset(spriteset_SZU_PENDEL_orange_purchase, "gfx/SZU_PENDEL/SZU_PENDEL_orange_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_orange_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_orange_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_orange_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SZU_PENDEL_rot_purchase, "gfx/SZU_PENDEL/SZU_PENDEL_rot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_rot_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_rot_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_rot_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SZU_PENDEL_weiss_purchase, "gfx/SZU_PENDEL/SZU_PENDEL_weiss_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_weiss_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_weiss_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_weiss_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SZU_PENDEL_DVT_orange_purchase, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_orange_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_orange_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SZU_PENDEL_DVT_rot_purchase, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_rot_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_rot_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SZU_PENDEL_DVT_weiss_purchase, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SZU_PENDEL_DVT_weiss_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_1x_32bpp.png", "gfx/SZU_PENDEL/SZU_PENDEL_DVT_weiss_1x_mask.png")
+									{template_purchase(0, 0)}
+
+									
+//Switches
+						
+						switch (FEAT_TRAINS,SELF, switch_purchase_SZU_PENDEL,current_year){
+							   0 .. 1992: spriteset_SZU_PENDEL_orange_purchase;
+							1993 .. 2013: spriteset_SZU_PENDEL_rot_purchase;
+							2014 .. 2050: spriteset_SZU_PENDEL_weiss_purchase;															 					 
+								spriteset_SZU_PENDEL_weiss_purchase;}	
+
+						switch (FEAT_TRAINS,SELF, switch_purchase_SZU_PENDEL_DVT,current_year){
+							   0 .. 1992: spriteset_SZU_PENDEL_DVT_orange_purchase;
+							1993 .. 2013: spriteset_SZU_PENDEL_DVT_rot_purchase;
+							2014 .. 2050: spriteset_SZU_PENDEL_DVT_weiss_purchase;															 					 
+								spriteset_SZU_PENDEL_DVT_weiss_purchase;}
+																
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SZU_PENDEL_orange, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SZU_PENDEL_orange;
+							1: spritegroup_SZU_PENDEL_orange_loading;}
+															
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SZU_PENDEL_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SZU_PENDEL_rot;
+							1: spritegroup_SZU_PENDEL_rot_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SZU_PENDEL_weiss, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SZU_PENDEL_weiss;
+							1: spritegroup_SZU_PENDEL_weiss_loading;}																		
+								
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SZU_PENDEL_DVT_orange, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SZU_PENDEL_DVT_orange;
+							1: spritegroup_SZU_PENDEL_DVT_orange_loading;}
+															
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SZU_PENDEL_DVT_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SZU_PENDEL_DVT_rot;
+							1: spritegroup_SZU_PENDEL_DVT_rot_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SZU_PENDEL_DVT_weiss, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SZU_PENDEL_DVT_weiss;
+							1: spritegroup_SZU_PENDEL_DVT_weiss_loading;}							
+							   
+						switch(FEAT_TRAINS, SELF, switch_length_SZU_PENDEL, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 6;
+							2: 4;}	
+							
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SZU_PENDEL, 1){
+							return 1500;}
+								
+						switch (FEAT_TRAINS,SELF, switch_build_year_SZU_PENDEL,build_year){
+							   0 .. 1992: switch_loadstack_SZU_PENDEL_orange;
+							1993 .. 2013: switch_loadstack_SZU_PENDEL_rot;
+							2014 .. 2050: switch_loadstack_SZU_PENDEL_weiss;															 					 
+								switch_loadstack_SZU_PENDEL_weiss;}
+								
+						switch (FEAT_TRAINS,SELF, switch_build_year_SZU_PENDEL_DVT,build_year){
+							   0 .. 1992: switch_loadstack_SZU_PENDEL_DVT_orange;
+							1993 .. 2013: switch_loadstack_SZU_PENDEL_DVT_rot;
+							2014 .. 2050: switch_loadstack_SZU_PENDEL_DVT_weiss;															 					 
+								switch_loadstack_SZU_PENDEL_DVT_weiss;}								
+																
+						switch(FEAT_TRAINS, SELF, switch_DVT_SZU_PENDEL_build, position_in_consist_from_end) {
+							1: return switch_build_year_SZU_PENDEL_DVT;
+								default: return switch_build_year_SZU_PENDEL;}								
+															
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_build, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_DVT_SZU_PENDEL_build;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_build, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_PENDEL_BUILD;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_BUILD, 6987)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_build;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_build;
+			purchase						: switch_purchase_SZU_PENDEL;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			}
+		}
+
+								
+						switch (FEAT_TRAINS,SELF, switch_current_year_SZU_PENDEL,current_year){
+							   0 .. 1992: switch_loadstack_SZU_PENDEL_orange;
+							1993 .. 2013: switch_loadstack_SZU_PENDEL_rot;
+							2014 .. 2050: switch_loadstack_SZU_PENDEL_weiss;															 					 
+								switch_loadstack_SZU_PENDEL_weiss;}
+								
+						switch (FEAT_TRAINS,SELF, switch_current_year_SZU_PENDEL_DVT,current_year){
+							   0 .. 1992: switch_loadstack_SZU_PENDEL_DVT_orange;
+							1993 .. 2013: switch_loadstack_SZU_PENDEL_DVT_rot;
+							2014 .. 2050: switch_loadstack_SZU_PENDEL_DVT_weiss;															 					 
+								switch_loadstack_SZU_PENDEL_DVT_weiss;}								
+																
+						switch(FEAT_TRAINS, SELF, switch_DVT_SZU_PENDEL_current, position_in_consist_from_end) {
+							1: return switch_current_year_SZU_PENDEL_DVT;
+								default: return switch_current_year_SZU_PENDEL;}								
+															
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_current, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_DVT_SZU_PENDEL_current;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_current, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_PENDEL_CURRENT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_CURRENT, 6988)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_CURRENT);
+						variant_group:					6987;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_current;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_current;
+			purchase						: switch_purchase_SZU_PENDEL;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_DVT_SZU_PENDEL_orange, position_in_consist_from_end) {
+							1: return switch_loadstack_SZU_PENDEL_DVT_orange;
+								default: return switch_loadstack_SZU_PENDEL_orange;}								
+															
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_orange, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_DVT_SZU_PENDEL_orange;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_orange, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_PENDEL_ORANGE;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_ORANGE, 6989)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_ORANGE);
+						variant_group:					6987;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_orange;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_orange;
+			purchase						: spriteset_SZU_PENDEL_orange_purchase;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_DVT_SZU_PENDEL_rot, position_in_consist_from_end) {
+							1: return switch_loadstack_SZU_PENDEL_DVT_rot;
+								default: return switch_loadstack_SZU_PENDEL_rot;}								
+															
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_rot, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_DVT_SZU_PENDEL_rot;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_rot, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_PENDEL_ROT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_ROT, 6990)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_ROT);
+						variant_group:					6987;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1993,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_rot;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_rot;
+			purchase						: spriteset_SZU_PENDEL_rot_purchase;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			}
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_DVT_SZU_PENDEL_weiss, position_in_consist_from_end) {
+							1: return switch_loadstack_SZU_PENDEL_DVT_weiss;
+								default: return switch_loadstack_SZU_PENDEL_weiss;}								
+															
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_weiss, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_DVT_SZU_PENDEL_weiss;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_weiss, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_PENDEL_WEISS;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_WEISS, 6991)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_WEISS);
+						variant_group:					6987;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2014,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_weiss;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_weiss;
+			purchase						: spriteset_SZU_PENDEL_weiss_purchase;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			}
+		}
+
+
+//DVT's
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_DVT_build, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_SZU_PENDEL_DVT;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_DVT_build, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_PENDEL_DVT_BUILD;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_DVT_BUILD, 7950)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_DVT_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_DVT_build;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_DVT_build;
+			purchase						: switch_purchase_SZU_PENDEL_DVT;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			}
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_DVT_current, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_SZU_PENDEL_DVT;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_DVT_current, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_PENDEL_DVT_CURRENT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_DVT_CURRENT, 7951)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_DVT_CURRENT);
+						variant_group:					7950;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_DVT_current;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_DVT_current;
+			purchase						: switch_purchase_SZU_PENDEL_DVT;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			}
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_DVT_orange, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SZU_PENDEL_DVT_orange;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_DVT_orange, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_PENDEL_DVT_ORANGE;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_DVT_ORANGE, 7952)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_DVT_ORANGE);
+						variant_group:					7950;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_DVT_orange;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_DVT_orange;
+			purchase						: spriteset_SZU_PENDEL_DVT_orange_purchase;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			}
+		}
+		
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_DVT_rot, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SZU_PENDEL_DVT_rot;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_DVT_rot, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_PENDEL_DVT_ROT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_DVT_ROT, 7953)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_DVT_ROT);
+						variant_group:					7950;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW,);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1993,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_DVT_rot;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_DVT_rot;
+			purchase						: spriteset_SZU_PENDEL_DVT_rot_purchase;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_DVT_weiss, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SZU_PENDEL_DVT_weiss;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_DVT_weiss, extra_callback_info1) {
+							1 .. 2: return ITEM_SZU_PENDEL_DVT_WEISS;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_DVT_WEISS, 7954)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_DVT_WEISS);
+						variant_group:					7950;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2014,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_DVT_weiss;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_DVT_weiss;
+			purchase						: spriteset_SZU_PENDEL_DVT_weiss_purchase;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			}
+		}
+		
+//Half-Baggage Coaches		
+
+						switch(FEAT_TRAINS, SELF, switch_cargo_capacity_SZU_PENDEL_BD, cargo_type_in_veh ) {
+							PASS: 25;
+							TOUR: 25;
+						    MAIL: 25;
+						    GOOD: 25;
+						    VALU: 25;}												
+															
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_BD_build, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_SZU_PENDEL;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_BD_build, extra_callback_info1) {
+							0: return ITEM_SZU_PENDEL_BD_BUILD;
+							1: return ITEM_SZU_PENDEL_BD_BUILD;
+							2: return ITEM_MAIL_25;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_BD_BUILD, 7795)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_BD_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_BD_build;
+			additional_text					: string(STR_DESC_HALFBAGG);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_BD_build;
+			purchase						: switch_purchase_SZU_PENDEL;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			cargo_capacity					: switch_cargo_capacity_SZU_PENDEL_BD;
+			}
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_BD_current, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_SZU_PENDEL;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_BD_current, extra_callback_info1) {
+							0: return ITEM_SZU_PENDEL_BD_CURRENT;
+							1: return ITEM_SZU_PENDEL_BD_CURRENT;
+							2: return ITEM_MAIL_25;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_BD_CURRENT, 7796)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_BD_CURRENT);
+						variant_group:					7795;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_BD_current;
+			additional_text					: string(STR_DESC_HALFBAGG);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_BD_current;
+			purchase						: switch_purchase_SZU_PENDEL;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			cargo_capacity					: switch_cargo_capacity_SZU_PENDEL_BD;
+			}
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_BD_orange, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SZU_PENDEL_orange;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_BD_orange, extra_callback_info1) {
+							0: return ITEM_SZU_PENDEL_BD_ORANGE;
+							1: return ITEM_SZU_PENDEL_BD_ORANGE;
+							2: return ITEM_MAIL_25;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_BD_ORANGE, 7797)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_BD_ORANGE);
+						variant_group:					7795;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_BD_orange;
+			additional_text					: string(STR_DESC_HALFBAGG);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_BD_orange;
+			purchase						: spriteset_SZU_PENDEL_orange_purchase;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			cargo_capacity					: switch_cargo_capacity_SZU_PENDEL_BD;
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_BD_rot, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SZU_PENDEL_rot;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_BD_rot, extra_callback_info1) {
+							0: return ITEM_SZU_PENDEL_BD_ROT;
+							1: return ITEM_SZU_PENDEL_BD_ROT;
+							2: return ITEM_MAIL_25;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_BD_ROT, 7798)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_BD_ROT);
+						variant_group:					7795;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW,);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1993,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_BD_rot;
+			additional_text					: string(STR_DESC_HALFBAGG);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_BD_rot;
+			purchase						: spriteset_SZU_PENDEL_rot_purchase;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			cargo_capacity					: switch_cargo_capacity_SZU_PENDEL_BD;
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SZU_PENDEL_BD_weiss, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SZU_PENDEL_weiss;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_BD_weiss, extra_callback_info1) {
+							0: return ITEM_SZU_PENDEL_BD_WEISS;
+							1: return ITEM_SZU_PENDEL_BD_WEISS;
+							2: return ITEM_MAIL_25;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SZU_PENDEL_BD_WEISS, 7799)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SZU_PENDEL_BD_WEISS);
+						variant_group:					7795;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2014,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					25;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SZU_PENDEL_BD_weiss;
+			additional_text					: string(STR_DESC_HALFBAGG);
+			length							: switch_length_SZU_PENDEL;
+			articulated_part				: switch_articulated_SZU_PENDEL_BD_weiss;
+			purchase						: spriteset_SZU_PENDEL_weiss_purchase;
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_SZU_PENDEL;
+			cargo_capacity					: switch_cargo_capacity_SZU_PENDEL_BD;
+			}
+		}

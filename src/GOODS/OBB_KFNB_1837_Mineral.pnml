@@ -1,0 +1,148 @@
+//#############################
+//###KFNB 1860 Mineral Wagon###
+//#############################			
+	
+//Spriteset
+
+spriteset (spriteset_OBB_KFNB_1860_Mineral, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_1x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_1x_mask.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_2x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_2x_mask.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_4x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_4x_mask.png")
+						{template_48trains_4x(0, 0)}		
+		
+//Spriteset loading		
+				
+spriteset (spriteset_OBB_KFNB_1860_Mineral_load_0, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_0_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_0_1x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_0_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_0_2x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_0_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_0_4x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_0_4x_mask.png")
+					{template_48trains_4x(0,0)}						
+
+spriteset (spriteset_OBB_KFNB_1860_Mineral_load_25, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_25_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_25, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_25_1x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_25_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_25_2x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_25_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_25_4x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_25_4x_mask.png")
+					{template_48trains_4x(0,0)}	
+					
+spriteset (spriteset_OBB_KFNB_1860_Mineral_load_50, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_50_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_50_1x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_50_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_50_2x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_50_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_50_4x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_50_4x_mask.png")
+					{template_48trains_4x(0,0)}	
+					
+spriteset (spriteset_OBB_KFNB_1860_Mineral_load_75, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_75_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_75, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_75_1x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_75_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_75_2x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_75_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_75_4x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_75_4x_mask.png")
+					{template_48trains_4x(0,0)}	
+					
+spriteset (spriteset_OBB_KFNB_1860_Mineral_load_100, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_100_1x_8bpp.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_100_1x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_100_1x_mask.png")
+						{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_100_2x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_100_2x_mask.png")
+					{template_48trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_100_4x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_load_100_4x_mask.png")
+					{template_48trains_4x(0,0)}																
+						
+						
+spritegroup spritegroup_OBB_KFNB_1860_Mineral_loading
+		{loaded: 	[spriteset_OBB_KFNB_1860_Mineral_load_0, spriteset_OBB_KFNB_1860_Mineral_load_25, spriteset_OBB_KFNB_1860_Mineral_load_50, spriteset_OBB_KFNB_1860_Mineral_load_75, spriteset_OBB_KFNB_1860_Mineral_load_100];
+			loading: 	[spriteset_OBB_KFNB_1860_Mineral_load_0, spriteset_OBB_KFNB_1860_Mineral_load_25, spriteset_OBB_KFNB_1860_Mineral_load_50, spriteset_OBB_KFNB_1860_Mineral_load_75, spriteset_OBB_KFNB_1860_Mineral_load_100];}
+
+//Spritesets purchase
+
+spriteset (spriteset_OBB_KFNB_1860_Mineral_purchase, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1860_Mineral_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_1x_32bpp.png", "gfx\OBB_KFNB_1860_Mineral/OBB_KFNB_1860_Mineral_1x_mask.png")
+					{template_purchase(0, 0)}
+
+//Switches
+						
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_KFNB_1860_Mineral, 1){
+						return 120;}						
+						
+item (FEAT_TRAINS , ITEM_OBB_KFNB_1860_MINERAL, 8003)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_1860_MINERAL);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1860,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						cargo_allow_refit:              [COAL, IORE, CORE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, COKE, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF, RCYC, SCMT, SCRP, ];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, SALT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					3;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							40 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						5 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					8;
+						ai_engine_rank: 				0;
+						length: 						4;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_OBB_KFNB_1860_Mineral;
+			additional_text				    : string(STR_CONCAT_2, 
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_GOODS),);
+			purchase						: spriteset_OBB_KFNB_1860_Mineral_purchase;
+			cost_factor						: 6;
+			running_cost_factor				: switch_running_cost_OBB_KFNB_1860_Mineral;				
+			
+			 }
+		}

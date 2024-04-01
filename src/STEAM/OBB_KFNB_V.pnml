@@ -1,0 +1,557 @@
+//#######################
+//### KFNB "Olomucia" ###
+//#######################
+
+//Spriteset KFNB ohne Dach
+
+spriteset(spriteset_OBB_KFNB_IXa_KFNB, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_KFNB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_1x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_KFNB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_2x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_KFNB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_4x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+
+//Spriteset KFNB mit Dach
+
+spriteset(spriteset_OBB_KFNB_IXa_KFNB_roofed, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_roofed_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_KFNB_roofed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_roofed_1x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_roofed_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_KFNB_roofed, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_roofed_2x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_roofed_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_KFNB_roofed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_roofed_4x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_roofed_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+									
+//Spriteset kkStb
+
+spriteset(spriteset_OBB_KFNB_IXa_kkstb, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_kkstb_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_kkstb, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_kkstb_1x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_kkstb_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_kkstb, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_kkstb_2x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_kkstb_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_kkstb, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_kkstb_4x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_kkstb_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+									
+//Spritesets animation
+
+spriteset(spriteset_OBB_KFNB_IXa_anim1, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim1_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim1_1x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim1_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim1_2x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim1_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim1_4x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim1_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_KFNB_IXa_anim2, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim2_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim2_1x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim2_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim2_2x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim2_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim2_4x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim2_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_KFNB_IXa_anim3, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim3_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim3_1x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim3_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim3_2x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim3_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim3_4x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim3_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_KFNB_IXa_anim4, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim4_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim4_1x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim4_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim4_2x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim4_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim4_4x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim4_4x_mask.png")
+									{template_58trains_4x(0, 0)}																																													
+
+//Spriteset Tender KFNB
+
+spriteset(spriteset_OBB_KFNB_IXa_Tender_KFNB, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_Tender_KFNB_1x_8bpp.png")
+									{ template_48trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_Tender_KFNB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_Tender_KFNB_1x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_Tender_KFNB_1x_mask.png")
+									{template_48trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_Tender_KFNB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_Tender_KFNB_2x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_Tender_KFNB_2x_mask.png")
+									{template_48trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_Tender_KFNB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_Tender_KFNB_4x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_Tender_KFNB_4x_mask.png")
+									{template_48trains_4x(0, 0)}
+
+
+//Spriteset Tender kkstb
+
+spriteset(spriteset_OBB_KFNB_IXa_Tender_kkstb, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_Tender_kkstb_1x_8bpp.png")
+									{ template_48trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_Tender_kkstb, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_Tender_kkstb_1x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_Tender_kkstb_1x_mask.png")
+									{template_48trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_Tender_kkstb, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_Tender_kkstb_2x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_Tender_kkstb_2x_mask.png")
+									{template_48trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_Tender_kkstb, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_Tender_kkstb_4x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_Tender_kkstb_4x_mask.png")
+									{template_48trains_4x(0, 0)}									
+									
+																																				
+//Spriteset purchase
+
+spriteset(spriteset_OBB_KFNB_IXa_KFNB_purchase, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_KFNB_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_1x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_OBB_KFNB_IXa_KFNB_roofed_purchase, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_roofed_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_KFNB_roofed_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_roofed_1x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_KFNB_roofed_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+spriteset(spriteset_OBB_KFNB_IXa_kkstb_purchase, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_kkstb_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_kkstb_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_kkstb_1x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_kkstb_1x_mask.png")
+									{template_purchase(0, 0)}	
+									
+spriteset(spriteset_OBB_KFNB_IXa_anim_purchase, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim1_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IXa_anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim1_1x_32bpp.png", "gfx/OBB_KFNB_IXa/OBB_KFNB_IXa_anim1_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+																																			
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_KFNB_IXa_KFNB_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_KFNB_IXa_KFNB_purchase;
+							1: spriteset_OBB_KFNB_IXa_anim_purchase;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_KFNB_IXa_KFNB_roofed_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_KFNB_IXa_KFNB_roofed_purchase;
+							1: spriteset_OBB_KFNB_IXa_anim_purchase;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_KFNB_IXa_kkstb_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_KFNB_IXa_kkstb_purchase;
+							1: spriteset_OBB_KFNB_IXa_anim_purchase;}
+							
+						switch (FEAT_TRAINS,SELF, switch_OBB_KFNB_IXa_purchase,current_year){
+							    0 .. 1867: switch_spritestack_OBB_KFNB_IXa_KFNB_purchase;
+							 1868 .. 1908: switch_spritestack_OBB_KFNB_IXa_KFNB_roofed_purchase;	
+							 1909 .. 2050: switch_spritestack_OBB_KFNB_IXa_kkstb_purchase;					 					 
+								switch_spritestack_OBB_KFNB_IXa_kkstb_purchase;}																				
+
+						switch (FEAT_TRAINS, SELF, switch_animation_OBB_KFNB_IXa, motion_counter % 4) {
+							0: spriteset_OBB_KFNB_IXa_anim1;
+							1: spriteset_OBB_KFNB_IXa_anim2;
+							2: spriteset_OBB_KFNB_IXa_anim3;
+							3: spriteset_OBB_KFNB_IXa_anim4;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_KFNB_IXa_KFNB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_KFNB_IXa_KFNB;
+							1: return switch_animation_OBB_KFNB_IXa;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_KFNB_IXa_KFNB_roofed, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_KFNB_IXa_KFNB_roofed;
+							1: return switch_animation_OBB_KFNB_IXa;}		
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_KFNB_IXa_kkstb, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_KFNB_IXa_kkstb;
+							1: return switch_animation_OBB_KFNB_IXa;}																											
+							
+						switch(FEAT_TRAINS, SELF, switch_length_OBB_KFNB_IXa, position_in_articulated_veh % 2) {
+							0: 5;
+							1: 4;}	
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_KFNB_IXa, 1){
+							return 225;}
+							
+						switch(FEAT_TRAINS, SELF, switch_FX_OBB_KFNB_IXa, position_in_vehid_chain % 2) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM,-4, DISABLE_WAGON_POWER);														
+								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}		
+								
+						switch (FEAT_TRAINS,SELF, switch_OBB_KFNB_IXa_Loco_build_year,build_year){
+							    0 .. 1867: switch_spritestack_OBB_KFNB_IXa_KFNB;
+							 1868 .. 1908: switch_spritestack_OBB_KFNB_IXa_KFNB_roofed;	
+							 1909 .. 2050: switch_spritestack_OBB_KFNB_IXa_kkstb;					 					 
+								switch_spritestack_OBB_KFNB_IXa_kkstb;}	
+								
+						switch (FEAT_TRAINS,SELF, switch_OBB_KFNB_IXa_Tender_build_year,build_year){
+							    0 .. 1867: spriteset_OBB_KFNB_IXa_Tender_KFNB;
+							 1868 .. 1908: spriteset_OBB_KFNB_IXa_Tender_KFNB;	
+							 1909 .. 2050: spriteset_OBB_KFNB_IXa_Tender_kkstb;					 					 
+								spriteset_OBB_KFNB_IXa_Tender_kkstb;}																					   
+							   
+					switch(FEAT_TRAINS, SELF, switch_graphics_OBB_KFNB_IXa_build, position_in_vehid_chain % 2) {
+							0:	   return switch_OBB_KFNB_IXa_Loco_build_year;
+							1:     return switch_OBB_KFNB_IXa_Tender_build_year;}					
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_OBB_KFNB_IXa_build, extra_callback_info1) {
+							1: return ITEM_OBB_KFNB_IXA_BUILD; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_OBB_KFNB_IXA_BUILD, 0050)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_IXA_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1865,01,01);
+						model_life: 					40;
+						vehicle_life: 					60;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							45 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						293 hp;
+						weight: 						32 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_graphics_OBB_KFNB_IXa_build;
+			additional_text				   : string(STR_CONCAT_3, 
+											string(STR_GAUGE_STANDARD),
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
+			length						   : switch_length_OBB_KFNB_IXa;
+			articulated_part			   : switch_articulated_OBB_KFNB_IXa_build;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_OBB_KFNB_IXa_purchase;
+			cost_factor					    :6;
+			running_cost_factor				:switch_running_cost_OBB_KFNB_IXa;
+			visual_effect_and_powered		:switch_FX_OBB_KFNB_IXa;
+			
+			}
+	}
+
+
+						switch (FEAT_TRAINS,SELF, switch_OBB_KFNB_IXa_Loco_current_year,current_year){
+							    0 .. 1867: switch_spritestack_OBB_KFNB_IXa_KFNB;
+							 1868 .. 1908: switch_spritestack_OBB_KFNB_IXa_KFNB_roofed;	
+							 1909 .. 2050: switch_spritestack_OBB_KFNB_IXa_kkstb;					 					 
+								switch_spritestack_OBB_KFNB_IXa_kkstb;}	
+								
+						switch (FEAT_TRAINS,SELF, switch_OBB_KFNB_IXa_Tender_current_year,current_year){
+							    0 .. 1867: spriteset_OBB_KFNB_IXa_Tender_KFNB;
+							 1868 .. 1908: spriteset_OBB_KFNB_IXa_Tender_KFNB;	
+							 1909 .. 2050: spriteset_OBB_KFNB_IXa_Tender_kkstb;					 					 
+								spriteset_OBB_KFNB_IXa_Tender_kkstb;}																					   
+							   
+					switch(FEAT_TRAINS, SELF, switch_graphics_OBB_KFNB_IXa_current, position_in_vehid_chain % 2) {
+							0:	   return switch_OBB_KFNB_IXa_Loco_current_year;
+							1:     return switch_OBB_KFNB_IXa_Tender_current_year;}					
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_OBB_KFNB_IXa_current, extra_callback_info1) {
+							1: return ITEM_OBB_KFNB_IXA_CURRENT; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_OBB_KFNB_IXA_CURRENT, 0051)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_IXA_CURRENT);
+						variant_group: 					0050;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1865,01,01);
+						model_life: 					40;
+						vehicle_life: 					60;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							45 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						293 hp;
+						weight: 						32 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_graphics_OBB_KFNB_IXa_current;
+			additional_text				   : string(STR_CONCAT_3, 
+											string(STR_GAUGE_STANDARD),
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
+			length						   : switch_length_OBB_KFNB_IXa;
+			articulated_part			   : switch_articulated_OBB_KFNB_IXa_current;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_OBB_KFNB_IXa_purchase;
+			cost_factor					    :6;
+			running_cost_factor				:switch_running_cost_OBB_KFNB_IXa;
+			visual_effect_and_powered		:switch_FX_OBB_KFNB_IXa;
+			
+			}
+	}																					   
+							   
+					switch(FEAT_TRAINS, SELF, switch_graphics_OBB_KFNB_IXa_KFNB, position_in_vehid_chain % 2) {
+							0:	   return switch_spritestack_OBB_KFNB_IXa_KFNB;
+							1:     spriteset_OBB_KFNB_IXa_Tender_KFNB;}					
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_OBB_KFNB_IXa_KFNB, extra_callback_info1) {
+							1: return ITEM_OBB_KFNB_IXA_KFNB; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_OBB_KFNB_IXA_KFNB, 0052)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_IXA_KFNB);
+						variant_group: 					0050;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1865,01,01);
+						model_life: 					40;
+						vehicle_life: 					60;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							45 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						293 hp;
+						weight: 						32 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_graphics_OBB_KFNB_IXa_KFNB;
+			additional_text				   : string(STR_CONCAT_3, 
+											string(STR_GAUGE_STANDARD),
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
+			length						   : switch_length_OBB_KFNB_IXa;
+			articulated_part			   : switch_articulated_OBB_KFNB_IXa_KFNB;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_spritestack_OBB_KFNB_IXa_KFNB_purchase;
+			cost_factor					    :6;
+			running_cost_factor				:switch_running_cost_OBB_KFNB_IXa;
+			visual_effect_and_powered		:switch_FX_OBB_KFNB_IXa;
+			
+			}
+	}
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_OBB_KFNB_IXa_KFNB_roofed, position_in_vehid_chain % 2) {
+							0:	   return switch_spritestack_OBB_KFNB_IXa_KFNB_roofed;
+							1:     spriteset_OBB_KFNB_IXa_Tender_KFNB;}					
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_OBB_KFNB_IXa_KFNB_roofed, extra_callback_info1) {
+							1: return ITEM_OBB_KFNB_IXA_KFNB_ROOFED; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_OBB_KFNB_IXA_KFNB_ROOFED, 0053)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_IXA_KFNB_ROOFED);
+						variant_group: 					0050;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1868,01,01);
+						model_life: 					40;
+						vehicle_life: 					60;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							45 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						293 hp;
+						weight: 						32 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_graphics_OBB_KFNB_IXa_KFNB_roofed;
+			additional_text				   : string(STR_CONCAT_3, 
+											string(STR_GAUGE_STANDARD),
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
+			length						   : switch_length_OBB_KFNB_IXa;
+			articulated_part			   : switch_articulated_OBB_KFNB_IXa_KFNB_roofed;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_spritestack_OBB_KFNB_IXa_KFNB_roofed_purchase;
+			cost_factor					    :6;
+			running_cost_factor				:switch_running_cost_OBB_KFNB_IXa;
+			visual_effect_and_powered		:switch_FX_OBB_KFNB_IXa;
+			
+			}
+	}
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_OBB_KFNB_IXa_kkstb, position_in_vehid_chain % 2) {
+							0:	   return switch_spritestack_OBB_KFNB_IXa_kkstb;
+							1:     spriteset_OBB_KFNB_IXa_Tender_kkstb;}					
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_OBB_KFNB_IXa_kkstb, extra_callback_info1) {
+							1: return ITEM_OBB_KFNB_IXA_KKSTB; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_OBB_KFNB_IXA_KKSTB, 0054)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_IXA_KKSTB);
+						variant_group: 					0050;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1909,01,01);
+						model_life: 					40;
+						vehicle_life: 					60;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							45 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						293 hp;
+						weight: 						32 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_graphics_OBB_KFNB_IXa_kkstb;
+			additional_text				   : string(STR_CONCAT_3, 
+											string(STR_GAUGE_STANDARD),
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
+			length						   : switch_length_OBB_KFNB_IXa;
+			articulated_part			   : switch_articulated_OBB_KFNB_IXa_kkstb;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_spritestack_OBB_KFNB_IXa_kkstb_purchase;
+			cost_factor					    :6;
+			running_cost_factor				:switch_running_cost_OBB_KFNB_IXa;
+			visual_effect_and_powered		:switch_FX_OBB_KFNB_IXa;
+			
+			}
+	}

@@ -1,0 +1,360 @@
+//########################
+//### SBB "LION" Dosto ###
+//########################
+
+//Spriteset S-Bahn 2. Class
+
+spriteset(spriteset_SBB_LION_B_SBahn, "gfx/SBB_LION/SBB_LION_B_SBahn_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_B_SBahn, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_B_SBahn_1x_32bpp.png", "gfx/SBB_LION/SBB_LION_B_SBahn_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_B_SBahn, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_B_SBahn_2x_32bpp.png", "gfx/SBB_LION/SBB_LION_B_SBahn_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_B_SBahn, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_B_SBahn_4x_32bpp.png", "gfx/SBB_LION/SBB_LION_B_SBahn_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_LION_B_SBahn_loading, "gfx/SBB_LION/SBB_LION_B_SBahn_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_B_SBahn_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_B_SBahn_loading_1x_32bpp.png", "gfx/SBB_LION/SBB_LION_B_SBahn_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_B_SBahn_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_B_SBahn_loading_2x_32bpp.png", "gfx/SBB_LION/SBB_LION_B_SBahn_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_B_SBahn_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_B_SBahn_loading_4x_32bpp.png", "gfx/SBB_LION/SBB_LION_B_SBahn_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_LION_B_SBahn_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_LION_B_SBahn_loading];}									
+
+
+//Spriteset S-Bahn 1./2. Class
+
+spriteset(spriteset_SBB_LION_AB_SBahn, "gfx/SBB_LION/SBB_LION_AB_SBahn_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_AB_SBahn, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_AB_SBahn_1x_32bpp.png", "gfx/SBB_LION/SBB_LION_AB_SBahn_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_AB_SBahn, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_AB_SBahn_2x_32bpp.png", "gfx/SBB_LION/SBB_LION_AB_SBahn_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_AB_SBahn, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_AB_SBahn_4x_32bpp.png", "gfx/SBB_LION/SBB_LION_AB_SBahn_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+	
+		
+//Spriteset ZVV 2. Class
+
+spriteset(spriteset_SBB_LION_B_ZVV, "gfx/SBB_LION/SBB_LION_B_ZVV_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_B_ZVV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_B_ZVV_1x_32bpp.png", "gfx/SBB_LION/SBB_LION_B_ZVV_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_B_ZVV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_B_ZVV_2x_32bpp.png", "gfx/SBB_LION/SBB_LION_B_ZVV_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_B_ZVV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_B_ZVV_4x_32bpp.png", "gfx/SBB_LION/SBB_LION_B_ZVV_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_LION_B_ZVV_loading, "gfx/SBB_LION/SBB_LION_B_ZVV_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_B_ZVV_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_B_ZVV_loading_1x_32bpp.png", "gfx/SBB_LION/SBB_LION_B_ZVV_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_B_ZVV_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_B_ZVV_loading_2x_32bpp.png", "gfx/SBB_LION/SBB_LION_B_ZVV_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_B_ZVV_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_B_ZVV_loading_4x_32bpp.png", "gfx/SBB_LION/SBB_LION_B_ZVV_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_LION_B_ZVV_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_LION_B_ZVV_loading];}									
+
+
+//Spriteset S-Bahn 1./2. Class
+
+spriteset(spriteset_SBB_LION_AB_ZVV, "gfx/SBB_LION/SBB_LION_AB_ZVV_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_AB_ZVV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_AB_ZVV_1x_32bpp.png", "gfx/SBB_LION/SBB_LION_AB_ZVV_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_AB_ZVV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_AB_ZVV_2x_32bpp.png", "gfx/SBB_LION/SBB_LION_AB_ZVV_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_AB_ZVV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_AB_ZVV_4x_32bpp.png", "gfx/SBB_LION/SBB_LION_AB_ZVV_4x_mask.png")
+									{template_158trains_4x(0, 0)}																											
+
+//Spritesets purchase
+
+spriteset(spriteset_SBB_LION_B_SBahn_purchase, "gfx/SBB_LION/SBB_LION_B_SBahn_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_B_SBahn_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_B_SBahn_1x_32bpp.png", "gfx/SBB_LION/SBB_LION_B_SBahn_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_LION_B_ZVV_purchase, "gfx/SBB_LION/SBB_LION_B_ZVV_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_LION_B_ZVV_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_LION/SBB_LION_B_ZVV_1x_32bpp.png", "gfx/SBB_LION/SBB_LION_B_ZVV_1x_mask.png")
+									{template_purchase(0, 0)}
+
+									
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_LION_B_SBahn, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_LION_B_SBahn;
+							1: spritegroup_SBB_LION_B_SBahn_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_LION_AB_SBahn, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_LION_AB_SBahn;
+							1: spritegroup_SBB_LION_B_SBahn_loading;}																		
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_LION_B_ZVV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_LION_B_ZVV;
+							1: spritegroup_SBB_LION_B_ZVV_loading;}								
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_LION_AB_ZVV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_LION_AB_ZVV;
+							1: spritegroup_SBB_LION_B_ZVV_loading;}							
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_LION_SBahn, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_loadstack_SBB_LION_AB_SBahn;
+							2: switch_loadstack_SBB_LION_B_SBahn;
+							3: switch_loadstack_SBB_LION_B_SBahn;
+							   switch_loadstack_SBB_LION_B_SBahn;}			
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_LION_ZVV, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_loadstack_SBB_LION_AB_ZVV;
+							2: switch_loadstack_SBB_LION_B_ZVV;
+							3: switch_loadstack_SBB_LION_B_ZVV;
+							   switch_loadstack_SBB_LION_B_ZVV;}								   						   	
+							   
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_LION, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}	
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_LION, 1){
+							return 3100;}									
+								
+						switch(FEAT_TRAINS, SELF, switch_SBB_LION_SBahn_autoconsist1 , position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_LION_B_SBahn;
+							 4: return switch_loadstack_SBB_LION_AB_SBahn;
+								default: switch_loadstack_SBB_LION_B_SBahn;}															
+																
+						switch(FEAT_TRAINS, SELF, switch_SBB_LION_SBahn_autoconsist2, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_LION_B_SBahn;
+							 4: return switch_loadstack_SBB_LION_AB_SBahn;
+							 7: return switch_loadstack_SBB_LION_B_SBahn;
+							10: return switch_loadstack_SBB_LION_B_SBahn;
+							13: return switch_loadstack_SBB_LION_AB_SBahn;
+								default: switch_loadstack_SBB_LION_B_SBahn;}
+								
+						switch(FEAT_TRAINS, SELF, switch_SBB_LION_SBahn_autoconsist3, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_LION_B_SBahn;
+							 4: return switch_loadstack_SBB_LION_AB_SBahn;
+							 7: return switch_loadstack_SBB_LION_B_SBahn;
+							10: return switch_loadstack_SBB_LION_B_SBahn;
+							13: return switch_loadstack_SBB_LION_AB_SBahn;
+							16: return switch_loadstack_SBB_LION_B_SBahn;
+							19: return switch_loadstack_SBB_LION_B_SBahn;	
+							22: return switch_loadstack_SBB_LION_AB_SBahn;
+							25: return switch_loadstack_SBB_LION_B_SBahn;													
+								default: switch_loadstack_SBB_LION_B_SBahn;}		
+								
+						switch(FEAT_TRAINS, SELF, switch_SBB_LION_SBahn_autoconsist4, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_LION_B_SBahn;
+							 4: return switch_loadstack_SBB_LION_AB_SBahn;
+							 7: return switch_loadstack_SBB_LION_B_SBahn;
+							10: return switch_loadstack_SBB_LION_B_SBahn;
+							13: return switch_loadstack_SBB_LION_B_SBahn;
+							16: return switch_loadstack_SBB_LION_AB_SBahn;
+							19: return switch_loadstack_SBB_LION_B_SBahn;	
+							22: return switch_loadstack_SBB_LION_B_SBahn;
+							25: return switch_loadstack_SBB_LION_AB_SBahn;		
+							27: return switch_loadstack_SBB_LION_B_SBahn;											
+								default: switch_loadstack_SBB_LION_B_SBahn;}															
+								
+						switch (FEAT_TRAINS, SELF, switch_SBB_LION_SBahn_lengthcheck2, num_vehs_in_vehid_chain) {
+						     0 .. 12: switch_SBB_LION_SBahn_autoconsist1;
+						     13 .. 15: switch_SBB_LION_SBahn_autoconsist2;
+						     16 .. 26: switch_SBB_LION_SBahn_autoconsist3;
+								switch_SBB_LION_SBahn_autoconsist4;}						     
+																
+						switch (FEAT_TRAINS,PARENT,switch_SBB_LION_SBahn_enginecheck,(count_veh_id(1606))+(count_veh_id(1607))+(count_veh_id(1608))+(count_veh_id(1609))+(count_veh_id(1610))+(count_veh_id(1611))+(count_veh_id(1612))+(count_veh_id(1613))+(count_veh_id(1614))+(count_veh_id(1615))) {
+							0: random_choose_SBB_LION_SBahn; 
+								switch_SBB_LION_SBahn_lengthcheck2;}
+							
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_LION_SBahn, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_SBB_LION_SBahn_enginecheck;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_LION_SBahn, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_LION_SBAHN;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SBB_LION_SBAHN, 6585)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_LION_SBAHN);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2011,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					50;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_LION_SBahn;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SBB_LION;
+			articulated_part				: switch_articulated_SBB_LION_SBahn;
+			purchase						: spriteset_SBB_LION_B_SBahn_purchase;
+			cost_factor						: 660;
+			running_cost_factor				: switch_running_cost_SBB_LION;
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_LION_ZVV_autoconsist1 , position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_LION_B_ZVV;
+							 4: return switch_loadstack_SBB_LION_AB_ZVV;
+								default: switch_loadstack_SBB_LION_B_ZVV;}															
+																
+						switch(FEAT_TRAINS, SELF, switch_SBB_LION_ZVV_autoconsist2, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_LION_B_ZVV;
+							 4: return switch_loadstack_SBB_LION_AB_ZVV;
+							 7: return switch_loadstack_SBB_LION_B_ZVV;
+							10: return switch_loadstack_SBB_LION_B_ZVV;
+							13: return switch_loadstack_SBB_LION_AB_ZVV;
+								default: switch_loadstack_SBB_LION_B_ZVV;}
+								
+						switch(FEAT_TRAINS, SELF, switch_SBB_LION_ZVV_autoconsist3, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_LION_B_ZVV;
+							 4: return switch_loadstack_SBB_LION_AB_ZVV;
+							 7: return switch_loadstack_SBB_LION_B_ZVV;
+							10: return switch_loadstack_SBB_LION_B_ZVV;
+							13: return switch_loadstack_SBB_LION_AB_ZVV;
+							16: return switch_loadstack_SBB_LION_B_ZVV;
+							19: return switch_loadstack_SBB_LION_B_ZVV;	
+							22: return switch_loadstack_SBB_LION_AB_ZVV;
+							25: return switch_loadstack_SBB_LION_B_ZVV;													
+								default: switch_loadstack_SBB_LION_B_ZVV;}		
+								
+						switch(FEAT_TRAINS, SELF, switch_SBB_LION_ZVV_autoconsist4, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_LION_B_ZVV;
+							 4: return switch_loadstack_SBB_LION_AB_ZVV;
+							 7: return switch_loadstack_SBB_LION_B_ZVV;
+							10: return switch_loadstack_SBB_LION_B_ZVV;
+							13: return switch_loadstack_SBB_LION_B_ZVV;
+							16: return switch_loadstack_SBB_LION_AB_ZVV;
+							19: return switch_loadstack_SBB_LION_B_ZVV;	
+							22: return switch_loadstack_SBB_LION_B_ZVV;
+							25: return switch_loadstack_SBB_LION_AB_ZVV;		
+							27: return switch_loadstack_SBB_LION_B_ZVV;											
+								default: switch_loadstack_SBB_LION_B_ZVV;}									
+								
+						switch (FEAT_TRAINS, SELF, switch_SBB_LION_ZVV_lengthcheck2, num_vehs_in_vehid_chain) {
+						     0 .. 12: switch_SBB_LION_ZVV_autoconsist1;
+						     13 .. 15: switch_SBB_LION_ZVV_autoconsist2;
+						     16 .. 26: switch_SBB_LION_ZVV_autoconsist3;
+								switch_SBB_LION_ZVV_autoconsist4;}					     
+																
+						switch (FEAT_TRAINS,PARENT,switch_SBB_LION_ZVV_enginecheck,(count_veh_id(1606))+(count_veh_id(1607))+(count_veh_id(1608))+(count_veh_id(1609))+(count_veh_id(1610))+(count_veh_id(1611))+(count_veh_id(1612))+(count_veh_id(1613))+(count_veh_id(1614))+(count_veh_id(1615))) {
+							0: random_choose_SBB_LION_ZVV; 
+								switch_SBB_LION_ZVV_lengthcheck2;}
+							
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_LION_ZVV, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_SBB_LION_ZVV_enginecheck;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_LION_ZVV, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_LION_ZVV;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SBB_LION_ZVV, 6586)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_LION_ZVV);
+						variant_group:					6585;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);		
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2011,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						60 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					50;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_LION_ZVV;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_SBB_LION;
+			articulated_part				: switch_articulated_SBB_LION_ZVV;
+			purchase						: spriteset_SBB_LION_B_ZVV_purchase;
+			cost_factor						: 660;
+			running_cost_factor				: switch_running_cost_SBB_LION;
+			}
+		}

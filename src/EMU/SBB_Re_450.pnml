@@ -1,0 +1,1488 @@
+//########################
+//### SBB Re 450 "DPZ" ###
+//########################
+
+//Spriteset front old, blue doors
+
+spriteset(spriteset_SBB_Re_450_front_old_Blue, "gfx/SBB_Re_450/SBB_Re_450_front_old_Blue_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_old_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_old_Blue_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_old_Blue_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_old_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_old_Blue_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_old_Blue_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_old_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_old_Blue_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_old_Blue_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+//Spriteset front old, yellow doors
+
+spriteset(spriteset_SBB_Re_450_front_old_yellow, "gfx/SBB_Re_450/SBB_Re_450_front_old_yellow_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_old_yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_old_yellow_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_old_yellow_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_old_yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_old_yellow_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_old_yellow_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_old_yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_old_yellow_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_old_yellow_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+									
+//Spriteset front old, ZVV-Werbung
+
+spriteset(spriteset_SBB_Re_450_front_old_060, "gfx/SBB_Re_450/SBB_Re_450_front_old_060_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_old_060, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_old_060_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_old_060_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_old_060, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_old_060_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_old_060_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_old_060, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_old_060_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_old_060_4x_mask.png")
+									{template_128trains_4x(0, 0)}									
+
+//Spriteset new front, blue doors
+
+spriteset(spriteset_SBB_Re_450_front_new_Blue, "gfx/SBB_Re_450/SBB_Re_450_front_new_Blue_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_Blue_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_Blue_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_Blue_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_Blue_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_Blue_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_Blue_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+//Spriteset new front, Red doors
+
+spriteset(spriteset_SBB_Re_450_front_new_Red, "gfx/SBB_Re_450/SBB_Re_450_front_new_Red_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_Red_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_Red_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_Red_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_Red_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_Red_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_Red_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+//Spriteset new front, Bernina
+
+spriteset(spriteset_SBB_Re_450_front_new_bernina, "gfx/SBB_Re_450/SBB_Re_450_front_new_bernina_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_bernina, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_bernina_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_bernina_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_bernina, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_bernina_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_bernina_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_bernina, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_bernina_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_bernina_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+
+//Spriteset new front, Ich bin auch ein Tram
+
+spriteset(spriteset_SBB_Re_450_front_new_Tram, "gfx/SBB_Re_450/SBB_Re_450_front_new_Tram_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_Tram, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_Tram_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_Tram_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_Tram, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_Tram_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_Tram_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_Tram, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_Tram_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_Tram_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+									
+//Spriteset new front, 25 Jahre
+
+spriteset(spriteset_SBB_Re_450_front_new_25jahre, "gfx/SBB_Re_450/SBB_Re_450_front_new_25jahre_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_25jahre, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_25jahre_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_25jahre_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_25jahre, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_25jahre_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_25jahre_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_25jahre, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_25jahre_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_25jahre_4x_mask.png")
+									{template_128trains_4x(0, 0)}									
+
+//Spriteset Sihltalbahn
+
+spriteset(spriteset_SBB_Re_450_front_SZU, "gfx/SBB_Re_450/SBB_Re_450_front_SZU_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_SZU, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_SZU_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_SZU_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_SZU, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_SZU_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_SZU_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_SZU, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_SZU_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_SZU_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+																											
+
+//Spriteset 1. Coach, old, yellow doors
+
+spriteset(spriteset_SBB_Re_450_middle1_old_yellow, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_yellow_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_yellow_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_yellow_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_yellow_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_yellow_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_yellow_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_yellow_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_middle1_old_yellow_loading, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_yellow_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_yellow_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_yellow_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_yellow_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_yellow_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_yellow_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_yellow_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_yellow_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_yellow_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_yellow_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_middle1_old_yellow_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_middle1_old_yellow_loading];}	
+
+
+//Spriteset 1. Coach, old, red doors
+
+spriteset(spriteset_SBB_Re_450_middle1_old_red, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_red_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_red_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_red_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_red_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_red_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_red_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_red_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_middle1_old_red_loading, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_red_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_red_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_red_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_red_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_red_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_red_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_red_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_red_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_red_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_red_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_middle1_old_red_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_middle1_old_red_loading];}	
+		
+
+//Spriteset 1. Coach, old, Sihltalbahn
+
+spriteset(spriteset_SBB_Re_450_middle1_old_SZU, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_SZU_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_SZU, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_SZU_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_SZU_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_SZU, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_SZU_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_SZU_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_SZU, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_SZU_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_SZU_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_middle1_old_SZU_loading, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_SZU_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_SZU_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_SZU_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_SZU_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_SZU_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_SZU_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_SZU_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_SZU_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_SZU_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_SZU_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_middle1_old_SZU_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_middle1_old_SZU_loading];}	
+				
+
+//Spriteset 1. Coach, old, ZVV_Werbung
+
+spriteset(spriteset_SBB_Re_450_middle1_old_060, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_060_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_060, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_060_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_060_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_060, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_060_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_060_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_060, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_060_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_060_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_middle1_old_060_loading, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_060_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_060_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_060_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_060_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_060_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_060_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_060_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_old_060_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_old_060_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_old_060_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_middle1_old_060_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_middle1_old_060_loading];}	
+				
+		
+//Spriteset 1. Coach, new, red doors
+
+spriteset(spriteset_SBB_Re_450_middle1_new_red, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_red_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_new_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_red_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_new_red_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_new_red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_red_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_new_red_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_new_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_red_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_new_red_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_middle1_new_red_loading, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_red_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_new_red_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_red_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_new_red_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_new_red_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_red_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_new_red_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_new_red_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_red_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_new_red_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_middle1_new_red_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_middle1_new_red_loading];}	
+		
+
+//Spriteset 1. Coach, new, red doors
+
+spriteset(spriteset_SBB_Re_450_middle1_new_SZU, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_SZU_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_new_SZU, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_SZU_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_new_SZU_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_new_SZU, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_SZU_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_new_SZU_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_new_SZU, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_SZU_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_new_SZU_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_middle1_new_SZU_loading, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_SZU_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_new_SZU_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_SZU_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_new_SZU_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_new_SZU_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_SZU_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_new_SZU_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle1_new_SZU_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle1_new_SZU_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle1_new_SZU_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_middle1_new_SZU_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_middle1_new_SZU_loading];}				
+
+
+
+//Spriteset 2. Coach, old, yellow doors
+
+spriteset(spriteset_SBB_Re_450_middle2_old_yellow, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_yellow_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_old_yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_yellow_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_old_yellow_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_old_yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_yellow_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_old_yellow_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_old_yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_yellow_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_old_yellow_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+//Spriteset 2. Coach, old, red doors
+
+spriteset(spriteset_SBB_Re_450_middle2_old_red, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_red_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_old_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_red_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_old_red_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_old_red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_red_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_old_red_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_old_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_red_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_old_red_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+
+//Spriteset 2. Coach, old, ZVV_Werbung
+
+spriteset(spriteset_SBB_Re_450_middle2_old_060, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_060_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_old_060, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_060_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_old_060_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_old_060, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_060_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_old_060_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_old_060, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_060_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_old_060_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_middle2_old_060_loading, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_060_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_old_060_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_060_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_old_060_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_old_060_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_060_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_old_060_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_old_060_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_old_060_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_old_060_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_middle2_old_060_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_middle2_old_060_loading];}
+											
+//Spriteset 2. Coach, new, red doors
+
+spriteset(spriteset_SBB_Re_450_middle2_new_red, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_red_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_new_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_red_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_new_red_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_new_red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_red_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_new_red_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_new_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_red_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_new_red_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_middle2_new_red_loading, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_red_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_new_red_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_red_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_new_red_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_new_red_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_red_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_new_red_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_new_red_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_red_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_new_red_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_middle2_new_red_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_middle2_new_red_loading];}		
+		
+
+//Spriteset 2. Coach, new, red doors
+
+spriteset(spriteset_SBB_Re_450_middle2_new_SZU, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_SZU_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_new_SZU, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_SZU_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_new_SZU_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_new_SZU, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_SZU_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_new_SZU_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_new_SZU, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_SZU_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_new_SZU_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_middle2_new_SZU_loading, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_SZU_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_new_SZU_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_SZU_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_new_SZU_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_new_SZU_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_SZU_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_new_SZU_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_middle2_new_SZU_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_middle2_new_SZU_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_middle2_new_SZU_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_middle2_new_SZU_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_middle2_new_SZU_loading];}				
+									
+	
+//Spriteset Back, old, yellow doors
+
+spriteset(spriteset_SBB_Re_450_back_old_yellow, "gfx/SBB_Re_450/SBB_Re_450_back_old_yellow_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_yellow_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_yellow_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_yellow_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_yellow_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_yellow_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_yellow_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_back_old_yellow_loading, "gfx/SBB_Re_450/SBB_Re_450_back_old_yellow_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_yellow_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_yellow_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_yellow_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_yellow_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_yellow_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_yellow_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_yellow_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_yellow_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_yellow_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_back_old_yellow_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_back_old_yellow_loading];}																
+
+	
+//Spriteset Back, old, yellow doors
+
+spriteset(spriteset_SBB_Re_450_back_old_red, "gfx/SBB_Re_450/SBB_Re_450_back_old_red_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_red_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_red_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_red_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_red_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_red_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_red_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_back_old_red_loading, "gfx/SBB_Re_450/SBB_Re_450_back_old_red_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_red_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_red_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_red_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_red_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_red_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_red_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_red_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_red_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_red_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_back_old_red_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_back_old_red_loading];}	
+		
+		
+	
+//Spriteset Back, old, yellow doors
+
+spriteset(spriteset_SBB_Re_450_back_new_red, "gfx/SBB_Re_450/SBB_Re_450_back_new_red_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_new_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_new_red_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_new_red_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_new_red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_new_red_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_new_red_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_new_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_new_red_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_new_red_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_back_new_red_loading, "gfx/SBB_Re_450/SBB_Re_450_back_new_red_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_new_red_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_new_red_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_new_red_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_new_red_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_new_red_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_new_red_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_new_red_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_new_red_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_new_red_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_back_new_red_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_back_new_red_loading];}			
+
+
+//Spriteset Back, old, Sihltalbahn
+
+spriteset(spriteset_SBB_Re_450_back_old_SZU, "gfx/SBB_Re_450/SBB_Re_450_back_old_SZU_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_SZU, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_SZU_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_SZU_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_SZU, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_SZU_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_SZU_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_SZU, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_SZU_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_SZU_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_back_old_SZU_loading, "gfx/SBB_Re_450/SBB_Re_450_back_old_SZU_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_SZU_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_SZU_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_SZU_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_SZU_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_SZU_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_SZU_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_SZU_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_SZU_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_SZU_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_back_old_SZU_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_back_old_SZU_loading];}		
+
+
+//Spriteset Back, old, ZVV-Werbung
+
+spriteset(spriteset_SBB_Re_450_back_old_060, "gfx/SBB_Re_450/SBB_Re_450_back_old_060_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_060, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_060_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_060_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_060, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_060_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_060_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_060, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_060_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_060_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_back_old_060_loading, "gfx/SBB_Re_450/SBB_Re_450_back_old_060_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_060_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_060_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_060_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_060_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_060_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_060_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_old_060_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_old_060_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_old_060_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_back_old_060_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_back_old_060_loading];}	
+		
+
+//Spriteset Back, new, Sihltalbahn
+
+spriteset(spriteset_SBB_Re_450_back_new_SZU, "gfx/SBB_Re_450/SBB_Re_450_back_new_SZU_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_new_SZU, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_new_SZU_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_new_SZU_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_new_SZU, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_new_SZU_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_new_SZU_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_new_SZU, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_new_SZU_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_new_SZU_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_back_new_SZU_loading, "gfx/SBB_Re_450/SBB_Re_450_back_new_SZU_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_new_SZU_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_new_SZU_loading_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_new_SZU_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_new_SZU_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_new_SZU_loading_2x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_new_SZU_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_back_new_SZU_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_back_new_SZU_loading_4x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_back_new_SZU_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+																											
+spritegroup spritegroup_SBB_Re_450_back_new_SZU_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Re_450_back_new_SZU_loading];}
+		
+		
+				
+//Spritesets purchase
+
+spriteset(spriteset_SBB_Re_450_front_old_Blue_purchase, "gfx/SBB_Re_450/SBB_Re_450_front_old_Blue_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_old_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_old_Blue_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_old_Blue_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_front_old_yellow_purchase, "gfx/SBB_Re_450/SBB_Re_450_front_old_yellow_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_old_yellow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_old_yellow_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_old_yellow_1x_mask.png")
+									{template_purchase(0, 0)}		
+
+spriteset(spriteset_SBB_Re_450_front_new_Red_purchase, "gfx/SBB_Re_450/SBB_Re_450_front_new_Red_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_Red_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_Red_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_Red_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_front_new_bernina_purchase, "gfx/SBB_Re_450/SBB_Re_450_front_new_bernina_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_new_bernina_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_new_bernina_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_new_bernina_1x_mask.png")
+									{template_purchase(0, 0)}									
+
+spriteset(spriteset_SBB_Re_450_front_SZU_purchase, "gfx/SBB_Re_450/SBB_Re_450_front_SZU_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_SZU_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_SZU_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_SZU_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Re_450_front_old_060_purchase, "gfx/SBB_Re_450/SBB_Re_450_front_old_060_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_450_front_old_060_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_450/SBB_Re_450_front_old_060_1x_32bpp.png", "gfx/SBB_Re_450/SBB_Re_450_front_old_060_1x_mask.png")
+									{template_purchase(0, 0)}
+																											
+//Switches
+
+						switch(FEAT_TRAINS,SELF, switch_purchase_SBB_Re_450, current_year){
+							   0 .. 2010: spriteset_SBB_Re_450_front_old_yellow_purchase;
+							2011 .. 2050: spriteset_SBB_Re_450_front_new_Red_purchase;
+								spriteset_SBB_Re_450_front_new_Red_purchase;}	
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_middle1_old_yellow, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_middle1_old_yellow;
+							1: spritegroup_SBB_Re_450_middle1_old_yellow_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_middle1_old_red, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_middle1_old_red;
+							1: spritegroup_SBB_Re_450_middle1_old_red_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_middle1_new_red, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_middle1_new_red;
+							1: spritegroup_SBB_Re_450_middle1_new_red_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_middle2_old_yellow, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_middle2_old_yellow;
+							1: spritegroup_SBB_Re_450_middle1_old_yellow_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_middle2_old_red, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_middle2_old_red;
+							1: spritegroup_SBB_Re_450_middle1_old_red_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_middle2_new_red, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_middle2_new_red;
+							1: spritegroup_SBB_Re_450_middle2_new_red_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_back_old_yellow, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_back_old_yellow;
+							1: spritegroup_SBB_Re_450_back_old_yellow_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_back_old_red, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_back_old_red;
+							1: spritegroup_SBB_Re_450_back_old_red_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_back_new_red, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_back_new_red;
+							1: spritegroup_SBB_Re_450_back_new_red_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_middle1_old_SZU, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_middle1_old_SZU;
+							1: spritegroup_SBB_Re_450_middle1_old_SZU_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_middle1_new_SZU, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_middle1_new_SZU;
+							1: spritegroup_SBB_Re_450_middle1_new_SZU_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_middle2_new_SZU, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_middle2_new_SZU;
+							1: spritegroup_SBB_Re_450_middle2_new_SZU_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_back_old_SZU, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_back_old_SZU;
+							1: spritegroup_SBB_Re_450_back_old_SZU_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_back_new_SZU, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_back_new_SZU;
+							1: spritegroup_SBB_Re_450_back_new_SZU_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_middle1_old_060, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_middle1_old_060;
+							1: spritegroup_SBB_Re_450_middle1_old_060_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_middle2_old_060, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_middle2_old_060;
+							1: spritegroup_SBB_Re_450_middle2_old_060_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Re_450_back_old_060, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_450_back_old_060;
+							1: spritegroup_SBB_Re_450_back_old_060_loading;}																																													
+
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_Re_450, position_in_vehid_chain % 12) {
+							0: 4;
+							1: 4;
+							2: 4;
+							3: 4;
+							4: 7;
+							5: 4;
+							6: 4;
+							7: 7;
+							8: 4;	
+							9: 4;
+						   10: 7;
+						   11: 4;}														
+
+						switch(FEAT_TRAINS, SELF, switch_FX_SBB_Re_450, position_in_vehid_chain % 12) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);	
+							3 .. 11: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}	
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Re_450, 1){
+							return 3800;}
+							
+					switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_450_front_new, switch_alternative_var_random_bits(1,1)) {
+							1: spriteset_SBB_Re_450_front_new_Blue;
+								spriteset_SBB_Re_450_front_new_Red;}
+								
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_450_front_build_year,build_year){
+							   0 .. 2010: spriteset_SBB_Re_450_front_old_yellow;
+							2011 .. 2050: random_choose_SBB_Re_450_front_new;
+								random_choose_SBB_Re_450_front_new;}															
+								
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_450_middle1_build_year,build_year){
+							   0 .. 2010: switch_loadstack_SBB_Re_450_middle1_old_yellow;
+							2011 .. 2050: switch_loadstack_SBB_Re_450_middle1_new_red;
+								switch_loadstack_SBB_Re_450_middle1_new_red;}
+
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_450_middle2_build_year,build_year){
+							   0 .. 2010: switch_loadstack_SBB_Re_450_middle2_old_yellow;
+							2011 .. 2050: switch_loadstack_SBB_Re_450_middle2_new_red;
+								switch_loadstack_SBB_Re_450_middle2_new_red;}
+								
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_450_back_build_year,build_year){
+							   0 .. 2010: switch_loadstack_SBB_Re_450_back_old_yellow;
+							2011 .. 2050: switch_loadstack_SBB_Re_450_back_new_red;
+								switch_loadstack_SBB_Re_450_back_new_red;}			
+								
+						switch(FEAT_TRAINS, SELF, switch_SBB_Re_450_build_graphics, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_SBB_Re_450_front_build_year;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_SBB_Re_450_middle1_build_year;
+							5:	   spriteset_empty;
+							6:	   spriteset_empty;
+							7:	   return switch_SBB_Re_450_middle2_build_year;
+							8:	   spriteset_empty;
+							9:	   spriteset_empty;
+						   10:	   return switch_SBB_Re_450_back_build_year;
+						   11:	   spriteset_empty;}
+						   
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_450_build, extra_callback_info1) {
+							1 .. 11: return ITEM_SBB_RE_450_BUILD; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_RE_450_BUILD, 4760)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_450_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1989,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity:                 36 ;
+						loading_speed:					15;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						4352 hp;
+						weight: 						254 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.095;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Re_450_build_graphics;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Re_450;
+			articulated_part				: switch_articulated_SBB_Re_450_build;
+			visual_effect_and_powered		: switch_FX_SBB_Re_450;
+			purchase						: switch_purchase_SBB_Re_450;
+			cost_factor						: 290;
+			running_cost_factor				: switch_running_cost_SBB_Re_450;			
+			}
+	}
+
+
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_450_front_current_year,current_year){
+							   0 .. 2010: spriteset_SBB_Re_450_front_old_yellow;
+							2011 .. 2050: random_choose_SBB_Re_450_front_new;
+								random_choose_SBB_Re_450_front_new;}															
+								
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_450_middle1_current_year,current_year){
+							   0 .. 2010: switch_loadstack_SBB_Re_450_middle1_old_yellow;
+							2011 .. 2050: switch_loadstack_SBB_Re_450_middle1_new_red;
+								switch_loadstack_SBB_Re_450_middle1_new_red;}
+
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_450_middle2_current_year,current_year){
+							   0 .. 2010: switch_loadstack_SBB_Re_450_middle2_old_yellow;
+							2011 .. 2050: switch_loadstack_SBB_Re_450_middle2_new_red;
+								switch_loadstack_SBB_Re_450_middle2_new_red;}
+								
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_450_back_current_year,current_year){
+							   0 .. 2010: switch_loadstack_SBB_Re_450_back_old_yellow;
+							2011 .. 2050: switch_loadstack_SBB_Re_450_back_new_red;
+								switch_loadstack_SBB_Re_450_back_new_red;}			
+								
+						switch(FEAT_TRAINS, SELF, switch_SBB_Re_450_current_graphics, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_SBB_Re_450_front_current_year;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_SBB_Re_450_middle1_current_year;
+							5:	   spriteset_empty;
+							6:	   spriteset_empty;
+							7:	   return switch_SBB_Re_450_middle2_current_year;
+							8:	   spriteset_empty;
+							9:	   spriteset_empty;
+						   10:	   return switch_SBB_Re_450_back_current_year;
+						   11:	   spriteset_empty;}
+						   
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_450_current, extra_callback_info1) {
+							1 .. 11: return ITEM_SBB_RE_450_CURRENT; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_RE_450_CURRENT, 4761)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_450_CURRENT);
+						variant_group:					4760;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1989,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity:                 36 ;
+						loading_speed:					15;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						4352 hp;
+						weight: 						254 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.095;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Re_450_current_graphics;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Re_450;
+			articulated_part				: switch_articulated_SBB_Re_450_current;
+			visual_effect_and_powered		: switch_FX_SBB_Re_450;
+			purchase						: switch_purchase_SBB_Re_450;
+			cost_factor						: 290;
+			running_cost_factor				: switch_running_cost_SBB_Re_450;			
+			}
+	}						   													
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Re_450_old_yellow_graphics, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     spriteset_SBB_Re_450_front_old_yellow;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_loadstack_SBB_Re_450_middle1_old_yellow;
+							5:	   spriteset_empty;
+							6:	   spriteset_empty;
+							7:	   return switch_loadstack_SBB_Re_450_middle2_old_yellow;
+							8:	   spriteset_empty;
+							9:	   spriteset_empty;
+						   10:	   return switch_loadstack_SBB_Re_450_back_old_yellow;
+						   11:	   spriteset_empty;}
+						   
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_450_old_yellow, extra_callback_info1) {
+							1 .. 11: return ITEM_SBB_RE_450_OLD_YELLOW; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_RE_450_OLD_YELLOW, 4762)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_450_OLD_YELLOW);
+						variant_group:					4760;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1989,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity:                 36 ;
+						loading_speed:					15;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						4352 hp;
+						weight: 						254 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.095;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Re_450_old_yellow_graphics;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Re_450;
+			articulated_part				: switch_articulated_SBB_Re_450_old_yellow;
+			visual_effect_and_powered		: switch_FX_SBB_Re_450;
+			purchase						: spriteset_SBB_Re_450_front_old_yellow_purchase;
+			cost_factor						: 290;
+			running_cost_factor				: switch_running_cost_SBB_Re_450;			
+			}
+	}
+
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Re_450_old_red_graphics, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     spriteset_SBB_Re_450_front_old_Blue;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_loadstack_SBB_Re_450_middle1_old_red;
+							5:	   spriteset_empty;
+							6:	   spriteset_empty;
+							7:	   return switch_loadstack_SBB_Re_450_middle2_old_red;
+							8:	   spriteset_empty;
+							9:	   spriteset_empty;
+						   10:	   return switch_loadstack_SBB_Re_450_back_old_red;
+						   11:	   spriteset_empty;}
+						   
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_450_old_red, extra_callback_info1) {
+							1 .. 11: return ITEM_SBB_RE_450_OLD_RED; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_RE_450_OLD_RED, 4763)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_450_OLD_RED);
+						variant_group:					4760;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1989,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity:                 36 ;
+						loading_speed:					15;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						4352 hp;
+						weight: 						254 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.095;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Re_450_old_red_graphics;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Re_450;
+			articulated_part				: switch_articulated_SBB_Re_450_old_red;
+			visual_effect_and_powered		: switch_FX_SBB_Re_450;
+			purchase						: spriteset_SBB_Re_450_front_old_Blue_purchase;
+			cost_factor						: 290;
+			running_cost_factor				: switch_running_cost_SBB_Re_450;			
+			}
+	}
+
+
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Re_450_new_red_graphics, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return random_choose_SBB_Re_450_front_new;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_loadstack_SBB_Re_450_middle1_new_red;
+							5:	   spriteset_empty;
+							6:	   spriteset_empty;
+							7:	   return switch_loadstack_SBB_Re_450_middle2_new_red;
+							8:	   spriteset_empty;
+							9:	   spriteset_empty;
+						   10:	   return switch_loadstack_SBB_Re_450_back_new_red;
+						   11:	   spriteset_empty;}
+						   
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_450_new_red, extra_callback_info1) {
+							1 .. 11: return ITEM_SBB_RE_450_NEW_RED; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_RE_450_NEW_RED, 4764)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_450_NEW_RED);
+						variant_group:					4760;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2011,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity:                 36 ;
+						loading_speed:					15;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						4352 hp;
+						weight: 						254 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.095;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Re_450_new_red_graphics;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Re_450;
+			articulated_part				: switch_articulated_SBB_Re_450_new_red;
+			visual_effect_and_powered		: switch_FX_SBB_Re_450;
+			purchase						: spriteset_SBB_Re_450_front_new_Red_purchase;
+			cost_factor						: 290;
+			running_cost_factor				: switch_running_cost_SBB_Re_450;			
+			}
+	}
+
+					switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_450_front_COM, switch_alternative_var_random_bits(1,2)) {
+							1: spriteset_SBB_Re_450_front_new_bernina;
+							2: spriteset_SBB_Re_450_front_new_25jahre;
+							3: spriteset_SBB_Re_450_front_new_bernina;
+								spriteset_SBB_Re_450_front_new_Tram;}
+
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Re_450_new_COM_graphics, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return random_choose_SBB_Re_450_front_COM;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_loadstack_SBB_Re_450_middle1_new_red;
+							5:	   spriteset_empty;
+							6:	   spriteset_empty;
+							7:	   return switch_loadstack_SBB_Re_450_middle2_new_red;
+							8:	   spriteset_empty;
+							9:	   spriteset_empty;
+						   10:	   return switch_loadstack_SBB_Re_450_back_new_red;
+						   11:	   spriteset_empty;}
+						   
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_450_new_COM, extra_callback_info1) {
+							1 .. 11: return ITEM_SBB_RE_450_NEW_COM; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_RE_450_NEW_COM, 4765)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_450_NEW_COM);
+						variant_group:					4760;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2011,01,01);
+						model_life: 					20;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity:                 36 ;
+						loading_speed:					15;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						4352 hp;
+						weight: 						254 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.095;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Re_450_new_COM_graphics;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Re_450;
+			articulated_part				: switch_articulated_SBB_Re_450_new_COM;
+			visual_effect_and_powered		: switch_FX_SBB_Re_450;
+			purchase						: spriteset_SBB_Re_450_front_new_bernina_purchase;
+			cost_factor						: 290;
+			running_cost_factor				: switch_running_cost_SBB_Re_450;			
+			}
+	}
+
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Re_450_old_SZU_graphics, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     spriteset_SBB_Re_450_front_SZU;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_loadstack_SBB_Re_450_middle1_old_SZU;
+							5:	   spriteset_empty;
+							6:	   spriteset_empty;
+							7:	   return switch_loadstack_SBB_Re_450_middle1_old_SZU;
+							8:	   spriteset_empty;
+							9:	   spriteset_empty;
+						   10:	   return switch_loadstack_SBB_Re_450_back_old_SZU;
+						   11:	   spriteset_empty;}
+						   
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_450_old_SZU, extra_callback_info1) {
+							1 .. 11: return ITEM_SBB_RE_450_OLD_SZU; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_450_OLD_SZU, 4766)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_450_OLD_SZU);
+						variant_group:					4760;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2008,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity:                 36 ;
+						loading_speed:					15;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						4352 hp;
+						weight: 						254 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.095;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Re_450_old_SZU_graphics;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Re_450;
+			articulated_part				: switch_articulated_SBB_Re_450_old_SZU;
+			visual_effect_and_powered		: switch_FX_SBB_Re_450;
+			purchase						: spriteset_SBB_Re_450_front_SZU_purchase;
+			cost_factor						: 290;
+			running_cost_factor				: switch_running_cost_SBB_Re_450;			
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Re_450_new_SZU_graphics, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     spriteset_SBB_Re_450_front_SZU;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_loadstack_SBB_Re_450_middle1_new_SZU;
+							5:	   spriteset_empty;
+							6:	   spriteset_empty;
+							7:	   return switch_loadstack_SBB_Re_450_middle2_new_SZU;
+							8:	   spriteset_empty;
+							9:	   spriteset_empty;
+						   10:	   return switch_loadstack_SBB_Re_450_back_new_SZU;
+						   11:	   spriteset_empty;}
+						   
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_450_new_SZU, extra_callback_info1) {
+							1 .. 11: return ITEM_SBB_RE_450_NEW_SZU; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_450_NEW_SZU, 4767)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_450_NEW_SZU);
+						variant_group:					4760;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2011,01,01);
+						model_life: 					20;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity:                 36 ;
+						loading_speed:					15;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						4352 hp;
+						weight: 						254 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.095;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Re_450_new_SZU_graphics;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Re_450;
+			articulated_part				: switch_articulated_SBB_Re_450_new_SZU;
+			visual_effect_and_powered		: switch_FX_SBB_Re_450;
+			purchase						: spriteset_SBB_Re_450_front_SZU_purchase;
+			cost_factor						: 290;
+			running_cost_factor				: switch_running_cost_SBB_Re_450;			
+			}
+	}
+
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Re_450_old_060_graphics, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     spriteset_SBB_Re_450_front_old_060;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_loadstack_SBB_Re_450_middle1_old_060;
+							5:	   spriteset_empty;
+							6:	   spriteset_empty;
+							7:	   return switch_loadstack_SBB_Re_450_middle2_old_060;
+							8:	   spriteset_empty;
+							9:	   spriteset_empty;
+						   10:	   return switch_loadstack_SBB_Re_450_back_old_060;
+						   11:	   spriteset_empty;}
+						   
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_450_old_060, extra_callback_info1) {
+							1 .. 11: return ITEM_SBB_RE_450_OLD_060; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_450_OLD_060, 4768)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_450_OLD_060);
+						variant_group:					4760;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2011,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity:                 36 ;
+						loading_speed:					15;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						4352 hp;
+						weight: 						254 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.095;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Re_450_old_060_graphics;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Re_450;
+			articulated_part				: switch_articulated_SBB_Re_450_old_060;
+			visual_effect_and_powered		: switch_FX_SBB_Re_450;
+			purchase						: spriteset_SBB_Re_450_front_old_060_purchase;
+			cost_factor						: 290;
+			running_cost_factor				: switch_running_cost_SBB_Re_450;			
+			}
+	}

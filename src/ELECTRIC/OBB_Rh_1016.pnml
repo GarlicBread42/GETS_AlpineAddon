@@ -1,0 +1,492 @@
+//################################
+//###ÖBB Rh 1016/1116 "Taurus" ###
+//################################
+
+spriteset(spriteset_OBB_Rh_1016_Pflatsch, "gfx/OBB_Rh_1016/OBB_Rh_1016_Pflatsch_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Pflatsch, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Pflatsch_1x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Pflatsch_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Pflatsch, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Pflatsch_2x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Pflatsch_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Pflatsch, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Pflatsch_4x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Pflatsch_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_Rh_1016_Wort, "gfx/OBB_Rh_1016/OBB_Rh_1016_Wort_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Wort, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Wort_1x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Wort_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Wort, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Wort_2x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Wort_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Wort, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Wort_4x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Wort_4x_mask.png")
+									{ template_128trains_4x(0, 0)}	
+
+spriteset(spriteset_OBB_Rh_1016_Cityjet, "gfx/OBB_Rh_1016/OBB_Rh_1016_Cityjet_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Cityjet, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Cityjet_1x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Cityjet_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Cityjet, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Cityjet_2x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Cityjet_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Cityjet, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Cityjet_4x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Cityjet_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_Rh_1016_Railjet, "gfx/OBB_Rh_1016/OBB_Rh_1016_Railjet_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Railjet, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Railjet_1x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Railjet_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Railjet, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Railjet_2x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Railjet_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Railjet, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Railjet_4x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Railjet_4x_mask.png")
+									{ template_128trains_4x(0, 0)}									
+									
+//Spritesets Purchase
+
+spriteset(spriteset_OBB_Rh_1016_Pflatsch_purchase, "gfx/OBB_Rh_1016/OBB_Rh_1016_Pflatsch_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Pflatsch_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Pflatsch_1x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Pflatsch_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_OBB_Rh_1016_Wort_purchase, "gfx/OBB_Rh_1016/OBB_Rh_1016_Wort_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Wort_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Wort_1x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Wort_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_OBB_Rh_1016_Cityjet_purchase, "gfx/OBB_Rh_1016/OBB_Rh_1016_Cityjet_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Cityjet_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Cityjet_1x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Cityjet_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_OBB_Rh_1016_Railjet_purchase, "gfx/OBB_Rh_1016/OBB_Rh_1016_Railjet_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1016_Railjet_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1016/OBB_Rh_1016_Railjet_1x_32bpp.png", "gfx/OBB_Rh_1016/OBB_Rh_1016_Railjet_1x_mask.png")
+									{ template_purchase(0, 0)}										
+									
+//Switches									
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_OBB_Rh_1016,current_year) {
+							   0 .. 2002 : spriteset_OBB_Rh_1016_Pflatsch_purchase;
+							2003 .. 2050 : spriteset_OBB_Rh_1016_Wort_purchase;
+								spriteset_OBB_Rh_1016_Wort_purchase;}																
+																					
+						switch(FEAT_TRAINS, SELF, switch_length_OBB_Rh_1016, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 4;
+							2: 4;}
+						
+						switch(FEAT_TRAINS, SELF, switch_FX_OBB_Rh_1016, position_in_vehid_chain % 3) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_Rh_1016, 1){
+							return 7300;}						
+
+						switch (FEAT_TRAINS,SELF,switch_build_year_OBB_Rh_1016,build_year) {
+							   0 .. 2002 : spriteset_OBB_Rh_1016_Pflatsch;
+							2003 .. 2050 : spriteset_OBB_Rh_1016_Wort;
+								spriteset_OBB_Rh_1016_Wort;}
+																	
+						switch(FEAT_TRAINS, SELF, switch_OBB_Rh_1016_graphics_build, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_build_year_OBB_Rh_1016;
+							2:	   spriteset_empty;}									
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_1016_build, extra_callback_info1) {
+							1 .. 2: return ITEM_OBB_RH_1016_BUILD;				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+														
+item (FEAT_TRAINS , ITEM_OBB_RH_1016_BUILD, 1028)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_RH_1016_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1999,01,01);
+						model_life:						40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							230 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						88 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.341;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_OBB_Rh_1016_graphics_build;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_UNIVERSAL),);
+			length							: switch_length_OBB_Rh_1016;
+			articulated_part				: switch_articulated_OBB_Rh_1016_build;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: switch_purchase_OBB_Rh_1016;
+			cost_factor						: 320;
+			running_cost_factor				: switch_running_cost_OBB_Rh_1016;
+			visual_effect_and_powered		: switch_FX_OBB_Rh_1016;
+			}
+	}	
+	
+						switch (FEAT_TRAINS,SELF,switch_current_year_OBB_Rh_1016,current_year) {
+							   0 .. 2002 : spriteset_OBB_Rh_1016_Pflatsch;
+							2003 .. 2050 : spriteset_OBB_Rh_1016_Wort;
+								spriteset_OBB_Rh_1016_Wort;}
+																	
+						switch(FEAT_TRAINS, SELF, switch_OBB_Rh_1016_graphics_current, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_current_year_OBB_Rh_1016;
+							2:	   spriteset_empty;}									
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_1016_current, extra_callback_info1) {
+							1 .. 2: return ITEM_OBB_RH_1016_CURRENT;				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+														
+item (FEAT_TRAINS , ITEM_OBB_RH_1016_CURRENT, 1029)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_RH_1016_CURRENT);
+						variant_group:					1028;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1999,01,01);
+						model_life:						40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							230 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						88 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.341;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_OBB_Rh_1016_graphics_current;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_UNIVERSAL),);
+			length							: switch_length_OBB_Rh_1016;
+			articulated_part				: switch_articulated_OBB_Rh_1016_current;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: switch_purchase_OBB_Rh_1016;
+			cost_factor						: 320;
+			running_cost_factor				: switch_running_cost_OBB_Rh_1016;
+			visual_effect_and_powered		: switch_FX_OBB_Rh_1016;
+			}
+	}		
+
+						switch(FEAT_TRAINS, SELF, switch_OBB_Rh_1016_graphics_Pflatsch, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_OBB_Rh_1016_Pflatsch;
+							2:	   spriteset_empty;}									
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_1016_Pflatsch, extra_callback_info1) {
+							1 .. 2: return ITEM_OBB_RH_1016_PFLATSCH;				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+														
+item (FEAT_TRAINS , ITEM_OBB_RH_1016_PFLATSCH, 1030)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_RH_1016_PFLATSCH);
+						variant_group:					1028;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1999,01,01);
+						model_life:						40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							230 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						88 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.341;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_OBB_Rh_1016_graphics_Pflatsch;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_UNIVERSAL),);
+			length							: switch_length_OBB_Rh_1016;
+			articulated_part				: switch_articulated_OBB_Rh_1016_Pflatsch;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_OBB_Rh_1016_Pflatsch_purchase;
+			cost_factor						: 320;
+			running_cost_factor				: switch_running_cost_OBB_Rh_1016;
+			visual_effect_and_powered		: switch_FX_OBB_Rh_1016;
+			}
+	}	
+
+
+						switch(FEAT_TRAINS, SELF, switch_OBB_Rh_1016_graphics_Wort, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_OBB_Rh_1016_Wort;
+							2:	   spriteset_empty;}									
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_1016_Wort, extra_callback_info1) {
+							1 .. 2: return ITEM_OBB_RH_1016_WORT;				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+														
+item (FEAT_TRAINS , ITEM_OBB_RH_1016_WORT, 1031)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_RH_1016_WORT);
+						variant_group:					1028;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1999,01,01);
+						model_life:						40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							230 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						88 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.341;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_OBB_Rh_1016_graphics_Wort;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_UNIVERSAL),);
+			length							: switch_length_OBB_Rh_1016;
+			articulated_part				: switch_articulated_OBB_Rh_1016_Wort;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_OBB_Rh_1016_Wort_purchase;
+			cost_factor						: 320;
+			running_cost_factor				: switch_running_cost_OBB_Rh_1016;
+			visual_effect_and_powered		: switch_FX_OBB_Rh_1016;
+			}
+	}	
+
+
+						switch(FEAT_TRAINS, SELF, switch_OBB_Rh_1016_graphics_Cityjet, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_OBB_Rh_1016_Cityjet;
+							2:	   spriteset_empty;}									
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_1016_Cityjet, extra_callback_info1) {
+							1 .. 2: return ITEM_OBB_RH_1016_CITYJET;				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+														
+item (FEAT_TRAINS , ITEM_OBB_RH_1016_CITYJET, 1032)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_RH_1016_CITYJET);
+						variant_group:					1028;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2015,01,01);
+						model_life:						40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							230 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						88 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.341;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_OBB_Rh_1016_graphics_Cityjet;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_UNIVERSAL),);
+			length							: switch_length_OBB_Rh_1016;
+			articulated_part				: switch_articulated_OBB_Rh_1016_Cityjet;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_OBB_Rh_1016_Cityjet_purchase;
+			cost_factor						: 320;
+			running_cost_factor				: switch_running_cost_OBB_Rh_1016;
+			visual_effect_and_powered		: switch_FX_OBB_Rh_1016;
+			}
+	}	
+
+
+						switch(FEAT_TRAINS, SELF, switch_OBB_Rh_1016_graphics_Railjet, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_OBB_Rh_1016_Railjet;
+							2:	   spriteset_empty;}									
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_1016_Railjet, extra_callback_info1) {
+							1 .. 2: return ITEM_OBB_RH_1016_RAILJET;				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+														
+item (FEAT_TRAINS , ITEM_OBB_RH_1016_RAILJET, 1033)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_RH_1016_RAILJET);
+						variant_group:					1028;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2008,01,01);
+						model_life:						40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							230 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						88 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.341;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_OBB_Rh_1016_graphics_Railjet;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_UNIVERSAL),);
+			length							: switch_length_OBB_Rh_1016;
+			articulated_part				: switch_articulated_OBB_Rh_1016_Railjet;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_OBB_Rh_1016_Railjet_purchase;
+			cost_factor						: 320;
+			running_cost_factor				: switch_running_cost_OBB_Rh_1016;
+			visual_effect_and_powered		: switch_FX_OBB_Rh_1016;
+			}
+	}

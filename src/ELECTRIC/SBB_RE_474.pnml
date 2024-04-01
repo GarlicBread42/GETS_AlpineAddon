@@ -1,0 +1,293 @@
+//#####################################
+//### SBB Re 474 "Siemens ES 64F4"  ###
+//#####################################
+
+spriteset(spriteset_SBB_Re_474_Cargo, "gfx/SBB_Re_474/SBB_Re_474_Cargo_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Cargo_1x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Cargo_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Cargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Cargo_2x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Cargo_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Cargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Cargo_4x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Cargo_4x_mask.png")
+									{template_128trains_4x(0, 0)}	
+									
+									
+spriteset(spriteset_SBB_Re_474_Cargo2, "gfx/SBB_Re_474/SBB_Re_474_Cargo2_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Cargo2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Cargo2_1x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Cargo2_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Cargo2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Cargo2_2x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Cargo2_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Cargo2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Cargo2_4x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Cargo2_4x_mask.png")
+									{template_128trains_4x(0, 0)}	
+										
+									
+spriteset(spriteset_SBB_Re_474_Rastatt, "gfx/SBB_Re_474/SBB_Re_474_Rastatt_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Rastatt, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Rastatt_1x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Rastatt_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Rastatt, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Rastatt_2x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Rastatt_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Rastatt, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Rastatt_4x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Rastatt_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+												
+									
+spriteset(spriteset_SBB_Re_474_Dispo, "gfx/SBB_Re_474/SBB_Re_474_Dispo_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Dispo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Dispo_1x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Dispo_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Dispo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Dispo_2x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Dispo_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Dispo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Dispo_4x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Dispo_4x_mask.png")
+									{template_128trains_4x(0, 0)}																						
+
+//Spriteset purchase
+
+spriteset(spriteset_SBB_Re_474_Cargo_purchase, "gfx/SBB_Re_474/SBB_Re_474_Cargo_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Cargo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Cargo_1x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Cargo_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Re_474_Rastatt_purchase, "gfx/SBB_Re_474/SBB_Re_474_Rastatt_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Rastatt_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Rastatt_1x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Rastatt_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Re_474_Dispo_purchase, "gfx/SBB_Re_474/SBB_Re_474_Dispo_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_474_Dispo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_474/SBB_Re_474_Dispo_1x_32bpp.png", "gfx/SBB_Re_474/SBB_Re_474_Dispo_1x_mask.png")
+									{template_purchase(0, 0)}
+																											
+//Switches
+
+					switch(FEAT_TRAINS, SELF, switch_length_SBB_Re_474, position_in_vehid_chain % 3) {
+						0: 4;
+						1: 4;
+						2: 4;}		
+						
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_Re_474, position_in_vehid_chain % 3) {
+						0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+							return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}													
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Re_474, 1){
+							return 3000;}
+							
+					switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_474_Cargo, switch_alternative_var_random_bits(1,1)) {
+							1: spriteset_SBB_Re_474_Cargo;
+								spriteset_SBB_Re_474_Cargo2;}							
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_474_Cargo, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return random_choose_SBB_Re_474_Cargo;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_474_Cargo, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_RE_474_CARGO; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_474_CARGO, 1684)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_474_CARGO);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2005,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						87 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.345;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_474_Cargo;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_GOODS),);
+			length							:switch_length_SBB_Re_474;
+			articulated_part				:switch_articulated_SBB_Re_474_Cargo;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_474_Cargo_purchase;
+			cost_factor						:202;
+			running_cost_factor				:switch_running_cost_SBB_Re_474;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_474;	
+			}
+	}	
+
+					switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_474_Special, switch_alternative_var_random_bits(1,1)) {
+							1: spriteset_SBB_Re_474_Rastatt;
+								spriteset_SBB_Re_474_Rastatt;}	
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_474_Special, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return random_choose_SBB_Re_474_Special;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_474_Special, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_RE_474_SPECIAL; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_474_SPECIAL, 1685)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_474_SPECIAL);
+						variant_group:					1684;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2005,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						87 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.345;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_474_Special;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_GOODS),);
+			length							:switch_length_SBB_Re_474;
+			articulated_part				:switch_articulated_SBB_Re_474_Special;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_474_Rastatt_purchase;
+			cost_factor						:202;
+			running_cost_factor				:switch_running_cost_SBB_Re_474;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_474;	
+			}
+	}
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_474_Dispo, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     spriteset_SBB_Re_474_Dispo;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_474_Dispo, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_RE_474_DISPO; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_474_DISPO, 1686)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_474_DISPO);
+						variant_group:					1684;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2005,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						87 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.345;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_474_Dispo;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_GOODS),);
+			length							:switch_length_SBB_Re_474;
+			articulated_part				:switch_articulated_SBB_Re_474_Dispo;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_474_Dispo_purchase;
+			cost_factor						:202;
+			running_cost_factor				:switch_running_cost_SBB_Re_474;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_474;	
+			}
+	}

@@ -1,0 +1,128 @@
+//####################################
+//### KFNB First Passenger Coaches ###
+//####################################
+
+//Spriteset A/B First/Second Class
+
+spriteset(spriteset_OBB_KFNB_1873_AB, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1873_AB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_1x_32bpp.png", "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1873_AB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_2x_32bpp.png", "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1873_AB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_4x_32bpp.png", "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+
+spriteset(spriteset_OBB_KFNB_1873_AB_loading, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_loading_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1873_AB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_loading_1x_32bpp.png", "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_loading_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1873_AB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_loading_2x_32bpp.png", "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_loading_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1873_AB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_loading_4x_32bpp.png", "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_loading_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+
+spritegroup spritegroup_OBB_KFNB_1873_AB
+		{loaded: 	[spriteset_OBB_KFNB_1873_AB];
+		loading: 	[spriteset_OBB_KFNB_1873_AB_loading];}	
+
+//Spriteset C Third Class w/ Brakershut
+
+spriteset(spriteset_OBB_KFNB_1873_C, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_C_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1873_C, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_C_1x_32bpp.png", "gfx/OBB_KFNB_1873/OBB_KFNB_1873_C_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1873_C, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_C_2x_32bpp.png", "gfx/OBB_KFNB_1873/OBB_KFNB_1873_C_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1873_C, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_C_4x_32bpp.png", "gfx/OBB_KFNB_1873/OBB_KFNB_1873_C_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+
+spriteset(spriteset_OBB_KFNB_1873_C_loading, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_C_loading_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1873_C_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_C_loading_1x_32bpp.png", "gfx/OBB_KFNB_1873/OBB_KFNB_1873_C_loading_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1873_C_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_C_loading_2x_32bpp.png", "gfx/OBB_KFNB_1873/OBB_KFNB_1873_C_loading_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1873_C_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_C_loading_4x_32bpp.png", "gfx/OBB_KFNB_1873/OBB_KFNB_1873_C_loading_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+
+spritegroup spritegroup_OBB_KFNB_1873_C
+		{loaded: 	[spriteset_OBB_KFNB_1873_C];
+		loading: 	[spriteset_OBB_KFNB_1873_C_loading];}	
+
+
+//Spritesets purchase
+
+spriteset(spriteset_OBB_KFNB_1873_purchase, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1873_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_1x_32bpp.png", "gfx/OBB_KFNB_1873/OBB_KFNB_1873_AB_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+//Switches							
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_OBB_KFNB_1873, switch_alternative_var_random_bits(1, 1)) {
+							1: spritegroup_OBB_KFNB_1873_AB;
+								spritegroup_OBB_KFNB_1873_C;}									   							  					   												
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_KFNB_1873, 1){
+							return 650;}
+																						
+item (FEAT_TRAINS , ITEM_OBB_KFNB_1873, 6003)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_1873);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1873,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					3;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						10 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					38;
+						ai_engine_rank: 				0;
+						length: 						6;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: random_choose_OBB_KFNB_1873;
+			additional_text				    : string(STR_CONCAT_2, 
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_PASS),);
+			purchase						: spriteset_OBB_KFNB_1873_purchase;
+			cost_factor						: 120;
+			running_cost_factor				: switch_running_cost_OBB_KFNB_1873;
+			}
+		}

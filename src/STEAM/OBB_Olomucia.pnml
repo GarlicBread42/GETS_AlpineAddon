@@ -1,0 +1,133 @@
+//#######################
+//### KFNB "Olomucia" ###
+//#######################
+
+//Spriteset Lok
+
+spriteset(spriteset_OBB_Olomucia, "gfx/OBB_Olomucia/OBB_Olomucia_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Olomucia, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Olomucia/OBB_Olomucia_1x_32bpp.png", "gfx/OBB_Olomucia/OBB_Olomucia_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Olomucia, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Olomucia/OBB_Olomucia_2x_32bpp.png", "gfx/OBB_Olomucia/OBB_Olomucia_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Olomucia, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Olomucia/OBB_Olomucia_4x_32bpp.png", "gfx/OBB_Olomucia/OBB_Olomucia_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+
+
+//Spriteset Tender
+
+spriteset(spriteset_OBB_Olomucia_Tender, "gfx/OBB_Olomucia/OBB_Olomucia_Tender_1x_8bpp.png")
+									{ template_48trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Olomucia_Tender, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Olomucia/OBB_Olomucia_Tender_1x_32bpp.png", "gfx/OBB_Olomucia/OBB_Olomucia_Tender_1x_mask.png")
+									{template_48trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Olomucia_Tender, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Olomucia/OBB_Olomucia_Tender_2x_32bpp.png", "gfx/OBB_Olomucia/OBB_Olomucia_Tender_2x_mask.png")
+									{template_48trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Olomucia_Tender, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Olomucia/OBB_Olomucia_Tender_4x_32bpp.png", "gfx/OBB_Olomucia/OBB_Olomucia_Tender_4x_mask.png")
+									{template_48trains_4x(0, 0)}
+																																				
+//Spriteset purchase
+
+spriteset(spriteset_OBB_Olomucia_purchase, "gfx/OBB_Olomucia/OBB_Olomucia_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_OBB_Olomucia_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Olomucia/OBB_Olomucia_1x_32bpp.png", "gfx/OBB_Olomucia/OBB_Olomucia_1x_mask.png")
+									{template_purchase(0, 0)}
+
+									
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Olomucia_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Olomucia_purchase;
+							1: spriteset_OBB_AustriaII_anim_purchase;}
+
+						switch (FEAT_TRAINS, SELF, switch_animation_OBB_Olomucia, motion_counter % 4) {
+							0: spriteset_OBB_AustriaII_anim1;
+							1: spriteset_OBB_AustriaII_anim2;
+							2: spriteset_OBB_AustriaII_anim3;
+							3: spriteset_OBB_AustriaII_anim4;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Olomucia, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Olomucia;
+							1: return switch_animation_OBB_Olomucia;}														
+							
+						switch(FEAT_TRAINS, SELF, switch_length_OBB_Olomucia, position_in_articulated_veh % 2) {
+							0: 5;
+							1: 4;}	
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_Olomucia, 1){
+							return 180;}
+							
+					switch(FEAT_TRAINS, SELF, switch_FX_OBB_Olomucia, position_in_vehid_chain % 2) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM,-2, DISABLE_WAGON_POWER);														
+								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}								   
+							   
+					switch(FEAT_TRAINS, SELF, switch_graphics_OBB_Olomucia, position_in_vehid_chain % 2) {
+							0:	   return switch_spritestack_OBB_Olomucia;
+							1:     spriteset_OBB_Olomucia_Tender;}					
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Olomucia, extra_callback_info1) {
+							1: return ITEM_OBB_OLOMUCIA; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_OBB_OLOMUCIA, 0049)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_OLOMUCIA);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1862,01,01);
+						model_life: 					35;
+						vehicle_life: 					35;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							40 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						232 hp;
+						weight: 						27 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_graphics_OBB_Olomucia;
+			additional_text				   : string(STR_CONCAT_3, 
+											string(STR_GAUGE_STANDARD),
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
+			length						   : switch_length_OBB_Olomucia;
+			articulated_part			   : switch_articulated_OBB_Olomucia;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_spritestack_OBB_Olomucia_purchase;
+			cost_factor					    :5;
+			running_cost_factor				:switch_running_cost_OBB_Olomucia;
+			visual_effect_and_powered		:switch_FX_OBB_Olomucia;
+			
+			}
+	}

@@ -1,0 +1,413 @@
+//###################
+//### SBB Aem 940 ###
+//###################
+
+										
+//Spriteset SBB
+
+spriteset(spriteset_SBB_Aem_940_SBB, "gfx/SBB_Aem_940/SBB_Aem_940_SBB_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_SBB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_SBB_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_SBB_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_SBB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_SBB_2x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_SBB_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_SBB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_SBB_4x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_SBB_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Aem_940_SBB_REV, "gfx/SBB_Aem_940/SBB_Aem_940_SBB_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_SBB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_SBB_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_SBB_1x_mask.png")
+									{template_128trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_SBB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_SBB_2x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_SBB_2x_mask.png")
+									{template_128trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_SBB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_SBB_4x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_SBB_4x_mask.png")
+									{template_128trains_REV_4x(0, 0)}
+
+
+//Spriteset Sersa Rhomberg
+
+spriteset(spriteset_SBB_Aem_940_Sersa, "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Sersa, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Sersa, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_2x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Sersa, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_4x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Aem_940_Sersa_REV, "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Sersa_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_1x_mask.png")
+									{template_128trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Sersa_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_2x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_2x_mask.png")
+									{template_128trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Sersa_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_4x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_4x_mask.png")
+									{template_128trains_REV_4x(0, 0)}
+
+//Spriteset Pantograph
+
+spriteset(spriteset_SBB_Aem_940_Pup, "gfx/SBB_Aem_940/SBB_Aem_940_Pup_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Pup, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Pup_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Pup_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Pup, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Pup_2x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Pup_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Pup, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Pup_4x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Pup_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Aem_940_Pup_REV, "gfx/SBB_Aem_940/SBB_Aem_940_Pup_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Pup_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Pup_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Pup_1x_mask.png")
+									{template_128trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Pup_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Pup_2x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Pup_2x_mask.png")
+									{template_128trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Pup_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Pup_4x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Pup_4x_mask.png")
+									{template_128trains_REV_4x(0, 0)}
+
+spriteset(spriteset_SBB_Aem_940_Pdown, "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Pdown, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Pdown, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_2x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Pdown, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_4x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Aem_940_Pdown_REV, "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Pdown_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_1x_mask.png")
+									{template_128trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Pdown_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_2x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_2x_mask.png")
+									{template_128trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Pdown_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_4x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_4x_mask.png")
+									{template_128trains_REV_4x(0, 0)}	
+									
+//Spriteset lights
+
+spriteset(spriteset_SBB_Aem_940_light_front, "gfx/SBB_Aem_940/SBB_Aem_940_light_front_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_light_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_light_front_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_light_front_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_light_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_light_front_2x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_light_front_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_light_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_light_front_4x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_light_front_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Aem_940_light_front_REV, "gfx/SBB_Aem_940/SBB_Aem_940_light_front_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_light_front_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_light_front_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_light_front_1x_mask.png")
+									{template_128trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_light_front_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_light_front_2x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_light_front_2x_mask.png")
+									{template_128trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_light_front_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_light_front_4x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_light_front_4x_mask.png")
+									{template_128trains_REV_4x(0, 0)}																	
+
+spriteset(spriteset_SBB_Aem_940_light_back, "gfx/SBB_Aem_940/SBB_Aem_940_light_back_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_light_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_light_back_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_light_back_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_light_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_light_back_2x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_light_back_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_light_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_light_back_4x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_light_back_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Aem_940_light_back_REV, "gfx/SBB_Aem_940/SBB_Aem_940_light_back_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_light_back_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_light_back_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_light_back_1x_mask.png")
+									{template_128trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_light_back_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_light_back_2x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_light_back_2x_mask.png")
+									{template_128trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_light_back_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_light_back_4x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_light_back_4x_mask.png")
+									{template_128trains_REV_4x(0, 0)}
+									
+//Spritesets purchase
+									
+
+spriteset(spriteset_SBB_Aem_940_SBB_purchase, "gfx/SBB_Aem_940/SBB_Aem_940_SBB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_SBB_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_SBB_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_SBB_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Aem_940_Sersa_purchase, "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Sersa_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Sersa_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Aem_940_Pdown_purchase, "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Aem_940_Pdown_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_1x_32bpp.png", "gfx/SBB_Aem_940/SBB_Aem_940_Pdown_1x_mask.png")
+									{template_purchase(0, 0)}
+
+
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Aem_940_SBB_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Aem_940_SBB_purchase;
+							1: spriteset_SBB_Aem_940_Pdown_purchase;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Aem_940_Sersa_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Aem_940_Sersa_purchase;
+							1: spriteset_SBB_Aem_940_Pdown_purchase;}
+							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Aem_940_SBB_Pup, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Aem_940_SBB;
+							1: spriteset_SBB_Aem_940_Pup;
+							2: spriteset_SBB_Aem_940_light_front;}							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Aem_940_SBB_Pup_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Aem_940_SBB_REV;
+							1: spriteset_SBB_Aem_940_Pup_REV;
+							2: spriteset_SBB_Aem_940_light_back_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Aem_940_SBB_Pdown, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Aem_940_SBB;
+							1: spriteset_SBB_Aem_940_Pdown;
+							2: spriteset_SBB_Aem_940_light_front;}							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Aem_940_SBB_Pdown_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Aem_940_SBB_REV;
+							1: spriteset_SBB_Aem_940_Pdown_REV;
+							2: spriteset_SBB_Aem_940_light_back_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Aem_940_Sersa_Pup, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Aem_940_Sersa;
+							1: spriteset_SBB_Aem_940_Pup;
+							2: spriteset_SBB_Aem_940_light_front;}							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Aem_940_Sersa_Pup_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Aem_940_Sersa_REV;
+							1: spriteset_SBB_Aem_940_Pup_REV;
+							2: spriteset_SBB_Aem_940_light_back_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Aem_940_Sersa_Pdown, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Aem_940_Sersa;
+							1: spriteset_SBB_Aem_940_Pdown;
+							2: spriteset_SBB_Aem_940_light_front;}							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Aem_940_Sersa_Pdown_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Aem_940_Sersa_REV;
+							1: spriteset_SBB_Aem_940_Pdown_REV;
+							2: spriteset_SBB_Aem_940_light_back_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_Aem_940, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 4;
+							2: 4;}	
+							
+						switch (FEAT_TRAINS, SELF, switch_power_SBB_Aem_940, tile_powers_railtype("AC15")) {
+							1: return 2720;
+							return 1224;}						
+
+						switch(FEAT_TRAINS, SELF, switch_FX_SBB_Aem_940_ELRL, position_in_vehid_chain % 3) {
+							    0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+							1 ..2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+							
+						switch(FEAT_TRAINS, SELF, switch_FX_SBB_Aem_940_RAIL, position_in_vehid_chain % 3) {
+							    0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+							1 ..2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}	
+							
+						switch (FEAT_TRAINS, SELF, switch_FX_SBB_Aem_940, tile_powers_railtype("ELRL")) {
+							1: return switch_FX_SBB_Aem_940_ELRL;
+								switch_FX_SBB_Aem_940_RAIL;}							
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Aem_940, tile_powers_railtype("AC15")){
+							1: return 1075;
+								return 1275;}	
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Aem_940_SBB_Pup, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Aem_940_SBB_Pup;
+								switch_spritestack_SBB_Aem_940_SBB_Pup_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Aem_940_SBB_Pdown, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Aem_940_SBB_Pdown;
+								switch_spritestack_SBB_Aem_940_SBB_Pdown_REV;}
+
+						switch(FEAT_TRAINS,PARENT,switch_graphics_railtype_SBB_Aem_940, tile_powers_railtype("AC15")){
+							1: return switch_reverse_SBB_Aem_940_SBB_Pup;
+								return switch_reverse_SBB_Aem_940_SBB_Pdown;}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Aem_940_SBB, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_graphics_railtype_SBB_Aem_940;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Aem_940_SBB, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_AEM_940_SBB; 				
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																				
+item (FEAT_TRAINS , ITEM_SBB_AEM_940_SBB, 2415)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AEM_940_SBB);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;						
+						introduction_date: 				date(2022,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1224 hp;
+						weight: 						90 ton;
+						ai_engine_rank: 				0;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.334;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_SBB_Aem_940_SBB;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_DUAL), 
+											 string(STR_DESC_AEM_940),);
+			length							: switch_length_SBB_Aem_940;
+			articulated_part				: switch_articulated_SBB_Aem_940_SBB; 
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: switch_spritestack_SBB_Aem_940_SBB_purchase;
+			cost_factor						: 225;
+			running_cost_factor				: switch_running_cost_SBB_Aem_940;
+			power							: switch_power_SBB_Aem_940;	
+			visual_effect_and_powered		: switch_FX_SBB_Aem_940;		
+			}
+	}
+
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Aem_940_Sersa_Pup, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Aem_940_Sersa_Pup;
+								switch_spritestack_SBB_Aem_940_Sersa_Pup_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Aem_940_Sersa_Pdown, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Aem_940_Sersa_Pdown;
+								switch_spritestack_SBB_Aem_940_Sersa_Pdown_REV;}
+
+						switch(FEAT_TRAINS,PARENT,switch_graphics_railtype_SBB_Aem_940_Sersa, tile_powers_railtype("AC15")){
+							1: return switch_reverse_SBB_Aem_940_Sersa_Pup;
+								return switch_reverse_SBB_Aem_940_Sersa_Pdown;}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Aem_940_Sersa, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_graphics_railtype_SBB_Aem_940_Sersa;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Aem_940_Sersa, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_AEM_940_SERSA; 				
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																				
+item (FEAT_TRAINS , ITEM_SBB_AEM_940_SERSA, 2416)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AEM_940_SERSA);
+						variant_group:					2415;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;						
+						introduction_date: 				date(2022,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1224 hp;
+						weight: 						90 ton;
+						ai_engine_rank: 				0;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.334;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_SBB_Aem_940_Sersa;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_DUAL), 
+											 string(STR_DESC_AEM_940),);
+			length							: switch_length_SBB_Aem_940;
+			articulated_part				: switch_articulated_SBB_Aem_940_Sersa; 
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: switch_spritestack_SBB_Aem_940_Sersa_purchase;
+			cost_factor						: 225;
+			running_cost_factor				: switch_running_cost_SBB_Aem_940;
+			power							: switch_power_SBB_Aem_940;	
+			visual_effect_and_powered		: switch_FX_SBB_Aem_940;		
+			}
+	}

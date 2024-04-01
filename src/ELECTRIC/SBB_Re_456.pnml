@@ -1,0 +1,480 @@
+//########################
+//### Re 456 "KTU-Lok" ###
+//########################
+
+										
+//Spriteset Bodensee-Toggenburg
+
+spriteset(spriteset_SBB_Re_456_BT, "gfx/SBB_Re_456/SBB_Re_456_BT_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_1x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_2x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_4x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+
+//Spritesets Bodensee-Toggenburg Wappen
+
+spriteset(spriteset_SBB_Re_456_BT_WAP1, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP1_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT_WAP1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP1_1x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_WAP1_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT_WAP1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP1_2x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_WAP1_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT_WAP1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP1_4x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_WAP1_4x_mask.png")
+									{template_108trains_4x(0, 0)}		
+									
+spriteset(spriteset_SBB_Re_456_BT_WAP2, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP2_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT_WAP2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP2_1x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_WAP2_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT_WAP2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP2_2x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_WAP2_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT_WAP2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP2_4x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_WAP2_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_456_BT_WAP3, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP3_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT_WAP3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP3_1x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_WAP3_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT_WAP3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP3_2x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_WAP3_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT_WAP3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP3_4x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_WAP3_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_456_BT_WAP4, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP4_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT_WAP4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP4_1x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_WAP4_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT_WAP4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP4_2x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_WAP4_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT_WAP4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_WAP4_4x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_WAP4_4x_mask.png")
+									{template_108trains_4x(0, 0)}	
+									
+																																										
+//Spriteset SZU_orange
+
+spriteset(spriteset_SBB_Re_456_SZU_orange, "gfx/SBB_Re_456/SBB_Re_456_SZU_orange_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_orange_1x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_orange_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_orange, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_orange_2x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_orange_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_orange_4x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_orange_4x_mask.png")
+									{template_108trains_4x(0, 0)}									
+
+//Spriteset SZU_rot
+
+spriteset(spriteset_SBB_Re_456_SZU_rot, "gfx/SBB_Re_456/SBB_Re_456_SZU_rot_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_rot_1x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_rot_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_rot_2x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_rot_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_rot_4x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_rot_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+
+//Spriteset SZU_25Jahre
+
+spriteset(spriteset_SBB_Re_456_SZU_25Jahre, "gfx/SBB_Re_456/SBB_Re_456_SZU_25Jahre_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_25Jahre, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_25Jahre_1x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_25Jahre_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_25Jahre, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_25Jahre_2x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_25Jahre_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_25Jahre, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_25Jahre_4x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_25Jahre_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+									
+//Spriteset SZU_Wildpark
+
+spriteset(spriteset_SBB_Re_456_SZU_Wildpark, "gfx/SBB_Re_456/SBB_Re_456_SZU_Wildpark_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_Wildpark, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_Wildpark_1x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_Wildpark_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_Wildpark, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_Wildpark_2x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_Wildpark_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_Wildpark, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_Wildpark_4x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_Wildpark_4x_mask.png")
+									{template_108trains_4x(0, 0)}	
+									
+//Spriteset SZU_Zukunft
+
+spriteset(spriteset_SBB_Re_456_SZU_Zukunft, "gfx/SBB_Re_456/SBB_Re_456_SZU_Zukunft_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_Zukunft, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_Zukunft_1x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_Zukunft_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_Zukunft, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_Zukunft_2x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_Zukunft_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_Zukunft, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_Zukunft_4x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_Zukunft_4x_mask.png")
+									{template_108trains_4x(0, 0)}																	
+
+//Spriteset purchase
+
+spriteset(spriteset_SBB_Re_456_BT_purchase, "gfx/SBB_Re_456/SBB_Re_456_BT_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_BT_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_BT_1x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_BT_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Re_456_SZU_orange_purchase, "gfx/SBB_Re_456/SBB_Re_456_SZU_orange_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_orange_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_orange_1x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_orange_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Re_456_SZU_rot_purchase, "gfx/SBB_Re_456/SBB_Re_456_SZU_rot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_rot_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_rot_1x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_rot_1x_mask.png")
+									{template_purchase(0, 0)}
+																		
+spriteset(spriteset_SBB_Re_456_SZU_Special_purchase, "gfx/SBB_Re_456/SBB_Re_456_SZU_Zukunft_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Re_456_SZU_Special_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_456/SBB_Re_456_SZU_Zukunft_1x_32bpp.png", "gfx/SBB_Re_456/SBB_Re_456_SZU_Zukunft_1x_mask.png")
+									{template_purchase(0, 0)}
+																		
+//Switches								
+
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_Re_456, position_in_vehid_chain % 2) {
+							0: 4;
+							1: 6;}
+	
+						switch(FEAT_TRAINS, SELF, switch_FX_SBB_Re_456, position_in_vehid_chain % 2) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}							
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Re_456, 1){
+							return 2625;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_456_BT_WAP1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_456_BT;
+							1: spriteset_SBB_Re_456_BT_WAP1;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_456_BT_WAP2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_456_BT;
+							1: spriteset_SBB_Re_456_BT_WAP2;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_456_BT_WAP3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_456_BT;
+							1: spriteset_SBB_Re_456_BT_WAP3;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_456_BT_WAP4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_456_BT;
+							1: spriteset_SBB_Re_456_BT_WAP4;}							
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_456_BT_WAP, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_spritestack_SBB_Re_456_BT_WAP1;
+							2: switch_spritestack_SBB_Re_456_BT_WAP2;
+							3: switch_spritestack_SBB_Re_456_BT_WAP3;
+							   switch_spritestack_SBB_Re_456_BT_WAP4;}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_456_BT_WAP, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     return random_choose_SBB_Re_456_BT_WAP;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_456_BT_WAP, extra_callback_info1) {
+						1: return ITEM_SBB_RE_456_BT_WAP; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_456_BT_WAP, 1661)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_456_BT_WAP);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1987,01,01);
+						model_life: 					45;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						4352 hp;
+						weight: 						68 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.353;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_456_BT_WAP;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Re_456;
+			articulated_part				:switch_articulated_SBB_Re_456_BT_WAP;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_456_BT_purchase;
+			cost_factor						:135;
+			running_cost_factor				:switch_running_cost_SBB_Re_456;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_456;	
+			}
+	}	
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_456_SZU_orange, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     spriteset_SBB_Re_456_SZU_orange;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_456_SZU_orange, extra_callback_info1) {
+						1: return ITEM_SBB_RE_456_SZU_ORANGE; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_456_SZU_ORANGE, 1663)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_456_SZU_ORANGE);	
+						variant_group:					1661;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1987,01,01);
+						model_life: 					45;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						4352 hp;
+						weight: 						68 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.353;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_456_SZU_orange;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Re_456;
+			articulated_part				:switch_articulated_SBB_Re_456_SZU_orange;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_456_SZU_orange_purchase;
+			cost_factor						:135;
+			running_cost_factor				:switch_running_cost_SBB_Re_456;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_456;	
+												
+			}}
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_456_SZU_rot, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     spriteset_SBB_Re_456_SZU_rot;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_456_SZU_rot, extra_callback_info1) {
+						1: return ITEM_SBB_RE_456_SZU_ROT; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_456_SZU_ROT, 1664)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_456_SZU_ROT);	
+						variant_group:					1661;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1993,01,01);
+						model_life: 					45;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						4352 hp;
+						weight: 						68 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.353;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_456_SZU_rot;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Re_456;
+			articulated_part				:switch_articulated_SBB_Re_456_SZU_rot;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_456_SZU_rot_purchase;
+			cost_factor						:135;
+			running_cost_factor				:switch_running_cost_SBB_Re_456;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_456;	
+												
+			}}
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_456_SZU_Special_old, switch_alternative_var_random_bits(1, 1)) {
+							1: spriteset_SBB_Re_456_SZU_25Jahre;
+							   spriteset_SBB_Re_456_SZU_Wildpark;}
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_456_SZU_Special_all, switch_alternative_var_random_bits(1, 2)) {
+							1: spriteset_SBB_Re_456_SZU_25Jahre;
+							2: spriteset_SBB_Re_456_SZU_25Jahre;
+							3: spriteset_SBB_Re_456_SZU_Wildpark;
+							   spriteset_SBB_Re_456_SZU_Zukunft;}
+
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_456_SZU_Special_build_year,build_year){
+							   0 .. 2014: spriteset_SBB_Re_456_SZU_Wildpark;
+							2015 .. 2022: random_choose_SBB_Re_456_SZU_Special_old;
+							2023 .. 2050: random_choose_SBB_Re_456_SZU_Special_all;
+								random_choose_SBB_Re_456_SZU_Special_all;}
+								
+								
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_456_SZU_Special, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     return switch_SBB_Re_456_SZU_Special_build_year;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_456_SZU_Special, extra_callback_info1) {
+						1: return ITEM_SBB_RE_456_SZU_SPECIAL; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_RE_456_SZU_SPECIAL, 1665)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_RE_456_SZU_SPECIAL);	
+						variant_group:					1661;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1994,01,01);
+						model_life: 					45;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							130 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						4352 hp;
+						weight: 						68 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.353;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Re_456_SZU_Special;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Re_456;
+			articulated_part				:switch_articulated_SBB_Re_456_SZU_Special;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Re_456_SZU_Special_purchase;
+			cost_factor						:135;
+			running_cost_factor				:switch_running_cost_SBB_Re_456;			
+			visual_effect_and_powered		:switch_FX_SBB_Re_456;	
+												
+			}}

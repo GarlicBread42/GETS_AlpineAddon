@@ -1,0 +1,552 @@
+//####################
+//### SBB Am 842.1 ###
+//####################
+
+//Spriteset SBB SBBC1
+
+spriteset(spriteset_SBB_Am_842_2_SBBC1, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_SBBC1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_SBBC1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_2x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_SBBC1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_4x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_4x_mask.png")
+									{template_108trains_4x(0, 0)}		
+
+spriteset(spriteset_SBB_Am_842_2_SBBC1_REV, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_SBBC1_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_1x_mask.png")
+									{template_108trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_SBBC1_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_2x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_2x_mask.png")
+									{template_108trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_SBBC1_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_4x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_4x_mask.png")
+									{template_108trains_REV_4x(0, 0)}
+									
+//Spriteset SBB SBBC2
+
+spriteset(spriteset_SBB_Am_842_2_SBBC2, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC2_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_SBBC2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC2_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC2_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_SBBC2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC2_2x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC2_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_SBBC2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC2_4x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC2_4x_mask.png")
+									{template_108trains_4x(0, 0)}		
+
+spriteset(spriteset_SBB_Am_842_2_SBBC2_REV, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC2_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_SBBC2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC2_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC2_1x_mask.png")
+									{template_108trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_SBBC2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC2_2x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC2_2x_mask.png")
+									{template_108trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_SBBC2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC2_4x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC2_4x_mask.png")
+									{template_108trains_REV_4x(0, 0)}									
+
+//Spriteset SBB Alpha
+
+spriteset(spriteset_SBB_Am_842_2_Alpha, "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_Alpha, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_Alpha, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_2x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_Alpha, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_4x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_4x_mask.png")
+									{template_108trains_4x(0, 0)}		
+
+spriteset(spriteset_SBB_Am_842_2_Alpha_REV, "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_Alpha_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_1x_mask.png")
+									{template_108trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_Alpha_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_2x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_2x_mask.png")
+									{template_108trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_Alpha_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_4x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_4x_mask.png")
+									{template_108trains_REV_4x(0, 0)}
+
+//Spriteset SBB ATC
+
+spriteset(spriteset_SBB_Am_842_2_ATC, "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_ATC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_ATC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_2x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_ATC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_4x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_4x_mask.png")
+									{template_108trains_4x(0, 0)}		
+
+spriteset(spriteset_SBB_Am_842_2_ATC_REV, "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_ATC_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_1x_mask.png")
+									{template_108trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_ATC_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_2x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_2x_mask.png")
+									{template_108trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_ATC_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_4x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_4x_mask.png")
+									{template_108trains_REV_4x(0, 0)}
+									
+
+//Spriteset SBB Vossloh
+
+spriteset(spriteset_SBB_Am_842_2_Vossloh, "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_Vossloh, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_Vossloh, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_2x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_Vossloh, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_4x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_4x_mask.png")
+									{template_108trains_4x(0, 0)}		
+
+spriteset(spriteset_SBB_Am_842_2_Vossloh_REV, "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_Vossloh_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_1x_mask.png")
+									{template_108trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_Vossloh_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_2x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_2x_mask.png")
+									{template_108trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_Vossloh_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_4x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_4x_mask.png")
+									{template_108trains_REV_4x(0, 0)}															
+
+//Spriteset lights_back
+
+spriteset(spriteset_SBB_Am_842_2_lights_back, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_back_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_lights_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_back_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_back_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_lights_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_back_2x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_back_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_lights_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_back_4x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_back_4x_mask.png")
+									{template_108trains_4x(0, 0)}		
+
+spriteset(spriteset_SBB_Am_842_2_lights_back_REV, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_back_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_lights_back_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_back_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_back_1x_mask.png")
+									{template_108trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_lights_back_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_back_2x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_back_2x_mask.png")
+									{template_108trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_lights_back_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_back_4x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_back_4x_mask.png")
+									{template_108trains_REV_4x(0, 0)}
+									
+
+//Spriteset lights_front
+
+spriteset(spriteset_SBB_Am_842_2_lights_front, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_front_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_lights_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_front_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_front_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_lights_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_front_2x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_front_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_lights_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_front_4x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_front_4x_mask.png")
+									{template_108trains_4x(0, 0)}		
+
+spriteset(spriteset_SBB_Am_842_2_lights_front_REV, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_front_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_lights_front_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_front_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_front_1x_mask.png")
+									{template_108trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_lights_front_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_front_2x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_front_2x_mask.png")
+									{template_108trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_lights_front_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_front_4x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_lights_front_4x_mask.png")
+									{template_108trains_REV_4x(0, 0)}																		
+
+																											
+//Spritesets purchase
+
+spriteset(spriteset_SBB_Am_842_2_SBBC1_purchase, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_SBBC1_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_SBBC1_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Am_842_2_Alpha_purchase, "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_Alpha_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_Alpha_1x_mask.png")
+									{template_purchase(0, 0)}									
+
+spriteset(spriteset_SBB_Am_842_2_ATC_purchase, "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_ATC_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_ATC_1x_mask.png")
+									{template_purchase(0, 0)}	
+
+spriteset(spriteset_SBB_Am_842_2_Vossloh_purchase, "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Am_842_2_Vossloh_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_1x_32bpp.png", "gfx/SBB_Am_842_2/SBB_Am_842_2_Vossloh_1x_mask.png")
+									{template_purchase(0, 0)}
+																																																														
+//Switches	
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Am_842_2_SBBC1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Am_842_2_SBBC1;
+							1: spriteset_SBB_Am_842_2_lights_front;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Am_842_2_SBBC1_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Am_842_2_SBBC1_REV;
+							1: spriteset_SBB_Am_842_2_lights_back_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Am_842_2_SBBC2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Am_842_2_SBBC2;
+							1: spriteset_SBB_Am_842_2_lights_front;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Am_842_2_SBBC2_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Am_842_2_SBBC2_REV;
+							1: spriteset_SBB_Am_842_2_lights_back_REV;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Am_842_2_Alpha, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Am_842_2_Alpha;
+							1: spriteset_SBB_Am_842_2_lights_front;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Am_842_2_Alpha_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Am_842_2_Alpha_REV;
+							1: spriteset_SBB_Am_842_2_lights_back_REV;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Am_842_2_ATC, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Am_842_2_ATC;
+							1: spriteset_SBB_Am_842_2_lights_front;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Am_842_2_ATC_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Am_842_2_ATC_REV;
+							1: spriteset_SBB_Am_842_2_lights_back_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Am_842_2_Vossloh, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Am_842_2_Vossloh;
+							1: spriteset_SBB_Am_842_2_lights_front;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Am_842_2_Vossloh_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Am_842_2_Vossloh_REV;
+							1: spriteset_SBB_Am_842_2_lights_back_REV;}																			
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Am_842_2_SBBC1, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Am_842_2_SBBC1;
+								switch_spritestack_SBB_Am_842_2_SBBC1_REV;}							
+							
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Am_842_2_SBBC2, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Am_842_2_SBBC2;
+								switch_spritestack_SBB_Am_842_2_SBBC2_REV;}	
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Am_842_2_Alpha, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Am_842_2_Alpha;
+								switch_spritestack_SBB_Am_842_2_Alpha_REV;}									
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Am_842_2_ATC, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Am_842_2_ATC;
+								switch_spritestack_SBB_Am_842_2_ATC_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Am_842_2_Vossloh, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Am_842_2_Vossloh;
+								switch_spritestack_SBB_Am_842_2_Vossloh_REV;}										
+																							
+						switch (FEAT_TRAINS, SELF, random_choose_Am_842_2_SBBC, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_reverse_SBB_Am_842_2_SBBC1;
+							   switch_reverse_SBB_Am_842_2_SBBC2;}																																																				
+																				
+						switch(FEAT_TRAINS, SELF, switch_FX_SBB_Am_842_2_REV, position_in_vehid_chain % 2) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 0, DISABLE_WAGON_POWER);
+								1:return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+						
+						switch(FEAT_TRAINS, SELF, switch_FX_SBB_Am_842_2_REV2, position_in_vehid_chain % 2) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 0, DISABLE_WAGON_POWER);
+								12:return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}		
+										
+						switch (FEAT_TRAINS, PARENT, switch_FX_SBB_Am_842_2, vehicle_is_reversed) {
+							0: switch_FX_SBB_Am_842_2_REV;
+								switch_FX_SBB_Am_842_2_REV2;}	
+
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_Am_842_2, position_in_vehid_chain % 2) {
+							0: 4;
+							1: 6;}
+																											
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Am_842_2, 1){
+							return 1325;}
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Am_842_2_graphics, position_in_vehid_chain % 2) {
+							0:	   spriteset_empty;
+							1:     return random_choose_Am_842_2_SBBC;}	
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Am_842_2, extra_callback_info1) {
+							1: return ITEM_SBB_AM_842_2; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+
+item (FEAT_TRAINS , ITEM_SBB_AM_842_2, 2315)
+		{
+		property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AM_842_2);
+						climates_available: 			ALL_CLIMATES;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						introduction_date: 				date(2002,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;	
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1500 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.324;
+						length: 						8;										
+			}
+
+		graphics
+			{
+			default							:switch_SBB_Am_842_2_graphics;
+			additional_text				    :string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_TRACTION_DIESEL), 
+											 string(STR_DESC_SHUNT),);
+			length							: switch_length_SBB_Am_842_2;
+			articulated_part				: switch_articulated_SBB_Am_842_2;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_SBB_Am_842_2_SBBC1_purchase;
+			cost_factor						: 29;
+			running_cost_factor				: switch_running_cost_SBB_Am_842_2;
+			visual_effect_and_powered		: switch_FX_SBB_Am_842_2;
+			
+			}
+	}	
+
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Am_842_2_Alpha_graphics, position_in_vehid_chain % 2) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_SBB_Am_842_2_Alpha;}	
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Am_842_2_Alpha, extra_callback_info1) {
+							1: return ITEM_SBB_AM_842_1_ALPHA; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+
+item (FEAT_TRAINS , ITEM_SBB_AM_842_1_ALPHA, 2316)
+		{
+		property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AM_842_1_ALPHA);
+						climates_available: 			ALL_CLIMATES;
+						variant_group:					2315;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);					
+						introduction_date: 				date(2002,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;	
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1500 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.324;
+						length: 						8;										
+			}
+
+		graphics
+			{
+			default							:switch_SBB_Am_842_2_Alpha_graphics;
+			additional_text				    :string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_TRACTION_DIESEL), 
+											 string(STR_DESC_SHUNT),);
+			length							: switch_length_SBB_Am_842_2;
+			articulated_part				: switch_articulated_SBB_Am_842_2_Alpha;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_SBB_Am_842_2_Alpha_purchase;
+			cost_factor						: 29;
+			running_cost_factor				: switch_running_cost_SBB_Am_842_2;
+			visual_effect_and_powered		: switch_FX_SBB_Am_842_2;
+			
+			}
+	}	
+
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Am_842_2_ATC_graphics, position_in_vehid_chain % 2) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_SBB_Am_842_2_ATC;}	
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Am_842_2_ATC, extra_callback_info1) {
+							1: return ITEM_SBB_AM_842_1_ATC; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+
+item (FEAT_TRAINS , ITEM_SBB_AM_842_1_ATC, 2317)
+		{
+		property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AM_842_1_ATC);
+						climates_available: 			ALL_CLIMATES;
+						variant_group:					2315;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);					
+						introduction_date: 				date(2002,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;	
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1500 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.324;
+						length: 						8;										
+			}
+
+		graphics
+			{
+			default							:switch_SBB_Am_842_2_ATC_graphics;
+			additional_text				    :string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_TRACTION_DIESEL), 
+											 string(STR_DESC_SHUNT),);
+			length							: switch_length_SBB_Am_842_2;
+			articulated_part				: switch_articulated_SBB_Am_842_2_ATC;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_SBB_Am_842_2_ATC_purchase;
+			cost_factor						: 29;
+			running_cost_factor				: switch_running_cost_SBB_Am_842_2;
+			visual_effect_and_powered		: switch_FX_SBB_Am_842_2;
+			
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Am_842_2_Vossloh_graphics, position_in_vehid_chain % 2) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_SBB_Am_842_2_Vossloh;}	
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Am_842_2_Vossloh, extra_callback_info1) {
+							1: return ITEM_SBB_AM_842_1_VOSSLOH; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+
+item (FEAT_TRAINS , ITEM_SBB_AM_842_1_VOSSLOH, 2318)
+		{
+		property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AM_842_1_VOSSLOH);
+						climates_available: 			ALL_CLIMATES;
+						variant_group:					2315;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);					
+						introduction_date: 				date(2002,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;	
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1500 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.324;
+						length: 						8;										
+			}
+
+		graphics
+			{
+			default							:switch_SBB_Am_842_2_Vossloh_graphics;
+			additional_text				    :string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_TRACTION_DIESEL), 
+											 string(STR_DESC_SHUNT),);
+			length							: switch_length_SBB_Am_842_2;
+			articulated_part				: switch_articulated_SBB_Am_842_2_Vossloh;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_SBB_Am_842_2_Vossloh_purchase;
+			cost_factor						: 29;
+			running_cost_factor				: switch_running_cost_SBB_Am_842_2;
+			visual_effect_and_powered		: switch_FX_SBB_Am_842_2;
+			
+			}
+	}

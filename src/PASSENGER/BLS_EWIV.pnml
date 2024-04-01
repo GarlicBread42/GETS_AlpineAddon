@@ -1,0 +1,163 @@
+//#################
+//### BLS EW IV ###
+//#################
+
+//Spriteset A_blau
+
+spriteset(spriteset_BLS_EW4_A_blau, "gfx/BLS_EW4/BLS_EW4_A_blau_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BLS_EW4_A_blau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_EW4/BLS_EW4_A_blau_1x_32bpp.png", "gfx/BLS_EW4/BLS_EW4_A_blau_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BLS_EW4_A_blau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BLS_EW4/BLS_EW4_A_blau_2x_32bpp.png", "gfx/BLS_EW4/BLS_EW4_A_blau_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BLS_EW4_A_blau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BLS_EW4/BLS_EW4_A_blau_4x_32bpp.png", "gfx/BLS_EW4/BLS_EW4_A_blau_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_BLS_EW4_A_blau_loading, "gfx/BLS_EW4/BLS_EW4_A_blau_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BLS_EW4_A_blau_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_EW4/BLS_EW4_A_blau_loading_1x_32bpp.png", "gfx/BLS_EW4/BLS_EW4_A_blau_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BLS_EW4_A_blau_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BLS_EW4/BLS_EW4_A_blau_loading_2x_32bpp.png", "gfx/BLS_EW4/BLS_EW4_A_blau_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BLS_EW4_A_blau_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BLS_EW4/BLS_EW4_A_blau_loading_4x_32bpp.png", "gfx/BLS_EW4/BLS_EW4_A_blau_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+									
+spritegroup spritegroup_BLS_EW4_A_blau_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_BLS_EW4_A_blau_loading];}									
+
+
+//Spriteset B_blau
+
+spriteset(spriteset_BLS_EW4_B_blau, "gfx/BLS_EW4/BLS_EW4_B_blau_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BLS_EW4_B_blau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_EW4/BLS_EW4_B_blau_1x_32bpp.png", "gfx/BLS_EW4/BLS_EW4_B_blau_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BLS_EW4_B_blau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BLS_EW4/BLS_EW4_B_blau_2x_32bpp.png", "gfx/BLS_EW4/BLS_EW4_B_blau_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BLS_EW4_B_blau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BLS_EW4/BLS_EW4_B_blau_4x_32bpp.png", "gfx/BLS_EW4/BLS_EW4_B_blau_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+spriteset(spriteset_BLS_EW4_B_blau_loading, "gfx/BLS_EW4/BLS_EW4_B_blau_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BLS_EW4_B_blau_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_EW4/BLS_EW4_B_blau_loading_1x_32bpp.png", "gfx/BLS_EW4/BLS_EW4_B_blau_loading_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BLS_EW4_B_blau_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BLS_EW4/BLS_EW4_B_blau_loading_2x_32bpp.png", "gfx/BLS_EW4/BLS_EW4_B_blau_loading_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BLS_EW4_B_blau_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BLS_EW4/BLS_EW4_B_blau_loading_4x_32bpp.png", "gfx/BLS_EW4/BLS_EW4_B_blau_loading_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+									
+spritegroup spritegroup_BLS_EW4_B_blau_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_BLS_EW4_B_blau_loading];}
+
+
+//Spritesets purchase
+
+spriteset(spriteset_BLS_EW4_B_blau_purchase, "gfx/BLS_EW4/BLS_EW4_B_blau_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_BLS_EW4_B_blau_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_EW4/BLS_EW4_B_blau_1x_32bpp.png", "gfx/BLS_EW4/BLS_EW4_B_blau_1x_mask.png")
+									{template_purchase(0, 0)}
+
+//Switches
+														
+								
+						switch(FEAT_TRAINS, SELF, switch_loadstack_BLS_EW4_A_blau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BLS_EW4_A_blau;
+							1: spritegroup_BLS_EW4_A_blau_loading;}
+															
+						switch(FEAT_TRAINS, SELF, switch_loadstack_BLS_EW4_B_blau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BLS_EW4_B_blau;
+							1: spritegroup_BLS_EW4_B_blau_loading;}							
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_BLS_EW4_blau_Coach, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_loadstack_BLS_EW4_A_blau;
+							2: switch_loadstack_BLS_EW4_B_blau;
+							3: switch_loadstack_BLS_EW4_B_blau;
+							   switch_loadstack_BLS_EW4_B_blau;}								   						   							   	
+							   
+						switch(FEAT_TRAINS, SELF, switch_length_BLS_EW4_Coach, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}	
+
+						switch (FEAT_TRAINS, PARENT, switch_running_cost_BLS_EW4_Coach,  switch_check_Restaurant_0()) {
+							1: return 0;
+							0: return 2650;}	
+							
+						switch (FEAT_TRAINS, PARENT, switch_cargo_aging_BLS_EW4_Coach,  switch_check_Restaurant_0()) {
+							1: return 233;
+							0: return 185;}								
+							
+						switch(FEAT_TRAINS, SELF, switch_graphics_BLS_EW4_Coach_blau, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_BLS_EW4_blau_Coach;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BLS_EW4_Coach_blau, extra_callback_info1) {
+							1 .. 2: return ITEM_BLS_EW4_COACH_BLAU;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_BLS_EW4_COACH_BLAU, 6864)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BLS_EW4_COACH_BLAU);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1985,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						42 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					29;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_BLS_EW4_Coach_blau;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_BLS_EW4_Coach;
+			articulated_part				: switch_articulated_BLS_EW4_Coach_blau;
+			purchase						: spriteset_BLS_EW4_B_blau_purchase;
+			cost_factor						: 680;
+			running_cost_factor				: switch_running_cost_BLS_EW4_Coach;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_BLS_EW4_Coach;	
+			}
+		}
+

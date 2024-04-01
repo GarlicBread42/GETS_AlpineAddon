@@ -1,0 +1,117 @@
+//#################
+//### "Austria" ###
+//#################
+
+//Spriteset Lok
+
+spriteset(spriteset_OBB_Austria, "gfx/OBB_Austria/OBB_Austria_1x_8bpp.png")
+									{ template_48trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_OBB_Austria, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Austria/OBB_Austria_1x_32bpp.png", "gfx/OBB_Austria/OBB_Austria_1x_mask.png")
+									{template_48trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_OBB_Austria, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Austria/OBB_Austria_2x_32bpp.png", "gfx/OBB_Austria/OBB_Austria_2x_mask.png")
+									{template_48trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_OBB_Austria, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Austria/OBB_Austria_4x_32bpp.png", "gfx/OBB_Austria/OBB_Austria_4x_mask.png")
+									{template_48trains_4x(0, 0)}
+									
+//Spriteset Tender
+
+spriteset(spriteset_OBB_Austria_Tender, "gfx/OBB_Austria/OBB_Austria_Tender_1x_8bpp.png")
+									{ template_48trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_OBB_Austria_Tender, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Austria/OBB_Austria_Tender_1x_32bpp.png", "gfx/OBB_Austria/OBB_Austria_Tender_1x_mask.png")
+									{template_48trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_OBB_Austria_Tender, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Austria/OBB_Austria_Tender_2x_32bpp.png", "gfx/OBB_Austria/OBB_Austria_Tender_2x_mask.png")
+									{template_48trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_OBB_Austria_Tender, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Austria/OBB_Austria_Tender_4x_32bpp.png", "gfx/OBB_Austria/OBB_Austria_Tender_4x_mask.png")
+									{template_48trains_4x(0, 0)}
+
+//Spriteset purchase
+
+spriteset(spriteset_OBB_Austria_purchase, "gfx/OBB_Austria/OBB_Austria_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_OBB_Austria_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Austria/OBB_Austria_1x_32bpp.png", "gfx/OBB_Austria/OBB_Austria_1x_mask.png")
+									{template_purchase(0, 0)}
+
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_length_OBB_Austria, position_in_articulated_veh % 2) {
+							0: 4;
+							1: 4;}	
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_Austria, 1){
+							return 95;}
+							
+					switch(FEAT_TRAINS, SELF, switch_FX_OBB_Austria, position_in_vehid_chain % 2) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM,-2, DISABLE_WAGON_POWER);														
+								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_OBB_Austria, position_in_vehid_chain % 2) {
+							0:	   spriteset_OBB_Austria;
+							1:     spriteset_OBB_Austria_Tender;}					
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Austria, extra_callback_info1) {
+							1: return ITEM_OBB_AUSTRIA; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_OBB_AUSTRIA, 0027)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_AUSTRIA);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1837,01,01);
+						model_life: 					10;
+						vehicle_life: 					10;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							37 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						30 hp;
+						weight: 						19 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_graphics_OBB_Austria;
+			additional_text				   : string(STR_CONCAT_3, 
+											string(STR_GAUGE_STANDARD),
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_PASS),);
+			length						   : switch_length_OBB_Austria;
+			articulated_part			   : switch_articulated_OBB_Austria;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : spriteset_OBB_Austria_purchase;
+			cost_factor					    :3;
+			running_cost_factor				:switch_running_cost_OBB_Austria;
+			visual_effect_and_powered		:switch_FX_OBB_Austria;
+			
+			}
+	}

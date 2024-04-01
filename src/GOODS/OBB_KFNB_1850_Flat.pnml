@@ -1,0 +1,318 @@
+//#######################
+//###KFNB 1850 Flat Car###
+//#######################				
+	
+	
+//Spriteset
+
+spriteset (spriteset_OBB_KFNB_1850_Flat, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_1x_8bpp.png")
+					{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_1x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_1x_mask.png")
+					{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_2x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_2x_mask.png")
+					{template_78trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_4x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_4x_mask.png")
+						{template_78trains_4x(0, 0)}		
+
+
+//Spriteset load 0
+				
+spriteset (spriteset_OBB_KFNB_1850_Flat_load_0, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_0_1x_8bpp.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_0_1x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_0_1x_mask.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_0_2x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_0_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_0_4x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_0_4x_mask.png")
+					{template_78trains_4x(0,0)}	
+					
+//Spriteset load Box
+
+spriteset (spriteset_OBB_KFNB_1850_Flat_load_Box_30, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_30_1x_8bpp.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Box_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_30_1x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_30_1x_mask.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Box_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_30_2x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_30_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Box_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_30_4x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_30_4x_mask.png")
+					{template_78trains_4x(0,0)}	
+									
+spriteset (spriteset_OBB_KFNB_1850_Flat_load_Box_60, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_60_1x_8bpp.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Box_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_60_1x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_60_1x_mask.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Box_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_60_2x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_60_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Box_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_60_4x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_60_4x_mask.png")
+					{template_78trains_4x(0,0)}	
+					
+spriteset (spriteset_OBB_KFNB_1850_Flat_load_Box_100, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_100_1x_8bpp.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Box_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_100_1x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_100_1x_mask.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Box_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_100_2x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_100_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Box_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_100_4x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Box_100_4x_mask.png")
+					{template_78trains_4x(0,0)}
+						
+spritegroup spritegroup_OBB_KFNB_1850_Flat_load_Box
+		{loaded: 	[spriteset_OBB_KFNB_1850_Flat_load_0, spriteset_OBB_KFNB_1850_Flat_load_Box_30, spriteset_OBB_KFNB_1850_Flat_load_Box_60, spriteset_OBB_KFNB_1850_Flat_load_Box_100];
+			loading: [spriteset_OBB_KFNB_1850_Flat_load_0, spriteset_OBB_KFNB_1850_Flat_load_Box_30, spriteset_OBB_KFNB_1850_Flat_load_Box_60, spriteset_OBB_KFNB_1850_Flat_load_Box_100];}		
+
+					
+//Spriteset load Oversize
+
+spriteset (spriteset_OBB_KFNB_1850_Flat_load_Oversize_100, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Oversize_100_1x_8bpp.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Oversize_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Oversize_100_1x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Oversize_100_1x_mask.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Oversize_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Oversize_100_2x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Oversize_100_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Oversize_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Oversize_100_4x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Oversize_100_4x_mask.png")
+					{template_78trains_4x(0,0)}
+						
+spritegroup spritegroup_OBB_KFNB_1850_Flat_load_Oversize
+		{loaded: 	[spriteset_OBB_KFNB_1850_Flat_load_0, spriteset_OBB_KFNB_1850_Flat_load_Oversize_100];
+			loading: 	[spriteset_OBB_KFNB_1850_Flat_load_0, spriteset_OBB_KFNB_1850_Flat_load_Oversize_100];}
+			
+					
+//Spriteset load Steel
+				
+spriteset (spriteset_OBB_KFNB_1850_Flat_load_Steel_50, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Steel_50_1x_8bpp.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Steel_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Steel_50_1x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Steel_50_1x_mask.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Steel_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Steel_50_2x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Steel_50_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Steel_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Steel_50_4x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Steel_50_4x_mask.png")
+					{template_78trains_4x(0,0)}	
+
+spriteset (spriteset_OBB_KFNB_1850_Flat_load_Steel_100, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Steel_100_1x_8bpp.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Steel_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Steel_100_1x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Steel_100_1x_mask.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Steel_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Steel_100_2x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Steel_100_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Steel_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Steel_100_4x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Steel_100_4x_mask.png")
+					{template_78trains_4x(0,0)}
+						
+spritegroup spritegroup_OBB_KFNB_1850_Flat_load_Steel
+		{loaded: 	[spriteset_OBB_KFNB_1850_Flat_load_0, spriteset_OBB_KFNB_1850_Flat_load_Steel_50, spriteset_OBB_KFNB_1850_Flat_load_Steel_100];
+			loading: 	[spriteset_OBB_KFNB_1850_Flat_load_0, spriteset_OBB_KFNB_1850_Flat_load_Steel_50, spriteset_OBB_KFNB_1850_Flat_load_Steel_100];}
+
+					
+//Spriteset load Wood
+				
+spriteset (spriteset_OBB_KFNB_1850_Flat_load_Wood_50, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Wood_50_1x_8bpp.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Wood_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Wood_50_1x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Wood_50_1x_mask.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Wood_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Wood_50_2x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Wood_50_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Wood_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Wood_50_4x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Wood_50_4x_mask.png")
+					{template_78trains_4x(0,0)}	
+
+spriteset (spriteset_OBB_KFNB_1850_Flat_load_Wood_100, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Wood_100_1x_8bpp.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Wood_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Wood_100_1x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Wood_100_1x_mask.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Wood_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Wood_100_2x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Wood_100_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_Wood_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Wood_100_4x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_Wood_100_4x_mask.png")
+					{template_78trains_4x(0,0)}
+						
+spritegroup spritegroup_OBB_KFNB_1850_Flat_load_Wood
+		{loaded: 	[spriteset_OBB_KFNB_1850_Flat_load_0, spriteset_OBB_KFNB_1850_Flat_load_Wood_50, spriteset_OBB_KFNB_1850_Flat_load_Wood_100];
+			loading: 	[spriteset_OBB_KFNB_1850_Flat_load_0, spriteset_OBB_KFNB_1850_Flat_load_Wood_50, spriteset_OBB_KFNB_1850_Flat_load_Wood_100];}
+
+//Spriteset load VEHI
+
+spriteset (spriteset_OBB_KFNB_1850_Flat_load_VEHI_50, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_VEHI_50_1x_8bpp.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_VEHI_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_VEHI_50_1x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_VEHI_50_1x_mask.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_VEHI_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_VEHI_50_2x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_VEHI_50_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_VEHI_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_VEHI_50_4x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_VEHI_50_4x_mask.png")
+					{template_78trains_4x(0,0)}
+					
+spriteset (spriteset_OBB_KFNB_1850_Flat_load_VEHI_100, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_VEHI_100_1x_8bpp.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_VEHI_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_VEHI_100_1x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_VEHI_100_1x_mask.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_VEHI_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_VEHI_100_2x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_VEHI_100_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_load_VEHI_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_VEHI_100_4x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_load_VEHI_100_4x_mask.png")
+					{template_78trains_4x(0,0)}
+						
+spritegroup spritegroup_OBB_KFNB_1850_Flat_load_VEHI
+		{loaded: 	[spriteset_OBB_KFNB_1850_Flat_load_0, spriteset_OBB_KFNB_1850_Flat_load_VEHI_50, spriteset_OBB_KFNB_1850_Flat_load_VEHI_100];
+			loading: 	[spriteset_OBB_KFNB_1850_Flat_load_0, spriteset_OBB_KFNB_1850_Flat_load_VEHI_50, spriteset_OBB_KFNB_1850_Flat_load_VEHI_100];}
+			
+//Spritesets purchase
+
+spriteset (spriteset_OBB_KFNB_1850_Flat_purchase, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_KFNB_1850_Flat_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_1x_32bpp.png", "gfx\OBB_KFNB_1850_Flat/OBB_KFNB_1850_Flat_1x_mask.png")
+					{template_purchase(0, 0)}
+
+//Switches
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_KFNB_1850_Flat_Box, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_OBB_KFNB_1850_Flat;
+						1: spritegroup_OBB_KFNB_1850_Flat_load_Box;}						
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_KFNB_1850_Flat_Oversize, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_OBB_KFNB_1850_Flat;
+						1: spritegroup_OBB_KFNB_1850_Flat_load_Oversize;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_KFNB_1850_Flat_Steel, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_OBB_KFNB_1850_Flat;
+						1: spritegroup_OBB_KFNB_1850_Flat_load_Steel;}		
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_KFNB_1850_Flat_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_OBB_KFNB_1850_Flat;
+						1: spritegroup_OBB_KFNB_1850_Flat_load_Wood;}						
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_KFNB_1850_Flat_VEHI, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_OBB_KFNB_1850_Flat;
+						1: spritegroup_OBB_KFNB_1850_Flat_load_VEHI;}						
+								
+					switch(FEAT_TRAINS, SELF, switch_OBB_KFNB_1850_Flat_cargo_classes, cargo_classes) {
+							bitmask(CC_MAIL): return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							bitmask(CC_EXPRESS): return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							bitmask(CC_ARMOURED): return switch_loadstack_OBB_KFNB_1850_Flat_Oversize;
+							bitmask(CC_PIECE_GOODS) : return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							bitmask(CC_HAZARDOUS): return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							bitmask(CC_POWDERIZED): return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							bitmask(CC_NON_POURABLE): return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							bitmask(CC_OVERSIZED): return switch_loadstack_OBB_KFNB_1850_Flat_Oversize;
+								switch_loadstack_OBB_KFNB_1850_Flat_Box;}
+						
+					switch (FEAT_TRAINS, SELF, switch_OBB_KFNB_1850_Flat_cargo_type, cargo_type_in_veh) {
+							STEL: return switch_loadstack_OBB_KFNB_1850_Flat_Steel;
+							METL: return switch_loadstack_OBB_KFNB_1850_Flat_Steel;
+							ZINC: return switch_loadstack_OBB_KFNB_1850_Flat_Steel;
+							COPR: return switch_loadstack_OBB_KFNB_1850_Flat_Steel;
+							STST: return switch_loadstack_OBB_KFNB_1850_Flat_Steel;
+							STSH: return switch_loadstack_OBB_KFNB_1850_Flat_Steel;
+							STSE: return switch_loadstack_OBB_KFNB_1850_Flat_Steel;
+							STAL: return switch_loadstack_OBB_KFNB_1850_Flat_Steel;
+							STCB: return switch_loadstack_OBB_KFNB_1850_Flat_Steel;
+							STWR: return switch_loadstack_OBB_KFNB_1850_Flat_Steel; 
+							CSTI: return switch_loadstack_OBB_KFNB_1850_Flat_Steel;
+							PIPE: return switch_loadstack_OBB_KFNB_1850_Flat_Steel;
+
+							ENSP: return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							FMSP: return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							MNSP: return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							POWR: return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							VPTS: return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							MPTS: return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							GOOD: return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							PAPR: return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							TYRE: return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							WOOL: return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							TEXT: return switch_loadstack_OBB_KFNB_1850_Flat_Box;	
+	
+							BDMT: return switch_loadstack_OBB_KFNB_1850_Flat_Wood;
+							WDPR: return switch_loadstack_OBB_KFNB_1850_Flat_Wood;
+							WOOD: return switch_loadstack_OBB_KFNB_1850_Flat_Wood;
+							GLAS: return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							BRCK: return switch_loadstack_OBB_KFNB_1850_Flat_Box;
+							
+							VEHI: return switch_loadstack_OBB_KFNB_1850_Flat_VEHI;
+								switch_OBB_KFNB_1850_Flat_cargo_classes;}																								
+																		
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_KFNB_1850_Flat, 1){
+						return 100;}						
+						
+item (FEAT_TRAINS , ITEM_OBB_KFNB_1850_FLAT, 8046)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_1850_FLAT);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1850,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_MAIL, CC_EXPRESS, CC_ARMOURED, CC_PIECE_GOODS, CC_HAZARDOUS, CC_POWDERIZED, CC_NON_POURABLE, CC_OVERSIZED);
+						non_refittable_cargo_classes:	bitmask(CC_BULK, CC_LIQUID, CC_REFRIGERATED, CC_COVERED, CC_NEO_BULK);
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [MAIL,GOOD, STEL, METL, ZINC, COPR, STST, STSH, STSE, STAL, STCB, STWR, CSTI, PIPE, ENSP, FMSP, MNSP, POWR, VPTS, MPTS, GOOD, PAPR, TYRE, WOOL, TEXT, BDMT, WDPR, WOOD, GLAS, BRCK, VEHI];
+						cargo_disallow_refit: 			[PASS, LVST];
+						loading_speed:					4;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							40 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						10 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					26;
+						ai_engine_rank: 				0;
+						length: 						7;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_OBB_KFNB_1850_Flat_cargo_type;
+			additional_text				    : string(STR_CONCAT_2, 
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_GOODS),);
+			purchase						: spriteset_OBB_KFNB_1850_Flat_purchase;
+			cost_factor						: 4;
+			running_cost_factor				: switch_running_cost_OBB_KFNB_1850_Flat;	
+			colour_mapping					: switch_generic_recolour;			
+			
+			 }
+		}

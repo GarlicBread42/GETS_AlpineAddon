@@ -1,0 +1,438 @@
+//#################################
+//### SBB EW III "Swiss Express ###
+//#################################
+
+//Spriteset A
+
+spriteset(spriteset_SBB_EW3_SwissEx_A, "gfx/SBB_EW3/SBB_EW3_SwissEx_A_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_A_1x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_A_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_A, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_A_2x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_A_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_A, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_A_4x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_A_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_EW3_SwissEx_A_loading, "gfx/SBB_EW3/SBB_EW3_SwissEx_A_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_A_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_A_loading_1x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_A_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_A_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_A_loading_2x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_A_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_A_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_A_loading_4x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_A_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_EW3_SwissEx_A_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_EW3_SwissEx_A_loading];}									
+
+
+//Spriteset B
+
+spriteset(spriteset_SBB_EW3_SwissEx_B, "gfx/SBB_EW3/SBB_EW3_SwissEx_B_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_B_1x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_B_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_B, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_B_2x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_B_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_B, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_B_4x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_B_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_EW3_SwissEx_B_loading, "gfx/SBB_EW3/SBB_EW3_SwissEx_B_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_B_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_B_loading_1x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_B_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_B_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_B_loading_2x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_B_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_B_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_B_loading_4x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_B_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_EW3_SwissEx_B_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_EW3_SwissEx_B_loading];}		
+		
+		
+//Spriteset AD
+
+spriteset(spriteset_SBB_EW3_SwissEx_AD, "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_AD, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_1x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_AD, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_2x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_AD, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_4x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_EW3_SwissEx_AD_loading, "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_AD_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_loading_1x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_AD_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_loading_2x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_AD_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_loading_4x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_EW3_SwissEx_AD_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_EW3_SwissEx_AD_loading];}
+		
+//Spriteset DVT
+
+spriteset(spriteset_SBB_EW3_SwissEx_DVT, "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_DVT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_1x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_DVT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_2x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_DVT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_4x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_EW3_SwissEx_DVT_loading, "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_DVT_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_loading_1x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_DVT_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_loading_2x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_DVT_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_loading_4x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_EW3_SwissEx_DVT_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_EW3_SwissEx_DVT_loading];}																													
+
+
+//Spriteset WR
+
+spriteset(spriteset_SBB_EW3_SwissEx_WR, "gfx/SBB_EW3/SBB_EW3_SwissEx_WR_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_WR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_WR_1x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_WR_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_WR, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_WR_2x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_WR_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_WR, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_WR_4x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_WR_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+//Spritesets purchase
+
+spriteset(spriteset_SBB_EW3_SwissEx_purchase, "gfx/SBB_EW3/SBB_EW3_SwissEx_B_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_B_1x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_B_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_EW3_SwissEx_AD_purchase, "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_AD_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_1x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_AD_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+spriteset(spriteset_SBB_EW3_SwissEx_DVT_purchase, "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_DVT_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_1x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_DVT_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_EW3_SwissEx_WR_purchase, "gfx/SBB_EW3/SBB_EW3_SwissEx_WR_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_SBB_EW3_SwissEx_WR_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EW3/SBB_EW3_SwissEx_WR_1x_32bpp.png", "gfx/SBB_EW3/SBB_EW3_SwissEx_WR_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_EW3_SwissEx_A, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_EW3_SwissEx_A;
+							1: spritegroup_SBB_EW3_SwissEx_A_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_EW3_SwissEx_B, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_EW3_SwissEx_B;
+							1: spritegroup_SBB_EW3_SwissEx_B_loading;}																		
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_EW3_SwissEx_AD, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_EW3_SwissEx_AD;
+							1: spritegroup_SBB_EW3_SwissEx_AD_loading;}								
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_EW3_SwissEx_DVT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_EW3_SwissEx_DVT;
+							1: spritegroup_SBB_EW3_SwissEx_DVT_loading;}
+							
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_EW3_SwissEx_Coach, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_SBB_EW3_SwissEx_A;
+							   switch_loadstack_SBB_EW3_SwissEx_B;}									   	
+							   
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_EW3_SwissEx_Coach, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 6;
+							2: 4;}	
+
+						switch (FEAT_TRAINS, PARENT, switch_running_cost_SBB_EW3_SwissEx_Coach,  switch_check_Restaurant_0()) {
+							1: return 0;
+							0: return 2650;}	
+							
+						switch (FEAT_TRAINS, PARENT, switch_cargo_aging_SBB_EW3_SwissEx_Coach,  switch_check_Restaurant_0()) {
+							1: return 233;
+							0: return 185;}								
+
+						switch(FEAT_TRAINS, SELF, switch_AD1_SBB_EW3_SwissEx, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_EW3_SwissEx_AD;
+								default: switch_loadstack_SBB_EW3_SwissEx_B;}
+								
+						switch(FEAT_TRAINS, SELF, switch_AD2_SBB_EW3_SwissEx, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_EW3_SwissEx_AD;
+							 4: spriteset_SBB_EW3_SwissEx_WR;
+								default: switch_loadstack_SBB_EW3_SwissEx_B;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_AD3_SBB_EW3_SwissEx, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_EW3_SwissEx_AD;
+							 4: return switch_loadstack_SBB_EW3_SwissEx_A;
+							 7: spriteset_SBB_EW3_SwissEx_WR;
+								default: switch_loadstack_SBB_EW3_SwissEx_B;}															
+																
+						switch(FEAT_TRAINS, SELF, switch_AD_SBB_EW3_SwissEx, position_in_vehid_chain) {
+							 1: return switch_loadstack_SBB_EW3_SwissEx_AD;
+							 4: return switch_loadstack_SBB_EW3_SwissEx_A;
+							 7: switch_loadstack_SBB_EW3_SwissEx_A;
+							 10: spriteset_SBB_EW3_SwissEx_WR;
+								default: switch_loadstack_SBB_EW3_SwissEx_B;}
+								
+						switch (FEAT_TRAINS, SELF, switch_SBB_EW3_SwissEx_lengthcheck2, num_vehs_in_vehid_chain) {
+						     0 .. 12: switch_AD1_SBB_EW3_SwissEx;
+						     13 .. 15: switch_AD2_SBB_EW3_SwissEx;
+						     16 .. 21: switch_AD3_SBB_EW3_SwissEx;
+								switch_AD_SBB_EW3_SwissEx;}						     
+																
+						switch (FEAT_TRAINS,PARENT,switch_SBB_EW3_SwissEx_check_AD,(count_veh_id(7849))+(count_veh_id(7755))) {
+							0: switch_SBB_EW3_SwissEx_lengthcheck2; 
+								random_choose_SBB_EW3_SwissEx_Coach;}
+																
+						switch(FEAT_TRAINS, SELF, switch_DVT_SBB_EW3_SwissEx, position_in_consist_from_end) {
+							1: return switch_loadstack_SBB_EW3_SwissEx_DVT;
+								default: return switch_SBB_EW3_SwissEx_check_AD;}
+								
+						switch(FEAT_TRAINS, SELF, switch_SBB_EW3_SwissEx_lenghtcheck, num_vehs_in_consist) {
+							0 .. 5: random_choose_SBB_EW3_SwissEx_Coach;
+							6 .. 999: switch_DVT_SBB_EW3_SwissEx;}
+							
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_EW3_SwissEx_Coach, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_SBB_EW3_SwissEx_lenghtcheck;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_EW3_SwissEx_Coach, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_EW3_SWISSEX_COACH;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SBB_EW3_SWISSEX_COACH, 6724)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_EW3_SWISSEX_COACH);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1972,01,01);
+						model_life: 					20;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						30 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					23;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_EW3_SwissEx_Coach;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_SBB_EW3_SwissEx_Coach;
+			articulated_part				: switch_articulated_SBB_EW3_SwissEx_Coach;
+			purchase						: spriteset_SBB_EW3_SwissEx_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_EW3_SwissEx_Coach;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_EW3_SwissEx_Coach;	
+			}
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_EW3_SwissEx_DVT, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SBB_EW3_SwissEx_DVT;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_EW3_SwissEx_DVT, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_EW3_SWISSEX_DVT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SBB_EW3_SWISSEX_DVT, 7849)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_EW3_SWISSEX_DVT);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1972,01,01);
+						model_life: 					20;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						30 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					23;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_EW3_SwissEx_DVT;
+			additional_text					: string(STR_CONCAT_3,
+											  string(STR_DESC_EXPRESS),
+											  string(STR_DESC_DVT),
+											  string(STR_DESC_AUTODISABLE));
+			length							: switch_length_SBB_EW3_SwissEx_Coach;
+			articulated_part				: switch_articulated_SBB_EW3_SwissEx_DVT;
+			purchase						: spriteset_SBB_EW3_SwissEx_DVT_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_EW3_SwissEx_Coach;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_EW3_SwissEx_Coach;	
+			}
+		}
+
+//Half-Baggage Coach
+
+						switch(FEAT_TRAINS, SELF, switch_cargo_capacity_SBB_EW3_SwissEx_AD, cargo_type_in_veh ) {
+							PASS: 23;
+							TOUR: 23;
+						    MAIL: 23;
+						    GOOD: 23;
+						    VALU: 23;}	
+
+							
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_EW3_SwissEx_AD, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_SBB_EW3_SwissEx_AD;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_EW3_SwissEx_AD, extra_callback_info1) {
+							0: return ITEM_SBB_EW3_SWISSEX_AD;	
+							1: return ITEM_SBB_EW3_SWISSEX_AD;
+							2: return ITEM_MAIL_23;											
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SBB_EW3_SWISSEX_AD, 7755)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_EW3_SWISSEX_AD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1972,01,01);
+						model_life: 					20;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						30 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					23;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_EW3_SwissEx_AD;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_DESC_HALFBAGG),
+											  string(STR_DESC_AUTODISABLE));
+			length							: switch_length_SBB_EW3_SwissEx_Coach;
+			articulated_part				: switch_articulated_SBB_EW3_SwissEx_AD;
+			purchase						: spriteset_SBB_EW3_SwissEx_AD_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_EW3_SwissEx_Coach;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_EW3_SwissEx_Coach;	
+			cargo_capacity					: switch_cargo_capacity_SBB_EW3_SwissEx_AD;
+			}
+		}

@@ -1,0 +1,99 @@
+//#################
+//###SBB Re 482 ###
+//#################
+
+spriteset(spriteset_BLS_Re_486, "gfx/BLS_Re_486/BLS_Re_486_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BLS_Re_486, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_Re_486/BLS_Re_486_1x_32bpp.png", "gfx/BLS_Re_486/BLS_Re_486_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BLS_Re_486, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BLS_Re_486/BLS_Re_486_2x_32bpp.png", "gfx/BLS_Re_486/BLS_Re_486_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BLS_Re_486, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BLS_Re_486/BLS_Re_486_4x_32bpp.png", "gfx/BLS_Re_486/BLS_Re_486_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
+//Spritesets purchase
+
+spriteset(spriteset_BLS_Re_486_purchase, "gfx/BLS_Re_486/BLS_Re_486_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BLS_Re_486_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_Re_486/BLS_Re_486_1x_32bpp.png", "gfx/BLS_Re_486/BLS_Re_486_1x_mask.png")
+									{ template_purchase(0, 0)}									
+									
+//Switches																	
+							   									
+						switch(FEAT_TRAINS, SELF, switch_BLS_Re_486_graphics, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_BLS_Re_486;
+							2:	   spriteset_empty;}								
+					
+						switch(FEAT_TRAINS, SELF, switch_length_BLS_Re_486, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 4;
+							2: 4;}
+						
+						switch(FEAT_TRAINS, SELF, switch_FX_BLS_Re_486, position_in_vehid_chain % 3) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+							return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BLS_Re_486, extra_callback_info1) {
+							1 .. 2: return ITEM_BLS_RE_486; 	
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BLS_Re_486, 1){
+							return 3600;}						
+						
+item (FEAT_TRAINS , ITEM_BLS_RE_486, 1835)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BLS_RE_486);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2008,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay:		 		20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						7616 hp;
+						weight: 						85 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.352;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BLS_Re_486_graphics;
+			additional_text					: string(STR_CONCAT_3,
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_GOODS),);
+			length							: switch_length_BLS_Re_486;
+			articulated_part				: switch_articulated_BLS_Re_486;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BLS_Re_486_purchase;
+			cost_factor						: 244;
+			running_cost_factor				: switch_running_cost_BLS_Re_486;
+			visual_effect_and_powered		: switch_FX_BLS_Re_486;
+			}
+	}

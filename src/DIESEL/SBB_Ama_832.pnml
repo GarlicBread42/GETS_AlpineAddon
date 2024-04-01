@@ -1,0 +1,98 @@
+//###############################
+//### Alstom Prima H3/BR 1002 ###
+//###############################
+
+//Cargo
+
+spriteset(spriteset_SBB_Ama_832_Cargo, "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ama_832_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_1x_32bpp.png", "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_1x_mask.png")
+									{template_88trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ama_832_Cargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_2x_32bpp.png", "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_2x_mask.png")
+									{template_88trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ama_832_Cargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_4x_32bpp.png", "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_4x_mask.png")
+									{template_88trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Ama_832_Cargo_REV, "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_1x_8bpp.png")
+									{ template_88trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ama_832_Cargo_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_1x_32bpp.png", "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_1x_mask.png")
+									{template_88trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ama_832_Cargo_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_2x_32bpp.png", "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_2x_mask.png")
+									{template_88trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ama_832_Cargo_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_4x_32bpp.png", "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_4x_mask.png")
+									{template_88trains_REV_4x(0, 0)}									
+
+//Spritesets purchase
+
+spriteset(spriteset_SBB_Ama_832_purchase_Cargo, "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_SBB_Ama_832_purchase_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_1x_32bpp.png", "gfx/SBB_Ama_832/SBB_Ama_832_Cargo_1x_mask.png")
+									{template_purchase(0, 0)}
+
+//Switches
+					
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Ama_832_Cargo, vehicle_is_reversed) {
+							0: spriteset_SBB_Ama_832_Cargo;
+								spriteset_SBB_Ama_832_Cargo_REV;}							
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Ama_832, 1){
+							return 550;}														
+							
+item (FEAT_TRAINS , ITEM_SBB_Ama_832_CARGO, 2388)
+
+
+		{
+			//property Block
+					property 
+					{
+					//common properties
+								name: 							string(STR_NAME_SBB_Ama_832_CARGO);
+								extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+								climates_available: 			ALL_CLIMATES;
+								introduction_date: 				date(2017,01,01);
+								model_life: 					VEHICLE_NEVER_EXPIRES;
+								vehicle_life: 					40;
+								retire_early: 					-10;									
+								reliability_decay: 				20;
+								cargo_allow_refit: 				[PASS] ;
+								cargo_capacity: 				1 ;
+								cost_factor: 					54;
+								running_cost_base: 				RUNNING_COST_STEAM;
+								running_cost_factor: 			90;
+								
+					//Train specific properties
+								sprite_id: 						SPRITE_ID_NEW_TRAIN;
+								speed: 							100 km/h;
+								refit_cost: 					0;
+								track_type: 					RAIL;
+								power:  						820 hp;
+								weight: 						65 ton;
+								ai_engine_rank: 				0;
+								engine_class: 					ENGINE_CLASS_DIESEL;
+								visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+								dual_headed: 					0;
+								tractive_effort_coefficient: 	0.35;
+								length: 						8;
+			}
+			
+					graphics
+				{
+						default						   : switch_reverse_SBB_Ama_832_Cargo;
+						additional_text:				string(STR_CONCAT_3,
+														string(STR_GAUGE_STANDARD),
+														string(STR_TRACTION_DIESELHYBRID), 
+														string(STR_DESC_SHUNT),);
+						purchase_cargo_capacity        : 0 ;
+						cargo_capacity                 : return 0 ;
+						purchase					   : spriteset_SBB_Ama_832_purchase_Cargo;
+						cost_factor						:20;
+						running_cost_factor				: switch_running_cost_SBB_Ama_832;	
+			 }
+		}							
