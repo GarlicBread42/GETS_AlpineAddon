@@ -4,77 +4,145 @@
 
 spriteset(spriteset_SBB_Vectron_Black, "gfx/SBB_Vectron/SBB_Vectron_Black_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Black_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Black_1x_mask.png")
 									{ template_128trains_1x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Black_2x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Black_2x_mask.png")
 									{ template_128trains_2x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Black_4x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Black_4x_mask.png")
 									{ template_128trains_4x(0, 0)}
 
 spriteset(spriteset_SBB_Vectron_Blue, "gfx/SBB_Vectron/SBB_Vectron_Blue_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Blue_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Blue_1x_mask.png")
 									{ template_128trains_1x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Blue_2x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Blue_2x_mask.png")
 									{ template_128trains_2x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Blue_4x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Blue_4x_mask.png")
 									{ template_128trains_4x(0, 0)}
 
 spriteset(spriteset_SBB_Vectron_Red, "gfx/SBB_Vectron/SBB_Vectron_Red_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Red_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Red_1x_mask.png")
 									{ template_128trains_1x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Red_2x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Red_2x_mask.png")
 									{ template_128trains_2x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Red_4x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Red_4x_mask.png")
 									{ template_128trains_4x(0, 0)}
 
 spriteset(spriteset_SBB_Vectron_Silver, "gfx/SBB_Vectron/SBB_Vectron_Silver_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_Silver, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Silver_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Silver_1x_mask.png")
 									{ template_128trains_1x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_Silver, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Silver_2x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Silver_2x_mask.png")
 									{ template_128trains_2x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_Silver, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Silver_4x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Silver_4x_mask.png")
 									{ template_128trains_4x(0, 0)}
 																																				
 spriteset(spriteset_SBB_Vectron_WRS, "gfx/SBB_Vectron/SBB_Vectron_WRS_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_WRS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_WRS_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_WRS_1x_mask.png")
 									{ template_128trains_1x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_WRS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_WRS_2x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_WRS_2x_mask.png")
 									{ template_128trains_2x(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_WRS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_WRS_4x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_WRS_4x_mask.png")
 									{ template_128trains_4x(0, 0)}									
 
+spriteset(spriteset_SBB_Vectron_SBBCI, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBCI, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBCI_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBCI, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_2x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBCI_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBCI, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_4x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBCI_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Vectron_HUPAC, "gfx/SBB_Vectron/SBB_Vectron_HUPAC_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_HUPAC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_HUPAC_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_HUPAC_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_HUPAC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_HUPAC_2x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_HUPAC_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_HUPAC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_HUPAC_4x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_HUPAC_4x_mask.png")
+									{ template_128trains_4x(0, 0)}									
+																																				
+spriteset(spriteset_SBB_Vectron_SBBC_Logo, "gfx/SBB_Vectron/SBB_Vectron_SBBC_Logo_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBC_Logo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBC_Logo_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBC_Logo_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBC_Logo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBC_Logo_2x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBC_Logo_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBC_Logo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBC_Logo_4x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBC_Logo_4x_mask.png")
+									{ template_128trains_4x(0, 0)}										
+																																				
+spriteset(spriteset_SBB_Vectron_SBBCI_25, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_25_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBCI_25, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_25_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBCI_25_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBCI_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_25_2x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBCI_25_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBCI_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_25_4x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBCI_25_4x_mask.png")
+									{ template_128trains_4x(0, 0)}	
+									
+spriteset(spriteset_SBB_Vectron_SBBCI_Holland, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_Holland_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBCI_Holland, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_Holland_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBCI_Holland_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBCI_Holland, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_Holland_2x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBCI_Holland_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBCI_Holland, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_Holland_4x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBCI_Holland_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Vectron_Railpool, "gfx/SBB_Vectron/SBB_Vectron_Railpool_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_Railpool, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Railpool_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Railpool_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_Railpool, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Railpool_2x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Railpool_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_Railpool, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Railpool_4x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Railpool_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+																																												
+//Spritesets purchase									
 
 spriteset(spriteset_SBB_Vectron_Blue_purchase, "gfx/SBB_Vectron/SBB_Vectron_Blue_1x_8bpp.png")
 									{ template_purchase(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Blue_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Blue_1x_mask.png")
 									{ template_purchase(0, 0)}
 
+spriteset(spriteset_SBB_Vectron_SBBCI_purchase, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBCI_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBCI_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Vectron_HUPAC_purchase, "gfx/SBB_Vectron/SBB_Vectron_HUPAC_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_HUPAC_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_HUPAC_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_HUPAC_1x_mask.png")
+									{ template_purchase(0, 0)}
+																		
 spriteset(spriteset_SBB_Vectron_WRS_purchase, "gfx/SBB_Vectron/SBB_Vectron_WRS_1x_8bpp.png")
 									{ template_purchase(0, 0)}
-				
 		alternative_sprites (spriteset_SBB_Vectron_WRS_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_WRS_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_WRS_1x_mask.png")
 									{ template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Vectron_SBBC_Logo_purchase, "gfx/SBB_Vectron/SBB_Vectron_SBBC_Logo_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBC_Logo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBC_Logo_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBC_Logo_1x_mask.png")
+									{ template_purchase(0, 0)}	
 									
+spriteset(spriteset_SBB_Vectron_SBBCI_25_purchase, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_25_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBCI_25_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_25_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBCI_25_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Vectron_SBBCI_Holland_purchase, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_Holland_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_SBBCI_Holland_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_SBBCI_Holland_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_SBBCI_Holland_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Vectron_Railpool_purchase, "gfx/SBB_Vectron/SBB_Vectron_Railpool_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_SBB_Vectron_Railpool_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Vectron/SBB_Vectron_Railpool_1x_32bpp.png", "gfx/SBB_Vectron/SBB_Vectron_Railpool_1x_mask.png")
+									{ template_purchase(0, 0)}
+																																												
 //Switches									
 					
 						switch(FEAT_TRAINS, SELF, switch_length_SBB_Vectron, position_in_vehid_chain % 3) {
@@ -159,6 +227,269 @@ item (FEAT_TRAINS , ITEM_SBB_VECTRON_SBBC, 1770)
 			}
 	}	
 
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Vectron_graphics_SBBCI, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return spriteset_SBB_Vectron_SBBCI;
+							2:	   spriteset_empty;}									
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Vectron_SBBCI, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_VECTRON_SBBCI;				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+														
+item (FEAT_TRAINS , ITEM_SBB_VECTRON_SBBCI, 1771)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_VECTRON_SBBCI);
+						variant_group:					1770;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2017,01,01);
+						model_life:						VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						87 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.345;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Vectron_graphics_SBBCI;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_UNIVERSAL),);
+			length							: switch_length_SBB_Vectron;
+			articulated_part				: switch_articulated_SBB_Vectron_SBBCI;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_SBB_Vectron_SBBCI_purchase;
+			cost_factor						: 314;
+			running_cost_factor				: switch_running_cost_SBB_Vectron;
+			visual_effect_and_powered		: switch_FX_SBB_Vectron;
+			}
+	}	
+
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Vectron_graphics_HUPAC, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return spriteset_SBB_Vectron_HUPAC;
+							2:	   spriteset_empty;}									
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Vectron_HUPAC, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_VECTRON_HUPAC;				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+														
+item (FEAT_TRAINS , ITEM_SBB_VECTRON_HUPAC, 1772)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_VECTRON_HUPAC);
+						variant_group:					1770;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2018,01,01);
+						model_life:						VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						87 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.345;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Vectron_graphics_HUPAC;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_UNIVERSAL),);
+			length							: switch_length_SBB_Vectron;
+			articulated_part				: switch_articulated_SBB_Vectron_HUPAC;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_SBB_Vectron_HUPAC_purchase;
+			cost_factor						: 314;
+			running_cost_factor				: switch_running_cost_SBB_Vectron;
+			visual_effect_and_powered		: switch_FX_SBB_Vectron;
+			}
+	}	
+	
+						switch(FEAT_TRAINS, SELF, switch_SBB_Vectron_graphics_SBBC_Logo, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_SBB_Vectron_SBBC_Logo;
+							2:	   spriteset_empty;}									
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Vectron_SBBC_Logo, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_VECTRON_SBBC_LOGO;				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+														
+item (FEAT_TRAINS , ITEM_SBB_VECTRON_SBBC_LOGO, 1773)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_VECTRON_SBBC_LOGO);
+						variant_group:					1770;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2017,01,01);
+						model_life:						VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						87 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.345;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Vectron_graphics_SBBC_Logo;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_UNIVERSAL),);
+			length							: switch_length_SBB_Vectron;
+			articulated_part				: switch_articulated_SBB_Vectron_SBBC_Logo;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_SBB_Vectron_SBBC_Logo_purchase;
+			cost_factor						: 314;
+			running_cost_factor				: switch_running_cost_SBB_Vectron;
+			visual_effect_and_powered		: switch_FX_SBB_Vectron;
+			}
+	}		
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Vectron_graphics_SBBCI_25, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_SBB_Vectron_SBBCI_25;
+							2:	   spriteset_empty;}									
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Vectron_SBBCI_25, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_VECTRON_SBBCI_25;				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+														
+item (FEAT_TRAINS , ITEM_SBB_VECTRON_SBBCI_25, 1774)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_VECTRON_SBBCI_25);
+						variant_group:					1770;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2024,01,01);
+						model_life:						VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						87 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.345;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Vectron_graphics_SBBCI_25;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_UNIVERSAL),);
+			length							: switch_length_SBB_Vectron;
+			articulated_part				: switch_articulated_SBB_Vectron_SBBCI_25;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_SBB_Vectron_SBBCI_25_purchase;
+			cost_factor						: 314;
+			running_cost_factor				: switch_running_cost_SBB_Vectron;
+			visual_effect_and_powered		: switch_FX_SBB_Vectron;
+			}
+	}
+
+	
 						switch(FEAT_TRAINS, SELF, switch_SBB_Vectron_graphics_WRS, position_in_vehid_chain % 3) {
 							0:	   spriteset_empty;
 							1:     spriteset_SBB_Vectron_WRS;
@@ -218,6 +549,136 @@ item (FEAT_TRAINS , ITEM_SBB_VECTRON_WRS, 1775)
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: spriteset_SBB_Vectron_WRS_purchase;
+			cost_factor						: 314;
+			running_cost_factor				: switch_running_cost_SBB_Vectron;
+			visual_effect_and_powered		: switch_FX_SBB_Vectron;
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Vectron_graphics_SBBCI_Holland, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_SBB_Vectron_SBBCI_Holland;
+							2:	   spriteset_empty;}									
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Vectron_SBBCI_Holland, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_VECTRON_SBBCI_HOLLAND;				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+														
+item (FEAT_TRAINS , ITEM_SBB_VECTRON_SBBCI_HOLLAND, 1776)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_VECTRON_SBBCI_HOLLAND);
+						variant_group:					1770;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2017,01,01);
+						model_life:						VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						87 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.345;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Vectron_graphics_SBBCI_Holland;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_UNIVERSAL),);
+			length							: switch_length_SBB_Vectron;
+			articulated_part				: switch_articulated_SBB_Vectron_SBBCI_Holland;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_SBB_Vectron_SBBCI_Holland_purchase;
+			cost_factor						: 314;
+			running_cost_factor				: switch_running_cost_SBB_Vectron;
+			visual_effect_and_powered		: switch_FX_SBB_Vectron;
+			}
+	}		
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Vectron_graphics_Railpool, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_SBB_Vectron_Railpool;
+							2:	   spriteset_empty;}									
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Vectron_Railpool, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_VECTRON_RAILPOOL;				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+														
+item (FEAT_TRAINS , ITEM_SBB_VECTRON_RAILPOOL, 1780)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_VECTRON_RAILPOOL);
+						variant_group:					1770;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2017,01,01);
+						model_life:						VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						87 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.345;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SBB_Vectron_graphics_Railpool;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_UNIVERSAL),);
+			length							: switch_length_SBB_Vectron;
+			articulated_part				: switch_articulated_SBB_Vectron_Railpool;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_SBB_Vectron_Railpool_purchase;
 			cost_factor						: 314;
 			running_cost_factor				: switch_running_cost_SBB_Vectron;
 			visual_effect_and_powered		: switch_FX_SBB_Vectron;

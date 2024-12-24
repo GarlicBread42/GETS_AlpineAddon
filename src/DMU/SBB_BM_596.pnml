@@ -1,0 +1,555 @@
+//#########################
+//###Bm 596 GTW 2/6 DMU ###
+//#########################
+
+//Spriteset front MTHB
+
+spriteset(spriteset_SBB_Bm_596_front_MTHB, "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_MTHB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_MTHB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_2x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_MTHB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_4x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Bm_596_front_MTHB_REV, "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_MTHB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_MTHB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_2x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_MTHB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_4x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}
+
+//Spriteset front Thurbo
+
+spriteset(spriteset_SBB_Bm_596_front_Thurbo, "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_Thurbo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_Thurbo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_2x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_Thurbo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_4x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Bm_596_front_Thurbo_REV, "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_Thurbo_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_Thurbo_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_2x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_Thurbo_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_4x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}
+
+
+//Spriteset front loading
+
+spriteset(spriteset_SBB_Bm_596_front_loading, "gfx/SBB_Bm_596/SBB_Bm_596_front_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_loading_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_loading_2x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_loading_4x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_Bm_596_front_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_Bm_596_front_loading];}										
+
+spriteset(spriteset_SBB_Bm_596_front_loading_REV, "gfx/SBB_Bm_596/SBB_Bm_596_front_loading_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_loading_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_loading_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_loading_2x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_loading_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_loading_4x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_loading_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_Bm_596_front_loading_REV
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_Bm_596_front_loading_REV];}	
+																					
+//Spriteset middle MTHB
+
+spriteset(spriteset_SBB_Bm_596_middle_MTHB, "gfx/SBB_Bm_596/SBB_Bm_596_middle_MTHB_1x_8bpp.png")
+									{ template_38trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_middle_MTHB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_middle_MTHB_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_middle_MTHB_1x_mask.png")
+									{ template_38trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_middle_MTHB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_middle_MTHB_2x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_middle_MTHB_2x_mask.png")
+									{ template_38trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_middle_MTHB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_middle_MTHB_4x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_middle_MTHB_4x_mask.png")
+									{ template_38trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Bm_596_middle_MTHB_REV, "gfx/SBB_Bm_596/SBB_Bm_596_middle_MTHB_1x_8bpp.png")
+									{ template_38trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_middle_MTHB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_middle_MTHB_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_middle_MTHB_1x_mask.png")
+									{ template_38trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_middle_MTHB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_middle_MTHB_2x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_middle_MTHB_2x_mask.png")
+									{ template_38trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_middle_MTHB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_middle_MTHB_4x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_middle_MTHB_4x_mask.png")
+									{ template_38trains_REV_4x(0, 0)}
+
+//Spriteset back MTHB
+
+spriteset(spriteset_SBB_Bm_596_back_MTHB, "gfx/SBB_Bm_596/SBB_Bm_596_back_MTHB_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_MTHB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_MTHB_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_MTHB_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_MTHB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_MTHB_2x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_MTHB_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_MTHB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_MTHB_4x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_MTHB_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Bm_596_back_MTHB_REV, "gfx/SBB_Bm_596/SBB_Bm_596_back_MTHB_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_MTHB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_MTHB_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_MTHB_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_MTHB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_MTHB_2x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_MTHB_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_MTHB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_MTHB_4x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_MTHB_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}
+
+//Spriteset back Thurbo
+
+spriteset(spriteset_SBB_Bm_596_back_Thurbo, "gfx/SBB_Bm_596/SBB_Bm_596_back_Thurbo_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_Thurbo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_Thurbo_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_Thurbo_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_Thurbo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_Thurbo_2x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_Thurbo_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_Thurbo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_Thurbo_4x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_Thurbo_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Bm_596_back_Thurbo_REV, "gfx/SBB_Bm_596/SBB_Bm_596_back_Thurbo_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_Thurbo_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_Thurbo_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_Thurbo_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_Thurbo_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_Thurbo_2x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_Thurbo_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_Thurbo_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_Thurbo_4x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_Thurbo_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}
+
+
+//Spriteset back loading
+
+spriteset(spriteset_SBB_Bm_596_back_loading, "gfx/SBB_Bm_596/SBB_Bm_596_back_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_loading_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_loading_2x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_loading_4x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_Bm_596_back_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_Bm_596_back_loading];}										
+
+spriteset(spriteset_SBB_Bm_596_back_loading_REV, "gfx/SBB_Bm_596/SBB_Bm_596_back_loading_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_loading_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_loading_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_loading_2x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_loading_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_back_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_back_loading_4x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_back_loading_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_SBB_Bm_596_back_loading_REV
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_Bm_596_back_loading_REV];}	
+			
+//Spritesets purchase
+
+spriteset(spriteset_SBB_Bm_596_front_MTHB_purchase, "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_MTHB_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_MTHB_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Bm_596_front_Thurbo_purchase, "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_SBB_Bm_596_front_Thurbo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_1x_32bpp.png", "gfx/SBB_Bm_596/SBB_Bm_596_front_Thurbo_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+//Switches
+
+					switch(FEAT_TRAINS,SELF, switch_purchase_SBB_Bm_596, current_year){
+							   0 .. 2002: spriteset_SBB_Bm_596_front_MTHB_purchase;
+							2003 .. 2050: spriteset_SBB_Bm_596_front_Thurbo_purchase;
+								spriteset_SBB_Bm_596_front_Thurbo_purchase;}
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Bm_596_front_MTHB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Bm_596_front_MTHB;
+							1: spritegroup_SBB_Bm_596_front_loading;}									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Bm_596_front_MTHB_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Bm_596_front_MTHB_REV;
+							1: spritegroup_SBB_Bm_596_front_loading_REV;}
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Bm_596_front_Thurbo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Bm_596_front_Thurbo;
+							1: spritegroup_SBB_Bm_596_front_loading;}									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Bm_596_front_Thurbo_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Bm_596_front_Thurbo_REV;
+							1: spritegroup_SBB_Bm_596_front_loading_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Bm_596_back_MTHB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Bm_596_back_MTHB;
+							1: spritegroup_SBB_Bm_596_back_loading;}									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Bm_596_back_MTHB_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Bm_596_back_MTHB_REV;
+							1: spritegroup_SBB_Bm_596_back_loading_REV;}
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Bm_596_back_Thurbo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Bm_596_back_Thurbo;
+							1: spritegroup_SBB_Bm_596_back_loading;}									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Bm_596_back_Thurbo_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Bm_596_back_Thurbo_REV;
+							1: spritegroup_SBB_Bm_596_back_loading_REV;}
+							
+					switch(FEAT_TRAINS, SELF, switch_length_SBB_Bm_596, position_in_vehid_chain % 5) {
+							0: 4;
+							1: 6;
+							2: 3;
+							3: 4;
+							4: 6;}							
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Bm_596, 1){
+							return 1200;}
+							
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_Bm_596_front, position_in_vehid_chain % 5) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+							3: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);														
+							4: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}	
+
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_Bm_596_back, position_in_vehid_chain % 5) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 1, DISABLE_WAGON_POWER);
+							3: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);														
+							4: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_Bm_596, vehicle_is_reversed) {
+							0: switch_FX_SBB_Bm_596_front;
+								switch_FX_SBB_Bm_596_back;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Bm_596_front_MTHB, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Bm_596_front_MTHB;
+								switch_spritestack_SBB_Bm_596_back_MTHB_REV;}															
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Bm_596_front_Thurbo, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Bm_596_front_Thurbo;
+								switch_spritestack_SBB_Bm_596_back_Thurbo_REV;}	
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Bm_596_middle_MTHB, vehicle_is_reversed) {
+							0: spriteset_SBB_Bm_596_middle_MTHB;
+								spriteset_SBB_Bm_596_middle_MTHB_REV;}								
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Bm_596_back_MTHB, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Bm_596_back_MTHB;
+								switch_spritestack_SBB_Bm_596_front_MTHB_REV;}															
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Bm_596_back_Thurbo, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Bm_596_back_Thurbo;
+								switch_spritestack_SBB_Bm_596_front_Thurbo_REV;}	
+
+						switch (FEAT_TRAINS,SELF, switch_SBB_Bm_596_front_build_year,build_year){
+						   0 .. 2002: switch_reverse_SBB_Bm_596_front_MTHB;
+						2003 .. 2050: switch_reverse_SBB_Bm_596_front_Thurbo;
+							switch_reverse_SBB_Bm_596_front_Thurbo;}
+
+						switch (FEAT_TRAINS,SELF, switch_SBB_Bm_596_back_build_year,build_year){
+						   0 .. 2002: switch_reverse_SBB_Bm_596_back_MTHB;
+						2003 .. 2050: switch_reverse_SBB_Bm_596_back_Thurbo;
+							switch_reverse_SBB_Bm_596_back_Thurbo;}
+							
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Bm_596_build, position_in_vehid_chain % 5) {
+							0:	   spriteset_empty;
+							1:     switch_SBB_Bm_596_front_build_year;
+							2:     switch_reverse_SBB_Bm_596_middle_MTHB;
+							3:	   spriteset_empty;
+							4:     switch_SBB_Bm_596_back_build_year;}	
+							
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Bm_596_build, extra_callback_info1) {
+						1 .. 4: return ITEM_SBB_BM_596_BUILD; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_BM_596_BUILD, 3500)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_BM_596_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1995,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 27 ;
+						loading_speed:					5;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1033 hp;
+						weight: 						60 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.117;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_SBB_Bm_596_build;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Bm_596;
+			articulated_part				: switch_articulated_SBB_Bm_596_build;
+			visual_effect_and_powered		: switch_FX_SBB_Bm_596;
+			purchase						: switch_purchase_SBB_Bm_596;
+			cost_factor						: 80;
+			running_cost_factor				: switch_running_cost_SBB_Bm_596;
+			
+			}
+	}													
+
+
+						switch (FEAT_TRAINS,SELF, switch_SBB_Bm_596_front_current_year,current_year){
+						   0 .. 2002: switch_reverse_SBB_Bm_596_front_MTHB;
+						2003 .. 2050: switch_reverse_SBB_Bm_596_front_Thurbo;
+							switch_reverse_SBB_Bm_596_front_Thurbo;}
+
+						switch (FEAT_TRAINS,SELF, switch_SBB_Bm_596_back_current_year,current_year){
+						   0 .. 2002: switch_reverse_SBB_Bm_596_back_MTHB;
+						2003 .. 2050: switch_reverse_SBB_Bm_596_back_Thurbo;
+							switch_reverse_SBB_Bm_596_back_Thurbo;}
+							
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Bm_596_current, position_in_vehid_chain % 5) {
+							0:	   spriteset_empty;
+							1:     switch_SBB_Bm_596_front_current_year;
+							2:     switch_reverse_SBB_Bm_596_middle_MTHB;
+							3:	   spriteset_empty;
+							4:     switch_SBB_Bm_596_back_current_year;}	
+							
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Bm_596_current, extra_callback_info1) {
+						1 .. 4: return ITEM_SBB_BM_596_CURRENT; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_BM_596_CURRENT, 3501)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_BM_596_CURRENT);
+						variant_group:					3500;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1995,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 27 ;
+						loading_speed:					5;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1033 hp;
+						weight: 						60 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.117;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_SBB_Bm_596_current;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Bm_596;
+			articulated_part				: switch_articulated_SBB_Bm_596_current;
+			visual_effect_and_powered		: switch_FX_SBB_Bm_596;
+			purchase						: switch_purchase_SBB_Bm_596;
+			cost_factor						: 80;
+			running_cost_factor				: switch_running_cost_SBB_Bm_596;
+			
+			}
+	}
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Bm_596_MTHB, position_in_vehid_chain % 5) {
+							0:	   spriteset_empty;
+							1:     switch_reverse_SBB_Bm_596_front_MTHB;
+							2:     switch_reverse_SBB_Bm_596_middle_MTHB;
+							3:	   spriteset_empty;
+							4:     switch_reverse_SBB_Bm_596_back_MTHB;}	
+							
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Bm_596_MTHB, extra_callback_info1) {
+						1 .. 4: return ITEM_SBB_BM_596_MTHB; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_BM_596_MTHB, 3502)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_BM_596_MTHB);
+						variant_group:					3500;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1995,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 27 ;
+						loading_speed:					5;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1033 hp;
+						weight: 						60 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.117;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_SBB_Bm_596_MTHB;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Bm_596;
+			articulated_part				: switch_articulated_SBB_Bm_596_MTHB;
+			visual_effect_and_powered		: switch_FX_SBB_Bm_596;
+			purchase						: spriteset_SBB_Bm_596_front_MTHB_purchase;
+			cost_factor						: 80;
+			running_cost_factor				: switch_running_cost_SBB_Bm_596;
+			
+			}
+	}
+
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Bm_596_Thurbo, position_in_vehid_chain % 5) {
+							0:	   spriteset_empty;
+							1:     switch_reverse_SBB_Bm_596_front_Thurbo;
+							2:     switch_reverse_SBB_Bm_596_middle_MTHB;
+							3:	   spriteset_empty;
+							4:     switch_reverse_SBB_Bm_596_back_Thurbo;}	
+							
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Bm_596_Thurbo, extra_callback_info1) {
+						1 .. 4: return ITEM_SBB_BM_596_THURBO; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_BM_596_THURBO, 3503)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_BM_596_THURBO);
+						variant_group:					3500;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2003,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 27 ;
+						loading_speed:					5;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1033 hp;
+						weight: 						60 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.117;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_SBB_Bm_596_Thurbo;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Bm_596;
+			articulated_part				: switch_articulated_SBB_Bm_596_Thurbo;
+			visual_effect_and_powered		: switch_FX_SBB_Bm_596;
+			purchase						: spriteset_SBB_Bm_596_front_Thurbo_purchase;
+			cost_factor						: 80;
+			running_cost_factor				: switch_running_cost_SBB_Bm_596;
+			
+			}
+	}

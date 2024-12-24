@@ -8,7 +8,7 @@ grf {
 			grfid: "SA\1C\1C" ;
 			name: string(STR_GRF_NAME) ;
 			desc: string(STR_GRF_DESC) ;
-			version: 1;
+			version: 2;
 			min_compatible_version: 36;
 
 	param 0{

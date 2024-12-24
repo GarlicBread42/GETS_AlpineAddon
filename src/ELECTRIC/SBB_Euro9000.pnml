@@ -1,0 +1,153 @@
+//#############################
+//### SBB Stadler Euro 9000 ###
+//#############################
+										
+//Spriteset CoOp
+
+spriteset(spriteset_SBB_Euro9000_Coop, "gfx/SBB_Euro9000/SBB_Euro9000_Coop_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Euro9000_Coop, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Euro9000/SBB_Euro9000_Coop_1x_32bpp.png", "gfx/SBB_Euro9000/SBB_Euro9000_Coop_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Euro9000_Coop, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Euro9000/SBB_Euro9000_Coop_2x_32bpp.png", "gfx/SBB_Euro9000/SBB_Euro9000_Coop_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Euro9000_Coop, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Euro9000/SBB_Euro9000_Coop_4x_32bpp.png", "gfx/SBB_Euro9000/SBB_Euro9000_Coop_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+
+//Spritesets panto
+
+spriteset(spriteset_SBB_Euro9000_Panto_up, "gfx/SBB_Euro9000/SBB_Euro9000_Panto_up_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Euro9000_Panto_up, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Euro9000/SBB_Euro9000_Panto_up_1x_32bpp.png", "gfx/SBB_Euro9000/SBB_Euro9000_Panto_up_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Euro9000_Panto_up, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Euro9000/SBB_Euro9000_Panto_up_2x_32bpp.png", "gfx/SBB_Euro9000/SBB_Euro9000_Panto_up_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Euro9000_Panto_up, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Euro9000/SBB_Euro9000_Panto_up_4x_32bpp.png", "gfx/SBB_Euro9000/SBB_Euro9000_Panto_up_4x_mask.png")
+									{template_158trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Euro9000_Panto_down, "gfx/SBB_Euro9000/SBB_Euro9000_Panto_down_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Euro9000_Panto_down, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Euro9000/SBB_Euro9000_Panto_down_1x_32bpp.png", "gfx/SBB_Euro9000/SBB_Euro9000_Panto_down_1x_mask.png")
+									{template_158trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Euro9000_Panto_down, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Euro9000/SBB_Euro9000_Panto_down_2x_32bpp.png", "gfx/SBB_Euro9000/SBB_Euro9000_Panto_down_2x_mask.png")
+									{template_158trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Euro9000_Panto_down, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Euro9000/SBB_Euro9000_Panto_down_4x_32bpp.png", "gfx/SBB_Euro9000/SBB_Euro9000_Panto_down_4x_mask.png")
+									{template_158trains_4x(0, 0)}									
+									
+//Spritesets purchase
+
+spriteset(spriteset_SBB_Euro9000_Coop_purchase, "gfx/SBB_Euro9000/SBB_Euro9000_Coop_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_Euro9000_Coop_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Euro9000/SBB_Euro9000_Coop_1x_32bpp.png", "gfx/SBB_Euro9000/SBB_Euro9000_Coop_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Euro9000_Panto_purchase, "gfx/SBB_Euro9000/SBB_Euro9000_Panto_up_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_Euro9000_Panto_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Euro9000/SBB_Euro9000_Panto_up_1x_32bpp.png", "gfx/SBB_Euro9000/SBB_Euro9000_Panto_up_1x_mask.png")
+									{template_purchase(0, 0)}
+
+
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Euro9000_Coop_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Euro9000_Coop_purchase;
+							1: spriteset_SBB_Euro9000_Panto_purchase;}						
+
+						switch (FEAT_TRAINS, SELF, switch_SBB_Euro9000_Panto, tile_powers_railtype("ELRL")) {
+							1: return spriteset_SBB_Euro9000_Panto_up;
+								spriteset_SBB_Euro9000_Panto_down;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Euro9000_SBB_Coop, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Euro9000_Coop;
+							1: switch_SBB_Euro9000_Panto;}							
+
+							
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_Euro9000, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}	
+							
+						switch (FEAT_TRAINS, SELF, switch_power_SBB_Euro9000, tile_powers_railtype("ELRL")) {
+							1: return 10880;
+							return 2584;}						
+
+						switch(FEAT_TRAINS, SELF, switch_FX_SBB_Euro9000_ELRL, position_in_vehid_chain % 3) {
+							    0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+							1 ..2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+							
+						switch(FEAT_TRAINS, SELF, switch_FX_SBB_Euro9000_RAIL, position_in_vehid_chain % 3) {
+							    0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+							1 ..2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}	
+							
+						switch (FEAT_TRAINS, SELF, switch_FX_SBB_Euro9000, tile_powers_railtype("ELRL")) {
+							1: return switch_FX_SBB_Euro9000_ELRL;
+								switch_FX_SBB_Euro9000_RAIL;}							
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Euro9000, tile_powers_railtype("ELRL")){
+							1: return 4350;
+								return 1075;}	
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Euro9000_Coop, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_SBB_Euro9000_SBB_Coop;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Euro9000_Coop, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_EURO9000_COOP; 				
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																				
+item (FEAT_TRAINS , ITEM_SBB_EURO9000_COOP, 1940)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_EURO9000_COOP);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;						
+						introduction_date: 				date(2022,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						10880 hp;
+						weight: 						123 ton;
+						ai_engine_rank: 				0;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.406;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_SBB_Euro9000_Coop;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_DUAL), 
+											 string(STR_DESC_EURO9000),);
+			length							: switch_length_SBB_Euro9000;
+			articulated_part				: switch_articulated_SBB_Euro9000_Coop; 
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: switch_spritestack_SBB_Euro9000_Coop_purchase;
+			cost_factor						: 225;
+			running_cost_factor				: switch_running_cost_SBB_Euro9000;
+			power							: switch_power_SBB_Euro9000;	
+			visual_effect_and_powered		: switch_FX_SBB_Euro9000;		
+			}
+	}

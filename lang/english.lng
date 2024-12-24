@@ -3,7 +3,7 @@
 
 # GRF name and description definitions
 
-STR_GRF_NAME        : GETS AlpineAddon 0.1
+STR_GRF_NAME        : GETS AlpineAddon 0.2
 STR_GRF_DESC :{BLACK}Alpine Addon for GETS {}{}Graphics by {GOLD}Garlic_Bread42; WyndBain; SweDuke, RaphyD and others{BLACK}, code by {GOLD}Garlic_Bread42{BLACK}.
 
 STR_PARAM_RUNNING_COST: Running cost
@@ -64,6 +64,21 @@ STR_NAME_OBB_KFNB_VI_CURRENT			:KFNB Reihe VI/kkStB 67 Current Year livery
 STR_NAME_OBB_KFNB_VI_KFNB				:KFNB Reihe VI
 STR_NAME_OBB_KFNB_VI_KKSTB				:kkStB 67
 
+STR_NAME_OBB_KFNB_IB_BUILD				:KFNB Reihe Ib/kkStB 307
+STR_NAME_OBB_KFNB_IB_CURRENT			:KFNB Reihe Ib/kkStB 307 Current Year livery
+STR_NAME_OBB_KFNB_IB_KFNB				:KFNB Reihe Ib
+STR_NAME_OBB_KFNB_IB_KKSTB				:kkstB 307
+
+STR_NAME_OBB_KFNB_IB2_BUILD				:KFNB Reihe Ib2/kkStB 407
+STR_NAME_OBB_KFNB_IB2_CURRENT			:KFNB Reihe Ib2/kkStB 407 Current Year livery
+STR_NAME_OBB_KFNB_IB2_KFNB				:KFNB Reihe Ib2
+STR_NAME_OBB_KFNB_IB2_KKSTB				:kkstB 407
+
+STR_NAME_OBB_KFNB_IX901_BUILD			:KFNB Reihe IX 901/kkStB 3
+STR_NAME_OBB_KFNB_IX901_CURRENT			:KFNB Reihe IX 901/kkStB 3 Current Year livery
+STR_NAME_OBB_KFNB_IX901_KFNB			:KFNB Reihe IX 901
+STR_NAME_OBB_KFNB_IX901_KKSTB			:kkStB 3
+
 ###Electric Locos###
 
 STR_NAME_OBB_RH_1016_BUILD				:ÖBB Rh 1016 "Taurus"
@@ -73,10 +88,12 @@ STR_NAME_OBB_RH_1016_WORT				:ÖBB Rh 1016 red livery
 STR_NAME_OBB_RH_1016_CITYJET			:ÖBB Rh 1016 Cityjet livery
 STR_NAME_OBB_RH_1016_RAILJET			:ÖBB Rh 1016 Railjet livery
 
-STR_NAME_OBB_Rh_1216_WORT				:ÖBB Rh 1216 "Taurus Multisystem"
+STR_NAME_OBB_Rh_1216_AUTO				:ÖBB Rh 1216 "Taurus Multisystem"
+STR_NAME_OBB_Rh_1216_WORT				:ÖBB Rh 1216 red livery
 STR_NAME_OBB_Rh_1216_REK				:ÖBB Rh 1216 World Record Locomotive
 STR_NAME_OBB_Rh_1216_RJ1				:ÖBB Rh 1216 Railjet livery
 STR_NAME_OBB_Rh_1216_RJ2				:ÖBB Rh 1216 Railjet "Spirit of Prague" livery
+STR_NAME_OBB_Rh_1216_EUROPE				:ÖBB Rh 1216 Europe livery
 STR_NAME_OBB_Rh_1216_RTS				:Rh 1216 Rail Transport Service livery
 
 STR_NAME_OBB_RH_1020_BUILD				:BBÖ/ÖBB Rh 1020
@@ -99,15 +116,44 @@ STR_NAME_OBB_RH_1044_ROT_MOD_WORT		:ÖBB Rh 1044 modified, red livery Wortmarke
 STR_NAME_OBB_RH_1044_VALOUSEK_WORT		:ÖBB Rh 1044 orange/beige livery Wortmarke
 STR_NAME_OBB_RH_1044_501				:ÖBB Rh 1044 501 High speed experimental loco
 
+STR_NAME_OBB_RH_1293_WORT				:ÖBB Rh 1293 Siemens Vectron
+STR_NAME_OBB_RH_1293_ELL				:Siemens Vectron European Locomotive Leasing livery
+
+STR_NAME_OBB_RH_1822_OBB				:ÖBB Rh 1822 "Brennerlok"
+STR_NAME_OBB_RH_1822_PP					:Rh 1822 P&P Eisenbahntechnik livery
+
+STR_NAME_OBB_RH_1163_BUILD				:ÖBB Rh 1163
+STR_NAME_OBB_RH_1163_CURRENT			:ÖBB Rh 1163 Current Year livery
+STR_NAME_OBB_RH_1163_PFLATSCH			:ÖBB Rh 1163 red/white livery w/ Pflatsch
+STR_NAME_OBB_RH_1163_WORT_OLD			:ÖBB Rh 1163 red/white livery Wortmarke
+STR_NAME_OBB_RH_1163_WORT_NEW			:ÖBB Rh 1163 red/white livery Wortmarke (new lights)
+
+STR_NAME_OBB_ES64F4_DISPO				:Siemens ES64F4 ÖBB Dispolok livery
+
 STR_NAME_SBB_AE47_BUILD					:SBB Ae 4/7
 STR_NAME_SBB_AE47_CURRENT				:SBB Ae 4/7 Current Year livery
 STR_NAME_SBB_AE47_BRAUN					:SBB Ae 4/7 Brown livery
 STR_NAME_SBB_AE47_GRUEN					:SBB Ae 4/7 Green livery
 
+STR_NAME_SBB_CE_44						:MFO Fc 2x2/2 SBB Ce 4/4
+
+STR_NAME_SBB_AE_610_BUILD				:SBB Ae 6/6
+STR_NAME_SBB_AE_610_CURRENT				:SBB Ae 6/6 Current Year livery
+STR_NAME_SBB_AE_610_1_GRUEN				:SBB Ae 6/6 "Kantonslok" 1. Series, green
+STR_NAME_SBB_AE_610_1_ROT				:SBB Ae 6/6 "Kantonslok" 1. Series, red Coat of Arms
+STR_NAME_SBB_AE_610_2_GRUEN				:SBB Ae 6/6 "Kantonslok" 2. Series, green
+STR_NAME_SBB_AE_610_2_ROT				:SBB Ae 6/6 "Kantonslok" 2. Series, red
+STR_NAME_SBB_AE_610_3_GRUEN_EARLY		:SBB Ae 6/6 "Städtelok" 3. Series, early green
+STR_NAME_SBB_AE_610_3_GRUEN_LATE		:SBB Ae 6/6 "Städtelok" 3. Series, late green
+STR_NAME_SBB_AE_610_3_ROT				:SBB Ae 6/6 "Städtelok" 3. Series, red
+STR_NAME_SBB_AE_610_3_CARGO				:SBB Ae 6/6 "Städtelok" 3. Series, SBB Cargo
+
 STR_NAME_SBB_CE_68_3_BUILD				:SBB Ce 6/8 III "Krokodil"
 STR_NAME_SBB_CE_68_3_CURRENT			:SBB Ce 6/8 III Current Year livery
 STR_NAME_SBB_CE_68_3_BROWN				:SBB Ce 6/8 III Brown livery
 STR_NAME_SBB_CE_68_3_GREEN				:SBB Ce 6/8 III Green livery
+
+STR_NAME_SBB_DE_66						:SBB De 6/6 "Seetal-Krokodil"
 
 STR_NAME_SBB_RE_420_BUILD				:SBB Re 420
 STR_NAME_SBB_RE_420_CURRENT				:SBB Re 420 Current Year livery
@@ -119,6 +165,10 @@ STR_NAME_SBB_RE_420_CARGO_OLD			:SBB Re 420 SBB Cargo (mint) livery
 STR_NAME_SBB_RE_420_CARGO_NEW			:SBB Re 420 SBB Cargo (blue) livery
 STR_NAME_SBB_RE_420_LION				:SBB Re 420 LION livery
 STR_NAME_SBB_RE_420_SPECIAL				:SBB Re 420 Special liveries (random)
+STR_NAME_SBB_RE_420_SEETAL				:SBB Re 420 Seetal livery
+STR_NAME_SBB_RE_420_PRIVATE_RANDOM		:Re 420 Private operators (random)
+STR_NAME_SBB_RE_420_SERSA				:Re 420 Rhomberg Sersa livery
+STR_NAME_SBB_RE_420_TR					:Re 420 TransRail (Rheingold) livery
 
 STR_NAME_SBB_RE_446_BUILD				:SBB Re 446
 STR_NAME_SBB_RE_446_CURRENT				:SBB Re 446 Current Year
@@ -149,6 +199,7 @@ STR_NAME_SBB_RE_474_DISPO				:SBB Re 474 Dispolok livery
 STR_NAME_SBB_RE_482						:SBB Re 482 "Traxx F140 AC"
 STR_NAME_SBB_RE_482_SBBC				:SBB Re 482 SBB Cargo livery
 STR_NAME_SBB_RE_482_ALPIERCER			:SBB Re 482 "Alpiercer" livery
+STR_NAME_SBB_RE_482_CROSSRAIL			:Re 482 Crossrail livery
 
 STR_NAME_SBB_RE_484_CARGO				:SBB Re 484 "Traxx F140 MS1"
 STR_NAME_SBB_RE_484_CISALPINO			:SBB Re 484 Cisalpino livery
@@ -162,11 +213,23 @@ STR_NAME_SBB_RE_620_ROT					:SBB Re 6/6 red livery
 STR_NAME_SBB_RE_620_SBBC				:SBB Re 6/6 SBB Cargo livery
 
 STR_NAME_SBB_VECTRON_SBBC				:SBB Re 475 Siemens Vectron
+STR_NAME_SBB_VECTRON_SBBCI				:SBB Re 475 SBB Cargo International livery
+STR_NAME_SBB_VECTRON_HUPAC				:SBB Re 475 SBB Cargo "HUPAC"
+STR_NAME_SBB_VECTRON_SBBC_LOGO			:SBB Re 475 SBB Cargo
+STR_NAME_SBB_VECTRON_SBBCI_25			:SBB Re 475 25 Years SBB Cargo International
 STR_NAME_SBB_VECTRON_WRS				:Siemens Vectron Widmer Rail Service livery
+STR_NAME_SBB_VECTRON_SBBCI_HOLLAND		:SBB Re 475 "Holland Piercer" livery
+STR_NAME_SBB_VECTRON_RAILPOOL			:Siemens Vectron Railpool CH livery
 
 STR_NAME_SBB_EE_922						:SBB Ee 922
 
 STR_NAME_SBB_EEM_923					:SBB Eem 923
+
+STR_NAME_BLS_AE_415_BUILD				:BLS Ae 4/4
+STR_NAME_BLS_AE_415_CURRENT				:BLS Ae 4/4 Current Year livery
+STR_NAME_BLS_AE_415_LIGHTBROWN			:BLS Ae 4/4 light brown livery
+STR_NAME_BLS_AE_415_GREEN				:BLS Ae 4/4 green livery
+STR_NAME_BLS_AE_415_BROWN				:BLS Ae 4/4 brown livery
 
 STR_NAME_BLS_AE_88						:BLS Ae 8/8
 
@@ -192,14 +255,31 @@ STR_NAME_SOB_RE_446_OLD					:SOB Re 446 Red livery w/ yellow stripe
 STR_NAME_SOB_RE_446_NEW					:SOB Re 446 red/white livery
 STR_NAME_SOB_RE_446_SILVER				:SOB Re 446 red/silver livery
 
+STR_NAME_SBB_EURO9000_COOP				:Stadler Euro 9000
+
 ###Diesel Locos###
+
+STR_NAME_OBB_RH_2016_WORT				:ÖBB Rh 2016 "Herkules"
+STR_NAME_OBB_RH_2016_RTS				:Siemens ER 20 Rail Transport Service livery
 
 STR_NAME_OBB_RH_2070_BUILD				:ÖBB Rh 2070 "Hector"
 STR_NAME_OBB_RH_2070_CURRENT			:ÖBB Rh 2070 Current Year livery
 STR_NAME_OBB_RH_2070_PFLATSCH			:ÖBB Rh 2070 red livery w/ Pflatsch
 STR_NAME_OBB_RH_2070_WORT				:ÖBB Rh 2070 red livery
 
+STR_NAME_OBB_G2000_RTS					:Vossloh G 2000 RTS livery
+
 STR_NAME_SBB_AM44						:SBB Am 4/4
+
+STR_NAME_SBB_AM_66_BUILD				:SBB Am 6/6
+STR_NAME_SBB_AM_66_CURRENT				:SBB Am 6/6 Current Year livery
+STR_NAME_SBB_AM_66_BRAUN				:SBB Am 6/6 Brown livery
+STR_NAME_SBB_AM_66_ROT					:SBB Am 6/6 Red livery
+
+STR_NAME_SBB_BM_66_BUILD				:SBB Bm 6/6
+STR_NAME_SBB_BM_66_CURRENT				:SBB Bm 6/6 Current Year livery
+STR_NAME_SBB_BM_66_BRAUN				:SBB Bm 6/6 Brown livery
+STR_NAME_SBB_BM_66_ROT					:SBB Bm 6/6 Red livery
 
 STR_NAME_BM_840_BUILD					:SBB Bm 4/4
 STR_NAME_BM_840_CURRENT					:SBB Bm 4/4 Current Year livery
@@ -270,7 +350,11 @@ STR_NAME_OBB_RH_4010_BBO				:BBÖ Rh 4010
 STR_NAME_OBB_RH_4010_OBB				:ÖBB Rh 4010
 STR_NAME_OBB_RH_4010_ROT				:ÖBB Rh 4010 modernized, red livery
 
-STR_NAME_SBB_ETR_610_CIS				:SBB ETR 610 "Habero"
+STR_NAME_OBB_4744						:ÖBB Rh 4744
+STR_NAME_OBB_4746						:ÖBB Rh 4746
+STR_NAME_OBB_4748						:ÖBB Rh 4748
+
+STR_NAME_SBB_ETR_610_CIS				:SBB ETR610/RABe 503 "Astoro"
 
 STR_NAME_SBB_RBDe_560_2_COLIBRI			:SBB RBDe 560 "NPZ" (2-Part)
 STR_NAME_SBB_RBDe_560_2_PROTO			:SBB RBDe 560 (2-Part) Prototype
@@ -287,15 +371,35 @@ STR_NAME_SBB_RBDe_560_5_PROTO			:SBB RBDe 560 (5-Part) Prototype
 STR_NAME_SBB_RBDe_560_5_TILO			:SBB RBDe 560 (5-Part) TILO livery
 STR_NAME_SBB_RBDe_560_5_GLARN			:SBB RBDe 560 (5-Part) Glarner Sprinter livery
 
+STR_NAME_SBB_DOMINO_3_SBB				:SBB RBDe 560 "Domino" (3-Part)
+STR_NAME_SBB_DOMINO_4_SBB				:SBB RBDe 560 "Domino" (4-Part)
+
 STR_NAME_SBB_RE_450_BUILD				:SBB Re 450 "DPZ"
 STR_NAME_SBB_RE_450_CURRENT				:SBB Re 450 Current Year livery
 STR_NAME_SBB_RE_450_OLD_YELLOW			:SBB Re 450 S-Bahn livery (yellow doors)
+STR_NAME_SBB_RE_450_OLD_TRAM			:SBB Re 450 "Ich bin ein Tram" livery
 STR_NAME_SBB_RE_450_OLD_RED				:SBB Re 450 Zürcher Verkehrsverbund livery (red doors)
-STR_NAME_SBB_RE_450_NEW_RED				:SBB Re 450 modernized, Zürcher Verkehrsverbund livery (red doors)
-STR_NAME_SBB_RE_450_NEW_COM				:SBB Re 450 modernized, w/ commercials
-STR_NAME_SBB_RE_450_OLD_SZU				:Re 450 Sihltalbahn livery
-STR_NAME_SBB_RE_450_NEW_SZU				:Re 450 modernized, Sihltalbahn livery
+STR_NAME_SBB_RE_450_OLD_YELLOW_PIS		:SBB Re 450 red doors w/ Passenger information system
+STR_NAME_SBB_RE_450_OLD_YELLOW_BLUE		:SBB Re 450 blue & yellow doors
+STR_NAME_SBB_RE_450_OLD_RED_BLUE		:SBB Re 450 blue & red doors
+STR_NAME_SBB_RE_450_OLD_PIS				:SBB Re 450  w/ Passenger information system
+STR_NAME_SBB_RE_450_OLD_BERNINA			:SBB Re 450 Bernina commercial
+STR_NAME_SBB_RE_450_OLD_YELLOW_PIS2		:SBB Re 450 red doors w/ Passenger information system
+STR_NAME_SBB_RE_450_OLD_PIS2			:SBB Re 450  w/ Passenger information system
 STR_NAME_SBB_RE_450_OLD_060				:SBB Re 450 Zürcher Verkehrsverbund commercial
+STR_NAME_SBB_RE_450_NEW_BLUE			:SBB Re 450 modernized
+STR_NAME_SBB_RE_450_NEW_PLUS			:SBB Re 450 modernized, 2nd Gen ZVV logo
+STR_NAME_SBB_RE_450_OLD_25JAHRE			:SBB Re 450 "25 Jahre ZVV" commercial
+STR_NAME_SBB_RE_450_OLD_25JAHRE2		:SBB Re 450 modernized, "25 Jahre ZVV" commercial
+STR_NAME_SBB_RE_450_NEW_ZUERI			:SBB Re 450 modernized, ZKB commercial
+STR_NAME_SBB_RE_450_NEW_LOGO3			:SBB Re 450 modernized, 3rd Gen ZVV logo
+STR_NAME_SBB_RE_450_OLD_SZU				:SBB Re 450 red SZU livery
+STR_NAME_SBB_RE_450_MOD_SZU				:SBB Re 450 modernized, red SZU livery
+STR_NAME_SBB_RE_450_NEW_SZU				:SBB Re 450 modernized, SZU livery
+
+STR_NAME_SBB_RABE_502_IC200				:SBB RABe 502 "IC 200"
+STR_NAME_SBB_RABE_502_IR200				:SBB RABe 502 "IR 200"
+STR_NAME_SBB_RABE_502_IR100				:SBB RABe 502 "IR 100"
 
 STR_NAME_SBB_RABE_511_4_BUILD			:SBB RABe 511 "Stadler KISS" (4-Part)
 STR_NAME_SBB_RABE_511_4_CURRENT			:SBB RABe 511 (4-Part) Current Year livery
@@ -306,6 +410,8 @@ STR_NAME_SBB_RABE_511_6_CURRENT			:SBB RABe 511 (6-Part) Current Year livery
 STR_NAME_SBB_RABE_511_6_FERN_ALT		:SBB RABe 511 (6-Part) Intercity livery
 STR_NAME_SBB_RABE_511_6_FERN_NEU		:SBB RABe 511 (6-Part) modernized Intercity livery
 STR_NAME_SBB_RABE_511_6_SBZ				:SBB RABe 511 (6-Part) S-Bahn Zürich livery
+
+STR_NAME_SBB_RABE_512					:SBB RABe 512 "Stadler KISS" (6-Part)
 
 STR_NAME_SBB_RABE_514_SBB				:SBB RABe 514 S-Bahn Zürich
 STR_NAME_SBB_RABE_514_ZVV				:SBB RABe 514 Zürcher Verkehrsverbund commercial
@@ -319,9 +425,17 @@ STR_NAME_SBB_RABE_524_4_SBB				:SBB RABe 524 Flirt 3 (4-Part)
 STR_NAME_SBB_RABE_524_6_TILO			:Flirt 3 6-Part TILO livery
 STR_NAME_SBB_RABE_524_3_THURBO			:Flirt 3 3-Part Thurbo livery
 
+ITEM_SBB_DE_44_BRAUN					:SBB De 4/4
+ITEM_SBB_DE_44_SEETAL					:SBB De 4/4 Seetal livery
+
 ###Steam Railcars (DTW)###
 
 ###Diesel Multiple Units (DMU)###
+
+STR_NAME_SBB_BM_596_BUILD				:MThB Bm 596 "Stadler GTW 2/6"
+STR_NAME_SBB_BM_596_CURRENT				:MThB Bm 596 Current Year livery
+STR_NAME_SBB_BM_596_MTHB				:Bm 596 MThB livery
+STR_NAME_SBB_BM_596_THURBO				:Bm 596 Thurbo livery
 
 ###Battery powered Multiple Units (BMU)###
 
@@ -336,6 +450,15 @@ STR_NAME_OBB_KFNB_1854					:KFNB 1854 Coaches
 STR_NAME_OBB_KFNB_1869					:KFNB 1869 Coupewagen
 
 STR_NAME_OBB_KFNB_1873					:KFNB Intercommunicationswagen
+
+STR_NAME_OBB_KFNB_1878					:KFNB 1878 Coupewagen
+
+STR_NAME_OBB_KFNB_1881_BUILD			:KFNB/kkStB 1881 Intercommunicationswagen
+STR_NAME_OBB_KFNB_1881_CURRENT			:KFNB/kkStB 1881 Intercommunicationswagen Current Year livery
+STR_NAME_OBB_KFNB_1881_KFNB				:KFNB 1881 Intercommunicationswagen Current Year livery
+STR_NAME_OBB_KFNB_1881_KKSTB			:kkStB 1881 Intercommunicationswagen
+
+STR_NAME_SBB_SEETAL						:SBB Platformwagen "Seetalwagen"
 
 STR_NAME_SBB_LION_SBAHN					:SBB "LION" Bi-Level Coaches
 STR_NAME_SBB_LION_ZVV					:SBB "LION" Zürcher Verkehrsverbund livery
@@ -355,6 +478,14 @@ STR_NAME_SZU_DPZ_NEU_WEISS				:SZU "DPZ" low entry, new level (white doors)
 
 ###Passenger Coaches express###
 
+STR_NAME_OBB_SCHLIEREN_COACH_BUILD		:ÖBB Schlierenwagen
+STR_NAME_OBB_SCHLIEREN_COACH_CURRENT	:ÖBB Schlierenwagen Current Year livery
+STR_NAME_OBB_SCHLIEREN_COACH_GRUEN		:ÖBB Schlierenwagen tannengrün livery
+STR_NAME_OBB_SCHLIEREN_COACH_JAFFA1		:ÖBB Schlierenwagen orange/beige "Jaffa" livery
+STR_NAME_OBB_SCHLIEREN_COACH_JAFFA2		:ÖBB Schlierenwagen orange/beige "Jaffa" livery w/ gray roof
+STR_NAME_OBB_SCHLIEREN_COACH_SPAR		:ÖBB Schlierenwagen orange/beige "Jaffa-Sparlack" livery
+STR_NAME_OBB_SCHLIEREN_COACH_VALOUSEK	:ÖBB Schlierenwagen red/white livery
+
 STR_NAME_OBB_EUROFIMA_BUILD				:ÖBB Eurofima Coach
 STR_NAME_OBB_EUROFIMA_CURRENT			:ÖBB Eurofima Coach Current Year livery
 STR_NAME_OBB_EUROFIMA_ORANGE			:ÖBB Eurofima Coach orange livery
@@ -362,6 +493,14 @@ STR_NAME_OBB_EUROFIMA_ROT				:ÖBB Eurofima Coach red/black livery
 STR_NAME_OBB_EUROFIMA_GRAU				:ÖBB Eurofima Coach gray/red livery
 
 STR_NAME_OBB_RAILJET_2008_RANDOM		:ÖBB Railjet
+
+STR_NAME_SBB_EW1_COACH_BUILD			:SBB EW I Coach
+STR_NAME_SBB_EW1_COACH_CURRENT			:SBB EW I Coach Current Year livery
+STR_NAME_SBB_EW1_COACH_GRUEN			:SBB EW I Coach Green livery
+STR_NAME_SBB_EW1_COACH_GRUEN_1962		:SBB EW I Coach Green livery, sliding windows
+STR_NAME_SBB_EW1_COACH_GRUEN_NEU		:SBB EW I Coach Green livery, new logo
+STR_NAME_SBB_EW1_COACH_COLIBRI			:SBB EW I Coach "Colibri" white/blue livery
+STR_NAME_SBB_EW1_COACH_PAPAGEI			:SBB EW I Coach "Papagei" Tri-color livery
 
 STR_NAME_SBB_EW2_COACH_BUILD			:SBB EW II Coach
 STR_NAME_SBB_EW2_COACH_CURRENT			:SBB EW II Coach Current Year livery
@@ -372,6 +511,12 @@ STR_NAME_SBB_EW2_COACH_KOMFORT			:SBB EW II Coach "Komfortstreifen" Green livery
 STR_NAME_SBB_EW2_COACH_PAPAGEI			:SBB EW II Coach "Papagei" Tri-color livery
 
 STR_NAME_SBB_EW3_SWISSEX_COACH			:SBB EW III "Swiss Express" Coach
+
+STR_NAME_SBB_EUROFIMA_BUILD				:SBB Eurofima Coach
+STR_NAME_SBB_EUROFIMA_CURRENT			:SBB Eurofima Coach Current Year livery
+STR_NAME_SBB_EUROFIMA_ORANGE			:SBB Eurofima Coach orange livery
+STR_NAME_SBB_EUROFIMA_GRAU				:SBB Eurofima Coach gray livery w/ red doors
+STR_NAME_SBB_EUROFIMA_IC				:SBB Eurofima Coach black/white livery
 
 STR_NAME_SBB_EW4_COACH_BUILD			:SBB EW IV Coach
 STR_NAME_SBB_EW4_COACH_CURRENT			:SBB EW IV Coach Current Year livery
@@ -396,6 +541,28 @@ STR_NAME_SOB_EW4_COACH					:SOB EW IV
 STR_NAME_SOB_REVVIVO_COACH				:SOB Revvivo "Voralpen Express"
 
 ###DVT's as Waggons###
+
+STR_NAME_SBB_SEETAL_DVT					:SBB Seetalwagen DVT
+STR_NAME_SBB_SEETAL_ORANGE_DVT			:SBB Seetalwagen DVT w/ orange front
+STR_NAME_SBB_SEETAL_YELLOW_DVT			:SBB Seetalwagen DVT w/ yellow front
+
+STR_NAME_SBB_SEETAL_DVT_B				:SBB Seetalwagen Half-Baggage DVT
+
+STR_NAME_SBB_EW1_DVTB_BUILD				:SBB EW I DVT
+STR_NAME_SBB_EW1_DVTB_CURRENT			:SBB EW I DVT Current Year livery
+STR_NAME_SBB_EW1_DVTB_GRUEN				:SBB EW I DVT green livery (1./2. Class)
+STR_NAME_SBB_EW1_DVTB_GRUEN_NEU			:SBB EW I DVT green livery w/ new logo (1./2. Class)
+STR_NAME_SBB_EW1_DVTB_GRUEN_NEU2		:SBB EW I DVT green livery w/ new logo (2. Class)
+STR_NAME_SBB_EW1_DVTB_ROT				:SBB EW I DVT green livery w/ red front
+STR_NAME_SBB_EW1_DVTB_COLIBRI			:SBB EW I DVT "Colibri" white/blue livery
+STR_NAME_SBB_EW1_DVTB_AUTOZUG			:SBB EW I DVT Autozug livery
+
+STR_NAME_SBB_EW2_DVTD_BUILD				:SBB EW II Baggage DVT
+STR_NAME_SBB_EW2_DVTD_CURRENT			:SBB EW II Baggage DVT Current Year livery
+STR_NAME_SBB_EW2_DVTD_GRUEN				:SBB EW II Baggage DVT green livery
+STR_NAME_SBB_EW2_DVTD_GRUEN_NEU			:SBB EW II Baggage DVT green livery w/ new logo
+STR_NAME_SBB_EW2_DVTD_ROT				:SBB EW II Baggage DVT green livery w/ red front
+STR_NAME_SBB_EW2_DVTD_SEETHAL			:SBB EW II Baggage DVT Seethalbahn livery
 
 STR_NAME_SBB_EW2_DVTB_BUILD				:SBB EW II Half-Baggage DVT
 STR_NAME_SBB_EW2_DVTB_CURRENT			:SBB EW II Half-Baggage DVT Current Year livery
@@ -441,6 +608,15 @@ STR_NAME_SBB_EW4_WR_ROT_NEU				:SBB EW IV Restaurant Car modernized red livery
 STR_NAME_OBB_KFNB_1854_BAGGAGE			:KFNB 1854 Baggage Coach
 STR_NAME_OBB_KFNB_1869_BAGGAGE			:KFNB 1869 Coupewagen Baggage Coach
 
+STR_NAME_OBB_KFNB_1882_BAGGAGE_BUILD		:KFNB/kkStB Baggage Coach "DF"
+STR_NAME_OBB_KFNB_1882_BAGGAGE_CURRENT		:KFNB/kkStB Baggage Coach "DF" Current Year livery
+STR_NAME_OBB_KFNB_1882_BAGGAGE_KFNB			:KFNB Baggage Coach "DF"
+STR_NAME_OBB_KFNB_1882_BAGGAGE_KKSTB		:kkStB Baggage Coach "DF"
+
+
+
+STR_NAME_SBB_SEETAL_ABD					:SBB Seetalwagen Half-Baggage Coach
+
 STR_NAME_SZU_PENDEL_BD_BUILD			:SZU "Pendelzug" Half-Baggage Coach
 STR_NAME_SZU_PENDEL_BD_CURRENT			:SZU "Pendelzug" Half-Baggage Coach Current Year livery
 STR_NAME_SZU_PENDEL_BD_ORANGE			:SZU "Pendelzug" Half-Baggage Coach red livery w/ orange stripe
@@ -448,6 +624,19 @@ STR_NAME_SZU_PENDEL_BD_ROT				:SZU "Pendelzug" Half-Baggage Coach red livery
 STR_NAME_SZU_PENDEL_BD_WEISS			:SZU "Pendelzug" Half-Baggage Coach (new) red livery w/ white doors
 
 ###Baggage Coaches & Combined Post/Baggage Coaches - Express###
+
+STR_NAME_OBB_SCHLIEREN_BD_BUILD			:ÖBB Schlierenwagen Half-Baggage Coach
+STR_NAME_OBB_SCHLIEREN_BD_CURRENT		:ÖBB Schlierenwagen Half-Baggage Coach Current Year livery
+STR_NAME_OBB_SCHLIEREN_BD_JAFFA1		:ÖBB Schlierenwagen Half-Baggage Coach "Jaffa" livery
+STR_NAME_OBB_SCHLIEREN_BD_JAFFA2		:ÖBB Schlierenwagen Half-Baggage Coach "Jaffa" livery w/ gray roof
+STR_NAME_OBB_SCHLIEREN_BD_SPAR			:ÖBB Schlierenwagen Half-Baggage Coach "Jaffa-Sparlack" livery
+STR_NAME_OBB_SCHLIEREN_BD_VALOUSEK		:ÖBB Schlierenwagen Half-Baggage Coach red/white livery
+
+STR_NAME_OBB_EUROFIMA_BD_BUILD			:ÖBB Eurofima Half-Baggage Coach
+STR_NAME_OBB_EUROFIMA_BD_CURRENT		:ÖBB Eurofima Half-Baggage Coach Current Year livery
+STR_NAME_OBB_EUROFIMA_BD_ORANGE			:ÖBB Eurofima Half-Baggage Coach orange livery
+STR_NAME_OBB_EUROFIMA_BD_ROT			:ÖBB Eurofima Half-Baggage Coach red/black livery
+STR_NAME_OBB_EUROFIMA_BD_GRAU			:ÖBB Eurofima Half-Baggage Coach gray/red livery
 
 STR_NAME_SBB_EW2_D_BUILD				:SBB EW II Baggage Coach
 STR_NAME_SBB_EW2_D_CURRENT				:SBB EW II Baggage Coach Current Year livery
@@ -478,6 +667,14 @@ STR_NAME_OBB_KFNB_1845_FLAT				:KFNB 1845 Flat Car
 STR_NAME_OBB_KFNB_1850_FLAT				:KFNB 1850 Flat Car
 STR_NAME_OBB_KFNB_1860_MINERAL			:KFNB 1860 Mineral Wagon
 
+
+
+STR_NAME_SAADKMS_CURRENT				:SBB Saadkms "Rollende Landstraße"
+STR_NAME_SAADKMS_ERA1					:SBB Saadkms w/ Era 1 trucks (Magirus D 310, MAN F90, Scania Series 3)
+STR_NAME_SAADKMS_ERA2					:SBB Saadkms w/ Era 2 trucks (let's see what we can do)
+STR_NAME_SAADKMS_ERA3					:SBB Saadkms w/ Era 3 trucks (let's see what we can do)
+STR_NAME_SAADKMS_ERA4					:SBB Saadkms w/ Era 4 trucks (let's see what we can do)
+
 ###PWG/Caboose###
 
 
@@ -496,33 +693,41 @@ STR_GAUGE_STANDARD			:Gauge:{GOLD} Standard (1.435mm) {}
 ###########################
 
 ###Standards###
-STR_DESC_GOODS			:Usage:{LTBROWN} Goods
-STR_DESC_EXP_GOODS		:Usage:{BROWN} Express Goods
-STR_DESC_CABOOSE_65		:Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 50 km/h{BLACK}, with Caboose:{GOLD} 65 km/h{BLACK}.{}
-STR_DESC_CABOOSE_80		:Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 65 km/h{BLACK}, with Caboose:{GOLD} 80 km/h{BLACK}.{}
-STR_DESC_CABOOSE_100	:Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 80 km/h{BLACK}, with Caboose:{GOLD} 100 km/h{BLACK}.{}
-STR_DESC_EXPRESS		:Usage:{PURPLE} (national) Express Passenger{}
-STR_DESC_INTEX			:Usage:{PURPLE} (international) Express Passenger{}
-STR_DESC_PASS			:Usage:{DKGREEN} Passenger{}
-STR_DESC_SLEEP			:Usage:{PURPLE} Sleeper{}
-STR_DESC_PASS_TRAIL		:Usage:{DKGREEN} Passenger{}{BLACK} Trailer for Multiple Unit.
-STR_DESC_UNIVERSAL		:Usage:{BLUE} Universal{}
-STR_DESC_POST			:Usage:{GREEN} Mail{}
-STR_DESC_POST_EXP		:Usage:{DKGREEN} Express Mail{}
-STR_DESC_HALFBAGG		:Usage:{DKGREEN} Passenger with Luggage compartment{}{BLACK}Use refit for full cargo option.
-STR_DESC_BAGG			:Usage:{DKGREEN} Luggage{}
-STR_DESC_BAGG_EXP		:Usage:{PURPLE} Express Luggage{}
-STR_DESC_SHUNT			:Usage:{DKBLUE} Shunter{}
-STR_DESC_PWG			:Usage:{BROWN}Goods{}{BLACK} Increases speed limit of certain goods vans.{}
+STR_DESC_GOODS			:{BLACK}Usage:{LTBROWN} Goods
+STR_DESC_EXP_GOODS		:{BLACK}Usage:{BROWN} Express Goods
+STR_DESC_CABOOSE_65		:{BLACK}Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 50 km/h{BLACK}, with Caboose:{GOLD} 65 km/h{BLACK}.{}
+STR_DESC_CABOOSE_80		:{BLACK}Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 65 km/h{BLACK}, with Caboose:{GOLD} 80 km/h{BLACK}.{}
+STR_DESC_CABOOSE_100	:{BLACK}Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 80 km/h{BLACK}, with Caboose:{GOLD} 100 km/h{BLACK}.{}
+STR_DESC_EXPRESS		:{BLACK}Usage:{PURPLE} (national) Express Passenger{}
+STR_DESC_INTEX			:{BLACK}Usage:{PURPLE} (international) Express Passenger{}
+STR_DESC_PASS			:{BLACK}Usage:{DKGREEN} Passenger{}
+STR_DESC_SLEEP			:{BLACK}Usage:{PURPLE} Sleeper{}
+STR_DESC_PASS_TRAIL		:{BLACK}Usage:{DKGREEN} Passenger{}{BLACK} Trailer for Multiple Unit.
+STR_DESC_UNIVERSAL		:{BLACK}Usage:{BLUE} Universal{}
+STR_DESC_POST			:{BLACK}Usage:{GREEN} Mail{}
+STR_DESC_POST_EXP		:{BLACK}Usage:{DKGREEN} Express Mail{}
+STR_DESC_HALFBAGG		:{BLACK}Usage:{DKGREEN} Passenger with Luggage compartment{}{BLACK}Use refit for full cargo option.
+STR_DESC_BAGG			:{BLACK}Usage:{DKGREEN} Luggage{}
+STR_DESC_BAGG_EXP		:{BLACK}Usage:{PURPLE} Express Luggage{}
+STR_DESC_SHUNT			:{BLACK}Usage:{DKBLUE} Shunter{}
+STR_DESC_PWG			:{BLACK}Usage:{BROWN}Goods{}{BLACK} Increases speed limit of certain goods vans.{}
 
-STR_DESC_EW2_DVTB		:Usage:{PURPLE} (national) Express Passenger with Luggage compartment{}{}{BLACK}Use refit for full cargo option. {BLACK}Driving Van Trailer (eyecandy only - no function){}
+STR_DESC_SEETAL_DVT		:{BLACK}Usage:{DKGREEN} Passenger{}Working push-pull operation with "Seetalbahn" Coaches and SBB De 4/4.
+STR_DESC_SEETAL_DVT_B	:{BLACK}Usage:{DKGREEN} Passenger with Luggage compartment{}{BLACK}Use refit for full cargo option. Working push-pull operation with "Seetalbahn" Coaches and SBB De 4/4.
+
+
+STR_DESC_EW1_DVTB		:{BLACK}Usage:{PURPLE} (national) Express Passenger{}{BLACK}Driving Van Trailer (eyecandy only - no function){}
+STR_DESC_EW2_DVTB		:{BLACK}Usage:{PURPLE} (national) Express Passenger with Luggage compartment{}{}{BLACK}Use refit for full cargo option. {BLACK}Driving Van Trailer (eyecandy only - no function){}
+STR_DESC_EW2_DVTD		:{BLACK}Usage:{PURPLE} (national) Express Luggage{} {BLACK}Driving Van Trailer (eyecandy only - no function){}
 
 STR_DESC_DVT		    :{BLACK}Driving Van Trailer (eyecandy only - no function){}
-STR_DESC_RESTAURANT		:Usage:{PURPLE}Restaurant Car{}{BLACK}Reduces running cost for {PURPLE}Express Coaches{BLACK}.{}Reduces Cargo aging for {PURPLE}Express Coaches{BLACK} by {GOLD} 25%{BLACK}.{}
+STR_DESC_RESTAURANT		:{BLACK}Usage:{PURPLE}Restaurant Car{}{BLACK}Reduces running cost for {PURPLE}Express Coaches{BLACK}.{}Reduces Cargo aging for {PURPLE}Express Coaches{BLACK} by {GOLD} 25%{BLACK}.{}
 
-STR_DESC_RE_460			:Usage:{BLUE} Universal{}{BLACK}Running cost decreases by 20% after modernization 2021.{}
-STR_DESC_AEM_940		:Usage:{DKBLUE} Shunter{}{BLACK}{BLACK}Power on Diesel {GOLD} 1.224 Hp{}{BLACK}Power on Electric: {GOLD}2.720 Hp {}
+STR_DESC_RE_460			:{BLACK}Usage:{BLUE} Universal{}{BLACK}Running cost decreases by 20% after modernization 2021.{}
+STR_DESC_AEM_940		:{BLACK}Usage:{DKBLUE} Shunter{}{BLACK}{BLACK}Power on Diesel {GOLD} 1.224 Hp{}{BLACK}Power on Electric: {GOLD}2.720 Hp {}
 STR_DESC_EEM_923		:{BLACK}Usage:{DKBLUE} Shunter{}{BLACK}{BLACK}Power on Diesel {GOLD} 406 Hp{}{BLACK}Power on Electric: {GOLD}2.068 Hp {}
+
+STR_DESC_EURO9000		:{BLACK}Usage:{LTBROWN} Goods{BLACK}Power on Diesel {GOLD} 1.224 Hp{}{BLACK}Power on Electric: {GOLD}2.720 Hp {}
 
 STR_DESC_AUTODISABLE	:{BLACK}Disables autoconsist option for coaches of the same type.{}
 

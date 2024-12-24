@@ -1892,7 +1892,7 @@ item (FEAT_TRAINS , ITEM_SBB_RABE_511_6_SBZ, 4823)
 						refit_cost: 					0;
 						track_type: 					AC15;	
 						power:  						8160 hp;
-						weight: 						297 ton;
+						weight: 						292 ton;
 						ai_engine_rank: 				0;
 						engine_class: 					ENGINE_CLASS_ELECTRIC;
 						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);

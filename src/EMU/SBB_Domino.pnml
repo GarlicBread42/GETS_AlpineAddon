@@ -1,0 +1,434 @@
+//######################
+//###SBB "Domino" NPZ###
+//######################
+
+//Spriteset front
+
+spriteset (spriteset_SBB_Domino_front, "gfx\SBB_Domino/SBB_Domino_front_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_front_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_front_1x_mask.png")
+					{template_148trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Domino_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_front_2x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_front_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Domino_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_front_4x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_front_4x_mask.png")
+					{template_148trains_4x(0,0)}
+
+spriteset (spriteset_SBB_Domino_front_loading, "gfx\SBB_Domino/SBB_Domino_front_loading_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_front_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_front_loading_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_front_loading_1x_mask.png")
+					{template_148trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Domino_front_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_front_loading_2x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_front_loading_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Domino_front_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_front_loading_4x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_front_loading_4x_mask.png")
+					{template_148trains_4x(0,0)}
+					
+spritegroup spritegroup_SBB_Domino_front_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Domino_front_loading];}					
+					
+spriteset (spriteset_SBB_Domino_front_REV, "gfx\SBB_Domino/SBB_Domino_front_1x_8bpp.png")
+					{template_148trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_front_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_front_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_front_1x_mask.png")
+					{template_148trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Domino_front_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_front_2x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_front_2x_mask.png")
+					{template_148trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Domino_front_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_front_4x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_front_4x_mask.png")
+					{template_148trains_REV_4x(0,0)}
+					
+spriteset (spriteset_SBB_Domino_front_loading_REV, "gfx\SBB_Domino/SBB_Domino_front_loading_1x_8bpp.png")
+					{template_148trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_front_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_front_loading_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_front_loading_1x_mask.png")
+					{template_148trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Domino_front_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_front_loading_2x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_front_loading_2x_mask.png")
+					{template_148trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Domino_front_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_front_loading_4x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_front_loading_4x_mask.png")
+					{template_148trains_REV_4x(0,0)}
+
+spritegroup spritegroup_SBB_Domino_front_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Domino_front_loading_REV];}
+
+//Spriteset back
+
+spriteset (spriteset_SBB_Domino_back, "gfx\SBB_Domino/SBB_Domino_back_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_back_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_back_1x_mask.png")
+					{template_148trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Domino_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_back_2x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_back_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Domino_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_back_4x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_back_4x_mask.png")
+					{template_148trains_4x(0,0)}
+
+spriteset (spriteset_SBB_Domino_back_loading, "gfx\SBB_Domino/SBB_Domino_back_loading_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_back_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_back_loading_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_back_loading_1x_mask.png")
+					{template_148trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Domino_back_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_back_loading_2x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_back_loading_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Domino_back_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_back_loading_4x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_back_loading_4x_mask.png")
+					{template_148trains_4x(0,0)}
+					
+spritegroup spritegroup_SBB_Domino_back_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Domino_back_loading];}					
+					
+spriteset (spriteset_SBB_Domino_back_REV, "gfx\SBB_Domino/SBB_Domino_back_1x_8bpp.png")
+					{template_148trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_back_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_back_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_back_1x_mask.png")
+					{template_148trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Domino_back_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_back_2x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_back_2x_mask.png")
+					{template_148trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Domino_back_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_back_4x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_back_4x_mask.png")
+					{template_148trains_REV_4x(0,0)}
+					
+spriteset (spriteset_SBB_Domino_back_loading_REV, "gfx\SBB_Domino/SBB_Domino_back_loading_1x_8bpp.png")
+					{template_148trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_back_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_back_loading_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_back_loading_1x_mask.png")
+					{template_148trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Domino_back_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_back_loading_2x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_back_loading_2x_mask.png")
+					{template_148trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Domino_back_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_back_loading_4x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_back_loading_4x_mask.png")
+					{template_148trains_REV_4x(0,0)}
+
+spritegroup spritegroup_SBB_Domino_back_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Domino_back_loading_REV];}
+
+
+//Spriteset middle1
+
+spriteset (spriteset_SBB_Domino_middle1, "gfx\SBB_Domino/SBB_Domino_middle1_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_middle1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle1_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle1_1x_mask.png")
+					{template_148trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Domino_middle1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle1_2x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle1_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Domino_middle1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle1_4x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle1_4x_mask.png")
+					{template_148trains_4x(0,0)}
+					
+spriteset (spriteset_SBB_Domino_middle1_REV, "gfx\SBB_Domino/SBB_Domino_middle1_1x_8bpp.png")
+					{template_148trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_middle1_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle1_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle1_1x_mask.png")
+					{template_148trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Domino_middle1_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle1_2x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle1_2x_mask.png")
+					{template_148trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Domino_middle1_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle1_4x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle1_4x_mask.png")
+					{template_148trains_REV_4x(0,0)}
+
+//Spriteset middle2
+
+spriteset (spriteset_SBB_Domino_middle2, "gfx\SBB_Domino/SBB_Domino_middle2_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_middle2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle2_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle2_1x_mask.png")
+					{template_148trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Domino_middle2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle2_2x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle2_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Domino_middle2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle2_4x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle2_4x_mask.png")
+					{template_148trains_4x(0,0)}
+					
+spriteset (spriteset_SBB_Domino_middle2_REV, "gfx\SBB_Domino/SBB_Domino_middle2_1x_8bpp.png")
+					{template_148trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_middle2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle2_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle2_1x_mask.png")
+					{template_148trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Domino_middle2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle2_2x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle2_2x_mask.png")
+					{template_148trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Domino_middle2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle2_4x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle2_4x_mask.png")
+					{template_148trains_REV_4x(0,0)}															
+
+//Spriteset middle loading
+
+spriteset (spriteset_SBB_Domino_middle_loading, "gfx\SBB_Domino/SBB_Domino_middle_loading_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_middle_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle_loading_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle_loading_1x_mask.png")
+					{template_148trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Domino_middle_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle_loading_2x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle_loading_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Domino_middle_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle_loading_4x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle_loading_4x_mask.png")
+					{template_148trains_4x(0,0)}
+					
+spritegroup spritegroup_SBB_Domino_middle_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Domino_middle_loading];}	
+		
+spriteset (spriteset_SBB_Domino_middle_loading_REV, "gfx\SBB_Domino/SBB_Domino_middle_loading_1x_8bpp.png")
+					{template_148trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_middle_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle_loading_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle_loading_1x_mask.png")
+					{template_148trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Domino_middle_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle_loading_2x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle_loading_2x_mask.png")
+					{template_148trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Domino_middle_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_middle_loading_4x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_middle_loading_4x_mask.png")
+					{template_148trains_REV_4x(0,0)}
+
+spritegroup spritegroup_SBB_Domino_middle_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Domino_middle_loading_REV];}		
+
+
+//Spritesets purchase
+
+spriteset (spriteset_SBB_Domino_purchase, "gfx\SBB_Domino/SBB_Domino_front_1x_8bpp.png")
+					{template_purchase(0, 0)}
+		alternative_sprites (spriteset_SBB_Domino_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_Domino/SBB_Domino_front_1x_32bpp.png", "gfx\SBB_Domino/SBB_Domino_front_1x_mask.png")
+					{template_purchase(0,0)}
+					
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Domino_front, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Domino_front;
+							1: spritegroup_SBB_Domino_front_loading;
+							2: spriteset_SBB_RBDe_560_front_lights_on;}					
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Domino_front_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Domino_front_REV;
+							1: spritegroup_SBB_Domino_front_loading_REV;
+							2: spriteset_SBB_RBDe_560_front_lights_off_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Domino_middle1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Domino_middle1;
+							1: spritegroup_SBB_Domino_middle_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Domino_middle1_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Domino_middle1_REV;
+							1: spritegroup_SBB_Domino_middle_loading_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Domino_middle2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Domino_middle2;
+							1: spritegroup_SBB_Domino_middle_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Domino_middle2_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Domino_middle2_REV;
+							1: spritegroup_SBB_Domino_middle_loading_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Domino_back, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Domino_back;
+							1: spritegroup_SBB_Domino_back_loading;
+							2: spriteset_SBB_RBDe_560_back_lights_off;}					
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Domino_back_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Domino_back_REV;
+							1: spritegroup_SBB_Domino_back_loading_REV;
+							2: spriteset_SBB_RBDe_560_back_lights_on_REV;}
+
+
+//Switches for 3-part 
+							
+					switch(FEAT_TRAINS, SELF, switch_length_SBB_Domino_3, position_in_vehid_chain % 9) {
+							0: 4;
+							1: 6;
+							2: 4;
+							3: 4;
+							4: 6;
+							5: 4;
+							6: 4;
+							7: 6;
+							8: 4;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Domino_3, 1){
+							return 2225;}							
+
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_Domino_3, position_in_vehid_chain % 9) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);														
+							4 .. 8: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}	
+							
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Domino_3_front_SBB, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Domino_front;
+								switch_spritestack_SBB_Domino_back_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Domino_3_middle_SBB, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Domino_middle1;
+								switch_spritestack_SBB_Domino_middle1_REV;}	
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Domino_3_back_SBB, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Domino_back;
+								switch_spritestack_SBB_Domino_front_REV;}								
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Domino_3_SBB, position_in_vehid_chain % 9) {
+							0:	   spriteset_empty;
+							1:     switch_reverse_SBB_Domino_3_front_SBB;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     switch_reverse_SBB_Domino_3_middle_SBB;
+							5:	   spriteset_empty;
+							6:	   spriteset_empty;
+							7:     switch_reverse_SBB_Domino_3_back_SBB;
+							8:	   spriteset_empty;}								
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Domino_3_SBB, extra_callback_info1) {
+						1 .. 8: return ITEM_SBB_DOMINO_3_SBB; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_DOMINO_3_SBB, 4681)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_DOMINO_3_SBB);
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2007,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 22 ;
+						loading_speed:					13;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						2400 hp;
+						weight: 						138 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_SBB_Domino_3_SBB;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Domino_3;
+			articulated_part				: switch_articulated_SBB_Domino_3_SBB;
+			visual_effect_and_powered		: switch_FX_SBB_Domino_3;
+			purchase						: spriteset_SBB_Domino_purchase;
+			cost_factor						: 224;
+			running_cost_factor				: switch_running_cost_SBB_Domino_3;
+			
+			}
+	}
+
+
+//Switches for 4-Part
+						   
+							   
+					switch(FEAT_TRAINS, SELF, switch_length_SBB_Domino_4, position_in_vehid_chain % 12) {
+							0: 4;
+							1: 6;
+							2: 4;
+							3: 4;
+							4: 6;
+							5: 4;
+							6: 4;
+							7: 6;
+							8: 4;
+							9: 4;
+						   10: 6;
+						   11: 4;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Domino_560_4, 1){
+							return 2225;}
+							
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_Domino_4, position_in_vehid_chain % 12) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);														
+							4 .. 11: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}	
+	
+							switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Domino_4_front_SBB, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Domino_front;
+								switch_spritestack_SBB_Domino_back_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Domino_4_middle1_SBB, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Domino_middle1;
+								switch_spritestack_SBB_Domino_middle2_REV;}	
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Domino_4_middle2_SBB, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Domino_middle2;
+								switch_spritestack_SBB_Domino_middle1_REV;}	
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Domino_4_back_SBB, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Domino_back;
+								switch_spritestack_SBB_Domino_front_REV;}
+														
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Domino_4_SBB, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     switch_reverse_SBB_Domino_4_front_SBB;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     switch_reverse_SBB_Domino_4_middle1_SBB;
+							5:	   spriteset_empty;
+							6:	   spriteset_empty;
+							7:     switch_reverse_SBB_Domino_4_middle2_SBB;
+							8:	   spriteset_empty;							
+							9:	   spriteset_empty;
+						   10:     switch_reverse_SBB_Domino_4_back_SBB;
+						   11:	   spriteset_empty;}								
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Domino_4_SBB, extra_callback_info1) {
+						1 .. 11: return ITEM_SBB_DOMINO_4_SBB; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_DOMINO_4_SBB, 4686)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_DOMINO_4_SBB);
+						variant_group:					4681;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2007,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 24 ;
+						loading_speed:					13;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						2400 hp;
+						weight: 						170 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_SBB_Domino_4_SBB;
+			additional_text					: string(STR_CONCAT_3, 
+											  string(STR_GAUGE_STANDARD), 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_Domino_4;
+			articulated_part				: switch_articulated_SBB_Domino_4_SBB;
+			visual_effect_and_powered		: switch_FX_SBB_Domino_4;
+			purchase						: spriteset_SBB_Domino_purchase;
+			cost_factor						: 224;
+			running_cost_factor				: switch_running_cost_SBB_Domino_560_4;
+			
+			}
+	}

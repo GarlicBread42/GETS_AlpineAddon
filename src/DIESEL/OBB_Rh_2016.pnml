@@ -1,0 +1,199 @@
+//#################################
+//### OBB Rh 2016 "Siemens ER 20###
+//#################################
+
+spriteset(spriteset_OBB_Rh_2016_Wort, "gfx/OBB_Rh_2016/OBB_Rh_2016_Wort_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Rh_2016_Wort, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_2016/OBB_Rh_2016_Wort_1x_32bpp.png", "gfx/OBB_Rh_2016/OBB_Rh_2016_Wort_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Rh_2016_Wort, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_2016/OBB_Rh_2016_Wort_2x_32bpp.png", "gfx/OBB_Rh_2016/OBB_Rh_2016_Wort_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Rh_2016_Wort, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_2016/OBB_Rh_2016_Wort_4x_32bpp.png", "gfx/OBB_Rh_2016/OBB_Rh_2016_Wort_4x_mask.png")
+									{template_128trains_4x(0, 0)}		
+
+
+spriteset(spriteset_OBB_Rh_2016_RTS1, "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS1_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Rh_2016_RTS1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS1_1x_32bpp.png", "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS1_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Rh_2016_RTS1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS1_2x_32bpp.png", "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS1_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Rh_2016_RTS1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS1_4x_32bpp.png", "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS1_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+									
+
+spriteset(spriteset_OBB_Rh_2016_RTS2, "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS2_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Rh_2016_RTS2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS2_1x_32bpp.png", "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS2_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Rh_2016_RTS2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS2_2x_32bpp.png", "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS2_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Rh_2016_RTS2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS2_4x_32bpp.png", "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS2_4x_mask.png")
+									{template_128trains_4x(0, 0)}									
+
+//Spritesets purchase
+								
+spriteset(spriteset_OBB_Rh_2016_Wort_purchase, "gfx/OBB_Rh_2016/OBB_Rh_2016_Wort_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Rh_2016_Wort_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_2016/OBB_Rh_2016_Wort_1x_32bpp.png", "gfx/OBB_Rh_2016/OBB_Rh_2016_Wort_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_OBB_Rh_2016_RTS1_purchase, "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS1_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_Rh_2016_RTS1_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS1_1x_32bpp.png", "gfx/OBB_Rh_2016/OBB_Rh_2016_RTS1_1x_mask.png")
+									{template_purchase(0, 0)}				
+//Switches	
+									
+					
+					switch(FEAT_TRAINS, SELF, switch_length_OBB_Rh_2016, position_in_vehid_chain % 3) {
+						0: 4;
+						1: 4;
+						2: 4;}
+						
+					switch(FEAT_TRAINS, SELF, switch_FX_OBB_Rh_2016, position_in_vehid_chain % 3) {
+						0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+						1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+						
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_Rh_2016, 1){
+						return 2150;}
+						
+					switch(FEAT_TRAINS, SELF, switch_graphics_OBB_Rh_2016_Wort, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     spriteset_OBB_Rh_2016_Wort;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_2016_Wort, extra_callback_info1) {
+						1 .. 2: return ITEM_OBB_RH_2016_WORT;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }									
+
+item (FEAT_TRAINS , ITEM_OBB_RH_2016_WORT, 2000)
+		{
+		property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_RH_2016_WORT);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2002,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;	
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						2380 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.293;
+						length: 						8;										
+			}
+
+		graphics
+			{
+			default							:switch_graphics_OBB_Rh_2016_Wort;
+			additional_text				    :string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_TRACTION_DIESEL), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_OBB_Rh_2016;
+			articulated_part				:switch_articulated_OBB_Rh_2016_Wort;
+			purchase_cargo_capacity        	:0 ;
+			cost_factor						:47;
+			cargo_capacity                 	:return 0 ;
+			purchase					   	:spriteset_OBB_Rh_2016_Wort_purchase;
+			running_cost_factor				:switch_running_cost_OBB_Rh_2016;
+			visual_effect_and_powered		:switch_FX_OBB_Rh_2016;
+			
+			}
+	}	
+
+
+						switch (FEAT_TRAINS, SELF, random_choose_OBB_Rh_2016_RTS, switch_alternative_var_random_bits(1, 1)) {
+							1: spriteset_OBB_Rh_2016_RTS1;
+							   spriteset_OBB_Rh_2016_RTS2;}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_OBB_Rh_2016_RTS, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return random_choose_OBB_Rh_2016_RTS;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_2016_RTS, extra_callback_info1) {
+						1 .. 2: return ITEM_OBB_RH_2016_RTS;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }									
+
+item (FEAT_TRAINS , ITEM_OBB_RH_2016_RTS, 2004)
+		{
+		property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_RH_2016_RTS);
+						variant_group:					2000;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2007,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;	
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						2380 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.293;
+						length: 						8;										
+			}
+
+		graphics
+			{
+			default							:switch_graphics_OBB_Rh_2016_RTS;
+			additional_text				    :string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_TRACTION_DIESEL), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_OBB_Rh_2016;
+			articulated_part				:switch_articulated_OBB_Rh_2016_RTS;
+			purchase_cargo_capacity        	:0 ;
+			cost_factor						:47;
+			cargo_capacity                 	:return 0 ;
+			purchase					   	:spriteset_OBB_Rh_2016_RTS1_purchase;
+			running_cost_factor				:switch_running_cost_OBB_Rh_2016;
+			visual_effect_and_powered		:switch_FX_OBB_Rh_2016;
+			
+			}
+	}

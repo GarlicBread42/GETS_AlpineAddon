@@ -17,6 +17,33 @@ spriteset(spriteset_OBB_Rh_1216_Wort, "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_1x_8bpp.
 		alternative_sprites (spriteset_OBB_Rh_1216_Wort, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_4x_mask.png")
 									{ template_128trains_4x(0, 0)}
 									
+spriteset(spriteset_OBB_Rh_1216_Wort_REV, "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_Wort_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_Wort_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_Wort_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_OBB_Rh_1216_Wort_Wendezug, "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_Wort_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_Wort_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_Wort_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}
+
+
+//Spriteset "Europe"
+
 spriteset(spriteset_OBB_Rh_1216_Europe, "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
 				
@@ -27,7 +54,31 @@ spriteset(spriteset_OBB_Rh_1216_Europe, "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_1x_8
 									{ template_128trains_2x(0, 0)}
 				
 		alternative_sprites (spriteset_OBB_Rh_1216_Europe, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_4x_mask.png")
-									{ template_128trains_4x(0, 0)}	
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_Rh_1216_Europe_REV, "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_Europe_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_Europe_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_Europe_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_OBB_Rh_1216_Europe_Wendezug, "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_Europe_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_Europe_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_Europe_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}
 
 //Spritesets "Rekordlok"
 									
@@ -41,7 +92,31 @@ spriteset(spriteset_OBB_Rh_1216_REK1, "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_1x_8bpp.
 									{ template_128trains_2x(0, 0)}
 				
 		alternative_sprites (spriteset_OBB_Rh_1216_REK1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_4x_mask.png")
-									{ template_128trains_4x(0, 0)}	
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_Rh_1216_REK1_REV, "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_REK1_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_REK1_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_REK1_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_OBB_Rh_1216_REK1_Wendezug, "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_REK1_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_REK1_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_REK1_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_REK1_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}
 									
 spriteset(spriteset_OBB_Rh_1216_REK2, "gfx/OBB_Rh_1216/OBB_Rh_1216_REK2_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
@@ -79,7 +154,34 @@ spriteset(spriteset_OBB_Rh_1216_RJ1, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_1x_8bpp.pn
 									{ template_128trains_2x(0, 0)}
 				
 		alternative_sprites (spriteset_OBB_Rh_1216_RJ1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_4x_mask.png")
-									{ template_128trains_4x(0, 0)}	
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_Rh_1216_RJ1_REV, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RJ1_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RJ1_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RJ1_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_OBB_Rh_1216_RJ1_Wendezug, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RJ1_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RJ1_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RJ1_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ1_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}	
+
+
+//Spritesets Railjet Spirit of Prague
 									
 spriteset(spriteset_OBB_Rh_1216_RJ2, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
@@ -91,7 +193,31 @@ spriteset(spriteset_OBB_Rh_1216_RJ2, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_1x_8bpp.pn
 									{ template_128trains_2x(0, 0)}
 				
 		alternative_sprites (spriteset_OBB_Rh_1216_RJ2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_4x_mask.png")
-									{ template_128trains_4x(0, 0)}										
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_Rh_1216_RJ2_REV, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RJ2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RJ2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RJ2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_OBB_Rh_1216_RJ2_Wendezug, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RJ2_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RJ2_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RJ2_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}										
 
 
 //Spritesets RTS									
@@ -106,7 +232,31 @@ spriteset(spriteset_OBB_Rh_1216_RTS1, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_1x_8bpp.
 									{ template_128trains_2x(0, 0)}
 				
 		alternative_sprites (spriteset_OBB_Rh_1216_RTS1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_4x_mask.png")
-									{ template_128trains_4x(0, 0)}	
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_Rh_1216_RTS1_REV, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RTS1_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RTS1_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RTS1_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_OBB_Rh_1216_RTS1_Wendezug, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RTS1_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RTS1_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_RTS1_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}	
 									
 spriteset(spriteset_OBB_Rh_1216_RTS2, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS2_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
@@ -120,7 +270,83 @@ spriteset(spriteset_OBB_Rh_1216_RTS2, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS2_1x_8bpp.
 		alternative_sprites (spriteset_OBB_Rh_1216_RTS2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS2_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS2_4x_mask.png")
 									{ template_128trains_4x(0, 0)}										
 
+//Spritesets panto back up
 
+spriteset(spriteset_OBB_Rh_1216_panto_back_up, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_back_up, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_back_up, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_back_up, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_Rh_1216_panto_back_up_REV, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_back_up_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_back_up_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_back_up_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_OBB_Rh_1216_panto_back_up_Wendezug, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_back_up_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_back_up_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_back_up_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}
+									
+//Spriteset panto front up
+
+spriteset(spriteset_OBB_Rh_1216_panto_front_up, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_front_up, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_front_up, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_front_up, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_Rh_1216_panto_front_up_REV, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_front_up_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_front_up_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_front_up_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_OBB_Rh_1216_panto_front_up_Wendezug, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_front_up_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_front_up_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_2x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_front_up_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_4x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_front_up_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}									
+
+//Spritesets IC 2000 DVT
 //Spritesets purchase																	
 
 spriteset(spriteset_OBB_Rh_1216_Wort_purchase, "gfx/OBB_Rh_1216/OBB_Rh_1216_Wort_1x_8bpp.png")
@@ -146,48 +372,282 @@ spriteset(spriteset_OBB_Rh_1216_RJ2_purchase, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_1
 				
 		alternative_sprites (spriteset_OBB_Rh_1216_RJ2_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RJ2_1x_mask.png")
 									{ template_purchase(0, 0)}
-									
+
+spriteset(spriteset_OBB_Rh_1216_Europe_purchase, "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_Europe_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_Europe_1x_mask.png")
+									{ template_purchase(0, 0)}
+																		
 spriteset(spriteset_OBB_Rh_1216_RTS1_purchase, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_1x_8bpp.png")
 									{ template_purchase(0, 0)}
 				
 		alternative_sprites (spriteset_OBB_Rh_1216_RTS1_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_RTS1_1x_mask.png")
+									{ template_purchase(0, 0)}
+																		
+spriteset(spriteset_OBB_Rh_1216_panto_back_up_purchase, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_OBB_Rh_1216_panto_back_up_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_1x_32bpp.png", "gfx/OBB_Rh_1216/OBB_Rh_1216_panto_back_up_1x_mask.png")
 									{ template_purchase(0, 0)}									
-									
 //Switches									
-					
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_Wort_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_Wort_purchase;
+							1: spriteset_OBB_Rh_1216_panto_back_up_purchase;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_REK1_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_REK1_purchase;
+							1: spriteset_OBB_Rh_1216_panto_back_up_purchase;}							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RJ1_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RJ1_purchase;
+							1: spriteset_OBB_Rh_1216_panto_back_up_purchase;}							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RJ2_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RJ2_purchase;
+							1: spriteset_OBB_Rh_1216_panto_back_up_purchase;}								
+																				
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_Europe_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_Europe_purchase;
+							1: spriteset_OBB_Rh_1216_panto_back_up_purchase;}							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RTS1_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RTS1_purchase;
+							1: spriteset_OBB_Rh_1216_panto_back_up_purchase;}							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_Wort, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_Wort;
+							1: spriteset_OBB_Rh_1016_lights_front;
+							2: spriteset_OBB_Rh_1016_lights_back;
+							3: spriteset_OBB_Rh_1216_panto_back_up;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_Wort_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_Wort_REV;
+							1: spriteset_OBB_Rh_1016_lights_front_REV;
+							2: spriteset_OBB_Rh_1016_lights_back_REV;
+							3: spriteset_OBB_Rh_1216_panto_back_up_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_Wort_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_Wort_Wendezug;
+							1: spriteset_OBB_Rh_1016_lights_front_Wendezug;
+							2: spriteset_OBB_Rh_1216_panto_back_up_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_Wort_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_Wort_REV;
+							1: spriteset_OBB_Rh_1016_lights_back_Wendezug_REV;
+							2: spriteset_OBB_Rh_1216_panto_front_up_REV;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_REK1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_REK1;
+							1: spriteset_OBB_Rh_1016_lights_front;
+							2: spriteset_OBB_Rh_1016_lights_back;
+							3: spriteset_OBB_Rh_1216_panto_back_up;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_REK1_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_REK1_REV;
+							1: spriteset_OBB_Rh_1016_lights_front_REV;
+							2: spriteset_OBB_Rh_1016_lights_back_REV;
+							3: spriteset_OBB_Rh_1216_panto_back_up_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_REK1_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_REK1_Wendezug;
+							1: spriteset_OBB_Rh_1016_lights_front_Wendezug;
+							2: spriteset_OBB_Rh_1216_panto_back_up_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_REK1_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_REK1_REV;
+							1: spriteset_OBB_Rh_1016_lights_back_Wendezug_REV;
+							2: spriteset_OBB_Rh_1216_panto_front_up_REV;}							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RJ1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RJ1;
+							1: spriteset_OBB_Rh_1016_lights_front;
+							2: spriteset_OBB_Rh_1016_lights_back;
+							3: spriteset_OBB_Rh_1216_panto_back_up;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RJ1_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RJ1_REV;
+							1: spriteset_OBB_Rh_1016_lights_front_REV;
+							2: spriteset_OBB_Rh_1016_lights_back_REV;
+							3: spriteset_OBB_Rh_1216_panto_back_up_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RJ1_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RJ1_Wendezug;
+							1: spriteset_OBB_Rh_1016_lights_front_Wendezug;
+							2: spriteset_OBB_Rh_1216_panto_back_up_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RJ1_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RJ1_REV;
+							1: spriteset_OBB_Rh_1016_lights_back_Wendezug_REV;
+							2: spriteset_OBB_Rh_1216_panto_front_up_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RJ2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RJ2;
+							1: spriteset_OBB_Rh_1016_lights_front;
+							2: spriteset_OBB_Rh_1016_lights_back;
+							3: spriteset_OBB_Rh_1216_panto_back_up;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RJ2_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RJ2_REV;
+							1: spriteset_OBB_Rh_1016_lights_front_REV;
+							2: spriteset_OBB_Rh_1016_lights_back_REV;
+							3: spriteset_OBB_Rh_1216_panto_back_up_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RJ2_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RJ2_Wendezug;
+							1: spriteset_OBB_Rh_1016_lights_front_Wendezug;
+							2: spriteset_OBB_Rh_1216_panto_back_up_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RJ2_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RJ2_REV;
+							1: spriteset_OBB_Rh_1016_lights_back_Wendezug_REV;
+							2: spriteset_OBB_Rh_1216_panto_front_up_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_Europe, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_Europe;
+							1: spriteset_OBB_Rh_1016_lights_front;
+							2: spriteset_OBB_Rh_1016_lights_back;
+							3: spriteset_OBB_Rh_1216_panto_back_up;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_Europe_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_Europe_REV;
+							1: spriteset_OBB_Rh_1016_lights_front_REV;
+							2: spriteset_OBB_Rh_1016_lights_back_REV;
+							3: spriteset_OBB_Rh_1216_panto_back_up_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_Europe_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_Europe_Wendezug;
+							1: spriteset_OBB_Rh_1016_lights_front_Wendezug;
+							2: spriteset_OBB_Rh_1216_panto_back_up_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_Europe_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_Europe_REV;
+							1: spriteset_OBB_Rh_1016_lights_back_Wendezug_REV;
+							2: spriteset_OBB_Rh_1216_panto_front_up_REV;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RTS1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RTS1;
+							1: spriteset_OBB_Rh_1016_lights_front;
+							2: spriteset_OBB_Rh_1016_lights_back;
+							3: spriteset_OBB_Rh_1216_panto_back_up;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RTS1_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RTS1_REV;
+							1: spriteset_OBB_Rh_1016_lights_front_REV;
+							2: spriteset_OBB_Rh_1016_lights_back_REV;
+							3: spriteset_OBB_Rh_1216_panto_back_up_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RTS1_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RTS1_Wendezug;
+							1: spriteset_OBB_Rh_1016_lights_front_Wendezug;
+							2: spriteset_OBB_Rh_1216_panto_back_up_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_Rh_1216_RTS1_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Rh_1216_RTS1_REV;
+							1: spriteset_OBB_Rh_1016_lights_back_Wendezug_REV;
+							2: spriteset_OBB_Rh_1216_panto_front_up_REV;}																				
+																										
 						switch(FEAT_TRAINS, SELF, switch_length_OBB_Rh_1216, position_in_vehid_chain % 3) {
 							0: 4;
 							1: 4;
 							2: 4;}
-						
+
 						switch(FEAT_TRAINS, SELF, switch_FX_OBB_Rh_1216, position_in_vehid_chain % 3) {
 							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}								
+						
+						switch(FEAT_TRAINS, SELF, switch_FX_OBB_Rh_1216_NoFX, position_in_vehid_chain % 3) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
 								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
 
 						switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_Rh_1216, 1){
 							return 7300;}						
 
+//Wendezug-Stuff
+														
+						switch(FEAT_TRAINS, SELF, switch_length_OBB_RH_1216_RJ_Wendezug, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}
+														
+						switch (FEAT_TRAINS, PARENT, switch_FX_OBB_RH_1216_RJ_Wendezug, vehicle_is_reversed) {
+							0: switch_FX_OBB_Rh_1216;
+								switch_FX_OBB_Rh_1216_NoFX;}
 
-						switch (FEAT_TRAINS, SELF, random_choose_OBB_Rh_1216_Wort, switch_alternative_var_random_bits(1, 1)) {
-							1: spriteset_OBB_Rh_1216_Wort;
-							   spriteset_OBB_Rh_1216_Europe;}
+						switch (FEAT_TRAINS, PARENT, switch_reverse_OBB_RH_1216_Railjet_Wendezug_Loco_Wort, vehicle_is_reversed) {
+							0: switch_spritestack_OBB_Rh_1216_Wort_Wendezug;
+								switch_spritestack_OBB_Railjet_2008_DVT_Taurus_Reverse;}								
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_OBB_RH_1216_Railjet_Wendezug_Loco_REK1, vehicle_is_reversed) {
+							0: switch_spritestack_OBB_Rh_1216_REK1_Wendezug;
+								switch_spritestack_OBB_Railjet_2008_DVT_Taurus_Reverse;}								
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_OBB_RH_1216_Railjet_Wendezug_Loco_RJ1, vehicle_is_reversed) {
+							0: switch_spritestack_OBB_Rh_1216_RJ1_Wendezug;
+								switch_spritestack_OBB_Railjet_2008_DVT_Taurus_Reverse;}								
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_OBB_RH_1216_Railjet_Wendezug_Loco_RJ2, vehicle_is_reversed) {
+							0: switch_spritestack_OBB_Rh_1216_RJ2_Wendezug;
+								switch_spritestack_OBB_Railjet_2008_DVT_Taurus_Reverse;}								
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_OBB_RH_1216_Railjet_Wendezug_Loco_Europe, vehicle_is_reversed) {
+							0: switch_spritestack_OBB_Rh_1216_Europe_Wendezug;
+								switch_spritestack_OBB_Railjet_2008_DVT_Taurus_Reverse;}								
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_OBB_RH_1216_Railjet_Wendezug_Loco_RTS1, vehicle_is_reversed) {
+							0: switch_spritestack_OBB_Rh_1216_RTS1_Wendezug;
+								switch_spritestack_OBB_Railjet_2008_DVT_Taurus_Reverse;}								
+
+//ID 1040
+
+						switch (FEAT_TRAINS, SELF, random_choose_OBB_Rh_1216_Wort, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_spritestack_OBB_Rh_1216_Wort;
+							2: switch_spritestack_OBB_Rh_1216_Europe;
+							3: switch_spritestack_OBB_Rh_1216_REK1;
+							   switch_spritestack_OBB_Rh_1216_Wort;}
+							   
+						switch (FEAT_TRAINS,PARENT,switch_1040_FX_check_Railjet,(count_veh_id(6470)+count_veh_id(1040)==num_vehs_in_consist)) {
+							0: switch_FX_OBB_Rh_1216; 
+								switch_FX_OBB_RH_1216_RJ_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1040_FX_check_pushpull,(count_veh_id(6470))) {
+							0: switch_FX_OBB_Rh_1216; 
+								switch_1040_FX_check_Railjet;}									
+															
+						switch (FEAT_TRAINS,PARENT,switch_1040_length_check_Railjet,(count_veh_id(6470)+count_veh_id(1040)==num_vehs_in_consist)) {
+							0: switch_length_OBB_Rh_1216; 
+								switch_length_OBB_RH_1216_RJ_Wendezug;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1040_length_check_pushpull,(count_veh_id(6470))) {
+							0: switch_length_OBB_Rh_1216; 
+								switch_1040_length_check_Railjet;}																								
+								
+						switch (FEAT_TRAINS,PARENT,switch_1040_check_Railjet2,(count_veh_id(6470))) {
+							0: random_choose_OBB_Rh_1216_Wort; 
+								switch_reverse_OBB_RH_1216_Railjet_Wendezug_Loco_RJ1;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1040_graphics_check_Railjet,(count_veh_id(6470)+count_veh_id(1040)==num_vehs_in_consist)) {
+							0: random_choose_OBB_Rh_1216_Wort; 
+								switch_1040_check_Railjet2;}										
 									
-						switch(FEAT_TRAINS, SELF, switch_OBB_Rh_1216_graphics_Wort, position_in_vehid_chain % 3) {
+						switch(FEAT_TRAINS, SELF, switch_OBB_Rh_1216_graphics_Auto, position_in_vehid_chain % 3) {
 							0:	   spriteset_empty;
-							1:     return random_choose_OBB_Rh_1216_Wort;
+							1:     return switch_1040_graphics_check_Railjet;
 							2:	   spriteset_empty;}									
 
-						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_1216_Wort, extra_callback_info1) {
-							1 .. 2: return ITEM_OBB_Rh_1216_WORT;				
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_1216_Auto, extra_callback_info1) {
+							1 .. 2: return ITEM_OBB_Rh_1216_AUTO;				
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
 														
-item (FEAT_TRAINS , ITEM_OBB_Rh_1216_WORT, 1040)
+item (FEAT_TRAINS , ITEM_OBB_Rh_1216_AUTO, 1040)
 		{
 	//property Block
 			property 
 			{
 			//common properties
-						name: 							string(STR_NAME_OBB_Rh_1216_WORT);
+						name: 							string(STR_NAME_OBB_Rh_1216_AUTO);
 						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
 						climates_available: 			ALL_CLIMATES;
 						introduction_date: 				date(2005,01,01);
@@ -197,6 +657,98 @@ item (FEAT_TRAINS , ITEM_OBB_Rh_1216_WORT, 1040)
 						reliability_decay: 				20;
 						cargo_allow_refit: 				[PASS] ;
 						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							230 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						88 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.341;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_OBB_Rh_1216_graphics_Auto;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_UNIVERSAL),);
+			length							: switch_1040_length_check_pushpull;
+			articulated_part				: switch_articulated_OBB_Rh_1216_Auto;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: switch_spritestack_OBB_Rh_1216_Wort_purchase;
+			cost_factor						: 320;
+			running_cost_factor				: switch_running_cost_OBB_Rh_1216;
+			visual_effect_and_powered		: switch_1040_FX_check_pushpull;
+			}
+	}	
+
+//ID 1041
+							   
+						switch (FEAT_TRAINS,PARENT,switch_1041_FX_check_Railjet,(count_veh_id(6470)+count_veh_id(1041)==num_vehs_in_consist)) {
+							0: switch_FX_OBB_Rh_1216; 
+								switch_FX_OBB_RH_1216_RJ_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1041_FX_check_pushpull,(count_veh_id(6470))) {
+							0: switch_FX_OBB_Rh_1216; 
+								switch_1041_FX_check_Railjet;}								
+															
+						switch (FEAT_TRAINS,PARENT,switch_1041_length_check_Railjet,(count_veh_id(6470)+count_veh_id(1041)==num_vehs_in_consist)) {
+							0: switch_length_OBB_Rh_1216; 
+								switch_length_OBB_RH_1216_RJ_Wendezug;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1041_length_check_pushpull,(count_veh_id(6470))) {
+							0: switch_length_OBB_Rh_1216; 
+								switch_1041_length_check_Railjet;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1041_check_Railjet2,(count_veh_id(6470))) {
+							0: switch_spritestack_OBB_Rh_1216_Wort; 
+								switch_reverse_OBB_RH_1216_Railjet_Wendezug_Loco_Wort;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1041_graphics_check_Railjet,(count_veh_id(6470)+count_veh_id(1041)==num_vehs_in_consist)) {
+							0: switch_spritestack_OBB_Rh_1216_Wort; 
+								switch_1041_check_Railjet2;}										
+									
+						switch(FEAT_TRAINS, SELF, switch_OBB_Rh_1216_graphics_Wort, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_1041_graphics_check_Railjet;
+							2:	   spriteset_empty;}									
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_1216_Wort, extra_callback_info1) {
+							1 .. 2: return ITEM_OBB_Rh_1216_WORT;				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+														
+item (FEAT_TRAINS , ITEM_OBB_Rh_1216_WORT, 1041)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_Rh_1216_WORT);
+						variant_group:					1040;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2005,01,01);
+						model_life:						40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cost_factor: 					108;
 						running_cost_base: 				RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
@@ -224,33 +776,58 @@ item (FEAT_TRAINS , ITEM_OBB_Rh_1216_WORT, 1040)
 			additional_text					: string(STR_CONCAT_2, 
 											  string(STR_TRACTION_MULTISYS), 
 											  string(STR_DESC_UNIVERSAL),);
-			length							: switch_length_OBB_Rh_1216;
+			length							: switch_1041_length_check_pushpull;
 			articulated_part				: switch_articulated_OBB_Rh_1216_Wort;
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
-			purchase						: spriteset_OBB_Rh_1216_Wort_purchase;
+			purchase						: switch_spritestack_OBB_Rh_1216_Wort_purchase;
 			cost_factor						: 320;
 			running_cost_factor				: switch_running_cost_OBB_Rh_1216;
-			visual_effect_and_powered		: switch_FX_OBB_Rh_1216;
+			visual_effect_and_powered		: switch_1041_FX_check_pushpull;
 			}
 	}	
+	
 
 						switch (FEAT_TRAINS, SELF, random_choose_OBB_Rh_1216_REK, switch_alternative_var_random_bits(1, 2)) {
 							1: spriteset_OBB_Rh_1216_REK1;
 							2: spriteset_OBB_Rh_1216_REK2;
 							3: spriteset_OBB_Rh_1216_REK3;
-							   spriteset_OBB_Rh_1216_REK1;}
+							   spriteset_OBB_Rh_1216_REK1;}									
 
+						switch (FEAT_TRAINS,PARENT,switch_1042_FX_check_Railjet,(count_veh_id(6470)+count_veh_id(1042)==num_vehs_in_consist)) {
+							0: switch_FX_OBB_Rh_1216; 
+								switch_FX_OBB_RH_1216_RJ_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1042_FX_check_pushpull,(count_veh_id(6470))) {
+							0: switch_FX_OBB_Rh_1216; 
+								switch_1042_FX_check_Railjet;}								
+															
+						switch (FEAT_TRAINS,PARENT,switch_1042_length_check_Railjet,(count_veh_id(6470)+count_veh_id(1042)==num_vehs_in_consist)) {
+							0: switch_length_OBB_Rh_1216; 
+								switch_length_OBB_RH_1216_RJ_Wendezug;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1042_length_check_pushpull,(count_veh_id(6470))) {
+							0: switch_length_OBB_Rh_1216; 
+								switch_1042_length_check_Railjet;}															
+								
+						switch (FEAT_TRAINS,PARENT,switch_1042_check_Railjet2,(count_veh_id(6470))) {
+							0: random_choose_OBB_Rh_1216_REK; 
+								switch_reverse_OBB_RH_1216_Railjet_Wendezug_Loco_REK1;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1042_graphics_check_Railjet,(count_veh_id(6470)+count_veh_id(1042)==num_vehs_in_consist)) {
+							0: random_choose_OBB_Rh_1216_REK; 
+								switch_1042_check_Railjet2;}										
+									
 						switch(FEAT_TRAINS, SELF, switch_OBB_Rh_1216_graphics_REK, position_in_vehid_chain % 3) {
 							0:	   spriteset_empty;
-							1:     return random_choose_OBB_Rh_1216_REK;
-							2:	   spriteset_empty;}									
-
+							1:     return switch_1042_graphics_check_Railjet;
+							2:	   spriteset_empty;}	
+							
 						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_1216_REK, extra_callback_info1) {
 							1 .. 2: return ITEM_OBB_Rh_1216_REK;				
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
 														
-item (FEAT_TRAINS , ITEM_OBB_Rh_1216_REK, 1041)
+item (FEAT_TRAINS , ITEM_OBB_Rh_1216_REK, 1042)
 		{
 	//property Block
 			property 
@@ -267,6 +844,7 @@ item (FEAT_TRAINS , ITEM_OBB_Rh_1216_REK, 1041)
 						reliability_decay: 				20;
 						cargo_allow_refit: 				[PASS] ;
 						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cost_factor: 					108;
 						running_cost_base: 				RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
@@ -294,21 +872,45 @@ item (FEAT_TRAINS , ITEM_OBB_Rh_1216_REK, 1041)
 			additional_text					: string(STR_CONCAT_2, 
 											  string(STR_TRACTION_MULTISYS), 
 											  string(STR_DESC_UNIVERSAL),);
-			length							: switch_length_OBB_Rh_1216;
+			length							: switch_1042_length_check_pushpull;
 			articulated_part				: switch_articulated_OBB_Rh_1216_REK;
 			purchase_cargo_capacity		    : 0 ;
-			cargo_capacity	                : return 0 ;
-			purchase						: spriteset_OBB_Rh_1216_REK1_purchase;
+			cargo_capacity	                : return 0 ;	
+			purchase						: switch_spritestack_OBB_Rh_1216_REK1_purchase;
 			cost_factor						: 320;
 			running_cost_factor				: switch_running_cost_OBB_Rh_1216;
-			visual_effect_and_powered		: switch_FX_OBB_Rh_1216;
+			visual_effect_and_powered		: switch_1042_FX_check_pushpull;
 			}
 	}	
 
 
+						switch (FEAT_TRAINS,PARENT,switch_1043_FX_check_Railjet,(count_veh_id(6470)+count_veh_id(1043)==num_vehs_in_consist)) {
+							0: switch_FX_OBB_Rh_1216; 
+								switch_FX_OBB_RH_1216_RJ_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1043_FX_check_pushpull,(count_veh_id(6470))) {
+							0: switch_FX_OBB_Rh_1216; 
+								switch_1043_FX_check_Railjet;}									
+															
+						switch (FEAT_TRAINS,PARENT,switch_1043_length_check_Railjet,(count_veh_id(6470)+count_veh_id(1043)==num_vehs_in_consist)) {
+							0: switch_length_OBB_Rh_1216; 
+								switch_length_OBB_RH_1216_RJ_Wendezug;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1043_length_check_pushpull,(count_veh_id(6470))) {
+							0: switch_length_OBB_Rh_1216; 
+								switch_1043_length_check_Railjet;}																
+								
+						switch (FEAT_TRAINS,PARENT,switch_1043_check_Railjet2,(count_veh_id(6470))) {
+							0: switch_spritestack_OBB_Rh_1216_RJ1; 
+								switch_reverse_OBB_RH_1216_Railjet_Wendezug_Loco_RJ1;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1043_graphics_check_Railjet,(count_veh_id(6470)+count_veh_id(1043)==num_vehs_in_consist)) {
+							0: switch_spritestack_OBB_Rh_1216_RJ1; 
+								switch_1043_check_Railjet2;}
+								
 						switch(FEAT_TRAINS, SELF, switch_OBB_Rh_1216_graphics_RJ1, position_in_vehid_chain % 3) {
 							0:	   spriteset_empty;
-							1:     spriteset_OBB_Rh_1216_RJ1;
+							1:     return switch_1043_graphics_check_Railjet;
 							2:	   spriteset_empty;}									
 
 						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_1216_RJ1, extra_callback_info1) {
@@ -332,6 +934,7 @@ item (FEAT_TRAINS , ITEM_OBB_Rh_1216_RJ1, 1043)
 						reliability_decay: 				20;
 						cargo_allow_refit: 				[PASS] ;
 						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cost_factor: 					108;
 						running_cost_base: 				RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
@@ -359,21 +962,44 @@ item (FEAT_TRAINS , ITEM_OBB_Rh_1216_RJ1, 1043)
 			additional_text					: string(STR_CONCAT_2, 
 											  string(STR_TRACTION_MULTISYS), 
 											  string(STR_DESC_UNIVERSAL),);
-			length							: switch_length_OBB_Rh_1216;
+			length							: switch_1043_length_check_pushpull;
 			articulated_part				: switch_articulated_OBB_Rh_1216_RJ1;
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
-			purchase						: spriteset_OBB_Rh_1216_RJ1_purchase;
+			purchase						: switch_spritestack_OBB_Rh_1216_RJ1_purchase;
 			cost_factor						: 320;
 			running_cost_factor				: switch_running_cost_OBB_Rh_1216;
-			visual_effect_and_powered		: switch_FX_OBB_Rh_1216;
+			visual_effect_and_powered		: switch_1043_FX_check_pushpull;
 			}
 	}	
-	
+
+						switch (FEAT_TRAINS,PARENT,switch_1044_FX_check_Railjet,(count_veh_id(6470)+count_veh_id(1044)==num_vehs_in_consist)) {
+							0: switch_FX_OBB_Rh_1216; 
+								switch_FX_OBB_RH_1216_RJ_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1044_FX_check_pushpull,(count_veh_id(6470))) {
+							0: switch_FX_OBB_Rh_1216; 
+								switch_1044_FX_check_Railjet;}								
+															
+						switch (FEAT_TRAINS,PARENT,switch_1044_length_check_Railjet,(count_veh_id(6470)+count_veh_id(1044)==num_vehs_in_consist)) {
+							0: switch_length_OBB_Rh_1216; 
+								switch_length_OBB_RH_1216_RJ_Wendezug;}		
+								
+						switch (FEAT_TRAINS,PARENT,switch_1044_length_check_pushpull,(count_veh_id(6470))) {
+							0: switch_length_OBB_Rh_1216; 
+								switch_1044_length_check_Railjet;}															
+								
+						switch (FEAT_TRAINS,PARENT,switch_1044_check_Railjet2,(count_veh_id(6470))) {
+							0: switch_spritestack_OBB_Rh_1216_RJ2; 
+								switch_reverse_OBB_RH_1216_Railjet_Wendezug_Loco_RJ2;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1044_graphics_check_Railjet,(count_veh_id(6470)+count_veh_id(1044)==num_vehs_in_consist)) {
+							0: switch_spritestack_OBB_Rh_1216_RJ2; 
+								switch_1044_check_Railjet2;}									
 
 						switch(FEAT_TRAINS, SELF, switch_OBB_Rh_1216_graphics_RJ2, position_in_vehid_chain % 3) {
 							0:	   spriteset_empty;
-							1:     spriteset_OBB_Rh_1216_RJ2;
+							1:     return switch_1044_graphics_check_Railjet;
 							2:	   spriteset_empty;}									
 
 						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_1216_RJ2, extra_callback_info1) {
@@ -397,6 +1023,7 @@ item (FEAT_TRAINS , ITEM_OBB_Rh_1216_RJ2, 1044)
 						reliability_decay: 				20;
 						cargo_allow_refit: 				[PASS] ;
 						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cost_factor: 					108;
 						running_cost_base: 				RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
@@ -424,26 +1051,137 @@ item (FEAT_TRAINS , ITEM_OBB_Rh_1216_RJ2, 1044)
 			additional_text					: string(STR_CONCAT_2, 
 											  string(STR_TRACTION_MULTISYS), 
 											  string(STR_DESC_UNIVERSAL),);
-			length							: switch_length_OBB_Rh_1216;
+			length							: switch_1044_length_check_pushpull;
 			articulated_part				: switch_articulated_OBB_Rh_1216_RJ2;
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
-			purchase						: spriteset_OBB_Rh_1216_RJ2_purchase;
+			purchase						: switch_spritestack_OBB_Rh_1216_RJ2_purchase;
 			cost_factor						: 320;
 			running_cost_factor				: switch_running_cost_OBB_Rh_1216;
-			visual_effect_and_powered		: switch_FX_OBB_Rh_1216;
+			visual_effect_and_powered		: switch_1044_FX_check_pushpull;
 			}
 	}	
 
+						switch (FEAT_TRAINS,PARENT,switch_1045_FX_check_Railjet,(count_veh_id(6470)+count_veh_id(1045)==num_vehs_in_consist)) {
+							0: switch_FX_OBB_Rh_1216; 
+								switch_FX_OBB_RH_1216_RJ_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1045_FX_check_pushpull,(count_veh_id(6470))) {
+							0: switch_FX_OBB_Rh_1216; 
+								switch_1045_FX_check_Railjet;}									
+															
+						switch (FEAT_TRAINS,PARENT,switch_1045_length_check_Railjet,(count_veh_id(6470)+count_veh_id(1045)==num_vehs_in_consist)) {
+							0: switch_length_OBB_Rh_1216; 
+								switch_length_OBB_RH_1216_RJ_Wendezug;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1045_length_check_pushpull,(count_veh_id(6470))) {
+							0: switch_length_OBB_Rh_1216; 
+								switch_1045_length_check_Railjet;}															
+								
+						switch (FEAT_TRAINS,PARENT,switch_1045_check_Railjet2,(count_veh_id(6470))) {
+							0: switch_spritestack_OBB_Rh_1216_Europe; 
+								switch_reverse_OBB_RH_1216_Railjet_Wendezug_Loco_Europe;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1045_graphics_check_Railjet,(count_veh_id(6470)+count_veh_id(1045)==num_vehs_in_consist)) {
+							0: switch_spritestack_OBB_Rh_1216_Europe; 
+								switch_1045_check_Railjet2;}									
+
+						switch(FEAT_TRAINS, SELF, switch_OBB_Rh_1216_graphics_Europe, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_1045_graphics_check_Railjet;
+							2:	   spriteset_empty;}									
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_1216_Europe, extra_callback_info1) {
+							1 .. 2: return ITEM_OBB_Rh_1216_EUROPE;				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+														
+item (FEAT_TRAINS , ITEM_OBB_Rh_1216_EUROPE, 1045)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_Rh_1216_EUROPE);
+						variant_group:					1040;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2013,01,01);
+						model_life:						40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							230 km/h;
+						refit_cost: 					0;
+						track_type: 					ELEC;
+						power:  						8704 hp;
+						weight: 						88 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.341;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_OBB_Rh_1216_graphics_Europe;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_MULTISYS), 
+											  string(STR_DESC_UNIVERSAL),);
+			length							: switch_1045_length_check_pushpull;
+			articulated_part				: switch_articulated_OBB_Rh_1216_Europe;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: switch_spritestack_OBB_Rh_1216_Europe_purchase;
+			cost_factor						: 320;
+			running_cost_factor				: switch_running_cost_OBB_Rh_1216;
+			visual_effect_and_powered		: switch_1045_FX_check_pushpull;
+			}
+	}	
 
 						switch (FEAT_TRAINS, SELF, random_choose_OBB_Rh_1216_RTS, switch_alternative_var_random_bits(1, 1)) {
-							1: spriteset_OBB_Rh_1216_RTS1;
+							1: switch_spritestack_OBB_Rh_1216_RTS1;
 							   spriteset_OBB_Rh_1216_RTS2;}
-										
+
+						switch (FEAT_TRAINS,PARENT,switch_1055_FX_check_Railjet,(count_veh_id(6470)+count_veh_id(1055)==num_vehs_in_consist)) {
+							0: switch_FX_OBB_Rh_1216; 
+								switch_FX_OBB_RH_1216_RJ_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1055_FX_check_pushpull,(count_veh_id(6470))) {
+							0: switch_FX_OBB_Rh_1216; 
+								switch_1055_FX_check_Railjet;}								
+															
+						switch (FEAT_TRAINS,PARENT,switch_1055_length_check_Railjet,(count_veh_id(6470)+count_veh_id(1055)==num_vehs_in_consist)) {
+							0: switch_length_OBB_Rh_1216; 
+								switch_length_OBB_RH_1216_RJ_Wendezug;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1055_length_check_pushpull,(count_veh_id(6470))) {
+							0: switch_length_OBB_Rh_1216; 
+								switch_1055_length_check_Railjet;}															
+								
+						switch (FEAT_TRAINS,PARENT,switch_1055_check_Railjet2,(count_veh_id(6470))) {
+							0: switch_spritestack_OBB_Rh_1216_RTS1; 
+								switch_reverse_OBB_RH_1216_Railjet_Wendezug_Loco_RTS1;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1055_graphics_check_Railjet,(count_veh_id(6470)+count_veh_id(1055)==num_vehs_in_consist)) {
+							0: switch_spritestack_OBB_Rh_1216_RTS1; 
+								switch_1055_check_Railjet2;}										
 
 						switch(FEAT_TRAINS, SELF, switch_OBB_Rh_1216_graphics_RTS, position_in_vehid_chain % 3) {
 							0:	   spriteset_empty;
-							1:     return random_choose_OBB_Rh_1216_RTS;
+							1:     return switch_1055_graphics_check_Railjet;
 							2:	   spriteset_empty;}									
 
 						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Rh_1216_RTS, extra_callback_info1) {
@@ -467,6 +1205,7 @@ item (FEAT_TRAINS , ITEM_OBB_Rh_1216_RTS, 1055)
 						reliability_decay: 				20;
 						cargo_allow_refit: 				[PASS] ;
 						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cost_factor: 					108;
 						running_cost_base: 				RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
@@ -494,14 +1233,14 @@ item (FEAT_TRAINS , ITEM_OBB_Rh_1216_RTS, 1055)
 			additional_text					: string(STR_CONCAT_2, 
 											  string(STR_TRACTION_MULTISYS), 
 											  string(STR_DESC_UNIVERSAL),);
-			length							: switch_length_OBB_Rh_1216;
+			length							: switch_1055_length_check_pushpull;
 			articulated_part				: switch_articulated_OBB_Rh_1216_RTS;
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
-			purchase						: spriteset_OBB_Rh_1216_RTS1_purchase;
+			purchase						: switch_spritestack_OBB_Rh_1216_RTS1_purchase;
 			cost_factor						: 320;
 			running_cost_factor				: switch_running_cost_OBB_Rh_1216;
-			visual_effect_and_powered		: switch_FX_OBB_Rh_1216;
+			visual_effect_and_powered		: switch_1055_FX_check_pushpull;
 			}
 	}	
 	

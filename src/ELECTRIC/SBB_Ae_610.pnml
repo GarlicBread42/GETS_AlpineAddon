@@ -1,0 +1,1470 @@
+//##################
+//### SBB Ae 610 ###
+//##################
+
+//Spriteset 1. Bauserie Kantonslok
+
+spriteset(spriteset_SBB_Ae_610_1_Kantonslok_base_gruen, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_base_gruen_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_base_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_base_gruen_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_base_gruen_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_base_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_base_gruen_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_base_gruen_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_base_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_base_gruen_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_base_gruen_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+									
+//Spritesets 1. Bausereie - Wappen
+
+spriteset(spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BE, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BE_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BE_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BE_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BE_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BE_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BE_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BE_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BE_rot, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BE_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BE_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BE_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BE_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BE_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BE_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BE_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BE_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BE_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BE_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BS, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BS_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BS_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BS_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BS_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BS_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BS_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BS_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BS_rot, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BS_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BS_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BS_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BS_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BS_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BS_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BS_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BS_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BS_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_BS_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Ae_610_1_Kantonslok_Wappen_LU, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_LU_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_LU, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_LU_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_LU_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_LU, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_LU_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_LU_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_LU, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_LU_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_LU_4x_mask.png")
+									{template_118trains_4x(0, 0)}	
+
+spriteset(spriteset_SBB_Ae_610_1_Kantonslok_Wappen_SO, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_SO_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_SO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_SO_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_SO_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_SO, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_SO_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_SO_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_SO, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_SO_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_SO_4x_mask.png")
+									{template_118trains_4x(0, 0)}	
+
+spriteset(spriteset_SBB_Ae_610_1_Kantonslok_Wappen_SZ, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_SZ_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_SZ, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_SZ_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_SZ_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_SZ, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_SZ_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_SZ_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_SZ, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_SZ_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_SZ_4x_mask.png")
+									{template_118trains_4x(0, 0)}	
+									
+spriteset(spriteset_SBB_Ae_610_1_Kantonslok_Wappen_TI, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_TI_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_TI, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_TI_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_TI_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_TI, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_TI_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_TI_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_TI, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_TI_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_TI_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_1_Kantonslok_Wappen_TI_rot, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_TI_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_TI_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_TI_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_TI_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_TI_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_TI_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_TI_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_TI_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_TI_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_TI_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}	
+									
+spriteset(spriteset_SBB_Ae_610_1_Kantonslok_Wappen_UR, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_UR_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_UR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_UR_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_UR_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_UR, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_UR_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_UR_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_UR, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_UR_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_UR_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_1_Kantonslok_Wappen_UR_rot, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_UR_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_UR_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_UR_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_UR_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_UR_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_UR_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_UR_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_UR_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_UR_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_UR_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}																		
+
+spriteset(spriteset_SBB_Ae_610_1_Kantonslok_Wappen_ZG, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_ZG_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_ZG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_ZG_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_ZG_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_ZG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_ZG_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_ZG_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_Wappen_ZG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_ZG_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_Wappen_ZG_4x_mask.png")
+									{template_118trains_4x(0, 0)}							
+									
+
+
+//Spriteset 2. Bauserie Kantonslok gruen
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_base_gruen, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_gruen_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_base_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_gruen_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_gruen_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_base_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_gruen_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_gruen_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_base_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_gruen_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_gruen_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+//Spriteset 2. Bauserie Kantonslok rot
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_base_rot, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_base_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_base_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_base_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}										
+
+//Spritesets 2. Bausereie - Wappen
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_Wappen_FR, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_FR_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_FR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_FR_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_FR_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_FR, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_FR_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_FR_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_FR, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_FR_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_FR_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_Wappen_FR_rot, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_FR_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_FR_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_FR_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_FR_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_FR_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_FR_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_FR_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_FR_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_FR_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_FR_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GE, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GE_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GE_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GE_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GE_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GE_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GE_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GE_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GE_rot, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GE_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GE_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GE_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GE_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GE_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GE_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GE_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GE_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GE_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GE_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}										
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GL, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GL_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GL_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GL_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GL, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GL_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GL_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GL, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GL_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GL_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GL_rot, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GL_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GL_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GL_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GL_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GL_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GL_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GL_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GL_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GL_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_GL_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}	
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_Wappen_NE, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_NE_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_NE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_NE_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_NE_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_NE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_NE_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_NE_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_NE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_NE_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_NE_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_Wappen_NE_rot, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_NE_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_NE_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_NE_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_NE_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_NE_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_NE_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_NE_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_NE_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_NE_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_NE_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}	
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_Wappen_SG_rot, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_SG_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_SG_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_SG_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_SG_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_SG_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_SG_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_SG_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_SG_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_SG_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_SG_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_Wappen_TG, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_TG_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_TG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_TG_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_TG_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_TG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_TG_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_TG_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_TG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_TG_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_TG_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VD, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VD_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VD, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VD_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VD_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VD, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VD_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VD_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VD, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VD_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VD_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VD_rot, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VD_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VD_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VD_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VD_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VD_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VD_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VD_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VD_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VD_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VD_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VS, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VS_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VS_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VS_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VS_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VS_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VS_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_Wappen_VS_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+
+
+//Spriteset 3. Bauserie Staedtelok gruen
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_base_gruen, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+//Spriteset 3. Bauserie Staedtelok gruen late
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_late, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_late_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_late, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_late_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_late_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_late, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_late_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_late_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_late, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_late_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_late_4x_mask.png")
+									{template_118trains_4x(0, 0)}																	
+
+//Spriteset 3. Bauserie Staedtelok rot
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_base_rot, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+//Spriteset 3. Bauserie Staedtelok Cargo
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_base_Cargo, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_Cargo_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_Cargo_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_Cargo_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_Cargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_Cargo_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_Cargo_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_Cargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_Cargo_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_Cargo_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+									
+//Spriteset 3. Bauserie Wappen
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_BG_gruen, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_BG_gruen_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_BG_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_BG_gruen_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_BG_gruen_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_BG_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_BG_gruen_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_BG_gruen_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_BG_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_BG_gruen_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_BG_gruen_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_BG_rot, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_BG_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_BG_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_BG_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_BG_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_BG_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_BG_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_BG_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_BG_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_BG_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_BG_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_gruen, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_gruen_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_gruen_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_gruen_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_gruen_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_gruen_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_gruen_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_gruen_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_rot, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}	
+									
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_Cargo, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_Cargo_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_Cargo_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_Cargo_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_Cargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_Cargo_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_Cargo_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_Cargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_Cargo_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_GS_Cargo_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_gruen, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_gruen_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_gruen_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_gruen_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_gruen_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_gruen_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_gruen_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_gruen_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_rot, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}	
+									
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_Cargo, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_Cargo_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_Cargo_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_Cargo_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_Cargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_Cargo_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_Cargo_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_Cargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_Cargo_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LS_Cargo_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_early, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_early_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_early, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_early_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_early_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_early, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_early_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_early_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_early, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_early_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_early_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_late, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_late_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_late, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_late_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_late_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_late, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_late_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_late_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_late, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_late_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_late_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_TH_gruen, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_TH_gruen_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_TH_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_TH_gruen_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_TH_gruen_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_TH_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_TH_gruen_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_TH_gruen_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_TH_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_TH_gruen_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_TH_gruen_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_TH_rot, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_TH_rot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_TH_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_TH_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_TH_rot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_TH_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_TH_rot_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_TH_rot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_TH_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_TH_rot_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_TH_rot_4x_mask.png")
+									{template_118trains_4x(0, 0)}	
+																	
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_early, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_early_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_early, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_early_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_early_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_early, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_early_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_early_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_early, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_early_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_early_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_late, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_late_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_late, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_late_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_late_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_late, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_late_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_late_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_late, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_late_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_late_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_early, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_early_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_early, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_early_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_early_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_early, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_early_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_early_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_early, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_early_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_early_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_late, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_late_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_late, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_late_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_late_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_late, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_late_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_late_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_late, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_late_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_late_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_early, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_early_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_early, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_early_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_early_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_early, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_early_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_early_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_early, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_early_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_early_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_late, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_late_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_late, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_late_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_late_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_late, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_late_2x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_late_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_late, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_late_4x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_late_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+																																																														
+//Spritesets purchase
+
+
+spriteset(spriteset_SBB_Ae_610_1_Kantonslok_base_gruen_purchase, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_base_gruen_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_1_Kantonslok_base_gruen_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_base_gruen_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_1_Kantonslok_base_gruen_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_base_gruen_purchase, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_gruen_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_base_gruen_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_gruen_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_gruen_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Ae_610_2_Kantonslok_base_rot_purchase, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_rot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_2_Kantonslok_base_rot_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_2_Kantonslok_base_rot_1x_mask.png")
+									{template_purchase(0, 0)}										
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_purchase, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_late_purchase, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_late_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_late_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_late_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_gruen_late_1x_mask.png")
+									{template_purchase(0, 0)}									
+
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_base_rot_purchase, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_rot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_rot_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_rot_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_rot_1x_mask.png")
+									{template_purchase(0, 0)}									
+									
+spriteset(spriteset_SBB_Ae_610_3_Staedtelok_base_Cargo_purchase, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_Cargo_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_Ae_610_3_Staedtelok_base_Cargo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_Cargo_1x_32bpp.png", "gfx/SBB_Ae_610/SBB_Ae_610_3_Staedtelok_base_Cargo_1x_mask.png")
+									{template_purchase(0, 0)}									
+									
+//Switches
+
+						switch(FEAT_TRAINS,SELF, switch_purchase_SBB_Ae_610, current_year){
+							   0 .. 1957: spriteset_SBB_Ae_610_1_Kantonslok_base_gruen_purchase;
+							1956 .. 1957: spriteset_SBB_Ae_610_2_Kantonslok_base_gruen_purchase;
+							1959 .. 1983: spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_purchase;
+							1984 .. 2050: spriteset_SBB_Ae_610_3_Staedtelok_base_rot_purchase;
+								spriteset_SBB_Ae_610_3_Staedtelok_base_rot_purchase;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_1_BE, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_1_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BE;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_1_BE_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_1_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BE_rot;}
+													
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_1_BS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_1_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BS;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_1_BS_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_1_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_1_Kantonslok_Wappen_BS_rot;}							
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_1_LU, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_1_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_1_Kantonslok_Wappen_LU;}						
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_1_SO, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_1_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_1_Kantonslok_Wappen_SO;}								
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_1_SZ, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_1_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_1_Kantonslok_Wappen_SZ;}								
+													
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_1_TI, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_1_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_1_Kantonslok_Wappen_TI;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_1_TI_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_1_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_1_Kantonslok_Wappen_TI_rot;}							
+													
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_1_UR, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_1_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_1_Kantonslok_Wappen_UR;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_1_UR_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_1_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_1_Kantonslok_Wappen_UR_rot;}								
+													
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_1_ZG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_1_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_1_Kantonslok_Wappen_ZG;}							
+							
+
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_2_FR, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_2_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_2_Kantonslok_Wappen_FR;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_2_FR_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_2_Kantonslok_base_rot;
+							1: spriteset_SBB_Ae_610_2_Kantonslok_Wappen_FR_rot;}						
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_2_GE, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_2_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GE;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_2_GE_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_2_Kantonslok_base_rot;
+							1: spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GE_rot;}	
+														
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_2_GL, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_2_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GL;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_2_GL_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_2_Kantonslok_base_rot;
+							1: spriteset_SBB_Ae_610_2_Kantonslok_Wappen_GL_rot;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_2_NE, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_2_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_2_Kantonslok_Wappen_NE;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_2_NE_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_2_Kantonslok_base_rot;
+							1: spriteset_SBB_Ae_610_2_Kantonslok_Wappen_NE_rot;}	
+															
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_2_TG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_2_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_2_Kantonslok_Wappen_TG;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_2_VD, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_2_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VD;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_2_VD_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_2_Kantonslok_base_rot;
+							1: spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VD_rot;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_2_VS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_2_Kantonslok_base_gruen;
+							1: spriteset_SBB_Ae_610_2_Kantonslok_Wappen_VS;}
+																
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_early_BG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_gruen;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_BG_gruen;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_late_BG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_late;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_BG_gruen;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_rot_BG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_rot;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_BG_rot;}								
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_early_GS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_gruen;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_gruen;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_rot_GS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_rot;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_rot;}								
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_Cargo_GS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_Cargo;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_GS_Cargo;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_early_LS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_gruen;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_gruen;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_rot_LS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_rot;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_rot;}								
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_Cargo_LS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_Cargo;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LS_Cargo;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_early_LT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_gruen;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_early;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_late_LT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_late;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_LT_gruen_late;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_early_TH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_gruen;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_TH_gruen;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_rot_TH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_rot;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_TH_rot;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_early_VL, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_gruen;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_early;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_late_VL, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_late;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_VL_gruen_late;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_early_WS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_gruen;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_early;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_late_WS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_late;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WS_gruen_late;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_early_WT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_gruen;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_early;}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ae_610_3_late_WT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_late;
+							1: spriteset_SBB_Ae_610_3_Staedtelok_Wappen_WT_gruen_late;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Ae_610_1_gruen, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_SBB_Ae_610_1_BE;
+							2: switch_spritestack_SBB_Ae_610_1_BS;
+							3: switch_spritestack_SBB_Ae_610_1_LU;
+							4: switch_spritestack_SBB_Ae_610_1_SO;
+							5: switch_spritestack_SBB_Ae_610_1_SZ;
+							6: switch_spritestack_SBB_Ae_610_1_TI;
+							7: switch_spritestack_SBB_Ae_610_1_UR;
+							   switch_spritestack_SBB_Ae_610_1_ZG;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Ae_610_1_rot, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_spritestack_SBB_Ae_610_1_BE_rot;
+							2: switch_spritestack_SBB_Ae_610_1_BS_rot;
+							3: switch_spritestack_SBB_Ae_610_1_TI_rot;
+								switch_spritestack_SBB_Ae_610_1_UR_rot;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Ae_610_2_gruen, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_SBB_Ae_610_2_FR;
+							2: switch_spritestack_SBB_Ae_610_2_GE;
+							3: switch_spritestack_SBB_Ae_610_2_GL;
+							4: switch_spritestack_SBB_Ae_610_2_NE;
+							5: switch_spritestack_SBB_Ae_610_2_FR;
+							6: switch_spritestack_SBB_Ae_610_2_TG;
+							7: switch_spritestack_SBB_Ae_610_2_VD;
+							   switch_spritestack_SBB_Ae_610_2_VS;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Ae_610_2_rot, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_SBB_Ae_610_2_FR_rot;
+							2: switch_spritestack_SBB_Ae_610_2_GE_rot;
+							3: switch_spritestack_SBB_Ae_610_2_GL_rot;
+								switch_spritestack_SBB_Ae_610_2_NE_rot;}		
+							
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Ae_610_3_gruen_early, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_SBB_Ae_610_3_early_BG;
+							2: switch_spritestack_SBB_Ae_610_3_early_GS;
+							3: switch_spritestack_SBB_Ae_610_3_early_LS;
+							4: switch_spritestack_SBB_Ae_610_3_early_LT;
+							5: switch_spritestack_SBB_Ae_610_3_early_TH;
+							6: switch_spritestack_SBB_Ae_610_3_early_VL;
+							7: switch_spritestack_SBB_Ae_610_3_early_WS;
+							   switch_spritestack_SBB_Ae_610_3_early_WT;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Ae_610_3_gruen_late, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_spritestack_SBB_Ae_610_3_late_WT;
+							2: switch_spritestack_SBB_Ae_610_3_late_LT;
+							3: switch_spritestack_SBB_Ae_610_3_late_VL;
+								switch_spritestack_SBB_Ae_610_3_late_WS;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Ae_610_3_rot, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_spritestack_SBB_Ae_610_3_rot_BG;
+							2: switch_spritestack_SBB_Ae_610_3_rot_GS;
+							3: switch_spritestack_SBB_Ae_610_3_rot_LS;
+								switch_spritestack_SBB_Ae_610_3_rot_TH;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Ae_610_3_Cargo, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_SBB_Ae_610_3_Cargo_GS;
+							2: switch_spritestack_SBB_Ae_610_3_Cargo_LS;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Ae_610_3_late, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_SBB_Ae_610_3_late_WT;
+							2: switch_spritestack_SBB_Ae_610_3_rot_BG;
+							3: switch_spritestack_SBB_Ae_610_3_late_LT;
+							4: switch_spritestack_SBB_Ae_610_3_rot_GS;
+							5: switch_spritestack_SBB_Ae_610_3_late_VL;
+							6: switch_spritestack_SBB_Ae_610_3_rot_LS;
+							7: switch_spritestack_SBB_Ae_610_3_late_WS;
+							   switch_spritestack_SBB_Ae_610_3_rot_TH;}						
+
+					switch (FEAT_TRAINS, SELF, switch_SBB_Ae_610_3_spritechoose, most_common_cargo_type ) {
+						PASS: random_choose_SBB_Ae_610_3_late;
+								random_choose_SBB_Ae_610_3_Cargo;}
+																							   
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_Ae_610, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 3;
+							2: 4;}
+
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_Ae_610, position_in_vehid_chain % 3) {
+						0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						 return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}													
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Ae_610, 1){
+							return 6400;}
+								
+						switch(FEAT_TRAINS,SELF, switch_SBB_Ae_610_build_year, build_year){
+							   0 .. 1956: random_choose_SBB_Ae_610_1_gruen;
+							1957 .. 1958: random_choose_SBB_Ae_610_2_gruen;
+							1959 .. 1983: random_choose_SBB_Ae_610_3_gruen_early;
+							1984 .. 1998: random_choose_SBB_Ae_610_3_late;
+							1999 .. 2050: switch_SBB_Ae_610_3_spritechoose;							
+								switch_SBB_Ae_610_3_spritechoose;}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Ae_610_build, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return switch_SBB_Ae_610_build_year;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Ae_610_build, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_AE_610_BUILD; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_AE_610_BUILD, 1532)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AE_610_BUILD);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1952,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							125 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						5830 hp;
+						weight: 						120 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.326;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Ae_610_build;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Ae_610;
+			articulated_part				:switch_articulated_SBB_Ae_610_build;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:switch_purchase_SBB_Ae_610;
+			cost_factor						:335;
+			running_cost_factor				:switch_running_cost_SBB_Ae_610;			
+			visual_effect_and_powered		:switch_FX_SBB_Ae_610;	
+			}
+	}	
+
+
+						switch(FEAT_TRAINS,SELF, switch_SBB_Ae_610_current_year, current_year){
+							   0 .. 1956: random_choose_SBB_Ae_610_1_gruen;
+							1957 .. 1958: random_choose_SBB_Ae_610_2_gruen;
+							1959 .. 1983: random_choose_SBB_Ae_610_3_gruen_early;
+							1984 .. 1998: random_choose_SBB_Ae_610_3_late;
+							1999 .. 2050: switch_SBB_Ae_610_3_spritechoose;							
+								switch_SBB_Ae_610_3_spritechoose;}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Ae_610_current, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return switch_SBB_Ae_610_current_year;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Ae_610_current, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_AE_610_CURRENT; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_AE_610_CURRENT, 1533)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AE_610_CURRENT);	
+						variant_group:					1532;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1952,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							125 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						5830 hp;
+						weight: 						120 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.326;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Ae_610_current;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Ae_610;
+			articulated_part				:switch_articulated_SBB_Ae_610_current;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:switch_purchase_SBB_Ae_610;
+			cost_factor						:335;
+			running_cost_factor				:switch_running_cost_SBB_Ae_610;			
+			visual_effect_and_powered		:switch_FX_SBB_Ae_610;	
+			}
+	}
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Ae_610_1_gruen, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return random_choose_SBB_Ae_610_1_gruen;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Ae_610_1_gruen, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_AE_610_1_GRUEN; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_AE_610_1_GRUEN, 1534)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AE_610_1_GRUEN);	
+						variant_group:					1532;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1952,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							125 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						5830 hp;
+						weight: 						120 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.326;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Ae_610_1_gruen;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Ae_610;
+			articulated_part				:switch_articulated_SBB_Ae_610_1_gruen;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Ae_610_1_Kantonslok_base_gruen_purchase;
+			cost_factor						:335;
+			running_cost_factor				:switch_running_cost_SBB_Ae_610;			
+			visual_effect_and_powered		:switch_FX_SBB_Ae_610;	
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Ae_610_1_rot, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return random_choose_SBB_Ae_610_1_rot;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Ae_610_1_rot, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_AE_610_1_ROT; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_AE_610_1_ROT, 1535)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AE_610_1_ROT);	
+						variant_group:					1532;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1984,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							125 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						5830 hp;
+						weight: 						120 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.326;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Ae_610_1_rot;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Ae_610;
+			articulated_part				:switch_articulated_SBB_Ae_610_1_rot;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Ae_610_1_Kantonslok_base_gruen_purchase;
+			cost_factor						:335;
+			running_cost_factor				:switch_running_cost_SBB_Ae_610;			
+			visual_effect_and_powered		:switch_FX_SBB_Ae_610;	
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Ae_610_2_gruen, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return random_choose_SBB_Ae_610_2_gruen;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Ae_610_2_gruen, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_AE_610_2_GRUEN; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_AE_610_2_GRUEN, 1536)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AE_610_2_GRUEN);	
+						variant_group:					1532;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1957,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							125 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						5830 hp;
+						weight: 						120 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.326;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Ae_610_2_gruen;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Ae_610;
+			articulated_part				:switch_articulated_SBB_Ae_610_2_gruen;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Ae_610_2_Kantonslok_base_gruen_purchase;
+			cost_factor						:335;
+			running_cost_factor				:switch_running_cost_SBB_Ae_610;			
+			visual_effect_and_powered		:switch_FX_SBB_Ae_610;	
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Ae_610_2_rot, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return random_choose_SBB_Ae_610_2_rot;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Ae_610_2_rot, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_AE_610_2_ROT; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_AE_610_2_ROT, 1537)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AE_610_2_ROT);	
+						variant_group:					1532;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1984,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							125 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						5830 hp;
+						weight: 						120 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.326;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Ae_610_2_rot;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Ae_610;
+			articulated_part				:switch_articulated_SBB_Ae_610_2_rot;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Ae_610_2_Kantonslok_base_rot_purchase;
+			cost_factor						:335;
+			running_cost_factor				:switch_running_cost_SBB_Ae_610;			
+			visual_effect_and_powered		:switch_FX_SBB_Ae_610;	
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Ae_610_3_gruen_early, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return random_choose_SBB_Ae_610_3_gruen_early;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Ae_610_3_gruen_early, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_AE_610_3_GRUEN_EARLY; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_AE_610_3_GRUEN_EARLY, 1538)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AE_610_3_GRUEN_EARLY);	
+						variant_group:					1532;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1959,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							125 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						5830 hp;
+						weight: 						120 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.326;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Ae_610_3_gruen_early;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Ae_610;
+			articulated_part				:switch_articulated_SBB_Ae_610_3_gruen_early;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_purchase;
+			cost_factor						:335;
+			running_cost_factor				:switch_running_cost_SBB_Ae_610;			
+			visual_effect_and_powered		:switch_FX_SBB_Ae_610;	
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Ae_610_3_gruen_late, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return random_choose_SBB_Ae_610_3_gruen_late;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Ae_610_3_gruen_late, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_AE_610_3_GRUEN_LATE; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_AE_610_3_GRUEN_LATE, 1539)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AE_610_3_GRUEN_LATE);	
+						variant_group:					1532;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1984,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							125 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						5830 hp;
+						weight: 						120 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.326;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Ae_610_3_gruen_late;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Ae_610;
+			articulated_part				:switch_articulated_SBB_Ae_610_3_gruen_late;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Ae_610_3_Staedtelok_base_gruen_late_purchase;
+			cost_factor						:335;
+			running_cost_factor				:switch_running_cost_SBB_Ae_610;			
+			visual_effect_and_powered		:switch_FX_SBB_Ae_610;	
+			}
+	}
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Ae_610_3_rot, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return random_choose_SBB_Ae_610_3_rot;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Ae_610_3_rot, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_AE_610_3_ROT; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_AE_610_3_ROT, 1540)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AE_610_3_ROT);	
+						variant_group:					1532;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1984,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							125 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						5830 hp;
+						weight: 						120 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.326;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Ae_610_3_rot;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Ae_610;
+			articulated_part				:switch_articulated_SBB_Ae_610_3_rot;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Ae_610_3_Staedtelok_base_rot_purchase;
+			cost_factor						:335;
+			running_cost_factor				:switch_running_cost_SBB_Ae_610;			
+			visual_effect_and_powered		:switch_FX_SBB_Ae_610;	
+			}
+	}
+	
+				switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Ae_610_3_Cargo, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return random_choose_SBB_Ae_610_3_Cargo;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Ae_610_3_Cargo, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_AE_610_3_CARGO; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_AE_610_3_CARGO, 1541)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_AE_610_3_CARGO);	
+						variant_group:					1532;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1984,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							125 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						5830 hp;
+						weight: 						120 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.326;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_Ae_610_3_Cargo;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_Ae_610;
+			articulated_part				:switch_articulated_SBB_Ae_610_3_Cargo;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_Ae_610_3_Staedtelok_base_Cargo_purchase;
+			cost_factor						:335;
+			running_cost_factor				:switch_running_cost_SBB_Ae_610;			
+			visual_effect_and_powered		:switch_FX_SBB_Ae_610;	
+			}
+	}	

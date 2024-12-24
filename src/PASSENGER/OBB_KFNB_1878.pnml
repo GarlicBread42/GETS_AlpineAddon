@@ -1,0 +1,191 @@
+//####################################
+//### KFNB First Passenger Coaches ###
+//####################################
+
+//Spriteset A/B First/Second Class
+
+spriteset(spriteset_OBB_KFNB_1878_AB_OBH, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_AB_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_1x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_AB_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_2x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_AB_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_4x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+
+spriteset(spriteset_OBB_KFNB_1878_AB_OBH_loading, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_loading_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_AB_OBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_loading_1x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_loading_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_AB_OBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_loading_2x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_loading_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_AB_OBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_loading_4x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_loading_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+
+spritegroup spritegroup_OBB_KFNB_1878_AB_OBH
+		{loaded: 	[spriteset_OBB_KFNB_1878_AB_OBH];
+		loading: 	[spriteset_OBB_KFNB_1878_AB_OBH_loading];}	
+
+
+//Spriteset B/C Second/Third Class
+
+spriteset(spriteset_OBB_KFNB_1878_BC_MBH, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_BC_MBH_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_BC_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_BC_MBH_1x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_BC_MBH_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_BC_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_BC_MBH_2x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_BC_MBH_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_BC_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_BC_MBH_4x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_BC_MBH_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+
+spriteset(spriteset_OBB_KFNB_1878_BC_MBH_loading, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_BC_MBH_loading_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_BC_MBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_BC_MBH_loading_1x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_BC_MBH_loading_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_BC_MBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_BC_MBH_loading_2x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_BC_MBH_loading_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_BC_MBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_BC_MBH_loading_4x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_BC_MBH_loading_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+
+spritegroup spritegroup_OBB_KFNB_1878_BC_MBH
+		{loaded: 	[spriteset_OBB_KFNB_1878_BC_MBH];
+		loading: 	[spriteset_OBB_KFNB_1878_BC_MBH_loading];}	
+		
+//Spriteset C Third Class w/ Brakershut
+
+spriteset(spriteset_OBB_KFNB_1878_C_MBH, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_MBH_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_C_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_MBH_1x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_MBH_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_C_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_MBH_2x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_MBH_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_C_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_MBH_4x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_MBH_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+
+spriteset(spriteset_OBB_KFNB_1878_C_MBH_loading, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_MBH_loading_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_C_MBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_MBH_loading_1x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_MBH_loading_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_C_MBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_MBH_loading_2x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_MBH_loading_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_C_MBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_MBH_loading_4x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_MBH_loading_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+
+spritegroup spritegroup_OBB_KFNB_1878_C_MBH
+		{loaded: 	[spriteset_OBB_KFNB_1878_C_MBH];
+		loading: 	[spriteset_OBB_KFNB_1878_C_MBH_loading];}	
+
+
+//Spriteset C Third Class without Brakershut
+
+spriteset(spriteset_OBB_KFNB_1878_C_OBH, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_OBH_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_C_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_OBH_1x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_OBH_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_C_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_OBH_2x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_OBH_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_C_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_OBH_4x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_OBH_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+
+spriteset(spriteset_OBB_KFNB_1878_C_OBH_loading, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_OBH_loading_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_C_OBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_OBH_loading_1x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_OBH_loading_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_C_OBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_OBH_loading_2x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_OBH_loading_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_C_OBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_OBH_loading_4x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_C_OBH_loading_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+
+spritegroup spritegroup_OBB_KFNB_1878_C_OBH
+		{loaded: 	[spriteset_OBB_KFNB_1878_C_OBH];
+		loading: 	[spriteset_OBB_KFNB_1878_C_OBH_loading];}
+
+//Spritesets purchase
+
+spriteset(spriteset_OBB_KFNB_1878_purchase, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_1878_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_1x_32bpp.png", "gfx/OBB_KFNB_1878/OBB_KFNB_1878_AB_OBH_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+//Switches							
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_OBB_KFNB_1878, switch_alternative_var_random_bits(1, 2)) {
+							1: spritegroup_OBB_KFNB_1878_BC_MBH;
+							2: spritegroup_OBB_KFNB_1878_C_OBH;
+							3: spritegroup_OBB_KFNB_1878_AB_OBH;
+								spritegroup_OBB_KFNB_1878_C_MBH;}									   							  					   												
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_KFNB_1878, 1){
+							return 750;}
+																						
+item (FEAT_TRAINS , ITEM_OBB_KFNB_1878, 6004)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_1878);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1878,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					3;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						10 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					42;
+						ai_engine_rank: 				0;
+						length: 						6;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: random_choose_OBB_KFNB_1878;
+			additional_text				    : string(STR_CONCAT_2, 
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_PASS),);
+			purchase						: spriteset_OBB_KFNB_1878_purchase;
+			cost_factor						: 140;
+			running_cost_factor				: switch_running_cost_OBB_KFNB_1878;
+			}
+		}

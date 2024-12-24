@@ -2,111 +2,212 @@
 //### SBB Re 460 - "Lok 2000"###
 //##############################
 
-//Spriteset Red Standard
-
+//Spritesets Red standard
+									
 spriteset(spriteset_SBB_Re_460_rot, "gfx/SBB_Re_460/SBB_Re_460_rot_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_rot_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_rot_1x_mask.png")
-									{template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_rot_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_rot_2x_mask.png")
-									{template_128trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_rot_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_rot_4x_mask.png")
-									{template_128trains_4x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_rot_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_rot_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_rot_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_rot_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_rot_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_rot_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_rot_REV, "gfx/SBB_Re_460/SBB_Re_460_rot_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_rot_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_rot_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_rot_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_rot_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_rot_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_rot_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_rot_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_rot_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_rot_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_rot_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_rot_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_rot_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_rot_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_rot_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_rot_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_rot_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_rot_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_rot_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_rot_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_rot_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}									
 										
 //Spriteset Red after refit
 
 spriteset(spriteset_SBB_Re_460_refit, "gfx/SBB_Re_460/SBB_Re_460_refit_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_refit, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_refit_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_refit_1x_mask.png")
-									{template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_refit, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_refit_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_refit_2x_mask.png")
-									{template_128trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_refit, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_refit_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_refit_4x_mask.png")
-									{template_128trains_4x(0, 0)}
-
+		alternative_sprites (spriteset_SBB_Re_460_refit, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_refit_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_refit_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_refit, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_refit_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_refit_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_refit, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_refit_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_refit_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_refit_REV, "gfx/SBB_Re_460/SBB_Re_460_refit_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_refit_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_refit_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_refit_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_refit_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_refit_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_refit_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_refit_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_refit_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_refit_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_refit_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_refit_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_refit_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_refit_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_refit_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_refit_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_refit_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_refit_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_refit_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_refit_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_refit_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}
 
 //Spritesets for Special Liveries
-
 
 //Spriteset 100. Lok 2000
 
 spriteset(spriteset_SBB_Re_460_100, "gfx/SBB_Re_460/SBB_Re_460_100_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_100_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_100_1x_mask.png")
-									{template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_100_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_100_2x_mask.png")
-									{template_128trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_100_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_100_4x_mask.png")
-									{template_128trains_4x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_100_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_100_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_100_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_100_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_100_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_100_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_100_REV, "gfx/SBB_Re_460/SBB_Re_460_100_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_100_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_100_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_100_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_100_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_100_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_100_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_100_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_100_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_100_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_100_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_100_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_100_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_100_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_100_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_100_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_100_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_100_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_100_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_100_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_100_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}
 
 //Spriteset 2008 experimental livery
 
 spriteset(spriteset_SBB_Re_460_2008, "gfx/SBB_Re_460/SBB_Re_460_2008_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_2008, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_2008_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_2008_1x_mask.png")
-									{template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_2008, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_2008_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_2008_2x_mask.png")
-									{template_128trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_2008, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_2008_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_2008_4x_mask.png")
-									{template_128trains_4x(0, 0)}
-
+		alternative_sprites (spriteset_SBB_Re_460_2008, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_2008_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_2008_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_2008, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_2008_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_2008_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_2008, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_2008_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_2008_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_2008_REV, "gfx/SBB_Re_460/SBB_Re_460_2008_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_2008_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_2008_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_2008_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_2008_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_2008_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_2008_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_2008_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_2008_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_2008_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_2008_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_2008_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_2008_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_2008_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_2008_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_2008_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_2008_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_2008_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_2008_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_2008_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_2008_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}
 
 //Older Commercials
-
 
 //Agfa
 
 spriteset(spriteset_SBB_Re_460_Agfa, "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Agfa, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_mask.png")
-									{template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Agfa, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Agfa_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Agfa_2x_mask.png")
-									{template_128trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Agfa, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Agfa_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Agfa_4x_mask.png")
-									{template_128trains_4x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Agfa, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Agfa, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Agfa_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Agfa_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Agfa, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Agfa_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Agfa_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_Agfa_REV, "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Agfa_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Agfa_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Agfa_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Agfa_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Agfa_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Agfa_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Agfa_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_Agfa_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Agfa_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Agfa_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Agfa_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Agfa_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Agfa_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Agfa_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Agfa_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}
 
 //Ciba
 
 spriteset(spriteset_SBB_Re_460_Ciba, "gfx/SBB_Re_460/SBB_Re_460_Ciba_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Ciba, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Ciba_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Ciba_1x_mask.png")
-									{template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Ciba, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Ciba_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Ciba_2x_mask.png")
-									{template_128trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Ciba, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Ciba_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Ciba_4x_mask.png")
-									{template_128trains_4x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Ciba, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Ciba_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Ciba_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Ciba, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Ciba_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Ciba_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Ciba, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Ciba_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Ciba_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_Ciba_REV, "gfx/SBB_Re_460/SBB_Re_460_Ciba_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Ciba_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Ciba_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Ciba_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Ciba_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Ciba_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Ciba_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Ciba_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Ciba_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Ciba_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_Ciba_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_Ciba_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Ciba_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Ciba_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Ciba_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Ciba_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Ciba_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Ciba_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Ciba_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Ciba_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Ciba_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}
 
 //Swissair
 
 spriteset(spriteset_SBB_Re_460_Swissair, "gfx/SBB_Re_460/SBB_Re_460_Swissair_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Swissair, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Swissair_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Swissair_1x_mask.png")
-									{template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Swissair, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Swissair_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Swissair_2x_mask.png")
-									{template_128trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Swissair, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Swissair_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Swissair_4x_mask.png")
-									{template_128trains_4x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Swissair, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Swissair_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Swissair_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Swissair, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Swissair_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Swissair_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Swissair, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Swissair_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Swissair_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_Swissair_REV, "gfx/SBB_Re_460/SBB_Re_460_Swissair_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Swissair_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Swissair_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Swissair_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Swissair_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Swissair_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Swissair_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Swissair_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Swissair_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Swissair_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_Swissair_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_Swissair_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Swissair_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Swissair_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Swissair_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Swissair_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Swissair_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Swissair_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Swissair_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Swissair_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Swissair_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}
 									
 									
 //New Commercials
@@ -115,163 +216,1195 @@ alternative_sprites (spriteset_SBB_Re_460_Swissair, ZOOM_LEVEL_IN_4X, BIT_DEPTH_
 
 spriteset(spriteset_SBB_Re_460_Coop, "gfx/SBB_Re_460/SBB_Re_460_Coop_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Coop, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Coop_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Coop_1x_mask.png")
-									{template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Coop, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Coop_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Coop_2x_mask.png")
-									{template_128trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Coop, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Coop_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Coop_4x_mask.png")
-									{template_128trains_4x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Coop, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Coop_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Coop_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Coop, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Coop_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Coop_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Coop, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Coop_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Coop_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_Coop_REV, "gfx/SBB_Re_460/SBB_Re_460_Coop_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Coop_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Coop_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Coop_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Coop_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Coop_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Coop_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Coop_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Coop_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Coop_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_Coop_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_Coop_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Coop_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Coop_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Coop_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Coop_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Coop_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Coop_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Coop_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Coop_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Coop_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}
 
 //Spriteset Lyria
 
 spriteset(spriteset_SBB_Re_460_Lyria, "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Lyria, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_mask.png")
-									{template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Lyria, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Lyria_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Lyria_2x_mask.png")
-									{template_128trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Lyria, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Lyria_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Lyria_4x_mask.png")
-									{template_128trains_4x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Lyria, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Lyria, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Lyria_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Lyria_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Lyria, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Lyria_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Lyria_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_Lyria_REV, "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Lyria_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Lyria_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Lyria_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Lyria_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Lyria_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Lyria_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Lyria_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_Lyria_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Lyria_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Lyria_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Lyria_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Lyria_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Lyria_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Lyria_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Lyria_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}
 
 //Spriteset KNIE
 
 spriteset(spriteset_SBB_Re_460_KNIE, "gfx/SBB_Re_460/SBB_Re_460_KNIE_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_KNIE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_KNIE_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_KNIE_1x_mask.png")
-									{template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_KNIE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_KNIE_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_KNIE_2x_mask.png")
-									{template_128trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_KNIE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_KNIE_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_KNIE_4x_mask.png")
-									{template_128trains_4x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_KNIE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_KNIE_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_KNIE_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_KNIE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_KNIE_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_KNIE_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_KNIE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_KNIE_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_KNIE_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_KNIE_REV, "gfx/SBB_Re_460/SBB_Re_460_KNIE_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_KNIE_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_KNIE_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_KNIE_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_KNIE_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_KNIE_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_KNIE_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_KNIE_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_KNIE_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_KNIE_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_KNIE_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_KNIE_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_KNIE_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_KNIE_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_KNIE_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_KNIE_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_KNIE_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_KNIE_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_KNIE_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_KNIE_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_KNIE_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}
 									
 //Spriteset Easyjet
 
 spriteset(spriteset_SBB_Re_460_Easyjet, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Easyjet, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Easyjet_1x_mask.png")
-									{template_128trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Easyjet, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Easyjet_2x_mask.png")
-									{template_128trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Easyjet, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Easyjet_4x_mask.png")
-									{template_128trains_4x(0, 0)}									
+		alternative_sprites (spriteset_SBB_Re_460_Easyjet, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Easyjet_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Easyjet, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Easyjet_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Easyjet, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Easyjet_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_Easyjet_REV, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Easyjet_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Easyjet_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Easyjet_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Easyjet_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Easyjet_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Easyjet_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_Easyjet_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Easyjet_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Easyjet_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Easyjet_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Easyjet_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_Easyjet_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Easyjet_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Easyjet_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}
+									
+//Spriteset panto back
 
+spriteset(spriteset_SBB_Re_460_panto_back, "gfx/SBB_Re_460/SBB_Re_460_panto_back_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_back_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_back_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_back_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_back_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_back_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_back_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_panto_back_REV, "gfx/SBB_Re_460/SBB_Re_460_panto_back_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_back_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_back_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_back_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_back_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_back_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_back_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_back_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_back_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_back_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_panto_back_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_panto_back_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_back_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_back_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_back_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_back_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_back_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_back_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_back_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_back_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_back_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}	
+									
+//Spriteset panto front
+
+spriteset(spriteset_SBB_Re_460_panto_front, "gfx/SBB_Re_460/SBB_Re_460_panto_front_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_front_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_front_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_front_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_front_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_front_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_front_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_panto_front_REV, "gfx/SBB_Re_460/SBB_Re_460_panto_front_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_front_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_front_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_front_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_front_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_front_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_front_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_front_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_front_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_front_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_panto_front_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_panto_front_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_front_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_front_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_front_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_front_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_front_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_front_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_front_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_front_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_front_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}	
+									
+//Spriteset lights front
+
+spriteset(spriteset_SBB_Re_460_lights_front, "gfx/SBB_Re_460/SBB_Re_460_lights_front_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_front_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_front_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_front_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_front_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_front_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_front_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_lights_front_REV, "gfx/SBB_Re_460/SBB_Re_460_lights_front_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_front_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_front_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_front_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_front_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_front_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_front_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_front_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_front_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_front_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_lights_front_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_lights_front_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_front_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_front_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_front_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_front_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_front_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_front_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_front_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_front_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_front_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}	
+									
+//Spriteset lights back
+
+spriteset(spriteset_SBB_Re_460_lights_back, "gfx/SBB_Re_460/SBB_Re_460_lights_back_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_back_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_back_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_back_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_back_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_back_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_back_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Re_460_lights_back_REV, "gfx/SBB_Re_460/SBB_Re_460_lights_back_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_back_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_back_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_back_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_back_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_back_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_back_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_back_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_back_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_back_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+									
+spriteset(spriteset_SBB_Re_460_lights_back_Wendezug, "gfx/SBB_Re_460/SBB_Re_460_lights_back_1x_8bpp.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_back_Wendezug, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_back_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_back_1x_mask.png")
+									{ template_Railjet_Wendezug_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_back_Wendezug, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_back_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_back_2x_mask.png")
+									{ template_Railjet_Wendezug_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_back_Wendezug, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_back_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_back_4x_mask.png")
+									{ template_Railjet_Wendezug_4x(0, 0)}																																										
+
+spriteset(spriteset_SBB_Re_460_lights_back_Wendezug_REV, "gfx/SBB_Re_460/SBB_Re_460_lights_back_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_back_Wendezug_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_back_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_back_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_back_Wendezug_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_back_2x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_back_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_lights_back_Wendezug_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_lights_back_4x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_lights_back_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}										
+
+//Spritesets IC 2000 DVT - reversed
+
+//Old livery
+
+spriteset (spriteset_SBB_IC2000_1997_DVT_REV, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_1x_8bpp.png")
+					{template_158trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_IC2000_1997_DVT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_IC2000_1997_DVT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_IC2000_1997_DVT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+
+spriteset (spriteset_SBB_IC2000_1997_DVT_loading_REV, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_loading_1x_8bpp.png")
+					{template_158trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_IC2000_1997_DVT_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_loading_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_IC2000_1997_DVT_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_loading_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_IC2000_1997_DVT_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_loading_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_1997_DVT_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_SBB_IC2000_1997_DVT_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_IC2000_1997_DVT_loading_REV];}
+
+spriteset (spriteset_SBB_IC2000_Dinos_DVT_REV, "gfx\SBB_IC2000/SBB_IC2000_Dinos_DVT_1x_8bpp.png")
+					{template_158trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_IC2000_Dinos_DVT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_Dinos_DVT_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_Dinos_DVT_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_IC2000_Dinos_DVT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_Dinos_DVT_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_Dinos_DVT_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_IC2000_Dinos_DVT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_Dinos_DVT_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_Dinos_DVT_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}		
+
+spriteset (spriteset_SBB_IC2000_Globi_DVT_REV, "gfx\SBB_IC2000/SBB_IC2000_Globi_DVT_1x_8bpp.png")
+					{template_158trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_IC2000_Globi_DVT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_Globi_DVT_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_Globi_DVT_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_IC2000_Globi_DVT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_Globi_DVT_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_Globi_DVT_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_IC2000_Globi_DVT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_Globi_DVT_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_Globi_DVT_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spriteset (spriteset_SBB_IC2000_Tiki_DVT_REV, "gfx\SBB_IC2000/SBB_IC2000_Tiki_DVT_1x_8bpp.png")
+					{template_158trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_IC2000_Tiki_DVT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_Tiki_DVT_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_Tiki_DVT_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_IC2000_Tiki_DVT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_Tiki_DVT_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_Tiki_DVT_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_IC2000_Tiki_DVT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_Tiki_DVT_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_Tiki_DVT_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+//modern livery
+		
+spriteset (spriteset_SBB_IC2000_modern_DVT_REV, "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_1x_8bpp.png")
+					{template_158trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_IC2000_modern_DVT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_IC2000_modern_DVT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_IC2000_modern_DVT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_DVT_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}				
+
+spriteset (spriteset_SBB_IC2000_modern_DVT_loading_REV, "gfx\SBB_IC2000/SBB_IC2000_modern_B_loading_1x_8bpp.png")
+					{template_158trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_IC2000_modern_DVT_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_B_loading_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_B_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_IC2000_modern_DVT_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_B_loading_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_B_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_IC2000_modern_DVT_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_modern_B_loading_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_modern_B_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_SBB_IC2000_modern_DVT_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_IC2000_modern_DVT_loading_REV];}
+	
+					
+//lights
+
+spriteset (spriteset_SBB_IC2000_DVT_lights_front_REV, "gfx\SBB_IC2000/SBB_IC2000_DVT_lights_front_1x_8bpp.png")
+					{template_158trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_IC2000_DVT_lights_front_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_DVT_lights_front_1x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_DVT_lights_front_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_SBB_IC2000_DVT_lights_front_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_DVT_lights_front_2x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_DVT_lights_front_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_IC2000_DVT_lights_front_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SBB_IC2000/SBB_IC2000_DVT_lights_front_4x_32bpp.png", "gfx\SBB_IC2000/SBB_IC2000_DVT_lights_front_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}															
+									
 //Spriteset purchase
 
 spriteset(spriteset_SBB_Re_460_rot_purchase, "gfx/SBB_Re_460/SBB_Re_460_rot_1x_8bpp.png")
 									{ template_purchase(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_rot_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_rot_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_rot_1x_mask.png")
+		alternative_sprites (spriteset_SBB_Re_460_rot_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_rot_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_rot_1x_mask.png")
 									{template_purchase(0, 0)}
 									
 spriteset(spriteset_SBB_Re_460_refit_purchase, "gfx/SBB_Re_460/SBB_Re_460_refit_1x_8bpp.png")
 									{ template_purchase(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_refit_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_refit_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_refit_1x_mask.png")
+		alternative_sprites (spriteset_SBB_Re_460_refit_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_refit_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_refit_1x_mask.png")
 									{template_purchase(0, 0)}									
 
 spriteset(spriteset_SBB_Re_460_100_purchase, "gfx/SBB_Re_460/SBB_Re_460_100_1x_8bpp.png")
 									{ template_purchase(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_100_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_100_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_100_1x_mask.png")
+		alternative_sprites (spriteset_SBB_Re_460_100_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_100_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_100_1x_mask.png")
 									{template_purchase(0, 0)}									
 
 spriteset(spriteset_SBB_Re_460_2008_purchase, "gfx/SBB_Re_460/SBB_Re_460_2008_1x_8bpp.png")
 									{ template_purchase(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_2008_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_2008_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_2008_1x_mask.png")
+		alternative_sprites (spriteset_SBB_Re_460_2008_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_2008_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_2008_1x_mask.png")
 									{template_purchase(0, 0)}																		
 
 spriteset(spriteset_SBB_Re_460_Agfa_purchase, "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_8bpp.png")
 									{ template_purchase(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Agfa_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_mask.png")
+		alternative_sprites (spriteset_SBB_Re_460_Agfa_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Agfa_1x_mask.png")
 									{template_purchase(0, 0)}																						
 
 spriteset(spriteset_SBB_Re_460_Lyria_purchase, "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_8bpp.png")
 									{ template_purchase(0, 0)}
-				
-alternative_sprites (spriteset_SBB_Re_460_Lyria_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_mask.png")
+		alternative_sprites (spriteset_SBB_Re_460_Lyria_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_Lyria_1x_mask.png")
 									{template_purchase(0, 0)}									
-									
+
+spriteset(spriteset_SBB_Re_460_panto_back_purchase, "gfx/SBB_Re_460/SBB_Re_460_panto_back_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_SBB_Re_460_panto_back_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Re_460/SBB_Re_460_panto_back_1x_32bpp.png", "gfx/SBB_Re_460/SBB_Re_460_panto_back_1x_mask.png")
+									{ template_purchase(0, 0)}
+																		
 //Switches
 
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_rot_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_rot_purchase;
+							1: spriteset_SBB_Re_460_panto_back_purchase;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_refit_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_refit_purchase;
+							1: spriteset_SBB_Re_460_panto_back_purchase;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_100_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_100_purchase;
+							1: spriteset_SBB_Re_460_panto_back_purchase;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_2008_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_2008_purchase;
+							1: spriteset_SBB_Re_460_panto_back_purchase;}													
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Agfa_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Agfa_purchase;
+							1: spriteset_SBB_Re_460_panto_back_purchase;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Lyria_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Lyria_purchase;
+							1: spriteset_SBB_Re_460_panto_back_purchase;}																					
+							
 						switch(FEAT_TRAINS,SELF, switch_purchase_SBB_Re_460, current_year){
-							   0 .. 2021: spriteset_SBB_Re_460_rot_purchase;
-							1922 .. 2050: spriteset_SBB_Re_460_refit_purchase;
-								spriteset_SBB_Re_460_refit_purchase;}									
+							   0 .. 2021: switch_spritestack_SBB_Re_460_rot_purchase;
+							1922 .. 2050: switch_spritestack_SBB_Re_460_refit_purchase;
+								switch_spritestack_SBB_Re_460_refit_purchase;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_rot;
+							1: spriteset_SBB_Re_460_lights_front;
+							2: spriteset_SBB_Re_460_lights_back;
+							3: spriteset_SBB_Re_460_panto_back;}
 
-						switch(FEAT_TRAINS, SELF, switch_length_SBB_Re_460, position_in_vehid_chain % 3) {
-							0: 4;
-							1: 4;
-							2: 4;}
-	
-						switch(FEAT_TRAINS, SELF, switch_FX_SBB_Re_460, position_in_vehid_chain % 3) {
-							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
-								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_rot_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_rot_REV;
+							1: spriteset_SBB_Re_460_lights_front_REV;
+							2: spriteset_SBB_Re_460_lights_back_REV;
+							3: spriteset_SBB_Re_460_panto_back_REV;}
 
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_rot_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_rot_Wendezug;
+							1: spriteset_SBB_Re_460_lights_front_Wendezug;
+							2: spriteset_SBB_Re_460_panto_back_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_rot_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_rot_REV;
+							1: spriteset_SBB_Re_460_lights_back_Wendezug_REV;
+							2: spriteset_SBB_Re_460_panto_front_REV;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_refit, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_refit;
+							1: spriteset_SBB_Re_460_lights_front;
+							2: spriteset_SBB_Re_460_lights_back;
+							3: spriteset_SBB_Re_460_panto_back;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_refit_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_refit_REV;
+							1: spriteset_SBB_Re_460_lights_front_REV;
+							2: spriteset_SBB_Re_460_lights_back_REV;
+							3: spriteset_SBB_Re_460_panto_back_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_refit_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_refit_Wendezug;
+							1: spriteset_SBB_Re_460_lights_front_Wendezug;
+							2: spriteset_SBB_Re_460_panto_back_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_refit_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_refit_REV;
+							1: spriteset_SBB_Re_460_lights_back_Wendezug_REV;
+							2: spriteset_SBB_Re_460_panto_front_REV;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_100, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_100;
+							1: spriteset_SBB_Re_460_lights_front;
+							2: spriteset_SBB_Re_460_lights_back;
+							3: spriteset_SBB_Re_460_panto_back;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_100_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_100_REV;
+							1: spriteset_SBB_Re_460_lights_front_REV;
+							2: spriteset_SBB_Re_460_lights_back_REV;
+							3: spriteset_SBB_Re_460_panto_back_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_100_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_100_Wendezug;
+							1: spriteset_SBB_Re_460_lights_front_Wendezug;
+							2: spriteset_SBB_Re_460_panto_back_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_100_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_100_REV;
+							1: spriteset_SBB_Re_460_lights_back_Wendezug_REV;
+							2: spriteset_SBB_Re_460_panto_front_REV;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_2008, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_2008;
+							1: spriteset_SBB_Re_460_lights_front;
+							2: spriteset_SBB_Re_460_lights_back;
+							3: spriteset_SBB_Re_460_panto_back;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_2008_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_2008_REV;
+							1: spriteset_SBB_Re_460_lights_front_REV;
+							2: spriteset_SBB_Re_460_lights_back_REV;
+							3: spriteset_SBB_Re_460_panto_back_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_2008_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_2008_Wendezug;
+							1: spriteset_SBB_Re_460_lights_front_Wendezug;
+							2: spriteset_SBB_Re_460_panto_back_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_2008_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_2008_REV;
+							1: spriteset_SBB_Re_460_lights_back_Wendezug_REV;
+							2: spriteset_SBB_Re_460_panto_front_REV;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Agfa, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Agfa;
+							1: spriteset_SBB_Re_460_lights_front;
+							2: spriteset_SBB_Re_460_lights_back;
+							3: spriteset_SBB_Re_460_panto_back;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Agfa_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Agfa_REV;
+							1: spriteset_SBB_Re_460_lights_front_REV;
+							2: spriteset_SBB_Re_460_lights_back_REV;
+							3: spriteset_SBB_Re_460_panto_back_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Agfa_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Agfa_Wendezug;
+							1: spriteset_SBB_Re_460_lights_front_Wendezug;
+							2: spriteset_SBB_Re_460_panto_back_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Agfa_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Agfa_REV;
+							1: spriteset_SBB_Re_460_lights_back_Wendezug_REV;
+							2: spriteset_SBB_Re_460_panto_front_REV;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Ciba, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Ciba;
+							1: spriteset_SBB_Re_460_lights_front;
+							2: spriteset_SBB_Re_460_lights_back;
+							3: spriteset_SBB_Re_460_panto_back;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Ciba_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Ciba_REV;
+							1: spriteset_SBB_Re_460_lights_front_REV;
+							2: spriteset_SBB_Re_460_lights_back_REV;
+							3: spriteset_SBB_Re_460_panto_back_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Ciba_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Ciba_Wendezug;
+							1: spriteset_SBB_Re_460_lights_front_Wendezug;
+							2: spriteset_SBB_Re_460_panto_back_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Ciba_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Ciba_REV;
+							1: spriteset_SBB_Re_460_lights_back_Wendezug_REV;
+							2: spriteset_SBB_Re_460_panto_front_REV;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Swissair, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Swissair;
+							1: spriteset_SBB_Re_460_lights_front;
+							2: spriteset_SBB_Re_460_lights_back;
+							3: spriteset_SBB_Re_460_panto_back;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Swissair_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Swissair_REV;
+							1: spriteset_SBB_Re_460_lights_front_REV;
+							2: spriteset_SBB_Re_460_lights_back_REV;
+							3: spriteset_SBB_Re_460_panto_back_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Swissair_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Swissair_Wendezug;
+							1: spriteset_SBB_Re_460_lights_front_Wendezug;
+							2: spriteset_SBB_Re_460_panto_back_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Swissair_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Swissair_REV;
+							1: spriteset_SBB_Re_460_lights_back_Wendezug_REV;
+							2: spriteset_SBB_Re_460_panto_front_REV;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Coop, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Coop;
+							1: spriteset_SBB_Re_460_lights_front;
+							2: spriteset_SBB_Re_460_lights_back;
+							3: spriteset_SBB_Re_460_panto_back;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Coop_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Coop_REV;
+							1: spriteset_SBB_Re_460_lights_front_REV;
+							2: spriteset_SBB_Re_460_lights_back_REV;
+							3: spriteset_SBB_Re_460_panto_back_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Coop_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Coop_Wendezug;
+							1: spriteset_SBB_Re_460_lights_front_Wendezug;
+							2: spriteset_SBB_Re_460_panto_back_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Coop_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Coop_REV;
+							1: spriteset_SBB_Re_460_lights_back_Wendezug_REV;
+							2: spriteset_SBB_Re_460_panto_front_REV;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Lyria, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Lyria;
+							1: spriteset_SBB_Re_460_lights_front;
+							2: spriteset_SBB_Re_460_lights_back;
+							3: spriteset_SBB_Re_460_panto_back;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Lyria_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Lyria_REV;
+							1: spriteset_SBB_Re_460_lights_front_REV;
+							2: spriteset_SBB_Re_460_lights_back_REV;
+							3: spriteset_SBB_Re_460_panto_back_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Lyria_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Lyria_Wendezug;
+							1: spriteset_SBB_Re_460_lights_front_Wendezug;
+							2: spriteset_SBB_Re_460_panto_back_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Lyria_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Lyria_REV;
+							1: spriteset_SBB_Re_460_lights_back_Wendezug_REV;
+							2: spriteset_SBB_Re_460_panto_front_REV;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_KNIE, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_KNIE;
+							1: spriteset_SBB_Re_460_lights_front;
+							2: spriteset_SBB_Re_460_lights_back;
+							3: spriteset_SBB_Re_460_panto_back;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_KNIE_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_KNIE_REV;
+							1: spriteset_SBB_Re_460_lights_front_REV;
+							2: spriteset_SBB_Re_460_lights_back_REV;
+							3: spriteset_SBB_Re_460_panto_back_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_KNIE_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_KNIE_Wendezug;
+							1: spriteset_SBB_Re_460_lights_front_Wendezug;
+							2: spriteset_SBB_Re_460_panto_back_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_KNIE_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_KNIE_REV;
+							1: spriteset_SBB_Re_460_lights_back_Wendezug_REV;
+							2: spriteset_SBB_Re_460_panto_front_REV;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Easyjet, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Easyjet;
+							1: spriteset_SBB_Re_460_lights_front;
+							2: spriteset_SBB_Re_460_lights_back;
+							3: spriteset_SBB_Re_460_panto_back;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Easyjet_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Easyjet_REV;
+							1: spriteset_SBB_Re_460_lights_front_REV;
+							2: spriteset_SBB_Re_460_lights_back_REV;
+							3: spriteset_SBB_Re_460_panto_back_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Easyjet_Wendezug, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Easyjet_Wendezug;
+							1: spriteset_SBB_Re_460_lights_front_Wendezug;
+							2: spriteset_SBB_Re_460_panto_back_Wendezug;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Re_460_Easyjet_Wendezug_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Re_460_Easyjet_REV;
+							1: spriteset_SBB_Re_460_lights_back_Wendezug_REV;
+							2: spriteset_SBB_Re_460_panto_front_REV;}																														
+																					
 						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Re_460, current_year){
 						        0 .. 2021: return 6000;
 						     2022 .. 2050: return  4875;
 									return 4875;}
-									
+																
 						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_era1, switch_alternative_var_random_bits(1, 3)) {
-							1: spriteset_SBB_Re_460_rot;
-							2: spriteset_SBB_Re_460_100;
-							3: spriteset_SBB_Re_460_Agfa;
-							4: spriteset_SBB_Re_460_Ciba;
-							5: spriteset_SBB_Re_460_rot;
-							6: spriteset_SBB_Re_460_rot;
-							7: spriteset_SBB_Re_460_rot;
-							   spriteset_SBB_Re_460_rot;}	
+							1: switch_spritestack_SBB_Re_460_rot;
+							2: switch_spritestack_SBB_Re_460_100;
+							3: switch_spritestack_SBB_Re_460_Agfa;
+							4: switch_spritestack_SBB_Re_460_Ciba;
+							5: switch_spritestack_SBB_Re_460_rot;
+							6: switch_spritestack_SBB_Re_460_rot;
+							7: switch_spritestack_SBB_Re_460_rot;
+							   switch_spritestack_SBB_Re_460_rot;}	
 							   
 						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_era2, switch_alternative_var_random_bits(1, 2)) {
-							1: spriteset_SBB_Re_460_rot;
-							2: spriteset_SBB_Re_460_2008;
-							3: spriteset_SBB_Re_460_rot;
-							   spriteset_SBB_Re_460_rot;}							   							
+							1: switch_spritestack_SBB_Re_460_rot;
+							2: switch_spritestack_SBB_Re_460_2008;
+							3: switch_spritestack_SBB_Re_460_rot;
+							   switch_spritestack_SBB_Re_460_rot;}							   							
 							   
 						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_era3, switch_alternative_var_random_bits(1, 3)) {
-							1: spriteset_SBB_Re_460_rot;
-							2: spriteset_SBB_Re_460_100;
-							3: spriteset_SBB_Re_460_Agfa;
-							4: spriteset_SBB_Re_460_Ciba;
-							5: spriteset_SBB_Re_460_2008;
-							6: spriteset_SBB_Re_460_rot;
-							7: spriteset_SBB_Re_460_rot;
-							   spriteset_SBB_Re_460_rot;}
+							1: switch_spritestack_SBB_Re_460_rot;
+							2: switch_spritestack_SBB_Re_460_100;
+							3: switch_spritestack_SBB_Re_460_Agfa;
+							4: switch_spritestack_SBB_Re_460_Ciba;
+							5: switch_spritestack_SBB_Re_460_2008;
+							6: switch_spritestack_SBB_Re_460_rot;
+							7: switch_spritestack_SBB_Re_460_rot;
+							   switch_spritestack_SBB_Re_460_rot;}
 							   							   
 						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_era4, switch_alternative_var_random_bits(1, 3)) {
-							1: spriteset_SBB_Re_460_refit;
-							2: spriteset_SBB_Re_460_Lyria;
-							3: spriteset_SBB_Re_460_refit;
-							4: spriteset_SBB_Re_460_Coop;
-							5: spriteset_SBB_Re_460_refit;
-							6: spriteset_SBB_Re_460_refit;
-							7: spriteset_SBB_Re_460_refit;
-							   spriteset_SBB_Re_460_refit;}								   
+							1: switch_spritestack_SBB_Re_460_refit;
+							2: switch_spritestack_SBB_Re_460_Lyria;
+							3: switch_spritestack_SBB_Re_460_refit;
+							4: switch_spritestack_SBB_Re_460_Coop;
+							5: switch_spritestack_SBB_Re_460_refit;
+							6: switch_spritestack_SBB_Re_460_refit;
+							7: switch_spritestack_SBB_Re_460_refit;
+							   switch_spritestack_SBB_Re_460_refit;}								   
 							   																								
 						switch (FEAT_TRAINS,SELF, switch_SBB_Re_460_build_year,build_year){
 							   0 .. 2007: random_choose_SBB_Re_460_era1;
 							2008 .. 2009: random_choose_SBB_Re_460_era2;
 							2010 .. 2021: random_choose_SBB_Re_460_era3;
 							2022 .. 2050: random_choose_SBB_Re_460_era4;
-								random_choose_SBB_Re_460_era4;}
+								random_choose_SBB_Re_460_era4;}								
+																								
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_460_current_year,current_year){
+							   0 .. 2007: random_choose_SBB_Re_460_era1;
+							2008 .. 2009: random_choose_SBB_Re_460_era2;
+							2010 .. 2021: random_choose_SBB_Re_460_era3;
+							2022 .. 2050: random_choose_SBB_Re_460_era4;
+								random_choose_SBB_Re_460_era4;}								
+								   
+							   								
+//DVT-relevant stuff															
 
+//Switches for IC-2000 DVT
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_IC2000_1997_DVT_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_1997_DVT_REV;
+							1: spritegroup_SBB_IC2000_1997_DVT_loading_REV;
+							2: spriteset_SBB_IC2000_DVT_lights_front_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_IC2000_Dinos_DVT_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_Dinos_DVT_REV;
+							1: spritegroup_SBB_IC2000_1997_DVT_loading_REV;
+							2: spriteset_SBB_IC2000_DVT_lights_front_REV;}							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_IC2000_Globi_DVT_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_Globi_DVT_REV;
+							1: spritegroup_SBB_IC2000_1997_DVT_loading_REV;
+							2: spriteset_SBB_IC2000_DVT_lights_front_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_IC2000_Tiki_DVT_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_Tiki_DVT_REV;
+							1: spritegroup_SBB_IC2000_1997_DVT_loading_REV;
+							2: spriteset_SBB_IC2000_DVT_lights_front_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_IC2000_modern_DVT_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_IC2000_modern_DVT_REV;
+							1: spritegroup_SBB_IC2000_modern_DVT_loading_REV;
+							2: spriteset_SBB_IC2000_DVT_lights_front_REV;}	
+							
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_IC2000_1997_DVT_REV_Wendezug, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_SBB_IC2000_1997_DVT_REV;
+							2: switch_spritestack_SBB_IC2000_Dinos_DVT_REV;
+							3: switch_spritestack_SBB_IC2000_1997_DVT_REV;
+							4: switch_spritestack_SBB_IC2000_Globi_DVT_REV;
+							5: switch_spritestack_SBB_IC2000_1997_DVT_REV;
+							6: switch_spritestack_SBB_IC2000_Tiki_DVT_REV;
+							7: switch_spritestack_SBB_IC2000_1997_DVT_REV;
+							   switch_spritestack_SBB_IC2000_Dinos_DVT_REV;}
+
+						switch (FEAT_TRAINS,SELF,switch_build_year_SBB_IC2000_REV_Wendezug,build_year) {
+							   0 .. 2018 : random_choose_SBB_IC2000_1997_DVT_REV_Wendezug;
+							2019 .. 2050 : switch_spritestack_SBB_IC2000_modern_DVT_REV;
+								switch_spritestack_SBB_IC2000_modern_DVT_REV;}							   							
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_SBB_IC2000_REV_Wendezug,current_year) {
+							   0 .. 2018 : random_choose_SBB_IC2000_1997_DVT_REV_Wendezug;
+							2019 .. 2050 : switch_spritestack_SBB_IC2000_modern_DVT_REV;
+								switch_spritestack_SBB_IC2000_modern_DVT_REV;}	
+//SBB Re 460 DVT-relevant	
+						
+						switch(FEAT_TRAINS, SELF, switch_FX_SBB_Re_460, position_in_vehid_chain % 3) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}								
+						
+						switch(FEAT_TRAINS, SELF, switch_FX_SBB_Re_460_NoFX, position_in_vehid_chain % 3) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}							
+
+						switch (FEAT_TRAINS, PARENT, switch_FX_SBB_Re_460_Wendezug, vehicle_is_reversed) {
+							0: switch_FX_SBB_Re_460;
+								switch_FX_SBB_Re_460_NoFX;}
+								
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_Re_460, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 4;
+							2: 4;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_Re_460_Wendezug_158, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_rot_IC_2000_build_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_rot_Wendezug;
+								switch_build_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_rot_IC_2000_current_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_rot_Wendezug;
+								switch_current_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_rot_IC_2000_1997_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_rot_Wendezug;
+								random_choose_SBB_IC2000_1997_DVT_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_rot_IC_2000_modern_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_rot_Wendezug;
+								switch_spritestack_SBB_IC2000_modern_DVT_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_refit_IC_2000_build_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_refit_Wendezug;
+								switch_build_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_refit_IC_2000_current_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_refit_Wendezug;
+								switch_current_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_refit_IC_2000_1997_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_refit_Wendezug;
+								random_choose_SBB_IC2000_1997_DVT_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_refit_IC_2000_modern_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_refit_Wendezug;
+								switch_spritestack_SBB_IC2000_modern_DVT_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_100_IC_2000_build_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_100_Wendezug;
+								switch_build_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_100_IC_2000_current_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_100_Wendezug;
+								switch_current_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_100_IC_2000_1997_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_100_Wendezug;
+								random_choose_SBB_IC2000_1997_DVT_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_100_IC_2000_modern_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_100_Wendezug;
+								switch_spritestack_SBB_IC2000_modern_DVT_REV;}																
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_2008_IC_2000_build_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_2008_Wendezug;
+								switch_build_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_2008_IC_2000_current_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_2008_Wendezug;
+								switch_current_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_2008_IC_2000_1997_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_2008_Wendezug;
+								random_choose_SBB_IC2000_1997_DVT_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_2008_IC_2000_modern_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_2008_Wendezug;
+								switch_spritestack_SBB_IC2000_modern_DVT_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Agfa_IC_2000_build_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Agfa_Wendezug;
+								switch_build_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Agfa_IC_2000_current_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Agfa_Wendezug;
+								switch_current_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Agfa_IC_2000_1997_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Agfa_Wendezug;
+								random_choose_SBB_IC2000_1997_DVT_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Agfa_IC_2000_modern_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Agfa_Wendezug;
+								switch_spritestack_SBB_IC2000_modern_DVT_REV;}		
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Ciba_IC_2000_build_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Ciba_Wendezug;
+								switch_build_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Ciba_IC_2000_current_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Ciba_Wendezug;
+								switch_current_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Ciba_IC_2000_1997_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Ciba_Wendezug;
+								random_choose_SBB_IC2000_1997_DVT_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Ciba_IC_2000_modern_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Ciba_Wendezug;
+								switch_spritestack_SBB_IC2000_modern_DVT_REV;}	
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Swissair_IC_2000_build_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Swissair_Wendezug;
+								switch_build_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Swissair_IC_2000_current_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Swissair_Wendezug;
+								switch_current_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Swissair_IC_2000_1997_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Swissair_Wendezug;
+								random_choose_SBB_IC2000_1997_DVT_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Swissair_IC_2000_modern_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Swissair_Wendezug;
+								switch_spritestack_SBB_IC2000_modern_DVT_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Coop_IC_2000_build_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Coop_Wendezug;
+								switch_build_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Coop_IC_2000_current_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Coop_Wendezug;
+								switch_current_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Coop_IC_2000_1997_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Coop_Wendezug;
+								random_choose_SBB_IC2000_1997_DVT_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Coop_IC_2000_modern_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Coop_Wendezug;
+								switch_spritestack_SBB_IC2000_modern_DVT_REV;}																													
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Lyria_IC_2000_build_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Lyria_Wendezug;
+								switch_build_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Lyria_IC_2000_current_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Lyria_Wendezug;
+								switch_current_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Lyria_IC_2000_1997_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Lyria_Wendezug;
+								random_choose_SBB_IC2000_1997_DVT_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Lyria_IC_2000_modern_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Lyria_Wendezug;
+								switch_spritestack_SBB_IC2000_modern_DVT_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_KNIE_IC_2000_build_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_KNIE_Wendezug;
+								switch_build_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_KNIE_IC_2000_current_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_KNIE_Wendezug;
+								switch_current_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_KNIE_IC_2000_1997_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_KNIE_Wendezug;
+								random_choose_SBB_IC2000_1997_DVT_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_KNIE_IC_2000_modern_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_KNIE_Wendezug;
+								switch_spritestack_SBB_IC2000_modern_DVT_REV;}	
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Easyjet_IC_2000_build_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Easyjet_Wendezug;
+								switch_build_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Easyjet_IC_2000_current_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Easyjet_Wendezug;
+								switch_current_year_SBB_IC2000_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Easyjet_IC_2000_1997_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Easyjet_Wendezug;
+								random_choose_SBB_IC2000_1997_DVT_REV_Wendezug;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Re_460_Easyjet_IC_2000_modern_Wendezug, vehicle_is_reversed) {
+							0: switch_spritestack_SBB_Re_460_Easyjet_Wendezug;
+								switch_spritestack_SBB_IC2000_modern_DVT_REV;}
+																																																																																															
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_built_era1_Wendezug, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_reverse_SBB_Re_460_rot_IC_2000_build_Wendezug;
+							2: switch_reverse_SBB_Re_460_100_IC_2000_build_Wendezug;
+							3: switch_reverse_SBB_Re_460_Agfa_IC_2000_build_Wendezug;
+							4: switch_reverse_SBB_Re_460_Ciba_IC_2000_build_Wendezug;
+							5: switch_reverse_SBB_Re_460_rot_IC_2000_build_Wendezug;
+							6: switch_reverse_SBB_Re_460_rot_IC_2000_build_Wendezug;
+							7: switch_reverse_SBB_Re_460_rot_IC_2000_build_Wendezug;
+							   switch_reverse_SBB_Re_460_rot_IC_2000_build_Wendezug;}	
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_built_era2_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_rot_IC_2000_build_Wendezug;
+							2: switch_reverse_SBB_Re_460_2008_IC_2000_build_Wendezug;
+							3: switch_reverse_SBB_Re_460_rot_IC_2000_build_Wendezug;
+							   switch_reverse_SBB_Re_460_rot_IC_2000_build_Wendezug;}							   							
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_built_era3_Wendezug, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_reverse_SBB_Re_460_rot_IC_2000_build_Wendezug;
+							2: switch_reverse_SBB_Re_460_100_IC_2000_build_Wendezug;
+							3: switch_reverse_SBB_Re_460_Agfa_IC_2000_build_Wendezug;
+							4: switch_reverse_SBB_Re_460_Ciba_IC_2000_build_Wendezug;
+							5: switch_reverse_SBB_Re_460_2008_IC_2000_build_Wendezug;
+							6: switch_reverse_SBB_Re_460_rot_IC_2000_build_Wendezug;
+							7: switch_reverse_SBB_Re_460_rot_IC_2000_build_Wendezug;
+							   switch_reverse_SBB_Re_460_rot_IC_2000_build_Wendezug;}
+							   							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_built_era4_Wendezug, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_reverse_SBB_Re_460_refit_IC_2000_build_Wendezug;
+							2: switch_reverse_SBB_Re_460_Lyria_IC_2000_build_Wendezug;
+							3: switch_reverse_SBB_Re_460_refit_IC_2000_build_Wendezug;
+							4: switch_reverse_SBB_Re_460_Coop_IC_2000_build_Wendezug;
+							5: switch_reverse_SBB_Re_460_refit_IC_2000_build_Wendezug;
+							6: switch_reverse_SBB_Re_460_refit_IC_2000_build_Wendezug;
+							7: switch_reverse_SBB_Re_460_refit_IC_2000_build_Wendezug;
+							   switch_reverse_SBB_Re_460_refit_IC_2000_build_Wendezug;}								   
+																																																																																															
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_current_era1_Wendezug, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_reverse_SBB_Re_460_rot_IC_2000_current_Wendezug;
+							2: switch_reverse_SBB_Re_460_100_IC_2000_current_Wendezug;
+							3: switch_reverse_SBB_Re_460_Agfa_IC_2000_current_Wendezug;
+							4: switch_reverse_SBB_Re_460_Ciba_IC_2000_current_Wendezug;
+							5: switch_reverse_SBB_Re_460_rot_IC_2000_current_Wendezug;
+							6: switch_reverse_SBB_Re_460_rot_IC_2000_current_Wendezug;
+							7: switch_reverse_SBB_Re_460_rot_IC_2000_current_Wendezug;
+							   switch_reverse_SBB_Re_460_rot_IC_2000_current_Wendezug;}	
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_current_era2_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_rot_IC_2000_current_Wendezug;
+							2: switch_reverse_SBB_Re_460_2008_IC_2000_current_Wendezug;
+							3: switch_reverse_SBB_Re_460_rot_IC_2000_current_Wendezug;
+							   switch_reverse_SBB_Re_460_rot_IC_2000_current_Wendezug;}							   							
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_current_era3_Wendezug, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_reverse_SBB_Re_460_rot_IC_2000_current_Wendezug;
+							2: switch_reverse_SBB_Re_460_100_IC_2000_current_Wendezug;
+							3: switch_reverse_SBB_Re_460_Agfa_IC_2000_current_Wendezug;
+							4: switch_reverse_SBB_Re_460_Ciba_IC_2000_current_Wendezug;
+							5: switch_reverse_SBB_Re_460_2008_IC_2000_current_Wendezug;
+							6: switch_reverse_SBB_Re_460_rot_IC_2000_current_Wendezug;
+							7: switch_reverse_SBB_Re_460_rot_IC_2000_current_Wendezug;
+							   switch_reverse_SBB_Re_460_rot_IC_2000_current_Wendezug;}
+							   							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_current_era4_Wendezug, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_reverse_SBB_Re_460_refit_IC_2000_current_Wendezug;
+							2: switch_reverse_SBB_Re_460_Lyria_IC_2000_current_Wendezug;
+							3: switch_reverse_SBB_Re_460_refit_IC_2000_current_Wendezug;
+							4: switch_reverse_SBB_Re_460_Coop_IC_2000_current_Wendezug;
+							5: switch_reverse_SBB_Re_460_refit_IC_2000_current_Wendezug;
+							6: switch_reverse_SBB_Re_460_refit_IC_2000_current_Wendezug;
+							7: switch_reverse_SBB_Re_460_refit_IC_2000_current_Wendezug;
+							   switch_reverse_SBB_Re_460_refit_IC_2000_current_Wendezug;}								   
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_1997_era1_Wendezug, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_reverse_SBB_Re_460_rot_IC_2000_1997_Wendezug;
+							2: switch_reverse_SBB_Re_460_100_IC_2000_1997_Wendezug;
+							3: switch_reverse_SBB_Re_460_Agfa_IC_2000_1997_Wendezug;
+							4: switch_reverse_SBB_Re_460_Ciba_IC_2000_1997_Wendezug;
+							5: switch_reverse_SBB_Re_460_rot_IC_2000_1997_Wendezug;
+							6: switch_reverse_SBB_Re_460_rot_IC_2000_1997_Wendezug;
+							7: switch_reverse_SBB_Re_460_rot_IC_2000_1997_Wendezug;
+							   switch_reverse_SBB_Re_460_rot_IC_2000_1997_Wendezug;}	
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_1997_era2_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_rot_IC_2000_1997_Wendezug;
+							2: switch_reverse_SBB_Re_460_2008_IC_2000_1997_Wendezug;
+							3: switch_reverse_SBB_Re_460_rot_IC_2000_1997_Wendezug;
+							   switch_reverse_SBB_Re_460_rot_IC_2000_1997_Wendezug;}							   							
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_1997_era3_Wendezug, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_reverse_SBB_Re_460_rot_IC_2000_1997_Wendezug;
+							2: switch_reverse_SBB_Re_460_100_IC_2000_1997_Wendezug;
+							3: switch_reverse_SBB_Re_460_Agfa_IC_2000_1997_Wendezug;
+							4: switch_reverse_SBB_Re_460_Ciba_IC_2000_1997_Wendezug;
+							5: switch_reverse_SBB_Re_460_2008_IC_2000_1997_Wendezug;
+							6: switch_reverse_SBB_Re_460_rot_IC_2000_1997_Wendezug;
+							7: switch_reverse_SBB_Re_460_rot_IC_2000_1997_Wendezug;
+							   switch_reverse_SBB_Re_460_rot_IC_2000_1997_Wendezug;}
+							   							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_1997_era4_Wendezug, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_reverse_SBB_Re_460_refit_IC_2000_1997_Wendezug;
+							2: switch_reverse_SBB_Re_460_Lyria_IC_2000_1997_Wendezug;
+							3: switch_reverse_SBB_Re_460_refit_IC_2000_1997_Wendezug;
+							4: switch_reverse_SBB_Re_460_Coop_IC_2000_1997_Wendezug;
+							5: switch_reverse_SBB_Re_460_refit_IC_2000_1997_Wendezug;
+							6: switch_reverse_SBB_Re_460_refit_IC_2000_1997_Wendezug;
+							7: switch_reverse_SBB_Re_460_refit_IC_2000_1997_Wendezug;
+							   switch_reverse_SBB_Re_460_refit_IC_2000_1997_Wendezug;}								   
+								
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_modern_era1_Wendezug, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_reverse_SBB_Re_460_rot_IC_2000_modern_Wendezug;
+							2: switch_reverse_SBB_Re_460_100_IC_2000_modern_Wendezug;
+							3: switch_reverse_SBB_Re_460_Agfa_IC_2000_modern_Wendezug;
+							4: switch_reverse_SBB_Re_460_Ciba_IC_2000_modern_Wendezug;
+							5: switch_reverse_SBB_Re_460_rot_IC_2000_modern_Wendezug;
+							6: switch_reverse_SBB_Re_460_rot_IC_2000_modern_Wendezug;
+							7: switch_reverse_SBB_Re_460_rot_IC_2000_modern_Wendezug;
+							   switch_reverse_SBB_Re_460_rot_IC_2000_modern_Wendezug;}	
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_modern_era2_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_rot_IC_2000_modern_Wendezug;
+							2: switch_reverse_SBB_Re_460_2008_IC_2000_modern_Wendezug;
+							3: switch_reverse_SBB_Re_460_rot_IC_2000_modern_Wendezug;
+							   switch_reverse_SBB_Re_460_rot_IC_2000_modern_Wendezug;}							   							
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_modern_era3_Wendezug, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_reverse_SBB_Re_460_rot_IC_2000_modern_Wendezug;
+							2: switch_reverse_SBB_Re_460_100_IC_2000_modern_Wendezug;
+							3: switch_reverse_SBB_Re_460_Agfa_IC_2000_modern_Wendezug;
+							4: switch_reverse_SBB_Re_460_Ciba_IC_2000_modern_Wendezug;
+							5: switch_reverse_SBB_Re_460_2008_IC_2000_modern_Wendezug;
+							6: switch_reverse_SBB_Re_460_rot_IC_2000_modern_Wendezug;
+							7: switch_reverse_SBB_Re_460_rot_IC_2000_modern_Wendezug;
+							   switch_reverse_SBB_Re_460_rot_IC_2000_modern_Wendezug;}
+							   							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_modern_era4_Wendezug, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_reverse_SBB_Re_460_refit_IC_2000_modern_Wendezug;
+							2: switch_reverse_SBB_Re_460_Lyria_IC_2000_modern_Wendezug;
+							3: switch_reverse_SBB_Re_460_refit_IC_2000_modern_Wendezug;
+							4: switch_reverse_SBB_Re_460_Coop_IC_2000_modern_Wendezug;
+							5: switch_reverse_SBB_Re_460_refit_IC_2000_modern_Wendezug;
+							6: switch_reverse_SBB_Re_460_refit_IC_2000_modern_Wendezug;
+							7: switch_reverse_SBB_Re_460_refit_IC_2000_modern_Wendezug;
+							   switch_reverse_SBB_Re_460_refit_IC_2000_modern_Wendezug;}								   							
+								
+//Switches for Re 460 build year
+
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_460_IC_2000_built_build_year,build_year){
+							   0 .. 2007: random_choose_SBB_Re_460_IC_2000_built_era1_Wendezug;
+							2008 .. 2009: random_choose_SBB_Re_460_IC_2000_built_era2_Wendezug;
+							2010 .. 2021: random_choose_SBB_Re_460_IC_2000_built_era3_Wendezug;
+							2022 .. 2050: random_choose_SBB_Re_460_IC_2000_built_era4_Wendezug;
+								random_choose_SBB_Re_460_IC_2000_built_era4_Wendezug;}								
+							   																								
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_460_IC_2000_current_build_year,build_year){
+							   0 .. 2007: random_choose_SBB_Re_460_IC_2000_current_era1_Wendezug;
+							2008 .. 2009: random_choose_SBB_Re_460_IC_2000_current_era2_Wendezug;
+							2010 .. 2021: random_choose_SBB_Re_460_IC_2000_current_era3_Wendezug;
+							2022 .. 2050: random_choose_SBB_Re_460_IC_2000_current_era4_Wendezug;
+								random_choose_SBB_Re_460_IC_2000_current_era4_Wendezug;}								
+							   																								
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_460_IC_2000_1997_build_year,build_year){
+							   0 .. 2007: random_choose_SBB_Re_460_IC_2000_1997_era1_Wendezug;
+							2008 .. 2009: random_choose_SBB_Re_460_IC_2000_1997_era2_Wendezug;
+							2010 .. 2021: random_choose_SBB_Re_460_IC_2000_1997_era3_Wendezug;
+							2022 .. 2050: random_choose_SBB_Re_460_IC_2000_1997_era4_Wendezug;
+								random_choose_SBB_Re_460_IC_2000_1997_era4_Wendezug;}																
+							   																								
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_460_IC_2000_modern_build_year,build_year){
+							   0 .. 2007: random_choose_SBB_Re_460_IC_2000_modern_era1_Wendezug;
+							2008 .. 2009: random_choose_SBB_Re_460_IC_2000_modern_era2_Wendezug;
+							2010 .. 2021: random_choose_SBB_Re_460_IC_2000_modern_era3_Wendezug;
+							2022 .. 2050: random_choose_SBB_Re_460_IC_2000_modern_era4_Wendezug;
+								random_choose_SBB_Re_460_IC_2000_modern_era4_Wendezug;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1672_FX_check_6773,(count_veh_id(6773)+count_veh_id(1672)==num_vehs_in_consist)) {
+							0: switch_FX_SBB_Re_460; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1672_FX_check_6772,(count_veh_id(6772)+count_veh_id(1672)==num_vehs_in_consist)) {
+							0: switch_1672_FX_check_6773; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1672_FX_check_6771,(count_veh_id(6771)+count_veh_id(1672)==num_vehs_in_consist)) {
+							0: switch_1672_FX_check_6772; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1672_FX_check_6770,(count_veh_id(6770)+count_veh_id(1672)==num_vehs_in_consist)) {
+							0: switch_1672_FX_check_6771; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1672_FX_check_IC2000,(count_veh_id(6770))+(count_veh_id(6771))+(count_veh_id(6772))+(count_veh_id(6773))) {
+							0: switch_FX_SBB_Re_460; 
+								switch_1672_FX_check_6770;}									
+															
+						switch (FEAT_TRAINS,PARENT,switch_1672_length_check_6773,(count_veh_id(6773)+count_veh_id(1672)==num_vehs_in_consist)) {
+							0: switch_length_SBB_Re_460; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+																							
+						switch (FEAT_TRAINS,PARENT,switch_1672_length_check_6772,(count_veh_id(6772)+count_veh_id(1672)==num_vehs_in_consist)) {
+							0: switch_1672_length_check_6773; 
+								switch_length_SBB_Re_460_Wendezug_158;}								
+															
+						switch (FEAT_TRAINS,PARENT,switch_1672_length_check_6771,(count_veh_id(6771)+count_veh_id(1672)==num_vehs_in_consist)) {
+							0: switch_1672_length_check_6772; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+																							
+						switch (FEAT_TRAINS,PARENT,switch_1672_length_check_6770,(count_veh_id(6770)+count_veh_id(1672)==num_vehs_in_consist)) {
+							0: switch_1672_length_check_6771; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1672_length_check_IC2000,(count_veh_id(6770))+(count_veh_id(6771))+(count_veh_id(6772))+(count_veh_id(6773))) {
+							0: switch_length_SBB_Re_460; 
+								switch_1672_length_check_6770;}							
+
+						switch (FEAT_TRAINS,PARENT,switch_1672_check_6773_2,(count_veh_id(6773))) {
+							0: switch_SBB_Re_460_build_year; 
+								switch_SBB_Re_460_IC_2000_modern_build_year;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1672_graphics_check_6773,(count_veh_id(6773)+count_veh_id(1672)==num_vehs_in_consist)) {
+							0: switch_SBB_Re_460_build_year; 
+								switch_1672_check_6773_2;}
+																
+						switch (FEAT_TRAINS,PARENT,switch_1672_check_6772_2,(count_veh_id(6772))) {
+							0: switch_SBB_Re_460_build_year; 
+								switch_SBB_Re_460_IC_2000_1997_build_year;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1672_graphics_check_6772,(count_veh_id(6772)+count_veh_id(1672)==num_vehs_in_consist)) {
+							0: switch_1672_graphics_check_6773; 
+								switch_1672_check_6772_2;}									
+								
+						switch (FEAT_TRAINS,PARENT,switch_1672_check_6771_2,(count_veh_id(6771))) {
+							0: switch_SBB_Re_460_build_year; 
+								switch_SBB_Re_460_IC_2000_current_build_year;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1672_graphics_check_6771,(count_veh_id(6771)+count_veh_id(1672)==num_vehs_in_consist)) {
+							0: switch_1672_graphics_check_6772; 
+								switch_1672_check_6771_2;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1672_check_6770_2,(count_veh_id(6770))) {
+							0: switch_SBB_Re_460_build_year; 
+								switch_SBB_Re_460_IC_2000_built_build_year;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1672_graphics_check_6770,(count_veh_id(6770)+count_veh_id(1672)==num_vehs_in_consist)) {
+							0: switch_1672_graphics_check_6771; 
+								switch_1672_check_6770_2;}	
+																							   
 					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_460_build, position_in_vehid_chain % 3) {
 						0:	   spriteset_empty;
-						1:     return switch_SBB_Re_460_build_year;
+						1:     return switch_1672_graphics_check_6770;
 						2:	   spriteset_empty;}
 
 					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_460_build, extra_callback_info1) {
@@ -294,6 +1427,7 @@ item (FEAT_TRAINS , ITEM_SBB_RE_460_BUILD, 1672)
 						reliability_decay: 				20;
 						cargo_allow_refit: 				[PASS] ;
 						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cost_factor: 					108;
 						running_cost_base:   			RUNNING_COST_STEAM;						
 						running_cost_factor: 			90;
@@ -322,28 +1456,121 @@ item (FEAT_TRAINS , ITEM_SBB_RE_460_BUILD, 1672)
 											 string(STR_GAUGE_STANDARD), 
 											 string(STR_TRACTION_ELECTRIC), 
 											 string(STR_DESC_RE_460),);
-			length							:switch_length_SBB_Re_460;
+			length							:switch_1672_length_check_IC2000;
 			articulated_part				:switch_articulated_SBB_Re_460_build;
 			purchase_cargo_capacity		    :0 ;
 			cargo_capacity	                :return 0 ;
 			purchase						:switch_purchase_SBB_Re_460;
 			cost_factor						:170;
 			running_cost_factor				:switch_running_cost_SBB_Re_460;			
-			visual_effect_and_powered		:switch_FX_SBB_Re_460;	
+			visual_effect_and_powered		:switch_1672_FX_check_IC2000;	
 			}
 	}	
 
-																								
-						switch (FEAT_TRAINS,SELF, switch_SBB_Re_460_current_year,current_year){
-							   0 .. 2007: random_choose_SBB_Re_460_era1;
-							2008 .. 2009: random_choose_SBB_Re_460_era2;
-							2010 .. 2021: random_choose_SBB_Re_460_era3;
-							2022 .. 2050: random_choose_SBB_Re_460_era4;
-								random_choose_SBB_Re_460_era4;}
+
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_460_IC_2000_built_current_year,current_year){
+							   0 .. 2007: random_choose_SBB_Re_460_IC_2000_built_era1_Wendezug;
+							2008 .. 2009: random_choose_SBB_Re_460_IC_2000_built_era2_Wendezug;
+							2010 .. 2021: random_choose_SBB_Re_460_IC_2000_built_era3_Wendezug;
+							2022 .. 2050: random_choose_SBB_Re_460_IC_2000_built_era4_Wendezug;
+								random_choose_SBB_Re_460_IC_2000_built_era4_Wendezug;}								
+							   																								
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_460_IC_2000_current_current_year,current_year){
+							   0 .. 2007: random_choose_SBB_Re_460_IC_2000_current_era1_Wendezug;
+							2008 .. 2009: random_choose_SBB_Re_460_IC_2000_current_era2_Wendezug;
+							2010 .. 2021: random_choose_SBB_Re_460_IC_2000_current_era3_Wendezug;
+							2022 .. 2050: random_choose_SBB_Re_460_IC_2000_current_era4_Wendezug;
+								random_choose_SBB_Re_460_IC_2000_current_era4_Wendezug;}								
+							   																								
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_460_IC_2000_1997_current_year,current_year){
+							   0 .. 2007: random_choose_SBB_Re_460_IC_2000_1997_era1_Wendezug;
+							2008 .. 2009: random_choose_SBB_Re_460_IC_2000_1997_era2_Wendezug;
+							2010 .. 2021: random_choose_SBB_Re_460_IC_2000_1997_era3_Wendezug;
+							2022 .. 2050: random_choose_SBB_Re_460_IC_2000_1997_era4_Wendezug;
+								random_choose_SBB_Re_460_IC_2000_1997_era4_Wendezug;}																
+							   																								
+						switch (FEAT_TRAINS,SELF, switch_SBB_Re_460_IC_2000_modern_current_year,current_year){
+							   0 .. 2007: random_choose_SBB_Re_460_IC_2000_modern_era1_Wendezug;
+							2008 .. 2009: random_choose_SBB_Re_460_IC_2000_modern_era2_Wendezug;
+							2010 .. 2021: random_choose_SBB_Re_460_IC_2000_modern_era3_Wendezug;
+							2022 .. 2050: random_choose_SBB_Re_460_IC_2000_modern_era4_Wendezug;
+								random_choose_SBB_Re_460_IC_2000_modern_era4_Wendezug;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1673_FX_check_6773,(count_veh_id(6773)+count_veh_id(1673)==num_vehs_in_consist)) {
+							0: switch_FX_SBB_Re_460; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1673_FX_check_6772,(count_veh_id(6772)+count_veh_id(1673)==num_vehs_in_consist)) {
+							0: switch_1673_FX_check_6773; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1673_FX_check_6771,(count_veh_id(6771)+count_veh_id(1673)==num_vehs_in_consist)) {
+							0: switch_1673_FX_check_6772; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1673_FX_check_6770,(count_veh_id(6770)+count_veh_id(1673)==num_vehs_in_consist)) {
+							0: switch_1673_FX_check_6771; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1673_FX_check_IC2000,(count_veh_id(6770))+(count_veh_id(6771))+(count_veh_id(6772))+(count_veh_id(6773))) {
+							0: switch_FX_SBB_Re_460; 
+								switch_1673_FX_check_6770;}									
+															
+						switch (FEAT_TRAINS,PARENT,switch_1673_length_check_6773,(count_veh_id(6773)+count_veh_id(1673)==num_vehs_in_consist)) {
+							0: switch_length_SBB_Re_460; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+																							
+						switch (FEAT_TRAINS,PARENT,switch_1673_length_check_6772,(count_veh_id(6772)+count_veh_id(1673)==num_vehs_in_consist)) {
+							0: switch_1673_length_check_6773; 
+								switch_length_SBB_Re_460_Wendezug_158;}								
+															
+						switch (FEAT_TRAINS,PARENT,switch_1673_length_check_6771,(count_veh_id(6771)+count_veh_id(1673)==num_vehs_in_consist)) {
+							0: switch_1673_length_check_6772; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+																							
+						switch (FEAT_TRAINS,PARENT,switch_1673_length_check_6770,(count_veh_id(6770)+count_veh_id(1673)==num_vehs_in_consist)) {
+							0: switch_1673_length_check_6771; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1673_length_check_IC2000,(count_veh_id(6770))+(count_veh_id(6771))+(count_veh_id(6772))+(count_veh_id(6773))) {
+							0: switch_length_SBB_Re_460; 
+								switch_1673_length_check_6770;}								
+
+						switch (FEAT_TRAINS,PARENT,switch_1673_check_6773_2,(count_veh_id(6773))) {
+							0: switch_SBB_Re_460_current_year; 
+								switch_SBB_Re_460_IC_2000_modern_current_year;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1673_graphics_check_6773,(count_veh_id(6773)+count_veh_id(1673)==num_vehs_in_consist)) {
+							0: switch_SBB_Re_460_current_year; 
+								switch_1673_check_6773_2;}
+																
+						switch (FEAT_TRAINS,PARENT,switch_1673_check_6772_2,(count_veh_id(6772))) {
+							0: switch_SBB_Re_460_current_year; 
+								switch_SBB_Re_460_IC_2000_1997_current_year;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1673_graphics_check_6772,(count_veh_id(6772)+count_veh_id(1673)==num_vehs_in_consist)) {
+							0: switch_1673_graphics_check_6773; 
+								switch_1673_check_6772_2;}									
+								
+						switch (FEAT_TRAINS,PARENT,switch_1673_check_6771_2,(count_veh_id(6771))) {
+							0: switch_SBB_Re_460_current_year; 
+								switch_SBB_Re_460_IC_2000_current_current_year;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1673_graphics_check_6771,(count_veh_id(6771)+count_veh_id(1673)==num_vehs_in_consist)) {
+							0: switch_1673_graphics_check_6772; 
+								switch_1673_check_6771_2;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1673_check_6770_2,(count_veh_id(6770))) {
+							0: switch_SBB_Re_460_current_year; 
+								switch_SBB_Re_460_IC_2000_built_current_year;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1673_graphics_check_6770,(count_veh_id(6770)+count_veh_id(1673)==num_vehs_in_consist)) {
+							0: switch_1673_graphics_check_6771; 
+								switch_1673_check_6770_2;}	
 
 					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_460_current, position_in_vehid_chain % 3) {
 						0:	   spriteset_empty;
-						1:     return switch_SBB_Re_460_current_year;
+						1:     return switch_1673_graphics_check_6770;
 						2:	   spriteset_empty;}
 
 					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_460_current, extra_callback_info1) {
@@ -367,6 +1594,7 @@ item (FEAT_TRAINS , ITEM_SBB_RE_460_CURRENT, 1673)
 						reliability_decay: 				20;
 						cargo_allow_refit: 				[PASS] ;
 						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cost_factor: 					108;
 						running_cost_base:   			RUNNING_COST_STEAM;						
 						running_cost_factor: 			90;
@@ -395,20 +1623,92 @@ item (FEAT_TRAINS , ITEM_SBB_RE_460_CURRENT, 1673)
 											 string(STR_GAUGE_STANDARD), 
 											 string(STR_TRACTION_ELECTRIC), 
 											 string(STR_DESC_RE_460),);
-			length							:switch_length_SBB_Re_460;
+			length							:switch_1673_length_check_IC2000;
 			articulated_part				:switch_articulated_SBB_Re_460_current;
 			purchase_cargo_capacity		    :0 ;
 			cargo_capacity	                :return 0 ;
 			purchase						:switch_purchase_SBB_Re_460;
 			cost_factor						:170;
 			running_cost_factor				:switch_running_cost_SBB_Re_460;			
-			visual_effect_and_powered		:switch_FX_SBB_Re_460;	
+			visual_effect_and_powered		:switch_1673_FX_check_IC2000;	
 			}
 	}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1674_FX_check_6773,(count_veh_id(6773)+count_veh_id(1674)==num_vehs_in_consist)) {
+							0: switch_FX_SBB_Re_460; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1674_FX_check_6772,(count_veh_id(6772)+count_veh_id(1674)==num_vehs_in_consist)) {
+							0: switch_1674_FX_check_6773; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1674_FX_check_6771,(count_veh_id(6771)+count_veh_id(1674)==num_vehs_in_consist)) {
+							0: switch_1674_FX_check_6772; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1674_FX_check_6770,(count_veh_id(6770)+count_veh_id(1674)==num_vehs_in_consist)) {
+							0: switch_1674_FX_check_6771; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1674_FX_check_IC2000,(count_veh_id(6770))+(count_veh_id(6771))+(count_veh_id(6772))+(count_veh_id(6773))) {
+							0: switch_FX_SBB_Re_460; 
+								switch_1674_FX_check_6770;}									
+															
+						switch (FEAT_TRAINS,PARENT,switch_1674_length_check_6773,(count_veh_id(6773)+count_veh_id(1674)==num_vehs_in_consist)) {
+							0: switch_length_SBB_Re_460; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+																							
+						switch (FEAT_TRAINS,PARENT,switch_1674_length_check_6772,(count_veh_id(6772)+count_veh_id(1674)==num_vehs_in_consist)) {
+							0: switch_1674_length_check_6773; 
+								switch_length_SBB_Re_460_Wendezug_158;}								
+															
+						switch (FEAT_TRAINS,PARENT,switch_1674_length_check_6771,(count_veh_id(6771)+count_veh_id(1674)==num_vehs_in_consist)) {
+							0: switch_1674_length_check_6772; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+																							
+						switch (FEAT_TRAINS,PARENT,switch_1674_length_check_6770,(count_veh_id(6770)+count_veh_id(1674)==num_vehs_in_consist)) {
+							0: switch_1674_length_check_6771; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1674_length_check_IC2000,(count_veh_id(6770))+(count_veh_id(6771))+(count_veh_id(6772))+(count_veh_id(6773))) {
+							0: switch_length_SBB_Re_460; 
+								switch_1674_length_check_6770;}									
+								
+						switch (FEAT_TRAINS,PARENT,switch_1674_check_6773_2,(count_veh_id(6773))) {
+							0: switch_spritestack_SBB_Re_460_rot; 
+								switch_reverse_SBB_Re_460_rot_IC_2000_modern_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1674_graphics_check_6773,(count_veh_id(6773)+count_veh_id(1674)==num_vehs_in_consist)) {
+							0: switch_spritestack_SBB_Re_460_rot; 
+								switch_1674_check_6773_2;}
+																
+						switch (FEAT_TRAINS,PARENT,switch_1674_check_6772_2,(count_veh_id(6772))) {
+							0: switch_spritestack_SBB_Re_460_rot; 
+								switch_reverse_SBB_Re_460_rot_IC_2000_1997_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1674_graphics_check_6772,(count_veh_id(6772)+count_veh_id(1674)==num_vehs_in_consist)) {
+							0: switch_1674_graphics_check_6773; 
+								switch_1674_check_6772_2;}									
+								
+						switch (FEAT_TRAINS,PARENT,switch_1674_check_6771_2,(count_veh_id(6771))) {
+							0: switch_spritestack_SBB_Re_460_rot; 
+								switch_reverse_SBB_Re_460_rot_IC_2000_current_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1674_graphics_check_6771,(count_veh_id(6771)+count_veh_id(1674)==num_vehs_in_consist)) {
+							0: switch_1674_graphics_check_6772; 
+								switch_1674_check_6771_2;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1674_check_6770_2,(count_veh_id(6770))) {
+							0: switch_spritestack_SBB_Re_460_rot; 
+								switch_reverse_SBB_Re_460_rot_IC_2000_build_Wendezug;}
 
+						switch (FEAT_TRAINS,PARENT,switch_1674_graphics_check_6770,(count_veh_id(6770)+count_veh_id(1674)==num_vehs_in_consist)) {
+							0: switch_1674_graphics_check_6771; 
+								switch_1674_check_6770_2;}									
+								
 					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_460_rot, position_in_vehid_chain % 3) {
 						0:	   spriteset_empty;
-						1:     spriteset_SBB_Re_460_rot;
+						1:     switch_1674_graphics_check_6770;
 						2:	   spriteset_empty;}
 
 					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_460_rot, extra_callback_info1) {
@@ -432,6 +1732,7 @@ item (FEAT_TRAINS , ITEM_SBB_RE_460_ROT, 1674)
 						reliability_decay: 				20;
 						cargo_allow_refit: 				[PASS] ;
 						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cost_factor: 					108;
 						running_cost_base:   			RUNNING_COST_STEAM;						
 						running_cost_factor: 			90;
@@ -460,20 +1761,92 @@ item (FEAT_TRAINS , ITEM_SBB_RE_460_ROT, 1674)
 											 string(STR_GAUGE_STANDARD), 
 											 string(STR_TRACTION_ELECTRIC), 
 											 string(STR_DESC_RE_460),);
-			length							:switch_length_SBB_Re_460;
+			length							:switch_1674_length_check_IC2000;
 			articulated_part				:switch_articulated_SBB_Re_460_rot;
 			purchase_cargo_capacity		    :0 ;
 			cargo_capacity	                :return 0 ;
 			purchase						:spriteset_SBB_Re_460_rot_purchase;
 			cost_factor						:170;
 			running_cost_factor				:switch_running_cost_SBB_Re_460;			
-			visual_effect_and_powered		:switch_FX_SBB_Re_460;	
+			visual_effect_and_powered		:switch_1674_FX_check_IC2000;	
 			}
 	}
 
+						switch (FEAT_TRAINS,PARENT,switch_1675_FX_check_6773,(count_veh_id(6773)+count_veh_id(1675)==num_vehs_in_consist)) {
+							0: switch_FX_SBB_Re_460; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1675_FX_check_6772,(count_veh_id(6772)+count_veh_id(1675)==num_vehs_in_consist)) {
+							0: switch_1675_FX_check_6773; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1675_FX_check_6771,(count_veh_id(6771)+count_veh_id(1675)==num_vehs_in_consist)) {
+							0: switch_1675_FX_check_6772; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1675_FX_check_6770,(count_veh_id(6770)+count_veh_id(1675)==num_vehs_in_consist)) {
+							0: switch_1675_FX_check_6771; 
+								switch_FX_SBB_Re_460_Wendezug;}
+																
+						switch (FEAT_TRAINS,PARENT,switch_1675_FX_check_IC2000,(count_veh_id(6770))+(count_veh_id(6771))+(count_veh_id(6772))+(count_veh_id(6773))) {
+							0: switch_FX_SBB_Re_460; 
+								switch_1675_FX_check_6770;}									
+															
+						switch (FEAT_TRAINS,PARENT,switch_1675_length_check_6773,(count_veh_id(6773)+count_veh_id(1675)==num_vehs_in_consist)) {
+							0: switch_length_SBB_Re_460; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+																							
+						switch (FEAT_TRAINS,PARENT,switch_1675_length_check_6772,(count_veh_id(6772)+count_veh_id(1675)==num_vehs_in_consist)) {
+							0: switch_1675_length_check_6773; 
+								switch_length_SBB_Re_460_Wendezug_158;}								
+															
+						switch (FEAT_TRAINS,PARENT,switch_1675_length_check_6771,(count_veh_id(6771)+count_veh_id(1675)==num_vehs_in_consist)) {
+							0: switch_1675_length_check_6772; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+																							
+						switch (FEAT_TRAINS,PARENT,switch_1675_length_check_6770,(count_veh_id(6770)+count_veh_id(1675)==num_vehs_in_consist)) {
+							0: switch_1675_length_check_6771; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1675_length_check_IC2000,(count_veh_id(6770))+(count_veh_id(6771))+(count_veh_id(6772))+(count_veh_id(6773))) {
+							0: switch_length_SBB_Re_460; 
+								switch_1675_length_check_6770;}									
+								
+						switch (FEAT_TRAINS,PARENT,switch_1675_check_6773_2,(count_veh_id(6773))) {
+							0: switch_spritestack_SBB_Re_460_refit; 
+								switch_reverse_SBB_Re_460_refit_IC_2000_modern_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1675_graphics_check_6773,(count_veh_id(6773)+count_veh_id(1675)==num_vehs_in_consist)) {
+							0: switch_spritestack_SBB_Re_460_refit; 
+								switch_1675_check_6773_2;}
+																
+						switch (FEAT_TRAINS,PARENT,switch_1675_check_6772_2,(count_veh_id(6772))) {
+							0: switch_spritestack_SBB_Re_460_refit; 
+								switch_reverse_SBB_Re_460_refit_IC_2000_1997_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1675_graphics_check_6772,(count_veh_id(6772)+count_veh_id(1675)==num_vehs_in_consist)) {
+							0: switch_1675_graphics_check_6773; 
+								switch_1675_check_6772_2;}									
+								
+						switch (FEAT_TRAINS,PARENT,switch_1675_check_6771_2,(count_veh_id(6771))) {
+							0: switch_spritestack_SBB_Re_460_refit; 
+								switch_reverse_SBB_Re_460_refit_IC_2000_current_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1675_graphics_check_6771,(count_veh_id(6771)+count_veh_id(1675)==num_vehs_in_consist)) {
+							0: switch_1675_graphics_check_6772; 
+								switch_1675_check_6771_2;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1675_check_6770_2,(count_veh_id(6770))) {
+							0: switch_spritestack_SBB_Re_460_refit; 
+								switch_reverse_SBB_Re_460_refit_IC_2000_build_Wendezug;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1675_graphics_check_6770,(count_veh_id(6770)+count_veh_id(1675)==num_vehs_in_consist)) {
+							0: switch_1675_graphics_check_6771; 
+								switch_1675_check_6770_2;}									
+								
 					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_460_refit, position_in_vehid_chain % 3) {
 						0:	   spriteset_empty;
-						1:     spriteset_SBB_Re_460_refit;
+						1:     switch_1675_graphics_check_6770;
 						2:	   spriteset_empty;}
 
 					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_460_refit, extra_callback_info1) {
@@ -497,6 +1870,7 @@ item (FEAT_TRAINS , ITEM_SBB_RE_460_REFIT, 1675)
 						reliability_decay: 				20;
 						cargo_allow_refit: 				[PASS] ;
 						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cost_factor: 					108;
 						running_cost_base:   			RUNNING_COST_STEAM;						
 						running_cost_factor: 			90;
@@ -525,27 +1899,121 @@ item (FEAT_TRAINS , ITEM_SBB_RE_460_REFIT, 1675)
 											 string(STR_GAUGE_STANDARD), 
 											 string(STR_TRACTION_ELECTRIC), 
 											 string(STR_DESC_RE_460),);
-			length							:switch_length_SBB_Re_460;
+			length							:switch_1675_length_check_IC2000;
 			articulated_part				:switch_articulated_SBB_Re_460_refit;
 			purchase_cargo_capacity		    :0 ;
 			cargo_capacity	                :return 0 ;
 			purchase						:spriteset_SBB_Re_460_refit_purchase;
 			cost_factor						:170;
 			running_cost_factor				:switch_running_cost_SBB_Re_460;			
-			visual_effect_and_powered		:switch_FX_SBB_Re_460;	
+			visual_effect_and_powered		:switch_1675_FX_check_IC2000;	
 			}
 	}	
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_SBBSPEC, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_spritestack_SBB_Re_460_100;
+							2: switch_spritestack_SBB_Re_460_2008;
+							3: switch_spritestack_SBB_Re_460_100;
+							   switch_spritestack_SBB_Re_460_2008;}
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_built_SBBSPEC_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_100_IC_2000_build_Wendezug;
+							2: switch_reverse_SBB_Re_460_2008_IC_2000_build_Wendezug;
+							3: switch_reverse_SBB_Re_460_100_IC_2000_build_Wendezug;
+							   switch_reverse_SBB_Re_460_2008_IC_2000_build_Wendezug;}
 
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_current_SBBSPEC_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_100_IC_2000_current_Wendezug;
+							2: switch_reverse_SBB_Re_460_2008_IC_2000_current_Wendezug;
+							3: switch_reverse_SBB_Re_460_100_IC_2000_current_Wendezug;
+							   switch_reverse_SBB_Re_460_2008_IC_2000_current_Wendezug;}
 
-					switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_SBBSPEC, switch_alternative_var_random_bits(1, 2)) {
-						1: spriteset_SBB_Re_460_100;
-						2: spriteset_SBB_Re_460_2008;
-						3: spriteset_SBB_Re_460_100;
-							 spriteset_SBB_Re_460_2008;}
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_1997_SBBSPEC_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_100_IC_2000_1997_Wendezug;
+							2: switch_reverse_SBB_Re_460_2008_IC_2000_1997_Wendezug;
+							3: switch_reverse_SBB_Re_460_100_IC_2000_1997_Wendezug;
+							   switch_reverse_SBB_Re_460_2008_IC_2000_1997_Wendezug;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_modern_SBBSPEC_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_100_IC_2000_modern_Wendezug;
+							2: switch_reverse_SBB_Re_460_2008_IC_2000_modern_Wendezug;
+							3: switch_reverse_SBB_Re_460_100_IC_2000_modern_Wendezug;
+							   switch_reverse_SBB_Re_460_2008_IC_2000_modern_Wendezug;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1677_FX_check_6773,(count_veh_id(6773)+count_veh_id(1677)==num_vehs_in_consist)) {
+							0: switch_FX_SBB_Re_460; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1677_FX_check_6772,(count_veh_id(6772)+count_veh_id(1677)==num_vehs_in_consist)) {
+							0: switch_1677_FX_check_6773; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1677_FX_check_6771,(count_veh_id(6771)+count_veh_id(1677)==num_vehs_in_consist)) {
+							0: switch_1677_FX_check_6772; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1677_FX_check_6770,(count_veh_id(6770)+count_veh_id(1677)==num_vehs_in_consist)) {
+							0: switch_1677_FX_check_6771; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1677_FX_check_IC2000,(count_veh_id(6770))+(count_veh_id(6771))+(count_veh_id(6772))+(count_veh_id(6773))) {
+							0: switch_FX_SBB_Re_460; 
+								switch_1677_FX_check_6770;}									
+															
+						switch (FEAT_TRAINS,PARENT,switch_1677_length_check_6773,(count_veh_id(6773)+count_veh_id(1677)==num_vehs_in_consist)) {
+							0: switch_length_SBB_Re_460; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+																							
+						switch (FEAT_TRAINS,PARENT,switch_1677_length_check_6772,(count_veh_id(6772)+count_veh_id(1677)==num_vehs_in_consist)) {
+							0: switch_1677_length_check_6773; 
+								switch_length_SBB_Re_460_Wendezug_158;}								
+															
+						switch (FEAT_TRAINS,PARENT,switch_1677_length_check_6771,(count_veh_id(6771)+count_veh_id(1677)==num_vehs_in_consist)) {
+							0: switch_1677_length_check_6772; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+																							
+						switch (FEAT_TRAINS,PARENT,switch_1677_length_check_6770,(count_veh_id(6770)+count_veh_id(1677)==num_vehs_in_consist)) {
+							0: switch_1677_length_check_6771; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1677_length_check_IC2000,(count_veh_id(6770))+(count_veh_id(6771))+(count_veh_id(6772))+(count_veh_id(6773))) {
+							0: switch_length_SBB_Re_460; 
+								switch_1677_length_check_6770;}									
+								
+						switch (FEAT_TRAINS,PARENT,switch_1677_check_6773_2,(count_veh_id(6773))) {
+							0: random_choose_SBB_Re_460_SBBSPEC; 
+								random_choose_SBB_Re_460_IC_2000_modern_SBBSPEC_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1677_graphics_check_6773,(count_veh_id(6773)+count_veh_id(1677)==num_vehs_in_consist)) {
+							0: random_choose_SBB_Re_460_SBBSPEC; 
+								switch_1677_check_6773_2;}
+																
+						switch (FEAT_TRAINS,PARENT,switch_1677_check_6772_2,(count_veh_id(6772))) {
+							0: random_choose_SBB_Re_460_SBBSPEC; 
+								random_choose_SBB_Re_460_IC_2000_1997_SBBSPEC_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1677_graphics_check_6772,(count_veh_id(6772)+count_veh_id(1677)==num_vehs_in_consist)) {
+							0: switch_1677_graphics_check_6773; 
+								switch_1677_check_6772_2;}									
+								
+						switch (FEAT_TRAINS,PARENT,switch_1677_check_6771_2,(count_veh_id(6771))) {
+							0: random_choose_SBB_Re_460_SBBSPEC; 
+								random_choose_SBB_Re_460_IC_2000_current_SBBSPEC_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1677_graphics_check_6771,(count_veh_id(6771)+count_veh_id(1677)==num_vehs_in_consist)) {
+							0: switch_1677_graphics_check_6772; 
+								switch_1677_check_6771_2;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1677_check_6770_2,(count_veh_id(6770))) {
+							0: random_choose_SBB_Re_460_SBBSPEC; 
+								random_choose_SBB_Re_460_IC_2000_built_SBBSPEC_Wendezug;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1677_graphics_check_6770,(count_veh_id(6770)+count_veh_id(1677)==num_vehs_in_consist)) {
+							0: switch_1677_graphics_check_6771; 
+								switch_1677_check_6770_2;}			
 
 					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_460_SBBSPEC, position_in_vehid_chain % 3) {
 						0:	   spriteset_empty;
-						1:     random_choose_SBB_Re_460_SBBSPEC;
+						1:     return switch_1677_graphics_check_6770;
 						2:	   spriteset_empty;}
 
 					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_460_SBBSPEC, extra_callback_info1) {
@@ -569,6 +2037,7 @@ item (FEAT_TRAINS , ITEM_SBB_RE_460_SBBSPEC, 1677)
 						reliability_decay: 				20;
 						cargo_allow_refit: 				[PASS] ;
 						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cost_factor: 					108;
 						running_cost_base:   			RUNNING_COST_STEAM;						
 						running_cost_factor: 			90;
@@ -597,27 +2066,123 @@ item (FEAT_TRAINS , ITEM_SBB_RE_460_SBBSPEC, 1677)
 											 string(STR_GAUGE_STANDARD), 
 											 string(STR_TRACTION_ELECTRIC), 
 											 string(STR_DESC_RE_460),);
-			length							:switch_length_SBB_Re_460;
+			length							:switch_1677_length_check_IC2000;
 			articulated_part				:switch_articulated_SBB_Re_460_SBBSPEC;
 			purchase_cargo_capacity		    :0 ;
 			cargo_capacity	                :return 0 ;
 			purchase						:spriteset_SBB_Re_460_100_purchase;
 			cost_factor						:170;
 			running_cost_factor				:switch_running_cost_SBB_Re_460;			
-			visual_effect_and_powered		:switch_FX_SBB_Re_460;	
+			visual_effect_and_powered		:switch_1677_FX_check_IC2000;	
 			}
 	}		
 
 
-					switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_COMOLD, switch_alternative_var_random_bits(1, 2)) {
-						1: spriteset_SBB_Re_460_Agfa;
-						2: spriteset_SBB_Re_460_Ciba;
-						3: spriteset_SBB_Re_460_Agfa;
-							 spriteset_SBB_Re_460_Swissair;}
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_COMOLD, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_spritestack_SBB_Re_460_Agfa;
+							2: switch_spritestack_SBB_Re_460_Ciba;
+							3: switch_spritestack_SBB_Re_460_Agfa;
+								switch_spritestack_SBB_Re_460_Swissair;}
 
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_built_COMOLD_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_Agfa_IC_2000_build_Wendezug;
+							2: switch_reverse_SBB_Re_460_Ciba_IC_2000_build_Wendezug;
+							3: switch_reverse_SBB_Re_460_Agfa_IC_2000_build_Wendezug;
+							   switch_reverse_SBB_Re_460_Swissair_IC_2000_build_Wendezug;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_current_COMOLD_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_Agfa_IC_2000_current_Wendezug;
+							2: switch_reverse_SBB_Re_460_Ciba_IC_2000_current_Wendezug;
+							3: switch_reverse_SBB_Re_460_Agfa_IC_2000_current_Wendezug;
+							   switch_reverse_SBB_Re_460_Swissair_IC_2000_current_Wendezug;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_1997_COMOLD_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_Agfa_IC_2000_1997_Wendezug;
+							2: switch_reverse_SBB_Re_460_Ciba_IC_2000_1997_Wendezug;
+							3: switch_reverse_SBB_Re_460_Agfa_IC_2000_1997_Wendezug;
+							   switch_reverse_SBB_Re_460_Swissair_IC_2000_1997_Wendezug;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_modern_COMOLD_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_Agfa_IC_2000_modern_Wendezug;
+							2: switch_reverse_SBB_Re_460_Ciba_IC_2000_modern_Wendezug;
+							3: switch_reverse_SBB_Re_460_Agfa_IC_2000_modern_Wendezug;
+							   switch_reverse_SBB_Re_460_Swissair_IC_2000_modern_Wendezug;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1678_FX_check_6773,(count_veh_id(6773)+count_veh_id(1678)==num_vehs_in_consist)) {
+							0: switch_FX_SBB_Re_460; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1678_FX_check_6772,(count_veh_id(6772)+count_veh_id(1678)==num_vehs_in_consist)) {
+							0: switch_1678_FX_check_6773; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1678_FX_check_6771,(count_veh_id(6771)+count_veh_id(1678)==num_vehs_in_consist)) {
+							0: switch_1678_FX_check_6772; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1678_FX_check_6770,(count_veh_id(6770)+count_veh_id(1678)==num_vehs_in_consist)) {
+							0: switch_1678_FX_check_6771; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1678_FX_check_IC2000,(count_veh_id(6770))+(count_veh_id(6771))+(count_veh_id(6772))+(count_veh_id(6773))) {
+							0: switch_FX_SBB_Re_460; 
+								switch_1678_FX_check_6770;}								
+															
+						switch (FEAT_TRAINS,PARENT,switch_1678_length_check_6773,(count_veh_id(6773)+count_veh_id(1678)==num_vehs_in_consist)) {
+							0: switch_length_SBB_Re_460; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+																							
+						switch (FEAT_TRAINS,PARENT,switch_1678_length_check_6772,(count_veh_id(6772)+count_veh_id(1678)==num_vehs_in_consist)) {
+							0: switch_1678_length_check_6773; 
+								switch_length_SBB_Re_460_Wendezug_158;}								
+															
+						switch (FEAT_TRAINS,PARENT,switch_1678_length_check_6771,(count_veh_id(6771)+count_veh_id(1678)==num_vehs_in_consist)) {
+							0: switch_1678_length_check_6772; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+																							
+						switch (FEAT_TRAINS,PARENT,switch_1678_length_check_6770,(count_veh_id(6770)+count_veh_id(1678)==num_vehs_in_consist)) {
+							0: switch_1678_length_check_6771; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1678_length_check_IC2000,(count_veh_id(6770))+(count_veh_id(6771))+(count_veh_id(6772))+(count_veh_id(6773))) {
+							0: switch_length_SBB_Re_460; 
+								switch_1678_length_check_6770;}									
+								
+						switch (FEAT_TRAINS,PARENT,switch_1678_check_6773_2,(count_veh_id(6773))) {
+							0: random_choose_SBB_Re_460_COMOLD; 
+								random_choose_SBB_Re_460_IC_2000_modern_COMOLD_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1678_graphics_check_6773,(count_veh_id(6773)+count_veh_id(1678)==num_vehs_in_consist)) {
+							0: random_choose_SBB_Re_460_COMOLD; 
+								switch_1678_check_6773_2;}
+																
+						switch (FEAT_TRAINS,PARENT,switch_1678_check_6772_2,(count_veh_id(6772))) {
+							0: random_choose_SBB_Re_460_COMOLD; 
+								random_choose_SBB_Re_460_IC_2000_1997_COMOLD_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1678_graphics_check_6772,(count_veh_id(6772)+count_veh_id(1678)==num_vehs_in_consist)) {
+							0: switch_1678_graphics_check_6773; 
+								switch_1678_check_6772_2;}									
+								
+						switch (FEAT_TRAINS,PARENT,switch_1678_check_6771_2,(count_veh_id(6771))) {
+							0: random_choose_SBB_Re_460_COMOLD; 
+								random_choose_SBB_Re_460_IC_2000_current_COMOLD_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1678_graphics_check_6771,(count_veh_id(6771)+count_veh_id(1678)==num_vehs_in_consist)) {
+							0: switch_1678_graphics_check_6772; 
+								switch_1678_check_6771_2;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1678_check_6770_2,(count_veh_id(6770))) {
+							0: random_choose_SBB_Re_460_COMOLD; 
+								random_choose_SBB_Re_460_IC_2000_built_COMOLD_Wendezug;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1678_graphics_check_6770,(count_veh_id(6770)+count_veh_id(1678)==num_vehs_in_consist)) {
+							0: switch_1678_graphics_check_6771; 
+								switch_1678_check_6770_2;}			
+								
 					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_460_COMOLD, position_in_vehid_chain % 3) {
 						0:	   spriteset_empty;
-						1:     random_choose_SBB_Re_460_COMOLD;
+						1:     switch_1678_graphics_check_6770;
 						2:	   spriteset_empty;}
 
 					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_460_COMOLD, extra_callback_info1) {
@@ -641,6 +2206,7 @@ item (FEAT_TRAINS , ITEM_SBB_RE_460_COMOLD, 1678)
 						reliability_decay: 				20;
 						cargo_allow_refit: 				[PASS] ;
 						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cost_factor: 					108;
 						running_cost_base:   			RUNNING_COST_STEAM;						
 						running_cost_factor: 			90;
@@ -669,27 +2235,123 @@ item (FEAT_TRAINS , ITEM_SBB_RE_460_COMOLD, 1678)
 											 string(STR_GAUGE_STANDARD), 
 											 string(STR_TRACTION_ELECTRIC), 
 											 string(STR_DESC_RE_460),);
-			length							:switch_length_SBB_Re_460;
+			length							:switch_1678_length_check_IC2000;
 			articulated_part				:switch_articulated_SBB_Re_460_COMOLD;
 			purchase_cargo_capacity		    :0 ;
 			cargo_capacity	                :return 0 ;
 			purchase						:spriteset_SBB_Re_460_Agfa_purchase;
 			cost_factor						:170;
 			running_cost_factor				:switch_running_cost_SBB_Re_460;			
-			visual_effect_and_powered		:switch_FX_SBB_Re_460;	
+			visual_effect_and_powered		:switch_1678_FX_check_IC2000;	
 			}
 	}		
 
 
 					switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_COMNEW, switch_alternative_var_random_bits(1, 2)) {
-						1: spriteset_SBB_Re_460_Lyria;
-						2: spriteset_SBB_Re_460_Coop;
-						3: spriteset_SBB_Re_460_KNIE;
-							 spriteset_SBB_Re_460_Easyjet;}
+						1: switch_spritestack_SBB_Re_460_Lyria;
+						2: switch_spritestack_SBB_Re_460_Coop;
+						3: switch_spritestack_SBB_Re_460_KNIE;
+							 switch_spritestack_SBB_Re_460_Easyjet;}
+							 
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_built_COMNEW_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_Lyria_IC_2000_build_Wendezug;
+							2: switch_reverse_SBB_Re_460_Coop_IC_2000_build_Wendezug;
+							3: switch_reverse_SBB_Re_460_KNIE_IC_2000_build_Wendezug;
+							   switch_reverse_SBB_Re_460_Easyjet_IC_2000_build_Wendezug;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_current_COMNEW_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_Lyria_IC_2000_current_Wendezug;
+							2: switch_reverse_SBB_Re_460_Coop_IC_2000_current_Wendezug;
+							3: switch_reverse_SBB_Re_460_KNIE_IC_2000_current_Wendezug;
+							   switch_reverse_SBB_Re_460_Easyjet_IC_2000_current_Wendezug;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_1997_COMNEW_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_Lyria_IC_2000_1997_Wendezug;
+							2: switch_reverse_SBB_Re_460_Coop_IC_2000_1997_Wendezug;
+							3: switch_reverse_SBB_Re_460_KNIE_IC_2000_1997_Wendezug;
+							   switch_reverse_SBB_Re_460_Easyjet_IC_2000_1997_Wendezug;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Re_460_IC_2000_modern_COMNEW_Wendezug, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_reverse_SBB_Re_460_Lyria_IC_2000_modern_Wendezug;
+							2: switch_reverse_SBB_Re_460_Coop_IC_2000_modern_Wendezug;
+							3: switch_reverse_SBB_Re_460_KNIE_IC_2000_modern_Wendezug;
+							   switch_reverse_SBB_Re_460_Easyjet_IC_2000_modern_Wendezug;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1679_FX_check_6773,(count_veh_id(6773)+count_veh_id(1679)==num_vehs_in_consist)) {
+							0: switch_FX_SBB_Re_460; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1679_FX_check_6772,(count_veh_id(6772)+count_veh_id(1679)==num_vehs_in_consist)) {
+							0: switch_1679_FX_check_6773; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1679_FX_check_6771,(count_veh_id(6771)+count_veh_id(1679)==num_vehs_in_consist)) {
+							0: switch_1679_FX_check_6772; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1679_FX_check_6770,(count_veh_id(6770)+count_veh_id(1679)==num_vehs_in_consist)) {
+							0: switch_1679_FX_check_6771; 
+								switch_FX_SBB_Re_460_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1679_FX_check_IC2000,(count_veh_id(6770))+(count_veh_id(6771))+(count_veh_id(6772))+(count_veh_id(6773))) {
+							0: switch_FX_SBB_Re_460; 
+								switch_1679_FX_check_6770;}								
+															
+						switch (FEAT_TRAINS,PARENT,switch_1679_length_check_6773,(count_veh_id(6773)+count_veh_id(1679)==num_vehs_in_consist)) {
+							0: switch_length_SBB_Re_460; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+																							
+						switch (FEAT_TRAINS,PARENT,switch_1679_length_check_6772,(count_veh_id(6772)+count_veh_id(1679)==num_vehs_in_consist)) {
+							0: switch_1679_length_check_6773; 
+								switch_length_SBB_Re_460_Wendezug_158;}								
+															
+						switch (FEAT_TRAINS,PARENT,switch_1679_length_check_6771,(count_veh_id(6771)+count_veh_id(1679)==num_vehs_in_consist)) {
+							0: switch_1679_length_check_6772; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+																							
+						switch (FEAT_TRAINS,PARENT,switch_1679_length_check_6770,(count_veh_id(6770)+count_veh_id(1679)==num_vehs_in_consist)) {
+							0: switch_1679_length_check_6771; 
+								switch_length_SBB_Re_460_Wendezug_158;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1679_length_check_IC2000,(count_veh_id(6770))+(count_veh_id(6771))+(count_veh_id(6772))+(count_veh_id(6773))) {
+							0: switch_length_SBB_Re_460; 
+								switch_1679_length_check_6770;}									
+								
+						switch (FEAT_TRAINS,PARENT,switch_1679_check_6773_2,(count_veh_id(6773))) {
+							0: random_choose_SBB_Re_460_COMNEW; 
+								random_choose_SBB_Re_460_IC_2000_modern_COMNEW_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1679_graphics_check_6773,(count_veh_id(6773)+count_veh_id(1679)==num_vehs_in_consist)) {
+							0: random_choose_SBB_Re_460_COMNEW; 
+								switch_1679_check_6773_2;}
+																
+						switch (FEAT_TRAINS,PARENT,switch_1679_check_6772_2,(count_veh_id(6772))) {
+							0: random_choose_SBB_Re_460_COMNEW; 
+								random_choose_SBB_Re_460_IC_2000_1997_COMNEW_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1679_graphics_check_6772,(count_veh_id(6772)+count_veh_id(1679)==num_vehs_in_consist)) {
+							0: switch_1679_graphics_check_6773; 
+								switch_1679_check_6772_2;}									
+								
+						switch (FEAT_TRAINS,PARENT,switch_1679_check_6771_2,(count_veh_id(6771))) {
+							0: random_choose_SBB_Re_460_COMNEW; 
+								random_choose_SBB_Re_460_IC_2000_current_COMNEW_Wendezug;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_1679_graphics_check_6771,(count_veh_id(6771)+count_veh_id(1679)==num_vehs_in_consist)) {
+							0: switch_1679_graphics_check_6772; 
+								switch_1679_check_6771_2;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_1679_check_6770_2,(count_veh_id(6770))) {
+							0: random_choose_SBB_Re_460_COMNEW; 
+								random_choose_SBB_Re_460_IC_2000_built_COMNEW_Wendezug;}
+
+						switch (FEAT_TRAINS,PARENT,switch_1679_graphics_check_6770,(count_veh_id(6770)+count_veh_id(1679)==num_vehs_in_consist)) {
+							0: switch_1679_graphics_check_6771; 
+								switch_1679_check_6770_2;}								 
 
 					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Re_460_COMNEW, position_in_vehid_chain % 3) {
 						0:	   spriteset_empty;
-						1:     random_choose_SBB_Re_460_COMNEW;
+						1:     switch_1679_graphics_check_6770;
 						2:	   spriteset_empty;}
 
 					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Re_460_COMNEW, extra_callback_info1) {
@@ -713,6 +2375,7 @@ item (FEAT_TRAINS , ITEM_SBB_RE_460_COMNEW, 1679)
 						reliability_decay: 				20;
 						cargo_allow_refit: 				[PASS] ;
 						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cost_factor: 					108;
 						running_cost_base:   			RUNNING_COST_STEAM;						
 						running_cost_factor: 			90;
@@ -741,13 +2404,13 @@ item (FEAT_TRAINS , ITEM_SBB_RE_460_COMNEW, 1679)
 											 string(STR_GAUGE_STANDARD), 
 											 string(STR_TRACTION_ELECTRIC), 
 											 string(STR_DESC_RE_460),);
-			length							:switch_length_SBB_Re_460;
+			length							:switch_1679_length_check_IC2000;
 			articulated_part				:switch_articulated_SBB_Re_460_COMNEW;
 			purchase_cargo_capacity		    :0 ;
 			cargo_capacity	                :return 0 ;
 			purchase						:spriteset_SBB_Re_460_Lyria_purchase;
 			cost_factor						:170;
 			running_cost_factor				:switch_running_cost_SBB_Re_460;			
-			visual_effect_and_powered		:switch_FX_SBB_Re_460;	
+			visual_effect_and_powered		:switch_1679_FX_check_IC2000;	
 			}
 	}	

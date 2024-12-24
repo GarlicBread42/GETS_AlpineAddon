@@ -1,0 +1,135 @@
+//###################################
+//### SBB De 6/6 "Seetal-Krokodil"###
+//###################################
+
+//Spriteset brown
+
+spriteset(spriteset_SBB_Ce_44, "gfx/SBB_Ce_44/SBB_Ce_44_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_1x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_2x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_4x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_4x_mask.png")
+									{template_68trains_4x(0, 0)}	
+
+//Spritesets animation
+
+spriteset(spriteset_SBB_Ce_44_anim1, "gfx/SBB_Ce_44/SBB_Ce_44_anim1_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44_anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_anim1_1x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_anim1_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44_anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_anim1_2x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_anim1_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44_anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_anim1_4x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_anim1_4x_mask.png")
+									{template_68trains_4x(0, 0)}	
+									
+spriteset(spriteset_SBB_Ce_44_anim2, "gfx/SBB_Ce_44/SBB_Ce_44_anim2_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44_anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_anim2_1x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_anim2_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44_anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_anim2_2x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_anim2_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44_anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_anim2_4x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_anim2_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Ce_44_anim3, "gfx/SBB_Ce_44/SBB_Ce_44_anim3_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44_anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_anim3_1x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_anim3_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44_anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_anim3_2x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_anim3_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44_anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_anim3_4x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_anim3_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Ce_44_anim4, "gfx/SBB_Ce_44/SBB_Ce_44_anim4_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44_anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_anim4_1x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_anim4_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44_anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_anim4_2x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_anim4_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44_anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_anim4_4x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_anim4_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+																																												
+//Spriteset purchase
+
+spriteset(spriteset_SBB_Ce_44_purchase, "gfx/SBB_Ce_44/SBB_Ce_44_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_1x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_Ce_44_anim_purchase, "gfx/SBB_Ce_44/SBB_Ce_44_anim1_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_Ce_44_anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Ce_44/SBB_Ce_44_anim1_1x_32bpp.png", "gfx/SBB_Ce_44/SBB_Ce_44_anim1_1x_mask.png")
+									{template_purchase(0, 0)}																
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ce_44_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ce_44_purchase;
+							1: spriteset_SBB_Ce_44_anim_purchase;}
+								
+						switch (FEAT_TRAINS, SELF, switch_animation_SBB_Ce_44, motion_counter % 4) {
+								0: spriteset_SBB_Ce_44_anim1;
+								1: spriteset_SBB_Ce_44_anim2;
+								2: spriteset_SBB_Ce_44_anim3;
+								3: spriteset_SBB_Ce_44_anim4;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_Ce_44, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Ce_44;
+							1: return switch_animation_SBB_Ce_44;}											
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Ce_44, 1){
+							return 425;}
+
+item (FEAT_TRAINS , ITEM_SBB_CE_44, 1570)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_CE_44);					
+						climates_available: 			ALL_CLIMATES;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						introduction_date: 				date(1904,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							60 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						500 hp;
+						weight: 						40 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.20;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_spritestack_SBB_Ce_44;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:switch_spritestack_SBB_Ce_44_purchase;
+			cost_factor						:17;
+			running_cost_factor				:switch_running_cost_SBB_Ce_44;	
+			}
+	}	

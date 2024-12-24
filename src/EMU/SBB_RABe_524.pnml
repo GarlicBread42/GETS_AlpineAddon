@@ -1355,7 +1355,7 @@ item (FEAT_TRAINS , ITEM_SBB_RABe_524_6_TILO, 4808)
 							7: 4;}
 																
 					switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_RABe_524_3, 1){
-							return 2150;}
+							return 1900;}
 							
 					switch(FEAT_TRAINS, SELF, switch_FX_SBB_RABe_524_3_front, position_in_vehid_chain % 8) {
 							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
@@ -1458,7 +1458,7 @@ item (FEAT_TRAINS , ITEM_SBB_RABE_524_3_THURBO, 4811)
 			articulated_part				: switch_articulated_SBB_RABe_524_3_Thurbo;
 			visual_effect_and_powered		: switch_FX_SBB_RABe_524_3;
 			purchase						: spriteset_SBB_RABe_524_purchase_Thurbo;
-			cost_factor						: 350;
+			cost_factor						: 189;
 			running_cost_factor				: switch_running_cost_SBB_RABe_524_3;
 			
 			}

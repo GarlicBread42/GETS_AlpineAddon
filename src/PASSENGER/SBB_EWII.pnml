@@ -375,6 +375,8 @@ spriteset(spriteset_SBB_EW2_DVTB_colibri_loading, "gfx/SBB_EW2/SBB_EW2_DVTB_coli
 spritegroup spritegroup_SBB_EW2_DVTB_colibri_loading
 		{loaded: 	[spriteset_empty];
 		loading: 	[spriteset_SBB_EW2_DVTB_colibri_loading];}									
+
+
 									
 //Spritesets purchase
 
@@ -1038,7 +1040,7 @@ item (FEAT_TRAINS , ITEM_SBB_EW2_COACH_GRUEN_NEU, 6712)
 							1: return switch_loadstack_SBB_EW2_DVTB_colibri;
 								default: return switch_SBB_EW2_colibri_lengthcheck2;}
 																
-						switch (FEAT_TRAINS,PARENT,switch_SBB_EW2_colibri_check_ASWR,(count_veh_id(6745))+(count_veh_id(7854))+(count_veh_id(7855))+(count_veh_id(7856))+(count_veh_id(7857))+(count_veh_id(7858))) {
+						switch (FEAT_TRAINS,PARENT,switch_SBB_EW2_colibri_check_ASWR,(count_veh_id(6745))+(count_veh_id(7854))+(count_veh_id(7855))+(count_veh_id(7856))+(count_veh_id(7857))+(count_veh_id(7858))+(count_veh_id(7878))+(count_veh_id(7879))+(count_veh_id(7880))+(count_veh_id(7881))+(count_veh_id(7882))+(count_veh_id(7883))+(count_veh_id(7885))+(count_veh_id(7886))+(count_veh_id(7887))+(count_veh_id(7888))+(count_veh_id(7889))+(count_veh_id(7890))) {
 							0: switch_DVT_SBB_EW2_colibri; 
 								random_choose_SBB_EW2_colibri;}	
 																
@@ -1262,7 +1264,7 @@ item (FEAT_TRAINS , ITEM_SBB_EW2_COACH_PAPAGEI, 6715)
 						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_EW2_DVTB_build, extra_callback_info1) {
 							0: return ITEM_SBB_EW2_DVTB_BUILD;
 							1: return ITEM_SBB_EW2_DVTB_BUILD;
-							2: return ITEM_MAIL_25;												
+							2: return ITEM_MAIL_48;												
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
 								
 																						
@@ -1334,7 +1336,7 @@ item (FEAT_TRAINS , ITEM_SBB_EW2_DVTB_BUILD, 7878)
 						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_EW2_DVTB_current, extra_callback_info1) {
 							0: return ITEM_SBB_EW2_DVTB_CURRENT;
 							1: return ITEM_SBB_EW2_DVTB_CURRENT;
-							2: return ITEM_MAIL_25;												
+							2: return ITEM_MAIL_48;												
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
 								
 																						
@@ -1401,7 +1403,7 @@ item (FEAT_TRAINS , ITEM_SBB_EW2_DVTB_CURRENT, 7879)
 						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_EW2_DVTB_gruen, extra_callback_info1) {
 							0: return ITEM_SBB_EW2_DVTB_GRUEN;
 							1: return ITEM_SBB_EW2_DVTB_GRUEN;
-							2: return ITEM_MAIL_25;												
+							2: return ITEM_MAIL_48;												
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
 								
 																						
@@ -1467,7 +1469,7 @@ item (FEAT_TRAINS , ITEM_SBB_EW2_DVTB_GRUEN, 7880)
 						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_EW2_DVTB_colibri, extra_callback_info1) {
 							0: return ITEM_SBB_EW2_DVTB_COLIBRI;
 							1: return ITEM_SBB_EW2_DVTB_COLIBRI;
-							2: return ITEM_MAIL_25;												
+							2: return ITEM_MAIL_48;												
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
 								
 																						
@@ -1533,7 +1535,7 @@ item (FEAT_TRAINS , ITEM_SBB_EW2_DVTB_COLIBRI, 7881)
 						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_EW2_DVTB_gruen_neu, extra_callback_info1) {
 							0: return ITEM_SBB_EW2_DVTB_GRUEN_NEU;
 							1: return ITEM_SBB_EW2_DVTB_GRUEN_NEU;
-							2: return ITEM_MAIL_25;												
+							2: return ITEM_MAIL_48;												
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
 								
 																						
@@ -1600,7 +1602,7 @@ item (FEAT_TRAINS , ITEM_SBB_EW2_DVTB_GRUEN_NEU, 7882)
 						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_EW2_DVTB_rot, extra_callback_info1) {
 							0: return ITEM_SBB_EW2_DVTB_ROT;
 							1: return ITEM_SBB_EW2_DVTB_ROT;
-							2: return ITEM_MAIL_25;												
+							2: return ITEM_MAIL_48;												
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
 								
 																						

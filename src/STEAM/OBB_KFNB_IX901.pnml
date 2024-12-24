@@ -1,0 +1,544 @@
+//#######################
+//### KFNB "Olomucia" ###
+//#######################
+
+//Spriteset KFNB 
+
+spriteset(spriteset_OBB_KFNB_IX901_KFNB, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_KFNB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_KFNB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_KFNB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_KFNB_IX901_KFNB_loading, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_loading_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_KFNB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_loading_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_loading_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_KFNB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_loading_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_loading_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_KFNB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_loading_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_loading_4x_mask.png")
+									{template_58trains_4x(0, 0)}	
+									
+spritegroup spritegroup_OBB_KFNB_IX901_KFNB
+		{loaded: 	[spriteset_OBB_KFNB_IX901_KFNB];
+		 loading: 	[spriteset_OBB_KFNB_IX901_KFNB_loading];}								
+
+
+spriteset(spriteset_OBB_KFNB_IX901_KFNB_REV, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_1x_8bpp.png")
+									{ template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_KFNB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_1x_mask.png")
+									{template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_KFNB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_2x_mask.png")
+									{template_58trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_KFNB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_4x_mask.png")
+									{template_58trains_REV_4x(0, 0)}
+									
+spriteset(spriteset_OBB_KFNB_IX901_KFNB_loading_REV, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_loading_1x_8bpp.png")
+									{ template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_KFNB_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_loading_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_loading_1x_mask.png")
+									{template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_KFNB_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_loading_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_loading_2x_mask.png")
+									{template_58trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_KFNB_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_loading_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_loading_4x_mask.png")
+									{template_58trains_REV_4x(0, 0)}	
+									
+spritegroup spritegroup_OBB_KFNB_IX901_KFNB_REV
+		{loaded: 	[spriteset_OBB_KFNB_IX901_KFNB_REV];
+		 loading: 	[spriteset_OBB_KFNB_IX901_KFNB_loading_REV];}	
+		 
+		 									
+//Spriteset kkStb
+
+spriteset(spriteset_OBB_KFNB_IX901_kkstb, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_kkstb, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_kkstb, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_kkstb, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+
+spriteset(spriteset_OBB_KFNB_IX901_kkstb_loading, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_loading_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_kkstb_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_loading_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_loading_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_kkstb_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_loading_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_loading_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_kkstb_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_loading_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_loading_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+									
+spritegroup spritegroup_OBB_KFNB_IX901_kkstb
+		{loaded: 	[spriteset_OBB_KFNB_IX901_kkstb];
+		 loading: 	[spriteset_OBB_KFNB_IX901_kkstb_loading];}	
+
+
+spriteset(spriteset_OBB_KFNB_IX901_kkstb_REV, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_1x_8bpp.png")
+									{ template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_kkstb_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_1x_mask.png")
+									{template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_kkstb_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_2x_mask.png")
+									{template_58trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_kkstb_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_4x_mask.png")
+									{template_58trains_REV_4x(0, 0)}
+									
+spriteset(spriteset_OBB_KFNB_IX901_kkstb_loading_REV, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_loading_1x_8bpp.png")
+									{ template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_kkstb_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_loading_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_loading_1x_mask.png")
+									{template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_kkstb_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_loading_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_loading_2x_mask.png")
+									{template_58trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_kkstb_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_loading_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_loading_4x_mask.png")
+									{template_58trains_REV_4x(0, 0)}	
+									
+spritegroup spritegroup_OBB_KFNB_IX901_kkstb_REV
+		{loaded: 	[spriteset_OBB_KFNB_IX901_kkstb_REV];
+		 loading: 	[spriteset_OBB_KFNB_IX901_kkstb_loading_REV];}
+		 
+		 		 																		
+//Spritesets animation
+
+spriteset(spriteset_OBB_KFNB_IX901_anim1, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_KFNB_IX901_anim2, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim2_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim2_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim2_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim2_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim2_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim2_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim2_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_KFNB_IX901_anim3, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim3_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim3_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim3_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim3_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim3_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim3_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim3_4x_mask.png")
+									{template_58trains_4x(0, 0)}
+									
+spriteset(spriteset_OBB_KFNB_IX901_anim4, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim4_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim4_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim4_1x_mask.png")
+									{template_58trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim4_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim4_2x_mask.png")
+									{template_58trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim4_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim4_4x_mask.png")
+									{template_58trains_4x(0, 0)}																																																						
+
+
+spriteset(spriteset_OBB_KFNB_IX901_anim1_REV, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_1x_8bpp.png")
+									{ template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim1_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_1x_mask.png")
+									{template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim1_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_2x_mask.png")
+									{template_58trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim1_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_4x_mask.png")
+									{template_58trains_REV_4x(0, 0)}
+
+spriteset(spriteset_OBB_KFNB_IX901_anim2_REV, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim2_1x_8bpp.png")
+									{ template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim2_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim2_1x_mask.png")
+									{template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim2_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim2_2x_mask.png")
+									{template_58trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim2_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim2_4x_mask.png")
+									{template_58trains_REV_4x(0, 0)}
+
+spriteset(spriteset_OBB_KFNB_IX901_anim3_REV, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim3_1x_8bpp.png")
+									{ template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim3_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim3_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim3_1x_mask.png")
+									{template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim3_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim3_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim3_2x_mask.png")
+									{template_58trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim3_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim3_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim3_4x_mask.png")
+									{template_58trains_REV_4x(0, 0)}
+
+spriteset(spriteset_OBB_KFNB_IX901_anim4_REV, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim4_1x_8bpp.png")
+									{ template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim4_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim4_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim4_1x_mask.png")
+									{template_58trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim4_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim4_2x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim4_2x_mask.png")
+									{template_58trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim4_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim4_4x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim4_4x_mask.png")
+									{template_58trains_REV_4x(0, 0)}																											
+									
+																																				
+//Spriteset purchase
+
+spriteset(spriteset_OBB_KFNB_IX901_KFNB_purchase, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_KFNB_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_KFNB_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+spriteset(spriteset_OBB_KFNB_IX901_kkstb_purchase, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_kkstb_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_kkstb_1x_mask.png")
+									{template_purchase(0, 0)}	
+									
+spriteset(spriteset_OBB_KFNB_IX901_anim_purchase, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_OBB_KFNB_IX901_anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_1x_32bpp.png", "gfx/OBB_KFNB_IX901/OBB_KFNB_IX901_anim1_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+																																			
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_KFNB_IX901_KFNB_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_KFNB_IX901_KFNB_purchase;
+							1: spriteset_OBB_KFNB_IX901_anim_purchase;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_KFNB_IX901_kkstb_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_KFNB_IX901_kkstb_purchase;
+							1: spriteset_OBB_KFNB_IX901_anim_purchase;}
+							
+						switch (FEAT_TRAINS,SELF, switch_OBB_KFNB_IX901_purchase,current_year){
+							    0 .. 1908: switch_spritestack_OBB_KFNB_IX901_KFNB_purchase;	
+							 1909 .. 2050: switch_spritestack_OBB_KFNB_IX901_kkstb_purchase;					 					 
+								switch_spritestack_OBB_KFNB_IX901_kkstb_purchase;}																				
+
+						switch (FEAT_TRAINS, SELF, switch_animation_OBB_KFNB_IX901, motion_counter % 4) {
+							0: spriteset_OBB_KFNB_IX901_anim1;
+							1: spriteset_OBB_KFNB_IX901_anim2;
+							2: spriteset_OBB_KFNB_IX901_anim3;
+							3: spriteset_OBB_KFNB_IX901_anim4;}							
+
+						switch (FEAT_TRAINS, SELF, switch_animation_OBB_KFNB_IX901_REV, motion_counter % 4) {
+							0: spriteset_OBB_KFNB_IX901_anim1_REV;
+							1: spriteset_OBB_KFNB_IX901_anim2_REV;
+							2: spriteset_OBB_KFNB_IX901_anim3_REV;
+							3: spriteset_OBB_KFNB_IX901_anim4_REV;}							
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_KFNB_IX901_KFNB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spritegroup_OBB_KFNB_IX901_KFNB;
+							1: return switch_animation_OBB_KFNB_IX901;}			
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_KFNB_IX901_KFNB_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spritegroup_OBB_KFNB_IX901_KFNB_REV;
+							1: return switch_animation_OBB_KFNB_IX901_REV;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_KFNB_IX901_kkstb, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spritegroup_OBB_KFNB_IX901_kkstb;
+							1: return switch_animation_OBB_KFNB_IX901;}			
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_OBB_KFNB_IX901_kkstb_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spritegroup_OBB_KFNB_IX901_kkstb_REV;
+							1: return switch_animation_OBB_KFNB_IX901_REV;}																											
+							
+						switch (FEAT_TRAINS, PARENT, switch_reverse_OBB_KFNB_IX901_KFNB, vehicle_is_reversed) {
+							0: switch_spritestack_OBB_KFNB_IX901_KFNB;
+								switch_spritestack_OBB_KFNB_IX901_KFNB_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_OBB_KFNB_IX901_kkstb, vehicle_is_reversed) {
+							0: switch_spritestack_OBB_KFNB_IX901_kkstb;
+								switch_spritestack_OBB_KFNB_IX901_kkstb_REV;}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_KFNB_IX901, 1){
+							return 225;}
+							
+						switch(FEAT_TRAINS, SELF, switch_FX_OBB_KFNB_IX901, position_in_vehid_chain % 2) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM,-4, DISABLE_WAGON_POWER);														
+								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+																							
+						switch (FEAT_TRAINS,SELF,switch_OBB_KFNB_IX901_build_year,build_year){
+							   0 .. 1908: switch_reverse_OBB_KFNB_IX901_KFNB;
+							1909 .. 2050: switch_reverse_OBB_KFNB_IX901_kkstb;
+								switch_reverse_OBB_KFNB_IX901_kkstb;}								
+
+
+item (FEAT_TRAINS , ITEM_OBB_KFNB_IX901_BUILD, 0087)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_IX901_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1880,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					3;
+						cost_factor:                    108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							45 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						376 hp;
+						weight: 						60 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					30;
+						length: 						5;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_OBB_KFNB_IX901_build_year;
+			additional_text				   : string(STR_CONCAT_3, 
+											string(STR_GAUGE_STANDARD),
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_BAGG),);
+			purchase					   : switch_OBB_KFNB_IX901_purchase;
+			cost_factor					    :7;
+			running_cost_factor				:switch_running_cost_OBB_KFNB_IX901;
+			visual_effect_and_powered		:switch_FX_OBB_KFNB_IX901;
+			
+			}
+	}
+
+
+						switch (FEAT_TRAINS,SELF,switch_OBB_KFNB_IX901_current_year,current_year){
+							   0 .. 1908: switch_reverse_OBB_KFNB_IX901_KFNB;
+							1909 .. 2050: switch_reverse_OBB_KFNB_IX901_kkstb;
+								switch_reverse_OBB_KFNB_IX901_kkstb;}								
+
+
+item (FEAT_TRAINS , ITEM_OBB_KFNB_IX901_CURRENT, 0088)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_IX901_CURRENT);
+						variant_group:					0087;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1880,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					3;
+						cost_factor:                    108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							45 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						376 hp;
+						weight: 						60 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					30;
+						length: 						5;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_OBB_KFNB_IX901_current_year;
+			additional_text				   : string(STR_CONCAT_3, 
+											string(STR_GAUGE_STANDARD),
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_BAGG),);
+			purchase					   : switch_OBB_KFNB_IX901_purchase;
+			cost_factor					    :7;
+			running_cost_factor				:switch_running_cost_OBB_KFNB_IX901;
+			visual_effect_and_powered		:switch_FX_OBB_KFNB_IX901;
+			
+			}
+	}
+
+item (FEAT_TRAINS , ITEM_OBB_KFNB_IX901_KFNB, 0089)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_IX901_KFNB);
+						variant_group:					0087;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1880,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					3;
+						cost_factor:                    108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							45 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						376 hp;
+						weight: 						60 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					30;
+						length: 						5;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_reverse_OBB_KFNB_IX901_KFNB;
+			additional_text				   : string(STR_CONCAT_3, 
+											string(STR_GAUGE_STANDARD),
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_BAGG),);
+			purchase					   : switch_spritestack_OBB_KFNB_IX901_KFNB_purchase;
+			cost_factor					    :7;
+			running_cost_factor				:switch_running_cost_OBB_KFNB_IX901;
+			visual_effect_and_powered		:switch_FX_OBB_KFNB_IX901;
+			
+			}
+	}
+
+
+
+item (FEAT_TRAINS , ITEM_OBB_KFNB_IX901_KKSTB, 0090)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_KFNB_IX901_KKSTB);
+						variant_group:					0087;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1880,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					3;
+						cost_factor:                    108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							45 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						376 hp;
+						weight: 						60 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					30;
+						length: 						5;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_reverse_OBB_KFNB_IX901_kkstb;
+			additional_text				   : string(STR_CONCAT_3, 
+											string(STR_GAUGE_STANDARD),
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_BAGG),);
+			purchase					   : switch_spritestack_OBB_KFNB_IX901_kkstb_purchase;
+			cost_factor					    :7;
+			running_cost_factor				:switch_running_cost_OBB_KFNB_IX901;
+			visual_effect_and_powered		:switch_FX_OBB_KFNB_IX901;
+			
+			}
+	}

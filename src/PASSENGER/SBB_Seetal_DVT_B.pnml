@@ -1,0 +1,242 @@
+//#####################
+//### SBB Seetal DVT_B###
+//#####################
+
+//Spriteset SBB
+
+spriteset(spriteset_SBB_Seetal_DVT_B, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_1x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_2x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_4x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+									
+//Spritesets windows open
+
+spriteset(spriteset_SBB_Seetal_DVT_B_window1, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window1_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_window1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window1_1x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window1_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_window1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window1_2x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window1_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_window1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window1_4x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window1_4x_mask.png")
+									{template_128trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_Seetal_DVT_B_window2, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window2_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_window2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window2_1x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window2_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_window2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window2_2x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window2_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_window2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window2_4x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window2_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Seetal_DVT_B_window3, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window3_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_window3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window3_1x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window3_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_window3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window3_2x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window3_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_window3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window3_4x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window3_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+									
+spriteset(spriteset_SBB_Seetal_DVT_B_window4, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window4_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_window4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window4_1x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window4_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_window4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window4_2x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window4_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_window4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window4_4x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_window4_4x_mask.png")
+									{template_128trains_4x(0, 0)}																		
+
+									
+//Spritesets loading
+
+spriteset(spriteset_SBB_Seetal_DVT_B_loading, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_loading_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_loading_1x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_loading_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_loading_2x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_loading_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_loading_4x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_loading_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+spritegroup spritegroup_SBB_Seetal_DVT_B_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_Seetal_DVT_B_loading];}
+
+
+//Spritesets lights
+
+spriteset(spriteset_SBB_Seetal_DVT_B_lights_back, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_lights_back_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_lights_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_lights_back_1x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_lights_back_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_lights_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_lights_back_2x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_lights_back_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_lights_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_lights_back_4x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_lights_back_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+//Spriteset purchase
+
+spriteset(spriteset_SBB_Seetal_DVT_B_purchase, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_Seetal_DVT_B_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_1x_32bpp.png", "gfx/SBB_Seetal_DVT_B/SBB_Seetal_DVT_B_1x_mask.png")
+									{template_purchase(0, 0)}
+
+
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Seetal_DVT_B_window1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Seetal_DVT_B;
+							1: spriteset_SBB_Seetal_DVT_B_window1;
+							2: spritegroup_SBB_Seetal_DVT_B_loading;
+							3: spriteset_SBB_Seetal_DVT_B_lights_back;}	
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Seetal_DVT_B_window2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Seetal_DVT_B;
+							1: spriteset_SBB_Seetal_DVT_B_window2;
+							2: spritegroup_SBB_Seetal_DVT_B_loading;
+							3: spriteset_SBB_Seetal_DVT_B_lights_back;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Seetal_DVT_B_window3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Seetal_DVT_B;
+							1: spriteset_SBB_Seetal_DVT_B_window3;
+							2: spritegroup_SBB_Seetal_DVT_B_loading;
+							3: spriteset_SBB_Seetal_DVT_B_lights_back;}							
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Seetal_DVT_B_window4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Seetal_DVT_B;
+							1: spriteset_SBB_Seetal_DVT_B_window4;
+							2: spritegroup_SBB_Seetal_DVT_B_loading;
+							3: spriteset_SBB_Seetal_DVT_B_lights_back;}							
+
+						random_switch(FEAT_TRAINS, SELF, random_loadstack_SBB_Seetal_DVT_B, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+							1: switch_loadstack_SBB_Seetal_DVT_B_window1;
+							1: switch_loadstack_SBB_Seetal_DVT_B_window2;
+							1: switch_loadstack_SBB_Seetal_DVT_B_window3;
+							3: switch_loadstack_SBB_Seetal_DVT_B_window4;}
+							
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_Seetal_DVT_B, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 4;
+							2: 4;}	
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_Seetal_DVT_B, 1){
+							return 950;}	
+							   
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Seetal_DVT_B_4975, vehicle_is_reversed) {
+							0: random_loadstack_SBB_Seetal_DVT_B;
+								random_choose_SBB_De_44_braun_Wendezug_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_Seetal_DVT_B_4976, vehicle_is_reversed) {
+							0: random_loadstack_SBB_Seetal_DVT_B;
+								switch_spritestack_SBB_De_44_Seetal_Pendel_REV;}								
+
+//Checks for gfx														
+
+//Checks for De 4/4 Seetal livery (ID 4976)
+								
+						switch (FEAT_TRAINS,PARENT,switch_7877_graphics_check_6565_2,(count_veh_id(6565))) {
+							0: random_loadstack_SBB_Seetal_DVT_B; 
+								switch_reverse_SBB_Seetal_DVT_B_4976;}								
+
+
+						switch (FEAT_TRAINS,PARENT,switch_7877_graphics_check_4976,(count_veh_id(4976))) {
+							0: random_loadstack_SBB_Seetal_DVT_B;
+							 switch_7877_graphics_check_6565_2;}
+
+
+						switch (FEAT_TRAINS,PARENT,switch_7877_graphics_check_4976_7877,(count_veh_id(4976)+count_veh_id(6565) +count_veh_id(7877)+count_veh_id(3985)==num_vehs_in_consist)) {
+							0: random_loadstack_SBB_Seetal_DVT_B; 
+								switch_7877_graphics_check_4976;}
+
+							
+//Checks if Seetal Coach is in consist
+								
+						switch (FEAT_TRAINS,PARENT,switch_7877_graphics_check_6565,(count_veh_id(6565))) {
+							0: switch_7877_graphics_check_4976_7877; 
+								switch_reverse_SBB_Seetal_DVT_B_4975;}								
+
+//Checks if exactly one De 4/4 is in consist - if check fails fallback to De 4/4 "standard"
+
+						switch (FEAT_TRAINS,PARENT,switch_7877_graphics_check_4975,(count_veh_id(4975))) {
+							0: switch_7877_graphics_check_4976_7877;
+							 switch_7877_graphics_check_6565;}
+								
+//Checks if Consist is only De 4/4 + Seetal coach + Seetal DVT_B
+
+						switch (FEAT_TRAINS,PARENT,switch_7877_graphics_check_4975_7877,(count_veh_id(4975)+count_veh_id(6565) +count_veh_id(7877)+count_veh_id(3985)==num_vehs_in_consist)) {
+							0: switch_7877_graphics_check_4976_7877; 
+								switch_7877_graphics_check_4975;}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_SBB_Seetal_DVT_B, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_7877_graphics_check_4975_7877;
+							2:     spriteset_empty;}
+
+						switch(FEAT_TRAINS, SELF, switch_cargo_capacity_SBB_Seetal_DVT_B, cargo_type_in_veh ) {
+							PASS: 24;
+							TOUR: 24;
+						    MAIL: 24;
+						    GOOD: 24;
+						    VALU: 24;}	
+						    
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Seetal_DVT_B, extra_callback_info1) {
+							1: return ITEM_SBB_SEETAL_DVT_B;
+							2: return ITEM_MAIL_48;													
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SBB_SEETAL_DVT_B, 7877)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_SEETAL_DVT_B);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1961,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					4;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						20 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_Seetal_DVT_B;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_SEETAL_DVT_B),);
+			length							: switch_length_SBB_Seetal_DVT_B;
+			articulated_part				: switch_articulated_SBB_Seetal_DVT_B;
+			purchase						: spriteset_SBB_Seetal_DVT_B_purchase;
+			cost_factor						: 210;
+			running_cost_factor				: switch_running_cost_SBB_Seetal_DVT_B;
+			purchase_running_cost_factor	: 950;
+			cargo_capacity					: switch_cargo_capacity_SBB_Seetal_DVT_B;
+			}
+		}													

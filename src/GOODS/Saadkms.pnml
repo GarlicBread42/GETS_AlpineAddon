@@ -1,0 +1,2589 @@
+//#######################################
+//###SBB Rollende Landstraße "Saadkms"###
+//#######################################
+	
+//Spritesets single wagon
+
+spriteset (spriteset_Saadkms_single, "gfx\Saadkms/Saadkms_single_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_single, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_single_1x_32bpp.png", "gfx\Saadkms/Saadkms_single_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_single, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_single_2x_32bpp.png", "gfx\Saadkms/Saadkms_single_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_single, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_single_4x_32bpp.png", "gfx\Saadkms/Saadkms_single_4x_mask.png")
+					{template_138trains_4x(0, 0)}
+
+//Spritesets front wagon
+
+spriteset (spriteset_Saadkms_front, "gfx\Saadkms/Saadkms_front_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_front_1x_32bpp.png", "gfx\Saadkms/Saadkms_front_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_front_2x_32bpp.png", "gfx\Saadkms/Saadkms_front_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_front_4x_32bpp.png", "gfx\Saadkms/Saadkms_front_4x_mask.png")
+					{template_138trains_4x(0, 0)}
+					
+//Spritesets middle wagon
+
+spriteset (spriteset_Saadkms_middle, "gfx\Saadkms/Saadkms_middle_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_middle_1x_32bpp.png", "gfx\Saadkms/Saadkms_middle_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_middle, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_middle_2x_32bpp.png", "gfx\Saadkms/Saadkms_middle_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_middle_4x_32bpp.png", "gfx\Saadkms/Saadkms_middle_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+//Spritesets back wagon
+
+spriteset (spriteset_Saadkms_back, "gfx\Saadkms/Saadkms_back_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_back_1x_32bpp.png", "gfx\Saadkms/Saadkms_back_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_back_2x_32bpp.png", "gfx\Saadkms/Saadkms_back_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_back_4x_32bpp.png", "gfx\Saadkms/Saadkms_back_4x_mask.png")
+					{template_138trains_4x(0, 0)}
+					
+//Spritesets loading (at the moment, all Era 2; Era 3 and Era 4 trucks are actually the ones from Era1 - this'll get updated later)
+
+//Spritesets loading Era 1
+
+spriteset (spriteset_Saadkms_load_piece_era1_VAR1, "gfx\Saadkms/Saadkms_load_piece_era1_VAR1_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR1_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR1_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR1_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR1_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR1_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR1_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR1
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR1];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR1];}
+
+spriteset (spriteset_Saadkms_load_piece_era1_VAR2, "gfx\Saadkms/Saadkms_load_piece_era1_VAR2_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR2_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR2_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR2_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR2_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR2_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR2_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR2
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR2];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR2];}
+			
+spriteset (spriteset_Saadkms_load_piece_era1_VAR3, "gfx\Saadkms/Saadkms_load_piece_era1_VAR3_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR3_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR3_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR3_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR3_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR3_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR3_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR3
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR3];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR3];}		
+			
+spriteset (spriteset_Saadkms_load_piece_era1_VAR4, "gfx\Saadkms/Saadkms_load_piece_era1_VAR4_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR4_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR4_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR4_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR4_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR4_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR4_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR4
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR4];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR4];}		
+			
+spriteset (spriteset_Saadkms_load_piece_era1_VAR5, "gfx\Saadkms/Saadkms_load_piece_era1_VAR5_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR5_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR5_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR5, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR5_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR5_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR5_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR5_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR5
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR5];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR5];}
+			
+spriteset (spriteset_Saadkms_load_piece_era1_VAR6, "gfx\Saadkms/Saadkms_load_piece_era1_VAR6_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR6_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR6_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR6, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR6_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR6_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR6_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR6_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR6
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR6];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR6];}
+			
+spriteset (spriteset_Saadkms_load_piece_era1_VAR7, "gfx\Saadkms/Saadkms_load_piece_era1_VAR7_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR7_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR7_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR7, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR7_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR7_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR7_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR7_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR7
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR7];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR7];}
+			
+spriteset (spriteset_Saadkms_load_piece_era1_VAR8, "gfx\Saadkms/Saadkms_load_piece_era1_VAR8_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR8_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR8_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR8, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR8_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR8_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR8_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR8_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR8
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR8];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR8];}
+			
+spriteset (spriteset_Saadkms_load_piece_era1_VAR9, "gfx\Saadkms/Saadkms_load_piece_era1_VAR9_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR9_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR9_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR9, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR9_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR9_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR9_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR9_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR9
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR9];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR9];}
+			
+spriteset (spriteset_Saadkms_load_piece_era1_VAR10, "gfx\Saadkms/Saadkms_load_piece_era1_VAR10_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR10_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR10_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR10, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR10_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR10_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR10_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR10_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR10
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR10];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR10];}
+			
+spriteset (spriteset_Saadkms_load_piece_era1_VAR11, "gfx\Saadkms/Saadkms_load_piece_era1_VAR11_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR11_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR11_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR11, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR11_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR11_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR11_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR11_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR11
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR11];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR11];}
+			
+spriteset (spriteset_Saadkms_load_piece_era1_VAR12, "gfx\Saadkms/Saadkms_load_piece_era1_VAR12_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR12_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR12_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR12, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR12_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR12_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR12_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR12_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR12
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR12];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR12];}
+			
+spriteset (spriteset_Saadkms_load_piece_era1_VAR13, "gfx\Saadkms/Saadkms_load_piece_era1_VAR13_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR13_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR13_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR13, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR13_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR13_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR13_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR13_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR13
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR13];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR13];}
+			
+spriteset (spriteset_Saadkms_load_piece_era1_VAR14, "gfx\Saadkms/Saadkms_load_piece_era1_VAR14_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR14_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR14_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR14, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR14_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR14_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR14_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR14_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR14
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR14];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR14];}
+			
+spriteset (spriteset_Saadkms_load_piece_era1_VAR15, "gfx\Saadkms/Saadkms_load_piece_era1_VAR15_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR15, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR15_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR15_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR15, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR15_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR15_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR15_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR15_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR15
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR15];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR15];}
+			
+spriteset (spriteset_Saadkms_load_piece_era1_VAR16, "gfx\Saadkms/Saadkms_load_piece_era1_VAR16_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR16, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR16_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR16_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR16, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR16_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR16_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_VAR16, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR16_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR16_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era1_VAR16
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR16];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era1_VAR16];}																																						
+
+
+
+//Spritesets loading Era 2
+
+spriteset (spriteset_Saadkms_load_piece_era2_VAR1, "gfx\Saadkms/Saadkms_load_piece_era2_VAR1_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR1_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR1_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR1_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR1_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR1_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR1_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR1
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR1];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR1];}
+
+spriteset (spriteset_Saadkms_load_piece_era2_VAR2, "gfx\Saadkms/Saadkms_load_piece_era2_VAR2_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR2_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR2_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR2_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR2_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR2_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR2_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR2
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR2];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR2];}
+			
+spriteset (spriteset_Saadkms_load_piece_era2_VAR3, "gfx\Saadkms/Saadkms_load_piece_era2_VAR3_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR3_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR3_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR3_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR3_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR3_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR3_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR3
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR3];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR3];}		
+			
+spriteset (spriteset_Saadkms_load_piece_era2_VAR4, "gfx\Saadkms/Saadkms_load_piece_era2_VAR4_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR4_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR4_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR4_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR4_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR4_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR4_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR4
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR4];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR4];}		
+			
+spriteset (spriteset_Saadkms_load_piece_era2_VAR5, "gfx\Saadkms/Saadkms_load_piece_era2_VAR5_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR5_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR5_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR5, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR5_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR5_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR5_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR5_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR5
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR5];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR5];}
+			
+spriteset (spriteset_Saadkms_load_piece_era2_VAR6, "gfx\Saadkms/Saadkms_load_piece_era2_VAR6_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR6_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR6_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR6, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR6_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR6_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR6_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR6_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR6
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR6];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR6];}
+			
+spriteset (spriteset_Saadkms_load_piece_era2_VAR7, "gfx\Saadkms/Saadkms_load_piece_era2_VAR7_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR7_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR7_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR7, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR7_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR7_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR7_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR7_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR7
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR7];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR7];}
+			
+spriteset (spriteset_Saadkms_load_piece_era2_VAR8, "gfx\Saadkms/Saadkms_load_piece_era2_VAR8_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR8_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR8_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR8, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR8_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR8_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR8_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR8_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR8
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR8];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR8];}
+			
+spriteset (spriteset_Saadkms_load_piece_era2_VAR9, "gfx\Saadkms/Saadkms_load_piece_era2_VAR9_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR9_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR9_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR9, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR9_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR9_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR9_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR9_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR9
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR9];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR9];}
+			
+spriteset (spriteset_Saadkms_load_piece_era2_VAR10, "gfx\Saadkms/Saadkms_load_piece_era2_VAR10_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR10_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR10_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR10, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR10_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR10_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR10_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR10_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR10
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR10];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR10];}
+			
+spriteset (spriteset_Saadkms_load_piece_era2_VAR11, "gfx\Saadkms/Saadkms_load_piece_era2_VAR11_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR11_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR11_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR11, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR11_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR11_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR11_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR11_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR11
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR11];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR11];}
+			
+spriteset (spriteset_Saadkms_load_piece_era2_VAR12, "gfx\Saadkms/Saadkms_load_piece_era2_VAR12_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR12_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR12_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR12, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR12_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR12_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR12_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR12_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR12
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR12];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR12];}
+			
+spriteset (spriteset_Saadkms_load_piece_era2_VAR13, "gfx\Saadkms/Saadkms_load_piece_era2_VAR13_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR13_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR13_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR13, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR13_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR13_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR13_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR13_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR13
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR13];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR13];}
+			
+spriteset (spriteset_Saadkms_load_piece_era2_VAR14, "gfx\Saadkms/Saadkms_load_piece_era2_VAR14_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR14_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR14_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR14, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR14_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR14_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR14_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR14_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR14
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR14];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR14];}
+			
+spriteset (spriteset_Saadkms_load_piece_era2_VAR15, "gfx\Saadkms/Saadkms_load_piece_era2_VAR15_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR15, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR15_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR15_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR15, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR15_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR15_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR15_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR15_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR15
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR15];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR15];}
+			
+spriteset (spriteset_Saadkms_load_piece_era2_VAR16, "gfx\Saadkms/Saadkms_load_piece_era2_VAR16_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR16, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR16_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR16_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR16, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR16_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR16_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_VAR16, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR16_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR16_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era2_VAR16
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR16];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era2_VAR16];}
+
+
+//Spritesets loading Era 3
+
+spriteset (spriteset_Saadkms_load_piece_era3_VAR1, "gfx\Saadkms/Saadkms_load_piece_era3_VAR1_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR1_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR1_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR1_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR1_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR1_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR1_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR1
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR1];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR1];}
+
+spriteset (spriteset_Saadkms_load_piece_era3_VAR2, "gfx\Saadkms/Saadkms_load_piece_era3_VAR2_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR2_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR2_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR2_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR2_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR2_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR2_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR2
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR2];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR2];}
+			
+spriteset (spriteset_Saadkms_load_piece_era3_VAR3, "gfx\Saadkms/Saadkms_load_piece_era3_VAR3_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR3_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR3_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR3_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR3_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR3_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR3_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR3
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR3];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR3];}		
+			
+spriteset (spriteset_Saadkms_load_piece_era3_VAR4, "gfx\Saadkms/Saadkms_load_piece_era3_VAR4_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR4_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR4_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR4_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR4_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR4_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR4_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR4
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR4];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR4];}		
+			
+spriteset (spriteset_Saadkms_load_piece_era3_VAR5, "gfx\Saadkms/Saadkms_load_piece_era3_VAR5_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR5_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR5_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR5, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR5_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR5_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR5_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR5_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR5
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR5];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR5];}
+			
+spriteset (spriteset_Saadkms_load_piece_era3_VAR6, "gfx\Saadkms/Saadkms_load_piece_era3_VAR6_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR6_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR6_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR6, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR6_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR6_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR6_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR6_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR6
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR6];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR6];}
+			
+spriteset (spriteset_Saadkms_load_piece_era3_VAR7, "gfx\Saadkms/Saadkms_load_piece_era3_VAR7_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR7_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR7_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR7, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR7_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR7_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR7_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR7_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR7
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR7];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR7];}
+			
+spriteset (spriteset_Saadkms_load_piece_era3_VAR8, "gfx\Saadkms/Saadkms_load_piece_era3_VAR8_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR8_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR8_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR8, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR8_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR8_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR8_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR8_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR8
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR8];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR8];}
+			
+spriteset (spriteset_Saadkms_load_piece_era3_VAR9, "gfx\Saadkms/Saadkms_load_piece_era3_VAR9_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR9_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR9_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR9, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR9_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR9_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR9_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR9_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR9
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR9];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR9];}
+			
+spriteset (spriteset_Saadkms_load_piece_era3_VAR10, "gfx\Saadkms/Saadkms_load_piece_era3_VAR10_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR10_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR10_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR10, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR10_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR10_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR10_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR10_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR10
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR10];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR10];}
+			
+spriteset (spriteset_Saadkms_load_piece_era3_VAR11, "gfx\Saadkms/Saadkms_load_piece_era3_VAR11_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR11_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR11_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR11, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR11_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR11_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR11_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR11_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR11
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR11];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR11];}
+			
+spriteset (spriteset_Saadkms_load_piece_era3_VAR12, "gfx\Saadkms/Saadkms_load_piece_era3_VAR12_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR12_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR12_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR12, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR12_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR12_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR12_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR12_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR12
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR12];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR12];}
+			
+spriteset (spriteset_Saadkms_load_piece_era3_VAR13, "gfx\Saadkms/Saadkms_load_piece_era3_VAR13_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR13_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR13_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR13, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR13_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR13_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR13_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR13_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR13
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR13];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR13];}
+			
+spriteset (spriteset_Saadkms_load_piece_era3_VAR14, "gfx\Saadkms/Saadkms_load_piece_era3_VAR14_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR14_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR14_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR14, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR14_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR14_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR14_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR14_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR14
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR14];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR14];}
+			
+spriteset (spriteset_Saadkms_load_piece_era3_VAR15, "gfx\Saadkms/Saadkms_load_piece_era3_VAR15_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR15, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR15_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR15_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR15, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR15_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR15_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR15_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR15_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR15
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR15];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR15];}
+			
+spriteset (spriteset_Saadkms_load_piece_era3_VAR16, "gfx\Saadkms/Saadkms_load_piece_era3_VAR16_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR16, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR16_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR16_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR16, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR16_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR16_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_VAR16, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR16_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR16_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era3_VAR16
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR16];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era3_VAR16];}
+
+
+//Spritesets loading Era 1
+
+spriteset (spriteset_Saadkms_load_piece_era4_VAR1, "gfx\Saadkms/Saadkms_load_piece_era4_VAR1_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR1_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR1_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR1_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR1_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR1_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR1_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR1
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR1];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR1];}
+
+spriteset (spriteset_Saadkms_load_piece_era4_VAR2, "gfx\Saadkms/Saadkms_load_piece_era4_VAR2_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR2_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR2_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR2_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR2_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR2_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR2_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR2
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR2];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR2];}
+			
+spriteset (spriteset_Saadkms_load_piece_era4_VAR3, "gfx\Saadkms/Saadkms_load_piece_era4_VAR3_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR3_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR3_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR3_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR3_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR3_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR3_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR3
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR3];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR3];}		
+			
+spriteset (spriteset_Saadkms_load_piece_era4_VAR4, "gfx\Saadkms/Saadkms_load_piece_era4_VAR4_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR4_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR4_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR4_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR4_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR4_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR4_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR4
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR4];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR4];}		
+			
+spriteset (spriteset_Saadkms_load_piece_era4_VAR5, "gfx\Saadkms/Saadkms_load_piece_era4_VAR5_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR5_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR5_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR5, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR5_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR5_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR5_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR5_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR5
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR5];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR5];}
+			
+spriteset (spriteset_Saadkms_load_piece_era4_VAR6, "gfx\Saadkms/Saadkms_load_piece_era4_VAR6_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR6_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR6_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR6, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR6_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR6_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR6_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR6_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR6
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR6];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR6];}
+			
+spriteset (spriteset_Saadkms_load_piece_era4_VAR7, "gfx\Saadkms/Saadkms_load_piece_era4_VAR7_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR7_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR7_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR7, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR7_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR7_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR7_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR7_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR7
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR7];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR7];}
+			
+spriteset (spriteset_Saadkms_load_piece_era4_VAR8, "gfx\Saadkms/Saadkms_load_piece_era4_VAR8_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR8_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR8_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR8, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR8_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR8_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR8_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR8_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR8
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR8];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR8];}
+			
+spriteset (spriteset_Saadkms_load_piece_era4_VAR9, "gfx\Saadkms/Saadkms_load_piece_era4_VAR9_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR9_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR9_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR9, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR9_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR9_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR9_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR9_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR9
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR9];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR9];}
+			
+spriteset (spriteset_Saadkms_load_piece_era4_VAR10, "gfx\Saadkms/Saadkms_load_piece_era4_VAR10_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR10_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR10_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR10, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR10_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR10_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR10_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR10_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR10
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR10];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR10];}
+			
+spriteset (spriteset_Saadkms_load_piece_era4_VAR11, "gfx\Saadkms/Saadkms_load_piece_era4_VAR11_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR11_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR11_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR11, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR11_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR11_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR11_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR11_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR11
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR11];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR11];}
+			
+spriteset (spriteset_Saadkms_load_piece_era4_VAR12, "gfx\Saadkms/Saadkms_load_piece_era4_VAR12_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR12_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR12_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR12, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR12_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR12_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR12_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR12_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR12
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR12];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR12];}
+			
+spriteset (spriteset_Saadkms_load_piece_era4_VAR13, "gfx\Saadkms/Saadkms_load_piece_era4_VAR13_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR13_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR13_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR13, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR13_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR13_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR13_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR13_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR13
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR13];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR13];}
+			
+spriteset (spriteset_Saadkms_load_piece_era4_VAR14, "gfx\Saadkms/Saadkms_load_piece_era4_VAR14_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR14_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR14_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR14, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR14_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR14_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR14_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR14_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR14
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR14];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR14];}
+			
+spriteset (spriteset_Saadkms_load_piece_era4_VAR15, "gfx\Saadkms/Saadkms_load_piece_era4_VAR15_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR15, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR15_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR15_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR15, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR15_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR15_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR15_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR15_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR15
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR15];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR15];}
+			
+spriteset (spriteset_Saadkms_load_piece_era4_VAR16, "gfx\Saadkms/Saadkms_load_piece_era4_VAR16_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR16, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR16_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR16_1x_mask.png")
+					{template_138trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR16, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR16_2x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR16_2x_mask.png")
+					{template_138trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_VAR16, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR16_4x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR16_4x_mask.png")
+					{template_138trains_4x(0, 0)}					
+
+spritegroup spritegroup_Saadkms_load_piece_era4_VAR16
+		{loaded: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR16];
+			loading: 	[spriteset_empty, spriteset_Saadkms_load_piece_era4_VAR16];}
+			
+
+
+//Spritesets purchase
+
+spriteset (spriteset_Saadkms_single_purchase, "gfx\Saadkms/Saadkms_single_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_single_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_single_1x_32bpp.png", "gfx\Saadkms/Saadkms_single_1x_mask.png")
+					{template_purchase(0, 0)}			
+
+spriteset (spriteset_Saadkms_load_piece_era1_purchase, "gfx\Saadkms/Saadkms_load_piece_era1_VAR1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era1_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era1_VAR1_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era1_VAR1_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Saadkms_load_piece_era2_purchase, "gfx\Saadkms/Saadkms_load_piece_era2_VAR1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era2_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era2_VAR1_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era2_VAR1_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Saadkms_load_piece_era3_purchase, "gfx\Saadkms/Saadkms_load_piece_era3_VAR1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era3_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era3_VAR1_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era3_VAR1_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Saadkms_load_piece_era4_purchase, "gfx\Saadkms/Saadkms_load_piece_era4_VAR1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Saadkms_load_piece_era4_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Saadkms/Saadkms_load_piece_era4_VAR1_1x_32bpp.png", "gfx\Saadkms/Saadkms_load_piece_era4_VAR1_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+
+//Switches
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_era1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single_purchase;
+					1: spriteset_Saadkms_load_piece_era1_purchase;}																				
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_era2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single_purchase;
+					1: spriteset_Saadkms_load_piece_era2_purchase;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_era3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single_purchase;
+					1: spriteset_Saadkms_load_piece_era3_purchase;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_era4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single_purchase;
+					1: spriteset_Saadkms_load_piece_era4_purchase;}		
+					
+				switch (FEAT_TRAINS,SELF,switch_purchase_Saadkms,current_year) {
+					   0 .. 1995 : switch_spritestack_Saadkms_era1;
+					1996 .. 2002 : switch_spritestack_Saadkms_era2;
+					2003 .. 2011 : switch_spritestack_Saadkms_era3;
+					2012 .. 2050 : switch_spritestack_Saadkms_era4;
+						switch_spritestack_Saadkms_era4;}
+
+
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR1_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR1;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR1;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR1;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR1;
+						spritegroup_Saadkms_load_piece_era4_VAR1;}						
+
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR2_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR2;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR2;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR2;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR2;
+						spritegroup_Saadkms_load_piece_era4_VAR2;}						
+
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR3_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR3;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR3;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR3;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR3;
+						spritegroup_Saadkms_load_piece_era4_VAR3;}
+						
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR4_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR4;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR4;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR4;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR4;
+						spritegroup_Saadkms_load_piece_era4_VAR4;}
+						
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR5_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR5;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR5;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR5;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR5;
+						spritegroup_Saadkms_load_piece_era4_VAR5;}
+						
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR6_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR6;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR6;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR6;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR6;
+						spritegroup_Saadkms_load_piece_era4_VAR6;}
+
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR7_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR7;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR7;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR7;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR7;
+						spritegroup_Saadkms_load_piece_era4_VAR7;}
+						
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR8_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR8;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR8;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR8;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR8;
+						spritegroup_Saadkms_load_piece_era4_VAR8;}
+						
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR9_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR9;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR9;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR9;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR9;
+						spritegroup_Saadkms_load_piece_era4_VAR9;}
+						
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR10_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR10;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR10;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR10;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR10;
+						spritegroup_Saadkms_load_piece_era4_VAR10;}
+						
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR11_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR11;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR11;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR11;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR11;
+						spritegroup_Saadkms_load_piece_era4_VAR11;}
+						
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR12_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR12;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR12;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR12;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR12;
+						spritegroup_Saadkms_load_piece_era4_VAR12;}
+						
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR13_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR13;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR13;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR13;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR13;
+						spritegroup_Saadkms_load_piece_era4_VAR13;}
+						
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR14_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR14;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR14;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR14;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR14;
+						spritegroup_Saadkms_load_piece_era4_VAR14;}
+						
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR15_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR15;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR15;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR15;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR15;
+						spritegroup_Saadkms_load_piece_era4_VAR15;}
+						
+				switch (FEAT_TRAINS,SELF,switch_Saadkms_load_piece_VAR16_current_year,current_year) {
+					   0 .. 1995 : spritegroup_Saadkms_load_piece_era1_VAR16;
+					1996 .. 2002 : spritegroup_Saadkms_load_piece_era2_VAR16;
+					2003 .. 2011 : spritegroup_Saadkms_load_piece_era3_VAR16;
+					2012 .. 2050 : spritegroup_Saadkms_load_piece_era4_VAR16;
+						spritegroup_Saadkms_load_piece_era4_VAR16;}																																																
+						
+
+//Spritestacking for Single wagon
+																																										
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: return switch_Saadkms_load_piece_VAR1_current_year;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: return switch_Saadkms_load_piece_VAR2_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: return switch_Saadkms_load_piece_VAR3_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: return switch_Saadkms_load_piece_VAR4_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: return switch_Saadkms_load_piece_VAR5_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: return switch_Saadkms_load_piece_VAR6_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: return switch_Saadkms_load_piece_VAR7_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: return switch_Saadkms_load_piece_VAR8_current_year;}																															
+
+//Spritestacking for front wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: return switch_Saadkms_load_piece_VAR1_current_year;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: return switch_Saadkms_load_piece_VAR2_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: return switch_Saadkms_load_piece_VAR3_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: return switch_Saadkms_load_piece_VAR4_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: return switch_Saadkms_load_piece_VAR5_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: return switch_Saadkms_load_piece_VAR6_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: return switch_Saadkms_load_piece_VAR7_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: return switch_Saadkms_load_piece_VAR8_current_year;}	
+
+//Spritestacking for middle 1 wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_VAR9, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR9_current_year;}						
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_VAR10, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR10_current_year;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_VAR11, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR11_current_year;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_VAR12, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR12_current_year;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_VAR13, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR13_current_year;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_VAR14, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR14_current_year;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_VAR15, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR15_current_year;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_VAR16, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR16_current_year;}						
+	
+//Spritestacking for middle2 wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR1_current_year;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR2_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR3_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR4_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR5_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR6_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR7_current_year;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: return switch_Saadkms_load_piece_VAR8_current_year;}	
+
+//Spritestacking for back wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_VAR9, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_back;
+					1: return switch_Saadkms_load_piece_VAR9_current_year;}						
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_VAR10, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_back;
+					1: return switch_Saadkms_load_piece_VAR10_current_year;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_VAR11, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_back;
+					1: return switch_Saadkms_load_piece_VAR11_current_year;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_VAR12, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_back;
+					1: return switch_Saadkms_load_piece_VAR12_current_year;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_VAR13, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_back;
+					1: return switch_Saadkms_load_piece_VAR13_current_year;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_VAR14, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_back;
+					1: return switch_Saadkms_load_piece_VAR14_current_year;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_VAR15, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_back;
+					1: return switch_Saadkms_load_piece_VAR15_current_year;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_VAR16, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_back;
+					1: return switch_Saadkms_load_piece_VAR16_current_year;}
+
+//Random switches
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_single, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_single_VAR1;
+							2: switch_spritestack_Saadkms_single_VAR2;
+							3: switch_spritestack_Saadkms_single_VAR3;
+							4: switch_spritestack_Saadkms_single_VAR4;
+							5: switch_spritestack_Saadkms_single_VAR5;
+							6: switch_spritestack_Saadkms_single_VAR6;
+							7: switch_spritestack_Saadkms_single_VAR7;
+							   switch_spritestack_Saadkms_single_VAR8;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_front, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_front_VAR1;
+							2: switch_spritestack_Saadkms_front_VAR2;
+							3: switch_spritestack_Saadkms_front_VAR3;
+							4: switch_spritestack_Saadkms_front_VAR4;
+							5: switch_spritestack_Saadkms_front_VAR5;
+							6: switch_spritestack_Saadkms_front_VAR6;
+							7: switch_spritestack_Saadkms_front_VAR7;
+							   switch_spritestack_Saadkms_front_VAR8;}							   
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_middle1, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_middle1_VAR9;
+							2: switch_spritestack_Saadkms_middle1_VAR10;
+							3: switch_spritestack_Saadkms_middle1_VAR11;
+							4: switch_spritestack_Saadkms_middle1_VAR12;
+							5: switch_spritestack_Saadkms_middle1_VAR13;
+							6: switch_spritestack_Saadkms_middle1_VAR14;
+							7: switch_spritestack_Saadkms_middle1_VAR15;
+							   switch_spritestack_Saadkms_middle1_VAR16;}	
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_middle2, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_middle2_VAR1;
+							2: switch_spritestack_Saadkms_middle2_VAR2;
+							3: switch_spritestack_Saadkms_middle2_VAR3;
+							4: switch_spritestack_Saadkms_middle2_VAR4;
+							5: switch_spritestack_Saadkms_middle2_VAR5;
+							6: switch_spritestack_Saadkms_middle2_VAR6;
+							7: switch_spritestack_Saadkms_middle2_VAR7;
+							   switch_spritestack_Saadkms_middle2_VAR8;}		
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_back, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_back_VAR9;
+							2: switch_spritestack_Saadkms_back_VAR10;
+							3: switch_spritestack_Saadkms_back_VAR11;
+							4: switch_spritestack_Saadkms_back_VAR12;
+							5: switch_spritestack_Saadkms_back_VAR13;
+							6: switch_spritestack_Saadkms_back_VAR14;
+							7: switch_spritestack_Saadkms_back_VAR15;
+							   switch_spritestack_Saadkms_back_VAR16;}							   					   						   
+
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_current, position_in_vehid_chain %6) {
+							 1: return random_choose_Saadkms_middle2;
+							 4: return random_choose_Saadkms_middle1;}
+
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_current_back, position_in_vehid_chain_from_end) {
+							 1: return random_choose_Saadkms_back;
+								default: switch_autoconsist1_Saadkms_current;}
+								
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_current_front, position_in_vehid_chain) {
+							0..3: return random_choose_Saadkms_front;
+							4 .. 999:switch_autoconsist1_Saadkms_current_back;
+								default: switch_autoconsist1_Saadkms_current_back;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_Saadkms_current_lenghtcheck, num_vehs_in_consist) {
+							0 .. 5: random_choose_Saadkms_single;
+							6 .. 999: switch_autoconsist1_Saadkms_current_front;}								
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Saadkms_current, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_Saadkms_current_lenghtcheck;
+							2:     spriteset_empty;}
+
+						switch(FEAT_TRAINS, SELF, switch_length_Saadkms, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 5;
+							2: 4;}	
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Saadkms, 1){
+							return 425;}	
+													 		 
+						switch (FEAT_TRAINS, SELF, switch_articulated_Saadkms_current, extra_callback_info1) {
+							1 .. 2: return ITEM_SAADKMS_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																																																												
+
+							
+item (FEAT_TRAINS , ITEM_SAADKMS_CURRENT, 8950)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SAADKMS_CURRENT);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						cargo_allow_refit:              [];
+						cargo_disallow_refit: 			[];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						20 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_Saadkms_current;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Saadkms_current;
+			length							: switch_length_Saadkms;
+			purchase						: switch_purchase_Saadkms;
+			cost_factor						: 195;
+			running_cost_factor				: switch_running_cost_Saadkms;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}										
+
+
+//Only Era 1 trucks
+
+
+//Spritestacking for Single wagon
+																																										
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era1_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era1_VAR1;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era1_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era1_VAR2;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era1_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era1_VAR3;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era1_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era1_VAR4;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era1_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era1_VAR5;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era1_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era1_VAR6;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era1_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era1_VAR7;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era1_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era1_VAR8;}	
+
+//Spritestacking for front wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era1_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era1_VAR1;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era1_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era1_VAR2;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era1_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era1_VAR3;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era1_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era1_VAR4;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era1_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era1_VAR5;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era1_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era1_VAR6;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era1_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era1_VAR7;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era1_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era1_VAR8;}	
+
+//Spritestacking for middle 1 wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era1_VAR9, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR9;}						
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era1_VAR10, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR10;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era1_VAR11, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR11;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era1_VAR12, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR12;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era1_VAR13, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR13;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era1_VAR14, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR14;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era1_VAR15, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR15;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era1_VAR16, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR16;}
+
+//Spritestacking for middle2 wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era1_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR1;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era1_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR2;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era1_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR3;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era1_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR4;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era1_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR5;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era1_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR6;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era1_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR7;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era1_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR8;}
+
+//Spritestacking for middle 1 wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era1_VAR9, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR9;}						
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era1_VAR10, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR10;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era1_VAR11, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR11;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era1_VAR12, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR12;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era1_VAR13, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR13;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era1_VAR14, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR14;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era1_VAR15, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR15;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era1_VAR16, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era1_VAR16;}
+
+//Random switches
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_single_era1, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_single_era1_VAR1;
+							2: switch_spritestack_Saadkms_single_era1_VAR2;
+							3: switch_spritestack_Saadkms_single_era1_VAR3;
+							4: switch_spritestack_Saadkms_single_era1_VAR4;
+							5: switch_spritestack_Saadkms_single_era1_VAR5;
+							6: switch_spritestack_Saadkms_single_era1_VAR6;
+							7: switch_spritestack_Saadkms_single_era1_VAR7;
+							   switch_spritestack_Saadkms_single_era1_VAR8;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_front_era1, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_front_era1_VAR1;
+							2: switch_spritestack_Saadkms_front_era1_VAR2;
+							3: switch_spritestack_Saadkms_front_era1_VAR3;
+							4: switch_spritestack_Saadkms_front_era1_VAR4;
+							5: switch_spritestack_Saadkms_front_era1_VAR5;
+							6: switch_spritestack_Saadkms_front_era1_VAR6;
+							7: switch_spritestack_Saadkms_front_era1_VAR7;
+							   switch_spritestack_Saadkms_front_era1_VAR8;}							   
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_middle1_era1, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_middle1_era1_VAR9;
+							2: switch_spritestack_Saadkms_middle1_era1_VAR10;
+							3: switch_spritestack_Saadkms_middle1_era1_VAR11;
+							4: switch_spritestack_Saadkms_middle1_era1_VAR12;
+							5: switch_spritestack_Saadkms_middle1_era1_VAR13;
+							6: switch_spritestack_Saadkms_middle1_era1_VAR14;
+							7: switch_spritestack_Saadkms_middle1_era1_VAR15;
+							   switch_spritestack_Saadkms_middle1_era1_VAR16;}	
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_middle2_era1, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_middle2_era1_VAR1;
+							2: switch_spritestack_Saadkms_middle2_era1_VAR2;
+							3: switch_spritestack_Saadkms_middle2_era1_VAR3;
+							4: switch_spritestack_Saadkms_middle2_era1_VAR4;
+							5: switch_spritestack_Saadkms_middle2_era1_VAR5;
+							6: switch_spritestack_Saadkms_middle2_era1_VAR6;
+							7: switch_spritestack_Saadkms_middle2_era1_VAR7;
+							   switch_spritestack_Saadkms_middle2_era1_VAR8;}		
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_back_era1, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_back_era1_VAR9;
+							2: switch_spritestack_Saadkms_back_era1_VAR10;
+							3: switch_spritestack_Saadkms_back_era1_VAR11;
+							4: switch_spritestack_Saadkms_back_era1_VAR12;
+							5: switch_spritestack_Saadkms_back_era1_VAR13;
+							6: switch_spritestack_Saadkms_back_era1_VAR14;
+							7: switch_spritestack_Saadkms_back_era1_VAR15;
+							   switch_spritestack_Saadkms_back_era1_VAR16;}	
+
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_era1, position_in_vehid_chain %6) {
+							 1: return random_choose_Saadkms_middle2_era1;
+							 4: return random_choose_Saadkms_middle1_era1;}
+
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_era1_back, position_in_vehid_chain_from_end) {
+							 0.. 3: return random_choose_Saadkms_back_era1;
+								default: switch_autoconsist1_Saadkms_era1;}
+								
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_era1_front, position_in_vehid_chain) {
+							0..3: return random_choose_Saadkms_front_era1;
+							4 .. 999:switch_autoconsist1_Saadkms_era1_back;
+								default: switch_autoconsist1_Saadkms_era1_back;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_Saadkms_era1_lenghtcheck, num_vehs_in_consist) {
+							0 .. 5: random_choose_Saadkms_single_era1;
+							6 .. 999: switch_autoconsist1_Saadkms_era1_front;}								
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Saadkms_era1, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_Saadkms_era1_lenghtcheck;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Saadkms_era1, extra_callback_info1) {
+							1 .. 2: return ITEM_SAADKMS_ERA1;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+
+item (FEAT_TRAINS , ITEM_SAADKMS_ERA1, 8951)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SAADKMS_ERA1);
+						variant_group:					8950;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						cargo_allow_refit:              [];
+						cargo_disallow_refit: 			[];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						20 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_Saadkms_era1;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Saadkms_era1;
+			length							: switch_length_Saadkms;
+			purchase						: switch_purchase_Saadkms;
+			cost_factor						: 195;
+			running_cost_factor				: switch_spritestack_Saadkms_era1;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+
+//Only Era 2 trucks
+
+
+//Spritestacking for Single wagon
+																																										
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era2_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era2_VAR1;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era2_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era2_VAR2;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era2_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era2_VAR3;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era2_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era2_VAR4;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era2_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era2_VAR5;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era2_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era2_VAR6;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era2_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era2_VAR7;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era2_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era2_VAR8;}	
+
+//Spritestacking for front wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era2_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era2_VAR1;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era2_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era2_VAR2;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era2_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era2_VAR3;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era2_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era2_VAR4;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era2_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era2_VAR5;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era2_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era2_VAR6;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era2_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era2_VAR7;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era2_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era2_VAR8;}	
+
+//Spritestacking for middle 1 wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era2_VAR9, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR9;}						
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era2_VAR10, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR10;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era2_VAR11, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR11;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era2_VAR12, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR12;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era2_VAR13, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR13;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era2_VAR14, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR14;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era2_VAR15, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR15;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era2_VAR16, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR16;}
+
+//Spritestacking for middle2 wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era2_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR1;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era2_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR2;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era2_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR3;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era2_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR4;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era2_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR5;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era2_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR6;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era2_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR7;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era2_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR8;}
+
+//Spritestacking for middle 1 wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era2_VAR9, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR9;}						
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era2_VAR10, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR10;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era2_VAR11, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR11;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era2_VAR12, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR12;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era2_VAR13, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR13;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era2_VAR14, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR14;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era2_VAR15, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR15;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era2_VAR16, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era2_VAR16;}
+
+//Random switches
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_single_era2, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_single_era2_VAR1;
+							2: switch_spritestack_Saadkms_single_era2_VAR2;
+							3: switch_spritestack_Saadkms_single_era2_VAR3;
+							4: switch_spritestack_Saadkms_single_era2_VAR4;
+							5: switch_spritestack_Saadkms_single_era2_VAR5;
+							6: switch_spritestack_Saadkms_single_era2_VAR6;
+							7: switch_spritestack_Saadkms_single_era2_VAR7;
+							   switch_spritestack_Saadkms_single_era2_VAR8;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_front_era2, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_front_era2_VAR1;
+							2: switch_spritestack_Saadkms_front_era2_VAR2;
+							3: switch_spritestack_Saadkms_front_era2_VAR3;
+							4: switch_spritestack_Saadkms_front_era2_VAR4;
+							5: switch_spritestack_Saadkms_front_era2_VAR5;
+							6: switch_spritestack_Saadkms_front_era2_VAR6;
+							7: switch_spritestack_Saadkms_front_era2_VAR7;
+							   switch_spritestack_Saadkms_front_era2_VAR8;}							   
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_middle1_era2, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_middle1_era2_VAR9;
+							2: switch_spritestack_Saadkms_middle1_era2_VAR10;
+							3: switch_spritestack_Saadkms_middle1_era2_VAR11;
+							4: switch_spritestack_Saadkms_middle1_era2_VAR12;
+							5: switch_spritestack_Saadkms_middle1_era2_VAR13;
+							6: switch_spritestack_Saadkms_middle1_era2_VAR14;
+							7: switch_spritestack_Saadkms_middle1_era2_VAR15;
+							   switch_spritestack_Saadkms_middle1_era2_VAR16;}	
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_middle2_era2, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_middle2_era2_VAR1;
+							2: switch_spritestack_Saadkms_middle2_era2_VAR2;
+							3: switch_spritestack_Saadkms_middle2_era2_VAR3;
+							4: switch_spritestack_Saadkms_middle2_era2_VAR4;
+							5: switch_spritestack_Saadkms_middle2_era2_VAR5;
+							6: switch_spritestack_Saadkms_middle2_era2_VAR6;
+							7: switch_spritestack_Saadkms_middle2_era2_VAR7;
+							   switch_spritestack_Saadkms_middle2_era2_VAR8;}		
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_back_era2, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_back_era2_VAR9;
+							2: switch_spritestack_Saadkms_back_era2_VAR10;
+							3: switch_spritestack_Saadkms_back_era2_VAR11;
+							4: switch_spritestack_Saadkms_back_era2_VAR12;
+							5: switch_spritestack_Saadkms_back_era2_VAR13;
+							6: switch_spritestack_Saadkms_back_era2_VAR14;
+							7: switch_spritestack_Saadkms_back_era2_VAR15;
+							   switch_spritestack_Saadkms_back_era2_VAR16;}	
+
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_era2, position_in_vehid_chain %6) {
+							 1: return random_choose_Saadkms_middle2_era2;
+							 4: return random_choose_Saadkms_middle1_era2;}
+
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_era2_back, position_in_vehid_chain_from_end) {
+							 0.. 3: return random_choose_Saadkms_back_era2;
+								default: switch_autoconsist1_Saadkms_era2;}
+								
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_era2_front, position_in_vehid_chain) {
+							0..3: return random_choose_Saadkms_front_era2;
+							4 .. 999:switch_autoconsist1_Saadkms_era2_back;
+								default: switch_autoconsist1_Saadkms_era2_back;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_Saadkms_era2_lenghtcheck, num_vehs_in_consist) {
+							0 .. 5: random_choose_Saadkms_single_era2;
+							6 .. 999: switch_autoconsist1_Saadkms_era2_front;}								
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Saadkms_era2, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_Saadkms_era2_lenghtcheck;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Saadkms_era2, extra_callback_info1) {
+							1 .. 2: return ITEM_SAADKMS_ERA2;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+
+item (FEAT_TRAINS , ITEM_SAADKMS_ERA2, 8952)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SAADKMS_ERA2);
+						variant_group:					8950;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1995,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						cargo_allow_refit:              [];
+						cargo_disallow_refit: 			[];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						20 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_Saadkms_era2;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Saadkms_era2;
+			length							: switch_length_Saadkms;
+			purchase						: switch_purchase_Saadkms;
+			cost_factor						: 195;
+			running_cost_factor				: switch_spritestack_Saadkms_era2;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+
+
+
+//Only Era 2 trucks
+
+
+//Spritestacking for Single wagon
+																																										
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era3_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era3_VAR1;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era3_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era3_VAR2;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era3_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era3_VAR3;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era3_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era3_VAR4;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era3_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era3_VAR5;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era3_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era3_VAR6;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era3_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era3_VAR7;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era3_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era3_VAR8;}	
+
+//Spritestacking for front wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era3_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era3_VAR1;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era3_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era3_VAR2;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era3_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era3_VAR3;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era3_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era3_VAR4;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era3_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era3_VAR5;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era3_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era3_VAR6;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era3_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era3_VAR7;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era3_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era3_VAR8;}	
+
+//Spritestacking for middle 1 wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era3_VAR9, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR9;}						
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era3_VAR10, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR10;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era3_VAR11, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR11;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era3_VAR12, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR12;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era3_VAR13, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR13;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era3_VAR14, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR14;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era3_VAR15, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR15;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era3_VAR16, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR16;}
+
+//Spritestacking for middle2 wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era3_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR1;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era3_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR2;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era3_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR3;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era3_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR4;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era3_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR5;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era3_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR6;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era3_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR7;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era3_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR8;}
+
+//Spritestacking for middle 1 wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era3_VAR9, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR9;}						
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era3_VAR10, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR10;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era3_VAR11, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR11;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era3_VAR12, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR12;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era3_VAR13, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR13;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era3_VAR14, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR14;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era3_VAR15, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR15;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era3_VAR16, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era3_VAR16;}
+
+//Random switches
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_single_era3, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_single_era3_VAR1;
+							2: switch_spritestack_Saadkms_single_era3_VAR2;
+							3: switch_spritestack_Saadkms_single_era3_VAR3;
+							4: switch_spritestack_Saadkms_single_era3_VAR4;
+							5: switch_spritestack_Saadkms_single_era3_VAR5;
+							6: switch_spritestack_Saadkms_single_era3_VAR6;
+							7: switch_spritestack_Saadkms_single_era3_VAR7;
+							   switch_spritestack_Saadkms_single_era3_VAR8;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_front_era3, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_front_era3_VAR1;
+							2: switch_spritestack_Saadkms_front_era3_VAR2;
+							3: switch_spritestack_Saadkms_front_era3_VAR3;
+							4: switch_spritestack_Saadkms_front_era3_VAR4;
+							5: switch_spritestack_Saadkms_front_era3_VAR5;
+							6: switch_spritestack_Saadkms_front_era3_VAR6;
+							7: switch_spritestack_Saadkms_front_era3_VAR7;
+							   switch_spritestack_Saadkms_front_era3_VAR8;}							   
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_middle1_era3, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_middle1_era3_VAR9;
+							2: switch_spritestack_Saadkms_middle1_era3_VAR10;
+							3: switch_spritestack_Saadkms_middle1_era3_VAR11;
+							4: switch_spritestack_Saadkms_middle1_era3_VAR12;
+							5: switch_spritestack_Saadkms_middle1_era3_VAR13;
+							6: switch_spritestack_Saadkms_middle1_era3_VAR14;
+							7: switch_spritestack_Saadkms_middle1_era3_VAR15;
+							   switch_spritestack_Saadkms_middle1_era3_VAR16;}	
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_middle2_era3, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_middle2_era3_VAR1;
+							2: switch_spritestack_Saadkms_middle2_era3_VAR2;
+							3: switch_spritestack_Saadkms_middle2_era3_VAR3;
+							4: switch_spritestack_Saadkms_middle2_era3_VAR4;
+							5: switch_spritestack_Saadkms_middle2_era3_VAR5;
+							6: switch_spritestack_Saadkms_middle2_era3_VAR6;
+							7: switch_spritestack_Saadkms_middle2_era3_VAR7;
+							   switch_spritestack_Saadkms_middle2_era3_VAR8;}		
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_back_era3, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_back_era3_VAR9;
+							2: switch_spritestack_Saadkms_back_era3_VAR10;
+							3: switch_spritestack_Saadkms_back_era3_VAR11;
+							4: switch_spritestack_Saadkms_back_era3_VAR12;
+							5: switch_spritestack_Saadkms_back_era3_VAR13;
+							6: switch_spritestack_Saadkms_back_era3_VAR14;
+							7: switch_spritestack_Saadkms_back_era3_VAR15;
+							   switch_spritestack_Saadkms_back_era3_VAR16;}	
+
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_era3, position_in_vehid_chain %6) {
+							 1: return random_choose_Saadkms_middle2_era3;
+							 4: return random_choose_Saadkms_middle1_era3;}
+
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_era3_back, position_in_vehid_chain_from_end) {
+							 0.. 3: return random_choose_Saadkms_back_era3;
+								default: switch_autoconsist1_Saadkms_era3;}
+								
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_era3_front, position_in_vehid_chain) {
+							0..3: return random_choose_Saadkms_front_era3;
+							4 .. 999:switch_autoconsist1_Saadkms_era3_back;
+								default: switch_autoconsist1_Saadkms_era3_back;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_Saadkms_era3_lenghtcheck, num_vehs_in_consist) {
+							0 .. 5: random_choose_Saadkms_single_era3;
+							6 .. 999: switch_autoconsist1_Saadkms_era3_front;}								
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Saadkms_era3, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_Saadkms_era3_lenghtcheck;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Saadkms_era3, extra_callback_info1) {
+							1 .. 2: return ITEM_SAADKMS_ERA3;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+
+item (FEAT_TRAINS , ITEM_SAADKMS_ERA3, 8953)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SAADKMS_ERA3);
+						variant_group:					8950;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						cargo_allow_refit:              [];
+						cargo_disallow_refit: 			[];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						20 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_Saadkms_era3;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Saadkms_era3;
+			length							: switch_length_Saadkms;
+			purchase						: switch_purchase_Saadkms;
+			cost_factor						: 195;
+			running_cost_factor				: switch_spritestack_Saadkms_era3;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+
+
+
+//Only Era 2 trucks
+
+
+//Spritestacking for Single wagon
+																																										
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era4_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era4_VAR1;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era4_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era4_VAR2;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era4_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era4_VAR3;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era4_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era4_VAR4;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era4_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era4_VAR5;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era4_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era4_VAR6;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era4_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era4_VAR7;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_single_era4_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_single;
+					1: spritegroup_Saadkms_load_piece_era4_VAR8;}	
+
+//Spritestacking for front wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era4_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era4_VAR1;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era4_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era4_VAR2;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era4_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era4_VAR3;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era4_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era4_VAR4;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era4_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era4_VAR5;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era4_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era4_VAR6;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era4_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era4_VAR7;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_front_era4_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_front;
+					1: spritegroup_Saadkms_load_piece_era4_VAR8;}	
+
+//Spritestacking for middle 1 wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era4_VAR9, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR9;}						
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era4_VAR10, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR10;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era4_VAR11, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR11;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era4_VAR12, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR12;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era4_VAR13, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR13;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era4_VAR14, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR14;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era4_VAR15, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR15;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle1_era4_VAR16, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR16;}
+
+//Spritestacking for middle2 wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era4_VAR1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR1;}						
+						
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era4_VAR2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR2;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era4_VAR3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR3;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era4_VAR4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR4;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era4_VAR5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR5;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era4_VAR6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR6;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era4_VAR7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR7;}	
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_middle2_era4_VAR8, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR8;}
+
+//Spritestacking for middle 1 wagon
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era4_VAR9, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR9;}						
+
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era4_VAR10, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR10;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era4_VAR11, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR11;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era4_VAR12, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR12;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era4_VAR13, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR13;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era4_VAR14, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR14;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era4_VAR15, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR15;}
+					
+				switch(FEAT_TRAINS, SELF, switch_spritestack_Saadkms_back_era4_VAR16, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+					0: spriteset_Saadkms_middle;
+					1: spritegroup_Saadkms_load_piece_era4_VAR16;}
+
+//Random switches
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_single_era4, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_single_era4_VAR1;
+							2: switch_spritestack_Saadkms_single_era4_VAR2;
+							3: switch_spritestack_Saadkms_single_era4_VAR3;
+							4: switch_spritestack_Saadkms_single_era4_VAR4;
+							5: switch_spritestack_Saadkms_single_era4_VAR5;
+							6: switch_spritestack_Saadkms_single_era4_VAR6;
+							7: switch_spritestack_Saadkms_single_era4_VAR7;
+							   switch_spritestack_Saadkms_single_era4_VAR8;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_front_era4, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_front_era4_VAR1;
+							2: switch_spritestack_Saadkms_front_era4_VAR2;
+							3: switch_spritestack_Saadkms_front_era4_VAR3;
+							4: switch_spritestack_Saadkms_front_era4_VAR4;
+							5: switch_spritestack_Saadkms_front_era4_VAR5;
+							6: switch_spritestack_Saadkms_front_era4_VAR6;
+							7: switch_spritestack_Saadkms_front_era4_VAR7;
+							   switch_spritestack_Saadkms_front_era4_VAR8;}							   
+
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_middle1_era4, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_middle1_era4_VAR9;
+							2: switch_spritestack_Saadkms_middle1_era4_VAR10;
+							3: switch_spritestack_Saadkms_middle1_era4_VAR11;
+							4: switch_spritestack_Saadkms_middle1_era4_VAR12;
+							5: switch_spritestack_Saadkms_middle1_era4_VAR13;
+							6: switch_spritestack_Saadkms_middle1_era4_VAR14;
+							7: switch_spritestack_Saadkms_middle1_era4_VAR15;
+							   switch_spritestack_Saadkms_middle1_era4_VAR16;}	
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_middle2_era4, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_middle2_era4_VAR1;
+							2: switch_spritestack_Saadkms_middle2_era4_VAR2;
+							3: switch_spritestack_Saadkms_middle2_era4_VAR3;
+							4: switch_spritestack_Saadkms_middle2_era4_VAR4;
+							5: switch_spritestack_Saadkms_middle2_era4_VAR5;
+							6: switch_spritestack_Saadkms_middle2_era4_VAR6;
+							7: switch_spritestack_Saadkms_middle2_era4_VAR7;
+							   switch_spritestack_Saadkms_middle2_era4_VAR8;}		
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_Saadkms_back_era4, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_spritestack_Saadkms_back_era4_VAR9;
+							2: switch_spritestack_Saadkms_back_era4_VAR10;
+							3: switch_spritestack_Saadkms_back_era4_VAR11;
+							4: switch_spritestack_Saadkms_back_era4_VAR12;
+							5: switch_spritestack_Saadkms_back_era4_VAR13;
+							6: switch_spritestack_Saadkms_back_era4_VAR14;
+							7: switch_spritestack_Saadkms_back_era4_VAR15;
+							   switch_spritestack_Saadkms_back_era4_VAR16;}	
+
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_era4, position_in_vehid_chain %6) {
+							 1: return random_choose_Saadkms_middle2_era4;
+							 4: return random_choose_Saadkms_middle1_era4;}
+
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_era4_back, position_in_vehid_chain_from_end) {
+							 0.. 3: return random_choose_Saadkms_back_era4;
+								default: switch_autoconsist1_Saadkms_era4;}
+								
+						switch(FEAT_TRAINS, SELF, switch_autoconsist1_Saadkms_era4_front, position_in_vehid_chain) {
+							0..3: return random_choose_Saadkms_front_era4;
+							4 .. 999:switch_autoconsist1_Saadkms_era4_back;
+								default: switch_autoconsist1_Saadkms_era4_back;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_Saadkms_era4_lenghtcheck, num_vehs_in_consist) {
+							0 .. 5: random_choose_Saadkms_single_era4;
+							6 .. 999: switch_autoconsist1_Saadkms_era4_front;}								
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Saadkms_era4, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_Saadkms_era4_lenghtcheck;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Saadkms_era4, extra_callback_info1) {
+							1 .. 2: return ITEM_SAADKMS_ERA4;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+
+item (FEAT_TRAINS , ITEM_SAADKMS_ERA4, 8954)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SAADKMS_ERA4);
+						variant_group:					8950;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						cargo_allow_refit:              [];
+						cargo_disallow_refit: 			[];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						20 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_Saadkms_era4;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Saadkms_era4;
+			length							: switch_length_Saadkms;
+			purchase						: switch_purchase_Saadkms;
+			cost_factor						: 195;
+			running_cost_factor				: switch_spritestack_Saadkms_era4;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

@@ -214,7 +214,7 @@ item (FEAT_TRAINS , ITEM_OBB_KFNB_IIIB_BUILD, 0033)
 						
 			//Train specific properties
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
-						speed: 							80 km/h;
+						speed: 							60 km/h;
 						refit_cost: 					0;
 						track_type: 					RAIL;
 						power:  						350 hp;
@@ -293,7 +293,7 @@ item (FEAT_TRAINS , ITEM_OBB_KFNB_IIIB_CURRENT, 0034)
 						
 			//Train specific properties
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
-						speed: 							80 km/h;
+						speed: 							60 km/h;
 						refit_cost: 					0;
 						track_type: 					RAIL;
 						power:  						350 hp;
@@ -360,7 +360,7 @@ item (FEAT_TRAINS , ITEM_OBB_KFNB_IIIB_KFNB, 0035)
 						
 			//Train specific properties
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
-						speed: 							80 km/h;
+						speed: 							60 km/h;
 						refit_cost: 					0;
 						track_type: 					RAIL;
 						power:  						350 hp;
@@ -427,7 +427,7 @@ item (FEAT_TRAINS , ITEM_OBB_KFNB_IIIB_KFNB2, 0036)
 						
 			//Train specific properties
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
-						speed: 							80 km/h;
+						speed: 							60 km/h;
 						refit_cost: 					0;
 						track_type: 					RAIL;
 						power:  						350 hp;
@@ -494,7 +494,7 @@ item (FEAT_TRAINS , ITEM_OBB_KFNB_IIIB_KKSTB, 0037)
 						
 			//Train specific properties
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
-						speed: 							80 km/h;
+						speed: 							60 km/h;
 						refit_cost: 					0;
 						track_type: 					RAIL;
 						power:  						350 hp;

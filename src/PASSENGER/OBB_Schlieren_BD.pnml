@@ -1,0 +1,562 @@
+//#########################################
+//### ÖBB Schlierenwagen Halbgepäckwagen###
+//#########################################
+
+//Spriteset Jaffa 1975
+
+spriteset(spriteset_OBB_Schlieren_Jaffa1_BD, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa1_BD_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Jaffa1_BD, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa1_BD_1x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa1_BD_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Jaffa1_BD, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa1_BD_2x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa1_BD_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Jaffa1_BD, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa1_BD_4x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa1_BD_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+//Spriteset Jaffa 1983
+
+spriteset(spriteset_OBB_Schlieren_Jaffa2_BD, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa2_BD_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Jaffa2_BD, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa2_BD_1x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa2_BD_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Jaffa2_BD, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa2_BD_2x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa2_BD_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Jaffa2_BD, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa2_BD_4x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa2_BD_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+
+spriteset(spriteset_OBB_Schlieren_Jaffa_BD_loading, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa_BD_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Jaffa_BD_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa_BD_loading_1x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa_BD_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Jaffa_BD_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa_BD_loading_2x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa_BD_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Jaffa_BD_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa_BD_loading_4x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa_BD_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}									
+									
+spritegroup spritegroup_OBB_Schlieren_BD_Jaffa_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_OBB_Schlieren_Jaffa_BD_loading];}
+
+
+//Spriteset Spar
+
+spriteset(spriteset_OBB_Schlieren_Spar_BD, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Spar_BD, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_1x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Spar_BD, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_2x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Spar_BD, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_4x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+
+spriteset(spriteset_OBB_Schlieren_Spar_BD_loading, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Spar_BD_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_loading_1x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Spar_BD_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_loading_2x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Spar_BD_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_loading_4x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}									
+									
+spritegroup spritegroup_OBB_Schlieren_BD_Spar_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_OBB_Schlieren_Spar_BD_loading];}		
+		
+
+//Spriteset Valousek
+
+spriteset(spriteset_OBB_Schlieren_Valousek_BD, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Valousek_BD, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_1x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Valousek_BD, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_2x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Valousek_BD, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_4x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_4x_mask.png")
+									{template_148trains_4x(0, 0)}
+
+
+spriteset(spriteset_OBB_Schlieren_Valousek_BD_loading, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Valousek_BD_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_loading_1x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_loading_1x_mask.png")
+									{template_148trains_1x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Valousek_BD_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_loading_2x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_loading_2x_mask.png")
+									{template_148trains_2x(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Valousek_BD_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_loading_4x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_loading_4x_mask.png")
+									{template_148trains_4x(0, 0)}									
+									
+spritegroup spritegroup_OBB_Schlieren_BD_Valousek_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_OBB_Schlieren_Valousek_BD_loading];}		
+
+
+//Spritesets purchase
+
+spriteset(spriteset_OBB_Schlieren_Jaffa1_BD_purchase, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa1_BD_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Jaffa1_BD_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa1_BD_1x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa1_BD_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+spriteset(spriteset_OBB_Schlieren_Jaffa2_BD_purchase, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa2_BD_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Jaffa2_BD_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa2_BD_1x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Jaffa2_BD_1x_mask.png")
+									{template_purchase(0, 0)}		
+																	
+spriteset(spriteset_OBB_Schlieren_Spar_BD_purchase, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Spar_BD_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_1x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Spar_BD_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_OBB_Schlieren_Valousek_BD_purchase, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_OBB_Schlieren_Valousek_BD_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_1x_32bpp.png", "gfx/OBB_Schlieren_BD/OBB_Schlieren_Valousek_BD_1x_mask.png")
+									{template_purchase(0, 0)}	
+									
+//Switches
+
+						switch (FEAT_TRAINS,SELF, switch_OBB_Schlieren_BD_purchase,build_year){
+							   0 .. 1982: spriteset_OBB_Schlieren_Jaffa1_BD_purchase;							   
+							1983 .. 1986: spriteset_OBB_Schlieren_Jaffa2_BD_purchase;
+							1986 .. 1991: spriteset_OBB_Schlieren_Spar_BD_purchase;
+							1992 .. 2050: spriteset_OBB_Schlieren_Valousek_BD_purchase;
+								spriteset_OBB_Schlieren_Valousek_BD_purchase;}							
+								
+						switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_Schlieren_Jaffa1_BD, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Schlieren_Jaffa1_BD;
+							1: spritegroup_OBB_Schlieren_BD_Jaffa_loading;}																									
+								
+						switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_Schlieren_Jaffa2_BD, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Schlieren_Jaffa2_BD;
+							1: spritegroup_OBB_Schlieren_BD_Jaffa_loading;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_Schlieren_Spar_BD, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Schlieren_Spar_BD;
+							1: spritegroup_OBB_Schlieren_BD_Spar_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_Schlieren_Valousek_BD, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Schlieren_Valousek_BD;
+							1: spritegroup_OBB_Schlieren_BD_Valousek_loading;}							
+
+						switch(FEAT_TRAINS, SELF, switch_length_OBB_Schlieren_BD, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 6;
+							2: 4;}	
+							
+						switch (FEAT_TRAINS, PARENT, switch_running_cost_OBB_Schlieren_BD,  switch_check_Restaurant_0()) {
+							1: return 0;
+							0: return 1600;}	
+							
+						switch (FEAT_TRAINS, PARENT, switch_cargo_aging_OBB_Schlieren_BD,  switch_check_Restaurant_0()) {
+							1: return 233;
+							0: return 185;}								
+
+						switch(FEAT_TRAINS, SELF, switch_cargo_capacity_OBB_Schlieren_BD, cargo_type_in_veh ) {
+							PASS: 24;
+							TOUR: 24;
+						    MAIL: 24;
+						    GOOD: 24;
+						    VALU: 24;}	
+						    
+						switch (FEAT_TRAINS,SELF, switch_OBB_Schlieren_BD_build_year,build_year){
+							   0 .. 1982: switch_loadstack_OBB_Schlieren_Jaffa1_BD;	
+							1983 .. 1986: switch_loadstack_OBB_Schlieren_Jaffa2_BD;							   
+							1987 .. 1991: switch_loadstack_OBB_Schlieren_Spar_BD;
+							1992 .. 2050: switch_loadstack_OBB_Schlieren_Valousek_BD;
+								switch_loadstack_OBB_Schlieren_Valousek_BD;}								
+															
+						switch(FEAT_TRAINS, SELF, switch_graphics_OBB_Schlieren_BD_build, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_OBB_Schlieren_BD_build_year;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Schlieren_BD_build, extra_callback_info1) {
+							1: return ITEM_OBB_SCHLIEREN_BD_BUILD;
+							2: return ITEM_MAIL_24;											
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+																						
+item (FEAT_TRAINS , ITEM_OBB_SCHLIEREN_BD_BUILD, 7077)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_SCHLIEREN_BD_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1975,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						32 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					24;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_OBB_Schlieren_BD_build;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_EXPRESS),);
+			length							: switch_length_OBB_Schlieren_BD;
+			articulated_part				: switch_articulated_OBB_Schlieren_BD_build;
+			purchase						: switch_OBB_Schlieren_BD_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_OBB_Schlieren_BD;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_OBB_Schlieren_BD;
+			cargo_capacity					: switch_cargo_capacity_OBB_Schlieren_BD;		
+			}
+		}
+
+
+						switch (FEAT_TRAINS,SELF, switch_OBB_Schlieren_BD_current_year,current_year){
+							   0 .. 1982: switch_loadstack_OBB_Schlieren_Jaffa1_BD;	
+							1983 .. 1986: switch_loadstack_OBB_Schlieren_Jaffa2_BD;							   
+							1987 .. 1991: switch_loadstack_OBB_Schlieren_Spar_BD;
+							1992 .. 2050: switch_loadstack_OBB_Schlieren_Valousek_BD;
+								switch_loadstack_OBB_Schlieren_Valousek_BD;}								
+															
+						switch(FEAT_TRAINS, SELF, switch_graphics_OBB_Schlieren_BD_current, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_OBB_Schlieren_BD_current_year;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Schlieren_BD_current, extra_callback_info1) {
+							1: return ITEM_OBB_SCHLIEREN_BD_CURRENT;
+							2: return ITEM_MAIL_24;											
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+																						
+item (FEAT_TRAINS , ITEM_OBB_SCHLIEREN_BD_CURRENT, 7078)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_SCHLIEREN_BD_CURRENT);
+						variant_group:					7077;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1975,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						32 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					24;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_OBB_Schlieren_BD_current;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_EXPRESS),);
+			length							: switch_length_OBB_Schlieren_BD;
+			articulated_part				: switch_articulated_OBB_Schlieren_BD_current;
+			purchase						: switch_OBB_Schlieren_BD_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_OBB_Schlieren_BD;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_OBB_Schlieren_BD;
+			cargo_capacity					: switch_cargo_capacity_OBB_Schlieren_BD;		
+			}
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_OBB_Schlieren_BD_Jaffa1, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_OBB_Schlieren_Jaffa1_BD;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Schlieren_BD_Jaffa1, extra_callback_info1) {
+							1: return ITEM_OBB_SCHLIEREN_BD_JAFFA1;
+							2: return ITEM_MAIL_24;											
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+																						
+item (FEAT_TRAINS , ITEM_OBB_SCHLIEREN_BD_JAFFA1, 7079)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_SCHLIEREN_BD_JAFFA1);
+						variant_group:					7077;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1975,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						32 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					24;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_OBB_Schlieren_BD_Jaffa1;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_EXPRESS),);
+			length							: switch_length_OBB_Schlieren_BD;
+			articulated_part				: switch_articulated_OBB_Schlieren_BD_Jaffa1;
+			purchase						: spriteset_OBB_Schlieren_Jaffa1_BD_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_OBB_Schlieren_BD;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_OBB_Schlieren_BD;
+			cargo_capacity					: switch_cargo_capacity_OBB_Schlieren_BD;		
+			}
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_OBB_Schlieren_BD_Jaffa2, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_OBB_Schlieren_Jaffa2_BD;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Schlieren_BD_Jaffa2, extra_callback_info1) {
+							1: return ITEM_OBB_SCHLIEREN_BD_JAFFA2;
+							2: return ITEM_MAIL_24;											
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+																						
+item (FEAT_TRAINS , ITEM_OBB_SCHLIEREN_BD_JAFFA2, 7080)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_SCHLIEREN_BD_JAFFA2);
+						variant_group:					7077;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1983,01,01);
+						model_life: 					22;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						32 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					24;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_OBB_Schlieren_BD_Jaffa2;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_EXPRESS),);
+			length							: switch_length_OBB_Schlieren_BD;
+			articulated_part				: switch_articulated_OBB_Schlieren_BD_Jaffa2;
+			purchase						: spriteset_OBB_Schlieren_Jaffa2_BD_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_OBB_Schlieren_BD;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_OBB_Schlieren_BD;
+			cargo_capacity					: switch_cargo_capacity_OBB_Schlieren_BD;		
+			}
+		}
+
+
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_OBB_Schlieren_BD_Spar, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_OBB_Schlieren_Spar_BD;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Schlieren_BD_Spar, extra_callback_info1) {
+							1: return ITEM_OBB_SCHLIEREN_BD_SPAR;
+							2: return ITEM_MAIL_24;											
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+																						
+item (FEAT_TRAINS , ITEM_OBB_SCHLIEREN_BD_SPAR, 7081)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_SCHLIEREN_BD_SPAR);
+						variant_group:					7077;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1983,01,01);
+						model_life: 					22;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						32 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					24;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_OBB_Schlieren_BD_Spar;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_EXPRESS),);
+			length							: switch_length_OBB_Schlieren_BD;
+			articulated_part				: switch_articulated_OBB_Schlieren_BD_Spar;
+			purchase						: spriteset_OBB_Schlieren_Spar_BD_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_OBB_Schlieren_BD;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_OBB_Schlieren_BD;
+			cargo_capacity					: switch_cargo_capacity_OBB_Schlieren_BD;		
+			}
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_OBB_Schlieren_BD_Valousek, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_OBB_Schlieren_Valousek_BD;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Schlieren_BD_Valousek, extra_callback_info1) {
+							1: return ITEM_OBB_SCHLIEREN_BD_VALOUSEK;
+							2: return ITEM_MAIL_24;											
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+																						
+item (FEAT_TRAINS , ITEM_OBB_SCHLIEREN_BD_VALOUSEK, 7082)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_SCHLIEREN_BD_VALOUSEK);
+						variant_group:					7077;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1983,01,01);
+						model_life: 					22;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						32 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					24;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_OBB_Schlieren_BD_Valousek;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_EXPRESS),);
+			length							: switch_length_OBB_Schlieren_BD;
+			articulated_part				: switch_articulated_OBB_Schlieren_BD_Valousek;
+			purchase						: spriteset_OBB_Schlieren_Valousek_BD_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_OBB_Schlieren_BD;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_OBB_Schlieren_BD;
+			cargo_capacity					: switch_cargo_capacity_OBB_Schlieren_BD;		
+			}
+		}

@@ -926,7 +926,7 @@ item (FEAT_TRAINS , ITEM_SZU_PENDEL_DVT_WEISS, 7954)
 						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_BD_build, extra_callback_info1) {
 							0: return ITEM_SZU_PENDEL_BD_BUILD;
 							1: return ITEM_SZU_PENDEL_BD_BUILD;
-							2: return ITEM_MAIL_25;												
+							2: return ITEM_MAIL_48;												
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
 
 																						
@@ -988,7 +988,7 @@ item (FEAT_TRAINS , ITEM_SZU_PENDEL_BD_BUILD, 7795)
 						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_BD_current, extra_callback_info1) {
 							0: return ITEM_SZU_PENDEL_BD_CURRENT;
 							1: return ITEM_SZU_PENDEL_BD_CURRENT;
-							2: return ITEM_MAIL_25;												
+							2: return ITEM_MAIL_48;												
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
 
 																						
@@ -1051,7 +1051,7 @@ item (FEAT_TRAINS , ITEM_SZU_PENDEL_BD_CURRENT, 7796)
 						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_BD_orange, extra_callback_info1) {
 							0: return ITEM_SZU_PENDEL_BD_ORANGE;
 							1: return ITEM_SZU_PENDEL_BD_ORANGE;
-							2: return ITEM_MAIL_25;												
+							2: return ITEM_MAIL_48;												
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
 
 																						
@@ -1113,7 +1113,7 @@ item (FEAT_TRAINS , ITEM_SZU_PENDEL_BD_ORANGE, 7797)
 						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_BD_rot, extra_callback_info1) {
 							0: return ITEM_SZU_PENDEL_BD_ROT;
 							1: return ITEM_SZU_PENDEL_BD_ROT;
-							2: return ITEM_MAIL_25;												
+							2: return ITEM_MAIL_48;												
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
 
 																						
@@ -1175,7 +1175,7 @@ item (FEAT_TRAINS , ITEM_SZU_PENDEL_BD_ROT, 7798)
 						switch (FEAT_TRAINS, SELF, switch_articulated_SZU_PENDEL_BD_weiss, extra_callback_info1) {
 							0: return ITEM_SZU_PENDEL_BD_WEISS;
 							1: return ITEM_SZU_PENDEL_BD_WEISS;
-							2: return ITEM_MAIL_25;												
+							2: return ITEM_MAIL_48;												
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
 
 																						

@@ -1,0 +1,493 @@
+//#########################################
+//###ÖBB Eurofima Typ UIC-Z Half_Baggage###
+//#########################################
+
+//Spritesets orange
+
+spriteset (spriteset_OBB_Eurofima_BD_orange, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_1x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_orange, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_2x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_Eurofima_BD_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_4x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+//Spriteset loading orange
+
+spriteset (spriteset_OBB_Eurofima_BD_orange_loading, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_orange_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_loading_1x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_orange_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_loading_2x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_Eurofima_BD_orange_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_loading_4x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}	
+					
+spritegroup spritegroup_OBB_Eurofima_BD_orange_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_OBB_Eurofima_BD_orange_loading];}															
+
+
+//Spritesets rot
+
+spriteset (spriteset_OBB_Eurofima_BD_rot, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_1x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_2x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_Eurofima_BD_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_4x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+//Spriteset loading rot
+
+spriteset (spriteset_OBB_Eurofima_BD_rot_loading, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_rot_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_loading_1x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_rot_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_loading_2x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_Eurofima_BD_rot_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_loading_4x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}	
+					
+spritegroup spritegroup_OBB_Eurofima_BD_rot_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_OBB_Eurofima_BD_rot_loading];}
+
+
+//Spritesets grau
+
+spriteset (spriteset_OBB_Eurofima_BD_grau, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_grau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_1x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_grau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_2x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_Eurofima_BD_grau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_4x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+//Spriteset loading grau
+
+spriteset (spriteset_OBB_Eurofima_BD_grau_loading, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_grau_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_loading_1x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_grau_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_loading_2x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_OBB_Eurofima_BD_grau_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_loading_4x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}	
+					
+spritegroup spritegroup_OBB_Eurofima_BD_grau_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_OBB_Eurofima_BD_grau_loading];}
+
+
+//Spritesets purchase
+
+spriteset (spriteset_OBB_Eurofima_BD_orange_purchase, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_orange_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_1x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_orange_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_OBB_Eurofima_BD_rot_purchase, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_rot_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_1x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_rot_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_OBB_Eurofima_BD_grau_purchase, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_OBB_Eurofima_BD_grau_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_1x_32bpp.png", "gfx/OBB_Eurofima_BD/OBB_Eurofima_BD_grau_1x_mask.png")
+					{template_purchase(0,0)}
+
+
+//Switches
+
+						switch (FEAT_TRAINS, SELF, switch_purchase_OBB_Eurofima_BD, current_year){
+							1900 .. 1986 : spriteset_OBB_Eurofima_BD_orange_purchase;
+							1987 .. 2007 : spriteset_OBB_Eurofima_BD_rot_purchase;
+							2008 .. 2100 : spriteset_OBB_Eurofima_BD_grau_purchase;														
+								spriteset_OBB_Eurofima_BD_grau_purchase;}	
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_Eurofima_BD_orange, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Eurofima_BD_orange;
+							1: spritegroup_OBB_Eurofima_BD_orange_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_Eurofima_BD_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Eurofima_BD_rot;
+							1: spritegroup_OBB_Eurofima_BD_rot_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_Eurofima_BD_grau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_OBB_Eurofima_BD_grau;
+							1: spritegroup_OBB_Eurofima_BD_grau_loading;}																					
+
+
+					switch (FEAT_TRAINS,SELF,switch_build_year_OBB_Eurofima_BD,build_year) {
+							1900 .. 1986 : switch_loadstack_OBB_Eurofima_BD_orange;
+							1987 .. 2007 : switch_loadstack_OBB_Eurofima_BD_rot;
+							2008 .. 2100 : switch_loadstack_OBB_Eurofima_BD_grau;														
+								switch_loadstack_OBB_Eurofima_BD_grau;}
+						
+						switch (FEAT_TRAINS,SELF,switch_current_year_OBB_Eurofima_BD,current_year) {
+							1900 .. 1986 : switch_loadstack_OBB_Eurofima_BD_orange;
+							1987 .. 2007 : switch_loadstack_OBB_Eurofima_BD_rot;
+							2008 .. 2100 : switch_loadstack_OBB_Eurofima_BD_grau;														
+								switch_loadstack_OBB_Eurofima_BD_grau;}	   								
+					
+						switch(FEAT_TRAINS, SELF, switch_length_OBB_Eurofima_BD, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}	
+
+						switch (FEAT_TRAINS, PARENT, switch_running_cost_OBB_Eurofima_BD,  switch_check_Restaurant_0()) {
+							1: return 0;
+							0: return 2650;}	
+							
+						switch (FEAT_TRAINS, PARENT, switch_cargo_aging_OBB_Eurofima_BD,  switch_check_Restaurant_0()) {
+							1: return 233;
+							0: return 185;}								
+
+						switch(FEAT_TRAINS, SELF, switch_cargo_capacity_OBB_Eurofima_BD, cargo_type_in_veh ) {
+							PASS: 27;
+							TOUR: 27;
+						    MAIL: 27;
+						    GOOD: 27;
+						    VALU: 27;}	
+						    							
+						switch(FEAT_TRAINS, SELF, switch_OBB_Eurofima_BD_graphics_build, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_OBB_Eurofima_BD;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Eurofima_BD_build, extra_callback_info1) {
+							1: return ITEM_OBB_EUROFIMA_BD_BUILD;	
+							2: return ITEM_MAIL_27;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_OBB_EUROFIMA_BD_BUILD, 7085)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_EUROFIMA_BD_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1976,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_OBB_Eurofima_BD_graphics_build;
+			additional_text				    :string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_DESC_HALFBAGG),
+											 string(STR_DESC_INTEX),);
+			length							: switch_length_OBB_Eurofima_BD;
+			articulated_part				: switch_articulated_OBB_Eurofima_BD_build;
+			purchase						: switch_purchase_OBB_Eurofima_BD;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_OBB_Eurofima_BD;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_OBB_Eurofima_BD;
+			cargo_capacity					: switch_cargo_capacity_OBB_Eurofima_BD;	
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_OBB_Eurofima_BD_graphics_current, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_OBB_Eurofima_BD;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Eurofima_BD_current, extra_callback_info1) {
+							1: return ITEM_OBB_EUROFIMA_BD_CURRENT;
+							2: return ITEM_MAIL_27;													
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_OBB_EUROFIMA_BD_CURRENT, 7086)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_EUROFIMA_BD_CURRENT);
+						variant_group:					7085;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1976,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_OBB_Eurofima_BD_graphics_current;
+			additional_text				    :string(STR_CONCAT_2, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_DESC_INTEX),);
+			length							: switch_length_OBB_Eurofima_BD;
+			articulated_part				: switch_articulated_OBB_Eurofima_BD_current;
+			purchase						: switch_purchase_OBB_Eurofima_BD;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_OBB_Eurofima_BD;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_OBB_Eurofima_BD;
+			cargo_capacity					: switch_cargo_capacity_OBB_Eurofima_BD;	
+			}
+		}
+
+					switch(FEAT_TRAINS, SELF, switch_OBB_Eurofima_BD_graphics_orange, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_OBB_Eurofima_BD_orange;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Eurofima_BD_orange, extra_callback_info1) {
+							1: return ITEM_OBB_EUROFIMA_BD_ORANGE;
+							2: return ITEM_MAIL_27;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_OBB_EUROFIMA_BD_ORANGE, 7087)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_EUROFIMA_BD_ORANGE);
+						variant_group:					7085;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1976,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_OBB_Eurofima_BD_graphics_orange;
+			additional_text				    :string(STR_CONCAT_2, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_DESC_INTEX),);
+			length							: switch_length_OBB_Eurofima_BD;
+			articulated_part				: switch_articulated_OBB_Eurofima_BD_orange;
+			purchase						: spriteset_OBB_Eurofima_BD_orange_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_OBB_Eurofima_BD;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_OBB_Eurofima_BD;
+			cargo_capacity					: switch_cargo_capacity_OBB_Eurofima_BD;	
+			}
+		}
+
+
+					switch(FEAT_TRAINS, SELF, switch_OBB_Eurofima_BD_graphics_rot, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_OBB_Eurofima_BD_rot;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Eurofima_BD_rot, extra_callback_info1) {
+							1: return ITEM_OBB_EUROFIMA_BD_ROT;	
+							2: return ITEM_MAIL_27;											
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_OBB_EUROFIMA_BD_ROT, 7088)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_EUROFIMA_BD_ROT);
+						variant_group:					7085;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1987,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_OBB_Eurofima_BD_graphics_rot;
+			additional_text				    :string(STR_CONCAT_2, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_DESC_INTEX),);
+			length							: switch_length_OBB_Eurofima_BD;
+			articulated_part				: switch_articulated_OBB_Eurofima_BD_rot;
+			purchase						: spriteset_OBB_Eurofima_BD_rot_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_OBB_Eurofima_BD;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_OBB_Eurofima_BD;
+			cargo_capacity					: switch_cargo_capacity_OBB_Eurofima_BD;	
+			}
+		}
+
+
+					switch(FEAT_TRAINS, SELF, switch_OBB_Eurofima_BD_graphics_grau, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_OBB_Eurofima_BD_grau;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_OBB_Eurofima_BD_grau, extra_callback_info1) {
+							1: return ITEM_OBB_EUROFIMA_BD_GRAU;
+							2: return ITEM_MAIL_27;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_OBB_EUROFIMA_BD_GRAU, 7089)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OBB_EUROFIMA_BD_GRAU);
+						variant_group:					7085;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2008,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_OBB_Eurofima_BD_graphics_grau;
+			additional_text				    :string(STR_CONCAT_2, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_DESC_INTEX),);
+			length							: switch_length_OBB_Eurofima_BD;
+			articulated_part				: switch_articulated_OBB_Eurofima_BD_grau;
+			purchase						: spriteset_OBB_Eurofima_BD_grau_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_OBB_Eurofima_BD;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_OBB_Eurofima_BD;
+			cargo_capacity					: switch_cargo_capacity_OBB_Eurofima_BD;	
+			}
+		}

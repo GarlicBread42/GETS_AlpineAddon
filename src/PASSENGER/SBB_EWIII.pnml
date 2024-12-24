@@ -381,7 +381,7 @@ item (FEAT_TRAINS , ITEM_SBB_EW3_SWISSEX_DVT, 7849)
 						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_EW3_SwissEx_AD, extra_callback_info1) {
 							0: return ITEM_SBB_EW3_SWISSEX_AD;	
 							1: return ITEM_SBB_EW3_SWISSEX_AD;
-							2: return ITEM_MAIL_23;											
+							2: return ITEM_MAIL_48;											
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
 
 																						

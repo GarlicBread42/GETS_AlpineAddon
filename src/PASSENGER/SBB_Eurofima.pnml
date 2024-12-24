@@ -1,0 +1,502 @@
+//############################
+//###SBB Eurofima Typ UIC-Z###
+//############################
+
+//Spritesets orange
+
+spriteset (spriteset_SBB_Eurofima_A_orange, "gfx/SBB_Eurofima/SBB_Eurofima_A_orange_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_SBB_Eurofima_A_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_A_orange_1x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_A_orange_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Eurofima_A_orange, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_A_orange_2x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_A_orange_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Eurofima_A_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_A_orange_4x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_A_orange_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spriteset (spriteset_SBB_Eurofima_B_orange, "gfx/SBB_Eurofima/SBB_Eurofima_B_orange_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_SBB_Eurofima_B_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_B_orange_1x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_B_orange_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Eurofima_B_orange, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_B_orange_2x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_B_orange_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Eurofima_B_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_B_orange_4x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_B_orange_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+//Spriteset loading orange
+
+spriteset (spriteset_SBB_Eurofima_loading_orange, "gfx/SBB_Eurofima/SBB_Eurofima_loading_orange_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_SBB_Eurofima_loading_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_loading_orange_1x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_loading_orange_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Eurofima_loading_orange, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_loading_orange_2x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_loading_orange_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Eurofima_loading_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_loading_orange_4x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_loading_orange_4x_mask.png")
+					{template_158trains_4x(0,0)}	
+					
+spritegroup spritegroup_SBB_Eurofima_loading_orange
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_Eurofima_loading_orange];}															
+
+
+//Spritesets grau
+
+spriteset (spriteset_SBB_Eurofima_A_grau, "gfx/SBB_Eurofima/SBB_Eurofima_A_grau_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_SBB_Eurofima_A_grau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_A_grau_1x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_A_grau_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Eurofima_A_grau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_A_grau_2x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_A_grau_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Eurofima_A_grau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_A_grau_4x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_A_grau_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spriteset (spriteset_SBB_Eurofima_B_grau, "gfx/SBB_Eurofima/SBB_Eurofima_B_grau_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_SBB_Eurofima_B_grau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_B_grau_1x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_B_grau_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Eurofima_B_grau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_B_grau_2x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_B_grau_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Eurofima_B_grau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_B_grau_4x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_B_grau_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+//Spriteset loading grau
+
+spriteset (spriteset_SBB_Eurofima_loading_grau, "gfx/SBB_Eurofima/SBB_Eurofima_loading_grau_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_SBB_Eurofima_loading_grau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_loading_grau_1x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_loading_grau_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Eurofima_loading_grau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_loading_grau_2x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_loading_grau_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Eurofima_loading_grau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_loading_grau_4x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_loading_grau_4x_mask.png")
+					{template_158trains_4x(0,0)}	
+					
+spritegroup spritegroup_SBB_Eurofima_loading_grau
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_Eurofima_loading_grau];}	
+
+
+//Spritesets IC
+
+spriteset (spriteset_SBB_Eurofima_A_IC, "gfx/SBB_Eurofima/SBB_Eurofima_A_IC_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_SBB_Eurofima_A_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_A_IC_1x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_A_IC_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Eurofima_A_IC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_A_IC_2x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_A_IC_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Eurofima_A_IC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_A_IC_4x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_A_IC_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spriteset (spriteset_SBB_Eurofima_B_IC, "gfx/SBB_Eurofima/SBB_Eurofima_B_IC_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_SBB_Eurofima_B_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_B_IC_1x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_B_IC_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Eurofima_B_IC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_B_IC_2x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_B_IC_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Eurofima_B_IC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_B_IC_4x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_B_IC_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+//Spriteset loading IC
+
+spriteset (spriteset_SBB_Eurofima_loading_IC, "gfx/SBB_Eurofima/SBB_Eurofima_loading_IC_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_SBB_Eurofima_loading_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_loading_IC_1x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_loading_IC_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_SBB_Eurofima_loading_IC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_loading_IC_2x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_loading_IC_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_SBB_Eurofima_loading_IC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_loading_IC_4x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_loading_IC_4x_mask.png")
+					{template_158trains_4x(0,0)}	
+					
+spritegroup spritegroup_SBB_Eurofima_loading_IC
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_SBB_Eurofima_loading_IC];}	
+
+
+//Spritesets purchase
+
+spriteset (spriteset_SBB_Eurofima_B_orange_purchase, "gfx/SBB_Eurofima/SBB_Eurofima_B_orange_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_SBB_Eurofima_B_orange_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_B_orange_1x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_B_orange_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_SBB_Eurofima_B_grau_purchase, "gfx/SBB_Eurofima/SBB_Eurofima_B_grau_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_SBB_Eurofima_B_grau_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_B_grau_1x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_B_grau_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_SBB_Eurofima_B_IC_purchase, "gfx/SBB_Eurofima/SBB_Eurofima_B_IC_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_SBB_Eurofima_B_IC_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_Eurofima/SBB_Eurofima_B_IC_1x_32bpp.png", "gfx/SBB_Eurofima/SBB_Eurofima_B_IC_1x_mask.png")
+					{template_purchase(0,0)}
+					
+//Switches
+
+						switch (FEAT_TRAINS, SELF, switch_purchase_SBB_Eurofima, current_year){
+							1900 .. 1992 : spriteset_SBB_Eurofima_B_orange_purchase;
+							1993 .. 2000 : spriteset_SBB_Eurofima_B_grau_purchase;
+							2001 .. 2100 : spriteset_SBB_Eurofima_B_IC_purchase;														
+								spriteset_SBB_Eurofima_B_IC_purchase;}	
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Eurofima_A_orange, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Eurofima_A_orange;
+							1: spritegroup_SBB_Eurofima_loading_orange;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Eurofima_B_orange, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Eurofima_B_orange;
+							1: spritegroup_SBB_Eurofima_loading_orange;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Eurofima_A_grau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Eurofima_A_grau;
+							1: spritegroup_SBB_Eurofima_loading_grau;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Eurofima_B_grau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Eurofima_B_grau;
+							1: spritegroup_SBB_Eurofima_loading_grau;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Eurofima_A_IC, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Eurofima_A_IC;
+							1: spritegroup_SBB_Eurofima_loading_IC;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_Eurofima_B_IC, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_SBB_Eurofima_B_IC;
+							1: spritegroup_SBB_Eurofima_loading_IC;}																										
+
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Eurofima_orange, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_SBB_Eurofima_A_orange;
+							   switch_loadstack_SBB_Eurofima_B_orange;}
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Eurofima_grau, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_SBB_Eurofima_A_grau;							
+							   switch_loadstack_SBB_Eurofima_B_grau;}	
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SBB_Eurofima_IC, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_SBB_Eurofima_A_IC;							
+							   switch_loadstack_SBB_Eurofima_B_IC;}							   						   
+
+					switch (FEAT_TRAINS,SELF,switch_build_year_SBB_Eurofima,build_year) {
+							1900 .. 1992 : random_choose_SBB_Eurofima_orange;
+							1993 .. 2000 : random_choose_SBB_Eurofima_grau;
+							2001 .. 2100 : random_choose_SBB_Eurofima_IC;														
+								random_choose_SBB_Eurofima_IC;}
+						
+						switch (FEAT_TRAINS,SELF,switch_current_year_SBB_Eurofima,current_year) {
+							1900 .. 1992 : random_choose_SBB_Eurofima_orange;
+							1993 .. 2000 : random_choose_SBB_Eurofima_grau;
+							2001 .. 2100 : random_choose_SBB_Eurofima_IC;														
+								random_choose_SBB_Eurofima_IC;}	   								
+					
+						switch(FEAT_TRAINS, SELF, switch_length_SBB_Eurofima, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}	
+
+						switch (FEAT_TRAINS, PARENT, switch_running_cost_SBB_Eurofima,  switch_check_Restaurant_0()) {
+							1: return 0;
+							0: return 2650;}	
+							
+						switch (FEAT_TRAINS, PARENT, switch_cargo_aging_SBB_Eurofima,  switch_check_Restaurant_0()) {
+							1: return 233;
+							0: return 185;}								
+							
+						switch(FEAT_TRAINS, SELF, switch_SBB_Eurofima_graphics_build, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_SBB_Eurofima;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Eurofima_build, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_EUROFIMA_BUILD;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_EUROFIMA_BUILD, 6729)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_EUROFIMA_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1977,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_SBB_Eurofima_graphics_build;
+			additional_text				    :string(STR_CONCAT_2, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_DESC_INTEX),);
+			length							: switch_length_SBB_Eurofima;
+			articulated_part				: switch_articulated_SBB_Eurofima_build;
+			purchase						: switch_purchase_SBB_Eurofima;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_Eurofima;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_Eurofima;	
+			}
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_SBB_Eurofima_graphics_current, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_SBB_Eurofima;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Eurofima_current, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_EUROFIMA_CURRENT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_EUROFIMA_CURRENT, 6730)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_EUROFIMA_CURRENT);
+						variant_group:					6729;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1977,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_SBB_Eurofima_graphics_current;
+			additional_text				    :string(STR_CONCAT_2, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_DESC_INTEX),);
+			length							: switch_length_SBB_Eurofima;
+			articulated_part				: switch_articulated_SBB_Eurofima_current;
+			purchase						: switch_purchase_SBB_Eurofima;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_Eurofima;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_Eurofima;	
+			}
+		}
+
+					switch(FEAT_TRAINS, SELF, switch_SBB_Eurofima_graphics_orange, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_SBB_Eurofima_orange;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Eurofima_orange, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_EUROFIMA_ORANGE;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_EUROFIMA_ORANGE, 6731)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_EUROFIMA_ORANGE);
+						variant_group:					6729;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1977,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_SBB_Eurofima_graphics_orange;
+			additional_text				    :string(STR_CONCAT_2, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_DESC_INTEX),);
+			length							: switch_length_SBB_Eurofima;
+			articulated_part				: switch_articulated_SBB_Eurofima_orange;
+			purchase						: spriteset_SBB_Eurofima_B_orange_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_Eurofima;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_Eurofima;	
+			}
+		}
+
+					switch(FEAT_TRAINS, SELF, switch_SBB_Eurofima_graphics_grau, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_SBB_Eurofima_grau;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Eurofima_grau, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_EUROFIMA_GRAU;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_EUROFIMA_GRAU, 6732)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_EUROFIMA_GRAU);
+						variant_group:					6729;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1993,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_SBB_Eurofima_graphics_grau;
+			additional_text				    :string(STR_CONCAT_2, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_DESC_INTEX),);
+			length							: switch_length_SBB_Eurofima;
+			articulated_part				: switch_articulated_SBB_Eurofima_grau;
+			purchase						: spriteset_SBB_Eurofima_B_grau_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_Eurofima;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_Eurofima;	
+			}
+		}
+
+
+					switch(FEAT_TRAINS, SELF, switch_SBB_Eurofima_graphics_IC, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_SBB_Eurofima_IC;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SBB_Eurofima_IC, extra_callback_info1) {
+							1 .. 2: return ITEM_SBB_EUROFIMA_IC;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_SBB_EUROFIMA_IC, 6733)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_EUROFIMA_IC);
+						variant_group:					6729;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2001,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_SBB_Eurofima_graphics_IC;
+			additional_text				    :string(STR_CONCAT_2, 
+											 string(STR_GAUGE_STANDARD),
+											 string(STR_DESC_INTEX),);
+			length							: switch_length_SBB_Eurofima;
+			articulated_part				: switch_articulated_SBB_Eurofima_IC;
+			purchase						: spriteset_SBB_Eurofima_B_IC_purchase;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_SBB_Eurofima;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_SBB_Eurofima;	
+			}
+		}
