@@ -136,7 +136,7 @@ item (FEAT_TRAINS , ITEM_BLS_EW4_COACH_BLAU, 6864)
 						
 			//Train specific properties
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
-						speed: 							200 km/h;
+						speed: 							160 km/h;
 						refit_cost: 					0;
 						track_type: 					RAIL;						
 						weight: 						42 ton;
