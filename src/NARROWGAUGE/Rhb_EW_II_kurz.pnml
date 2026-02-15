@@ -1,0 +1,635 @@
+//#####################################
+//### RhB EW II (short) Narrow Gauge###
+//#####################################
+
+//Spritesets 1978_kurz
+
+spriteset(spriteset_RhB_EW_II_A_1978_kurz_Var1, "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_Var1_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_1978_kurz_Var1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_Var1_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_Var1_1x_mask.png")
+									{template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_1978_kurz_Var1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_Var1_2x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_Var1_2x_mask.png")
+									{template_98trains_2x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_1978_kurz_Var1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_Var1_4x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_Var1_4x_mask.png")
+									{template_98trains_4x(0, 0)}
+
+spriteset(spriteset_RhB_EW_II_A_1978_kurz_loading, "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_loading_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_1978_kurz_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_loading_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_loading_1x_mask.png")
+									{template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_1978_kurz_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_loading_2x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_loading_2x_mask.png")
+									{template_98trains_2x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_1978_kurz_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_loading_4x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_loading_4x_mask.png")
+									{template_98trains_4x(0, 0)}            
+									
+spritegroup spritegroup_RhB_EW_II_A_1978_kurz_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_RhB_EW_II_A_1978_kurz_loading];}    
+
+
+//Spritesets 1983_kurz
+
+spriteset(spriteset_RhB_EW_II_A_1983_kurz_Var2, "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_1983_kurz_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_1x_mask.png")
+									{template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_1983_kurz_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_2x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_2x_mask.png")
+									{template_98trains_2x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_1983_kurz_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_4x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_4x_mask.png")
+									{template_98trains_4x(0, 0)}
+
+spriteset(spriteset_RhB_EW_II_A_1983_kurz_Var2_loading, "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_loading_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_1983_kurz_Var2_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_loading_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_loading_1x_mask.png")
+									{template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_1983_kurz_Var2_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_loading_2x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_loading_2x_mask.png")
+									{template_98trains_2x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_1983_kurz_Var2_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_loading_4x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_loading_4x_mask.png")
+									{template_98trains_4x(0, 0)}            
+									
+spritegroup spritegroup_RhB_EW_II_A_1983_kurz_Var2_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_RhB_EW_II_A_1983_kurz_Var2_loading];}                                                                 
+
+
+//Spritesets 2000_kurz
+
+spriteset(spriteset_RhB_EW_II_A_2000_kurz_Var1, "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2000_kurz_Var1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_1x_mask.png")
+									{template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2000_kurz_Var1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_2x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_2x_mask.png")
+									{template_98trains_2x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2000_kurz_Var1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_4x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_4x_mask.png")
+									{template_98trains_4x(0, 0)}
+
+spriteset(spriteset_RhB_EW_II_A_2000_kurz_Var1_loading, "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_loading_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2000_kurz_Var1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_loading_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_loading_1x_mask.png")
+									{template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2000_kurz_Var1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_loading_2x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_loading_2x_mask.png")
+									{template_98trains_2x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2000_kurz_Var1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_loading_4x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_loading_4x_mask.png")
+									{template_98trains_4x(0, 0)}            
+									
+spritegroup spritegroup_RhB_EW_II_A_2000_kurz_Var1_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_RhB_EW_II_A_2000_kurz_Var1_loading];}   
+
+
+//Spritesets 2004_kurz
+
+spriteset(spriteset_RhB_EW_II_A_2004_kurz_Var3, "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2004_kurz_Var3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_1x_mask.png")
+									{template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2004_kurz_Var3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_2x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_2x_mask.png")
+									{template_98trains_2x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2004_kurz_Var3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_4x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_4x_mask.png")
+									{template_98trains_4x(0, 0)}
+
+spriteset(spriteset_RhB_EW_II_A_2004_kurz_Var3_loading, "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_loading_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2004_kurz_Var3_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_loading_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_loading_1x_mask.png")
+									{template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2004_kurz_Var3_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_loading_2x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_loading_2x_mask.png")
+									{template_98trains_2x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2004_kurz_Var3_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_loading_4x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_loading_4x_mask.png")
+									{template_98trains_4x(0, 0)}            
+									
+spritegroup spritegroup_RhB_EW_II_A_2004_kurz_Var3_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_RhB_EW_II_A_2004_kurz_Var3_loading];}                                 
+
+
+//Spritesets 2006_kurz
+
+spriteset(spriteset_RhB_EW_II_A_2006_kurz_Var2, "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2006_kurz_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_1x_mask.png")
+									{template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2006_kurz_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_2x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_2x_mask.png")
+									{template_98trains_2x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2006_kurz_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_4x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_4x_mask.png")
+									{template_98trains_4x(0, 0)}
+
+spriteset(spriteset_RhB_EW_II_A_2006_kurz_Var2_loading, "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_loading_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2006_kurz_Var2_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_loading_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_loading_1x_mask.png")
+									{template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2006_kurz_Var2_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_loading_2x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_loading_2x_mask.png")
+									{template_98trains_2x(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2006_kurz_Var2_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_loading_4x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_loading_4x_mask.png")
+									{template_98trains_4x(0, 0)}            
+									
+spritegroup spritegroup_RhB_EW_II_A_2006_kurz_Var2_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_RhB_EW_II_A_2006_kurz_Var2_loading];}     
+
+
+//Spritesets purchase
+
+spriteset(spriteset_RhB_EW_II_A_1978_kurz_Var1_purchase, "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_Var1_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_1978_kurz_Var1_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_Var1_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_1978_kurz_Var1_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_RhB_EW_II_A_1983_kurz_Var2_purchase, "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_1983_kurz_Var2_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_1983_kurz_Var2_1x_mask.png")
+									{template_purchase(0, 0)}   
+
+spriteset(spriteset_RhB_EW_II_A_2000_kurz_Var1_purchase, "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2000_kurz_Var1_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2000_kurz_Var1_1x_mask.png")
+									{template_purchase(0, 0)}  
+
+spriteset(spriteset_RhB_EW_II_A_2004_kurz_Var3_purchase, "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2004_kurz_Var3_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2004_kurz_Var3_1x_mask.png")
+									{template_purchase(0, 0)}   
+
+spriteset(spriteset_RhB_EW_II_A_2006_kurz_Var2_purchase, "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_RhB_EW_II_A_2006_kurz_Var2_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_1x_32bpp.png", "gfx/RhB_EW_II/RhB_EW_II_A_2006_kurz_Var2_1x_mask.png")
+									{template_purchase(0, 0)}    
+
+//Switches
+
+    switch (FEAT_TRAINS,SELF,switch_purchase_RhB_EW_II_kurz,current_year) {
+               0 .. 1982 : spriteset_RhB_EW_II_A_1978_kurz_Var1_purchase;
+            1983 .. 1999 : spriteset_RhB_EW_II_A_1983_kurz_Var2_purchase;
+            2000 .. 2003 : spriteset_RhB_EW_II_A_2000_kurz_Var1_purchase;
+            2004 .. 2005 : spriteset_RhB_EW_II_A_2004_kurz_Var3_purchase;
+            2006 .. 2050 : spriteset_RhB_EW_II_A_2006_kurz_Var2_purchase;
+                spriteset_RhB_EW_II_A_2006_kurz_Var2_purchase;} 
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_EW_II_A_1978_kurz, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_RhB_EW_II_A_1978_kurz_Var1;
+		1: spritegroup_RhB_EW_II_A_1978_kurz_loading;}	  
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_EW_II_A_1983_kurz, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_RhB_EW_II_A_1983_kurz_Var2;
+		1: spritegroup_RhB_EW_II_A_1983_kurz_Var2_loading;}	
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_EW_II_A_2000_kurz, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_RhB_EW_II_A_2000_kurz_Var1;
+		1: spritegroup_RhB_EW_II_A_2000_kurz_Var1_loading;}	
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_EW_II_A_2004_kurz, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_RhB_EW_II_A_2004_kurz_Var3;
+		1: spritegroup_RhB_EW_II_A_2004_kurz_Var3_loading;}	 
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_EW_II_A_2006_kurz, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_RhB_EW_II_A_2006_kurz_Var2;
+		1: spritegroup_RhB_EW_II_A_2006_kurz_Var2_loading;}	 
+
+	switch(FEAT_TRAINS, SELF, switch_length_RhB_EW_II_kurz, position_in_articulated_veh % 3) {
+		0: 3;
+		1: 3;
+		2: 3;}	
+
+	switch(FEAT_TRAINS,PARENT,switch_running_cost_RhB_EW_II_kurz, 1){
+		return 725;}
+
+    switch (FEAT_TRAINS,SELF,switch_build_year_RhB_EW_II_kurz,build_year) {
+               0 .. 1982 : switch_spritestack_RhB_EW_II_A_1978_kurz;
+            1983 .. 1999 : switch_spritestack_RhB_EW_II_A_1983_kurz;
+            2000 .. 2003 : switch_spritestack_RhB_EW_II_A_2000_kurz;
+            2004 .. 2005 : switch_spritestack_RhB_EW_II_A_2004_kurz;
+            2006 .. 2050 : switch_spritestack_RhB_EW_II_A_2006_kurz;
+                switch_spritestack_RhB_EW_II_A_2006_kurz;}        								   
+
+	switch(FEAT_TRAINS, SELF, switch_graphics_RhB_EW_II_kurz_build, position_in_articulated_veh  % 3) {
+		0:     spriteset_empty;
+		1:     return switch_build_year_RhB_EW_II_kurz;
+		2:     spriteset_empty;}
+
+	switch (FEAT_TRAINS, SELF, switch_articulated_RhB_EW_II_kurz_build, extra_callback_info1) {
+		1 .. 2: return ITEM_RHB_EW_II_KURZ_BUILD;												
+			return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+																						
+item (FEAT_TRAINS , ITEM_RHB_EW_II_KURZ_BUILD, 5695)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RHB_EW_II_KURZ_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1978,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					NGRL;					
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_RhB_EW_II_kurz_build;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_NARROW),
+											  string(STR_DESC_PASS),);
+			length							: switch_length_RhB_EW_II_kurz;
+			articulated_part				: switch_articulated_RhB_EW_II_kurz_build;
+			purchase						: switch_purchase_RhB_EW_II_kurz;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_RhB_EW_II_kurz;
+			purchase_running_cost_factor	: 2650;
+			}
+		}    
+
+
+    switch (FEAT_TRAINS,SELF,switch_current_year_RhB_EW_II_kurz,current_year) {
+               0 .. 1982 : switch_spritestack_RhB_EW_II_A_1978_kurz;
+            1983 .. 1999 : switch_spritestack_RhB_EW_II_A_1983_kurz;
+            2000 .. 2003 : switch_spritestack_RhB_EW_II_A_2000_kurz;
+            2004 .. 2005 : switch_spritestack_RhB_EW_II_A_2004_kurz;
+            2006 .. 2050 : switch_spritestack_RhB_EW_II_A_2006_kurz;
+                switch_spritestack_RhB_EW_II_A_2006_kurz;}        								   
+
+	switch(FEAT_TRAINS, SELF, switch_graphics_RhB_EW_II_kurz_current, position_in_articulated_veh  % 3) {
+		0:     spriteset_empty;
+		1:     return switch_current_year_RhB_EW_II_kurz;
+		2:     spriteset_empty;}
+
+	switch (FEAT_TRAINS, SELF, switch_articulated_RhB_EW_II_kurz_current, extra_callback_info1) {
+		1 .. 2: return ITEM_RHB_EW_II_KURZ_CURRENT;												
+			return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+																						
+item (FEAT_TRAINS , ITEM_RHB_EW_II_KURZ_CURRENT, 5696)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RHB_EW_II_KURZ_CURRENT);
+						variant_group:					5695;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1978,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					NGRL;					
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_RhB_EW_II_kurz_current;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_NARROW),
+											  string(STR_DESC_PASS),);
+			length							: switch_length_RhB_EW_II_kurz;
+			articulated_part				: switch_articulated_RhB_EW_II_kurz_current;
+			purchase						: switch_purchase_RhB_EW_II_kurz;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_RhB_EW_II_kurz;
+			purchase_running_cost_factor	: 2650;
+			}
+		}    
+
+	switch(FEAT_TRAINS, SELF, switch_graphics_RhB_EW_II_1978_kurz, position_in_articulated_veh  % 3) {
+		0:     spriteset_empty;
+		1:     return switch_spritestack_RhB_EW_II_A_1978_kurz;
+		2:     spriteset_empty;}
+
+	switch (FEAT_TRAINS, SELF, switch_articulated_RhB_EW_II_1978_kurz, extra_callback_info1) {
+		1 .. 2: return ITEM_RHB_EW_II_KURZ_1978;												
+			return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+																						
+item (FEAT_TRAINS , ITEM_RHB_EW_II_KURZ_1978, 5697)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RHB_EW_II_KURZ_1978);
+						variant_group:					5695;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1978,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					NGRL;					
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_RhB_EW_II_1978_kurz;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_NARROW),
+											  string(STR_DESC_PASS),);
+			length							: switch_length_RhB_EW_II_kurz;
+			articulated_part				: switch_articulated_RhB_EW_II_1978_kurz;
+			purchase						: spriteset_RhB_EW_II_A_1978_kurz_Var1_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_RhB_EW_II_kurz;
+			purchase_running_cost_factor	: 2650;
+			}
+		} 
+
+
+	switch(FEAT_TRAINS, SELF, switch_graphics_RhB_EW_II_1983_kurz, position_in_articulated_veh  % 3) {
+		0:     spriteset_empty;
+		1:     return switch_spritestack_RhB_EW_II_A_1983_kurz;
+		2:     spriteset_empty;}
+
+	switch (FEAT_TRAINS, SELF, switch_articulated_RhB_EW_II_1983_kurz, extra_callback_info1) {
+		1 .. 2: return ITEM_RHB_EW_II_KURZ_1983;												
+			return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+																						
+item (FEAT_TRAINS , ITEM_RHB_EW_II_KURZ_1983, 5698)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RHB_EW_II_KURZ_1983);
+						variant_group:					5695;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1983,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					NGRL;					
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_RhB_EW_II_1983_kurz;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_NARROW),
+											  string(STR_DESC_PASS),);
+			length							: switch_length_RhB_EW_II_kurz;
+			articulated_part				: switch_articulated_RhB_EW_II_1983_kurz;
+			purchase						: spriteset_RhB_EW_II_A_1983_kurz_Var2_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_RhB_EW_II_kurz;
+			purchase_running_cost_factor	: 2650;
+			}
+		}        
+
+
+	switch(FEAT_TRAINS, SELF, switch_graphics_RhB_EW_II_2000_kurz, position_in_articulated_veh  % 3) {
+		0:     spriteset_empty;
+		1:     return switch_spritestack_RhB_EW_II_A_2000_kurz;
+		2:     spriteset_empty;}
+
+	switch (FEAT_TRAINS, SELF, switch_articulated_RhB_EW_II_2000_kurz, extra_callback_info1) {
+		1 .. 2: return ITEM_RHB_EW_II_KURZ_2000;												
+			return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+																						
+item (FEAT_TRAINS , ITEM_RHB_EW_II_KURZ_2000, 5699)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RHB_EW_II_KURZ_2000);
+						variant_group:					5695;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					NGRL;					
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_RhB_EW_II_2000_kurz;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_NARROW),
+											  string(STR_DESC_PASS),);
+			length							: switch_length_RhB_EW_II_kurz;
+			articulated_part				: switch_articulated_RhB_EW_II_2000_kurz;
+			purchase						: spriteset_RhB_EW_II_A_2000_kurz_Var1_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_RhB_EW_II_kurz;
+			purchase_running_cost_factor	: 2650;
+			}
+		}               
+
+
+	switch(FEAT_TRAINS, SELF, switch_graphics_RhB_EW_II_2004_kurz, position_in_articulated_veh  % 3) {
+		0:     spriteset_empty;
+		1:     return switch_spritestack_RhB_EW_II_A_2004_kurz;
+		2:     spriteset_empty;}
+
+	switch (FEAT_TRAINS, SELF, switch_articulated_RhB_EW_II_2004_kurz, extra_callback_info1) {
+		1 .. 2: return ITEM_RHB_EW_II_KURZ_2004;												
+			return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+																						
+item (FEAT_TRAINS , ITEM_RHB_EW_II_KURZ_2004, 5700)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RHB_EW_II_KURZ_2004);
+						variant_group:					5695;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2004,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					NGRL;					
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_RhB_EW_II_2004_kurz;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_NARROW),
+											  string(STR_DESC_PASS),);
+			length							: switch_length_RhB_EW_II_kurz;
+			articulated_part				: switch_articulated_RhB_EW_II_2004_kurz;
+			purchase						: spriteset_RhB_EW_II_A_2004_kurz_Var3_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_RhB_EW_II_kurz;
+			purchase_running_cost_factor	: 2650;
+			}
+		}  
+
+
+
+	switch(FEAT_TRAINS, SELF, switch_graphics_RhB_EW_II_2006_kurz, position_in_articulated_veh  % 3) {
+		0:     spriteset_empty;
+		1:     return switch_spritestack_RhB_EW_II_A_2006_kurz;
+		2:     spriteset_empty;}
+
+	switch (FEAT_TRAINS, SELF, switch_articulated_RhB_EW_II_2006_kurz, extra_callback_info1) {
+		1 .. 2: return ITEM_RHB_EW_II_KURZ_2006;												
+			return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+																						
+item (FEAT_TRAINS , ITEM_RHB_EW_II_KURZ_2006, 5701)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RHB_EW_II_KURZ_2006);
+						variant_group:					5695;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2006,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					NGRL;					
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_RhB_EW_II_2006_kurz;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_NARROW),
+											  string(STR_DESC_PASS),);
+			length							: switch_length_RhB_EW_II_kurz;
+			articulated_part				: switch_articulated_RhB_EW_II_2006_kurz;
+			purchase						: spriteset_RhB_EW_II_A_2006_kurz_Var2_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_RhB_EW_II_kurz;
+			purchase_running_cost_factor	: 2650;
+			}
+		}          
+                                                                                                                                        

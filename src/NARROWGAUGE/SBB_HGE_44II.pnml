@@ -1,0 +1,187 @@
+//##################
+//### HGe 4/4 II ###
+//##################
+
+spriteset(spriteset_SBB_HGe_44II_SBB_Bruenig, "gfx/SBB_HGe_44II/SBB_HGe_44II_SBB_Bruenig_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_HGe_44II_SBB_Bruenig, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_HGe_44II/SBB_HGe_44II_SBB_Bruenig_1x_32bpp.png", "gfx/SBB_HGe_44II/SBB_HGe_44II_SBB_Bruenig_1x_mask.png")
+									{template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_HGe_44II_SBB_Bruenig, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_HGe_44II/SBB_HGe_44II_SBB_Bruenig_2x_32bpp.png", "gfx/SBB_HGe_44II/SBB_HGe_44II_SBB_Bruenig_2x_mask.png")
+									{template_98trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_HGe_44II_SBB_Bruenig, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_HGe_44II/SBB_HGe_44II_SBB_Bruenig_4x_32bpp.png", "gfx/SBB_HGe_44II/SBB_HGe_44II_SBB_Bruenig_4x_mask.png")
+									{template_98trains_4x(0, 0)}	
+									
+
+spriteset(spriteset_SBB_HGe_44II_FO, "gfx/SBB_HGe_44II/SBB_HGe_44II_FO_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_HGe_44II_FO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_HGe_44II/SBB_HGe_44II_FO_1x_32bpp.png", "gfx/SBB_HGe_44II/SBB_HGe_44II_FO_1x_mask.png")
+									{template_98trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_HGe_44II_FO, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_HGe_44II/SBB_HGe_44II_FO_2x_32bpp.png", "gfx/SBB_HGe_44II/SBB_HGe_44II_FO_2x_mask.png")
+									{template_98trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_HGe_44II_FO, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_HGe_44II/SBB_HGe_44II_FO_4x_32bpp.png", "gfx/SBB_HGe_44II/SBB_HGe_44II_FO_4x_mask.png")
+									{template_98trains_4x(0, 0)}	
+																		
+
+//Spriteset purchase
+
+spriteset(spriteset_SBB_HGe_44II_SBB_Bruenig_purchase, "gfx/SBB_HGe_44II/SBB_HGe_44II_SBB_Bruenig_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_HGe_44II_SBB_Bruenig_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_HGe_44II/SBB_HGe_44II_SBB_Bruenig_1x_32bpp.png", "gfx/SBB_HGe_44II/SBB_HGe_44II_SBB_Bruenig_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_HGe_44II_FO_purchase, "gfx/SBB_HGe_44II/SBB_HGe_44II_FO_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_HGe_44II_FO_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_HGe_44II/SBB_HGe_44II_FO_1x_32bpp.png", "gfx/SBB_HGe_44II/SBB_HGe_44II_FO_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+//Switches
+
+						
+								
+					switch(FEAT_TRAINS, SELF, switch_length_SBB_HGe_44II, position_in_vehid_chain % 3) {
+						0: 3;
+						1: 3;
+						2: 3;}		
+						
+					switch(FEAT_TRAINS, SELF, switch_FX_SBB_HGe_44II, position_in_vehid_chain % 3) {
+						0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						 return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}													
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_HGe_44II_Bruenig, 1){
+							return 875;}													
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_HGe_44II_FO, 1){
+							return 800;}
+							
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_HGe_44II_Bruenig, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     spriteset_SBB_HGe_44II_SBB_Bruenig;
+						2: 	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_HGe_44II_SBB_Bruenig, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_HGE_44II_SBB_BRUENIG; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_HGE_44II_SBB_BRUENIG, 5000)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_HGE_44II_SBB_BRUENIG);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					50;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					NGEL;
+						power:  						2550 hp;
+						weight: 						63 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.365;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_HGe_44II_Bruenig;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_NARROW), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_HGe_44II;
+			articulated_part				:switch_articulated_SBB_HGe_44II_SBB_Bruenig;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_HGe_44II_SBB_Bruenig_purchase;
+			cost_factor						:46;
+			running_cost_factor				:switch_running_cost_SBB_HGe_44II_Bruenig;			
+			visual_effect_and_powered		:switch_FX_SBB_HGe_44II;	
+			}
+	}	
+
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SBB_HGe_44II_FO, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     spriteset_SBB_HGe_44II_FO;
+						2: 	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SBB_HGe_44II_FO, extra_callback_info1) {
+						1 .. 2: return ITEM_SBB_HGE_44II_FO; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_HGE_44II_FO, 5001)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_HGE_44II_FO);
+						variant_group:					5000;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					50;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					NGEL;
+						power:  						2550 hp;
+						weight: 						66 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.359;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_HGe_44II_FO;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_NARROW), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SBB_HGe_44II;
+			articulated_part				:switch_articulated_SBB_HGe_44II_FO;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SBB_HGe_44II_FO_purchase;
+			cost_factor						:41;
+			running_cost_factor				:switch_running_cost_SBB_HGe_44II_FO;			
+			visual_effect_and_powered		:switch_FX_SBB_HGe_44II;	
+			}
+	}	
+

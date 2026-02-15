@@ -1,0 +1,535 @@
+//#############################
+//###RhB Self-Discharger Fac###
+//#############################	
+	
+//Spriteset base gray
+
+spriteset (spriteset_RhB_Fac_base, "gfx\RhB_Fac/RhB_Fac_base_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_base, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_base_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_base_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_base, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_base_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_base_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_base, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_base_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_base_4x_mask.png")
+					{template_88trains_4x(0, 0)}						
+					
+//Spriteset base brown
+
+spriteset (spriteset_RhB_Fac_brown, "gfx\RhB_Fac/RhB_Fac_brown_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_brown, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_brown_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_brown_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_brown, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_brown_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_brown_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_brown, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_brown_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_brown_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+
+
+//Spritesets Stripe and numbers
+
+spriteset (spriteset_RhB_Fac_RhB_870x, "gfx\RhB_Fac/RhB_Fac_RhB-870x_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_870x, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-870x_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-870x_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_870x, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-870x_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-870x_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_870x, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-870x_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-870x_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+
+spriteset (spriteset_RhB_Fac_RhB_871x, "gfx\RhB_Fac/RhB_Fac_RhB-871x_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_871x, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-871x_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-871x_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_871x, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-871x_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-871x_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_871x, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-871x_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-871x_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+                    
+spriteset (spriteset_RhB_Fac_RhB_872x, "gfx\RhB_Fac/RhB_Fac_RhB-872x_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_872x, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-872x_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-872x_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_872x, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-872x_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-872x_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_872x, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-872x_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-872x_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+                    
+spriteset (spriteset_RhB_Fac_RhB_873x, "gfx\RhB_Fac/RhB_Fac_RhB-873x_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_873x, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-873x_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-873x_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_873x, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-873x_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-873x_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_873x, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-873x_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-873x_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+
+spriteset (spriteset_RhB_Fac_RhB_874x, "gfx\RhB_Fac/RhB_Fac_RhB-874x_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_874x, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-874x_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-874x_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_874x, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-874x_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-874x_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_874x, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-874x_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-874x_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+
+spriteset (spriteset_RhB_Fac_RhB_875x, "gfx\RhB_Fac/RhB_Fac_RhB-875x_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_875x, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-875x_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-875x_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_875x, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-875x_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-875x_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_875x, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-875x_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-875x_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+                    
+spriteset (spriteset_RhB_Fac_RhB_876x, "gfx\RhB_Fac/RhB_Fac_RhB-876x_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_876x, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-876x_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-876x_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_876x, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-876x_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-876x_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_876x, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-876x_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-876x_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+                    
+spriteset (spriteset_RhB_Fac_RhB_877x, "gfx\RhB_Fac/RhB_Fac_RhB-877x_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_877x, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-877x_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-877x_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_877x, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-877x_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-877x_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_877x, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-877x_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-877x_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+
+
+spriteset (spriteset_RhB_Fac_RhB_xxx1, "gfx\RhB_Fac/RhB_Fac_RhB-xxx1_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx1_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx1_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx1_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx1_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx1_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx1_4x_mask.png")
+					{template_88trains_4x(0, 0)}          
+                    
+spriteset (spriteset_RhB_Fac_RhB_xxx2, "gfx\RhB_Fac/RhB_Fac_RhB-xxx2_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx2_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx2_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx2_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx2_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx2_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx2_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+                    
+spriteset (spriteset_RhB_Fac_RhB_xxx3, "gfx\RhB_Fac/RhB_Fac_RhB-xxx3_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx3_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx3_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx3_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx3_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx3_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx3_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+                    
+spriteset (spriteset_RhB_Fac_RhB_xxx4, "gfx\RhB_Fac/RhB_Fac_RhB-xxx4_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx4_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx4_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx4_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx4_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx4_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx4_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+                    
+spriteset (spriteset_RhB_Fac_RhB_xxx5, "gfx\RhB_Fac/RhB_Fac_RhB-xxx5_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx5_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx5_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx5, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx5_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx5_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx5_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx5_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+                    
+spriteset (spriteset_RhB_Fac_RhB_xxx6, "gfx\RhB_Fac/RhB_Fac_RhB-xxx6_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx6_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx6_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx6, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx6_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx6_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx6_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx6_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+                    
+spriteset (spriteset_RhB_Fac_RhB_xxx7, "gfx\RhB_Fac/RhB_Fac_RhB-xxx7_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx7_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx7_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx7, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx7_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx7_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx7_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx7_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+                    
+spriteset (spriteset_RhB_Fac_RhB_xxx8, "gfx\RhB_Fac/RhB_Fac_RhB-xxx8_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx8_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx8_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx8, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx8_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx8_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx8_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx8_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+                    
+spriteset (spriteset_RhB_Fac_RhB_xxx9, "gfx\RhB_Fac/RhB_Fac_RhB-xxx9_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx9_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx9_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx9, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx9_2x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx9_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx9_4x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx9_4x_mask.png")
+					{template_88trains_4x(0, 0)}          
+
+//Spritegroup Load
+
+spriteset (spriteset_RhB_Fac_load_0, "gfx\RhB_Fac/RhB_Fac_load_0_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}		
+		alternative_sprites (spriteset_RhB_Fac_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\RhB_Fac/RhB_Fac_load_0_2x_8bpp.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\RhB_Fac/RhB_Fac_load_0_4x_8bpp.png")
+					{template_88trains_4x(0, 0)}
+					
+spriteset (spriteset_RhB_Fac_load_25, "gfx\RhB_Fac/RhB_Fac_load_25_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}		
+		alternative_sprites (spriteset_RhB_Fac_load_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\RhB_Fac/RhB_Fac_load_25_2x_8bpp.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_load_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\RhB_Fac/RhB_Fac_load_25_4x_8bpp.png")
+					{template_88trains_4x(0, 0)}
+					
+spriteset (spriteset_RhB_Fac_load_50, "gfx\RhB_Fac/RhB_Fac_load_50_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}		
+		alternative_sprites (spriteset_RhB_Fac_load_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\RhB_Fac/RhB_Fac_load_50_2x_8bpp.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_load_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\RhB_Fac/RhB_Fac_load_50_4x_8bpp.png")
+					{template_88trains_4x(0, 0)}																																																																					
+
+
+spriteset (spriteset_RhB_Fac_load_75, "gfx\RhB_Fac/RhB_Fac_load_75_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}		
+		alternative_sprites (spriteset_RhB_Fac_load_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\RhB_Fac/RhB_Fac_load_75_2x_8bpp.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_load_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\RhB_Fac/RhB_Fac_load_75_4x_8bpp.png")
+					{template_88trains_4x(0, 0)}
+					
+					
+spriteset (spriteset_RhB_Fac_load_100, "gfx\RhB_Fac/RhB_Fac_load_100_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}		
+		alternative_sprites (spriteset_RhB_Fac_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\RhB_Fac/RhB_Fac_load_100_2x_8bpp.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_RhB_Fac_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\RhB_Fac/RhB_Fac_load_100_4x_8bpp.png")
+					{template_88trains_4x(0, 0)}					
+
+spritegroup spritegroup_RhB_Fac_load
+		{loaded: 	[spriteset_RhB_Fac_load_0, spriteset_RhB_Fac_load_25, spriteset_RhB_Fac_load_50, spriteset_RhB_Fac_load_75, spriteset_RhB_Fac_load_100];
+			loading: 	[spriteset_RhB_Fac_load_0, spriteset_RhB_Fac_load_25, spriteset_RhB_Fac_load_50, spriteset_RhB_Fac_load_75, spriteset_RhB_Fac_load_100];}		
+
+
+//Spriteset Purchase
+
+spriteset (spriteset_RhB_Fac_base_purchase, "gfx\RhB_Fac/RhB_Fac_base_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_base_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_base_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_base_1x_mask.png")
+					{template_purchase(0, 0)}	
+
+spriteset (spriteset_RhB_Fac_brown_purchase, "gfx\RhB_Fac/RhB_Fac_brown_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_brown_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_brown_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_brown_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_RhB_Fac_RhB_870x_purchase, "gfx\RhB_Fac/RhB_Fac_RhB-870x_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_870x_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-870x_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-870x_1x_mask.png")
+					{template_purchase(0, 0)}	
+
+spriteset (spriteset_RhB_Fac_RhB_xxx1_purchase, "gfx\RhB_Fac/RhB_Fac_RhB-xxx1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_RhB_Fac_RhB_xxx1_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\RhB_Fac/RhB_Fac_RhB-xxx1_1x_32bpp.png", "gfx\RhB_Fac/RhB_Fac_RhB-xxx1_1x_mask.png")
+					{template_purchase(0, 0)}					
+					
+//Switches
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_Fac_base_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_RhB_Fac_base_purchase;
+        1: spriteset_RhB_Fac_RhB_870x_purchase;
+        2: spriteset_RhB_Fac_RhB_xxx1_purchase;}
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_Fac_brown_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_RhB_Fac_brown_purchase;
+        1: spriteset_RhB_Fac_RhB_870x_purchase;
+        2: spriteset_RhB_Fac_RhB_xxx1_purchase;}
+
+    switch (FEAT_TRAINS,SELF, switch_RhB_Fac_purchase,current_year){
+           0 .. 1999: switch_spritestack_RhB_Fac_brown_purchase;
+        2000 .. 2050: switch_spritestack_RhB_Fac_base_purchase;				 					 
+        switch_spritestack_RhB_Fac_base_purchase;}
+
+    switch (FEAT_TRAINS, SELF, random_choose_RhB_Fac_numbers_digit1_uneven, switch_alternative_var_random_bits(1, 3)) {
+        1: spriteset_RhB_Fac_RhB_871x;
+        2: spriteset_RhB_Fac_RhB_873x;
+        3: spriteset_RhB_Fac_RhB_875x;
+        4: spriteset_RhB_Fac_RhB_877x;
+        5: spriteset_RhB_Fac_RhB_871x;
+        6: spriteset_RhB_Fac_RhB_873x;
+        7: spriteset_RhB_Fac_RhB_875x;
+            spriteset_RhB_Fac_RhB_877x;}
+
+    switch (FEAT_TRAINS, SELF, random_choose_RhB_Fac_numbers_digit1_even, switch_alternative_var_random_bits(1, 3)) {
+        1: spriteset_RhB_Fac_RhB_870x;
+        2: spriteset_RhB_Fac_RhB_872x;
+        3: spriteset_RhB_Fac_RhB_874x;
+        4: spriteset_RhB_Fac_RhB_876x;
+        5: spriteset_RhB_Fac_RhB_870x;
+        6: spriteset_RhB_Fac_RhB_872x;
+        7: spriteset_RhB_Fac_RhB_874x;
+            spriteset_RhB_Fac_RhB_876x;}
+
+    switch (FEAT_TRAINS, SELF, random_choose_RhB_Fac_numbers_digit2_uneven, switch_alternative_var_random_bits(1, 3)) {
+        1: spriteset_RhB_Fac_RhB_xxx1;
+        2: spriteset_RhB_Fac_RhB_xxx3;
+        3: spriteset_RhB_Fac_RhB_xxx5;
+        4: spriteset_RhB_Fac_RhB_xxx7;
+        5: spriteset_RhB_Fac_RhB_xxx9;
+        6: spriteset_RhB_Fac_RhB_xxx7;
+        7: spriteset_RhB_Fac_RhB_xxx5;
+            spriteset_RhB_Fac_RhB_xxx3;}            
+
+    switch (FEAT_TRAINS, SELF, random_choose_RhB_Fac_numbers_digit2_even, switch_alternative_var_random_bits(1, 3)) {
+        1: spriteset_RhB_Fac_RhB_xxx2;
+        2: spriteset_RhB_Fac_RhB_xxx4;
+        3: spriteset_RhB_Fac_RhB_xxx6;
+        4: spriteset_RhB_Fac_RhB_xxx8;
+        5: spriteset_RhB_Fac_RhB_xxx6;
+        6: spriteset_RhB_Fac_RhB_xxx4;
+        7: spriteset_RhB_Fac_RhB_xxx2;
+            spriteset_RhB_Fac_RhB_xxx6;}              
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_Fac_base_Var1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_RhB_Fac_base;
+        1: return random_choose_RhB_Fac_numbers_digit1_uneven;
+        2: return random_choose_RhB_Fac_numbers_digit2_uneven;
+        3: spritegroup_RhB_Fac_load;}
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_Fac_base_Var2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_RhB_Fac_base;
+        1: return random_choose_RhB_Fac_numbers_digit1_uneven;
+        2: return random_choose_RhB_Fac_numbers_digit2_even;
+        3: spritegroup_RhB_Fac_load;}  
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_Fac_base_Var3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_RhB_Fac_base;
+        1: return random_choose_RhB_Fac_numbers_digit1_even;
+        2: return random_choose_RhB_Fac_numbers_digit2_uneven;
+        3: spritegroup_RhB_Fac_load;}              
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_Fac_base_Var4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_RhB_Fac_base;
+        1: return random_choose_RhB_Fac_numbers_digit1_even;
+        2: return random_choose_RhB_Fac_numbers_digit2_even;
+        3: spritegroup_RhB_Fac_load;}  
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_Fac_brown_Var1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_RhB_Fac_brown;
+        1: return random_choose_RhB_Fac_numbers_digit1_uneven;
+        2: return random_choose_RhB_Fac_numbers_digit2_uneven;
+        3: spritegroup_RhB_Fac_load;}
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_Fac_brown_Var2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_RhB_Fac_brown;
+        1: return random_choose_RhB_Fac_numbers_digit1_uneven;
+        2: return random_choose_RhB_Fac_numbers_digit2_even;
+        3: spritegroup_RhB_Fac_load;}  
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_Fac_brown_Var3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_RhB_Fac_brown;
+        1: return random_choose_RhB_Fac_numbers_digit1_even;
+        2: return random_choose_RhB_Fac_numbers_digit2_uneven;
+        3: spritegroup_RhB_Fac_load;}              
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_RhB_Fac_brown_Var4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_RhB_Fac_brown;
+        1: return random_choose_RhB_Fac_numbers_digit1_even;
+        2: return random_choose_RhB_Fac_numbers_digit2_even;
+        3: spritegroup_RhB_Fac_load;}  
+
+    switch(FEAT_TRAINS, SELF, switch_position_RhB_Fac_base, position_in_vehid_chain) {
+        1: return switch_spritestack_RhB_Fac_base_Var1;
+        2: return switch_spritestack_RhB_Fac_base_Var3;
+        3: return switch_spritestack_RhB_Fac_base_Var2;
+        4: return switch_spritestack_RhB_Fac_base_Var4;
+        5: return switch_spritestack_RhB_Fac_base_Var2;
+        6: return switch_spritestack_RhB_Fac_base_Var3;
+        7: return switch_spritestack_RhB_Fac_base_Var1;
+        8: return switch_spritestack_RhB_Fac_base_Var4;
+            default: switch_spritestack_RhB_Fac_base_Var3;}               
+
+    switch(FEAT_TRAINS, SELF, switch_position_RhB_Fac_brown, position_in_vehid_chain) {
+        1: return switch_spritestack_RhB_Fac_brown_Var1;
+        2: return switch_spritestack_RhB_Fac_brown_Var3;
+        3: return switch_spritestack_RhB_Fac_brown_Var2;
+        4: return switch_spritestack_RhB_Fac_brown_Var4;
+        5: return switch_spritestack_RhB_Fac_brown_Var2;
+        6: return switch_spritestack_RhB_Fac_brown_Var3;
+        7: return switch_spritestack_RhB_Fac_brown_Var1;
+        8: return switch_spritestack_RhB_Fac_brown_Var4;
+            default: switch_spritestack_RhB_Fac_brown_Var3;}    
+
+    switch (FEAT_TRAINS,SELF, switch_RhB_Fac_current_year,current_year){
+           0 .. 1999: switch_position_RhB_Fac_brown;
+        2000 .. 2050: switch_position_RhB_Fac_base;				 					 
+        switch_position_RhB_Fac_base;}
+
+    switch(FEAT_TRAINS,PARENT,switch_running_cost_RhB_Fac, 1){
+        return 175;}
+						
+item (FEAT_TRAINS , ITEM_RHB_FAC, 5900)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RHB_FAC);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1993,01,01);
+						model_life: 					33;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF, GRAI, WHEA, FRUT, MAIZ, BEAN, SUGR,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, RCYC, SALT, SCMT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					NGRL;							
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				IORE;
+						cargo_capacity:					33;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_RhB_Fac_current_year;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_GAUGE_NARROW), 
+											  string(STR_DESC_GOODS),);
+			purchase						: switch_RhB_Fac_purchase;
+			cost_factor						: 75;
+			running_cost_factor				: switch_running_cost_RhB_Fac;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_RHB_FAC_BROWN, 5901)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RHB_FAC_BROWN);
+						climates_available: 			ALL_CLIMATES;
+						variant_group:					5900;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						model_life: 					33;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SALT, SCMT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					NGRL;							
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				IORE;
+						cargo_capacity:					33;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_position_RhB_Fac_brown;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_GAUGE_NARROW), 
+											  string(STR_DESC_GOODS),);
+			purchase						: switch_spritestack_RhB_Fac_brown_purchase;
+			cost_factor						: 75;
+			running_cost_factor				: switch_running_cost_RhB_Fac;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}        
+
+item (FEAT_TRAINS , ITEM_RHB_FAC_BASE, 5902)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RHB_FAC_BASE);
+						climates_available: 			ALL_CLIMATES;
+						variant_group:					5900;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						model_life: 					33;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SALT, SCMT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					NGRL;							
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				IORE;
+						cargo_capacity:					33;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_position_RhB_Fac_base;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_GAUGE_NARROW), 
+											  string(STR_DESC_GOODS),);
+			purchase						: switch_spritestack_RhB_Fac_base_purchase;
+			cost_factor						: 75;
+			running_cost_factor				: switch_running_cost_RhB_Fac;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}  

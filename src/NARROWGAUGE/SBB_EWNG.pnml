@@ -1,0 +1,338 @@
+//##########################
+//### SBB EW Narrow Gauge###
+//##########################
+
+//Spritesets Brünigbahn
+
+spriteset(spriteset_SBB_EWNG_A_Bruenig, "gfx/SBB_EWNG/SBB_EWNG_A_Bruenig_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_A_Bruenig, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_A_Bruenig_1x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_A_Bruenig_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_A_Bruenig, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_A_Bruenig_2x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_A_Bruenig_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_A_Bruenig, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_A_Bruenig_4x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_A_Bruenig_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_EWNG_AB_Bruenig, "gfx/SBB_EWNG/SBB_EWNG_AB_Bruenig_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_AB_Bruenig, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_AB_Bruenig_1x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_AB_Bruenig_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_AB_Bruenig, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_AB_Bruenig_2x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_AB_Bruenig_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_AB_Bruenig, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_AB_Bruenig_4x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_AB_Bruenig_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_EWNG_B_Bruenig, "gfx/SBB_EWNG/SBB_EWNG_B_Bruenig_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_B_Bruenig, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_B_Bruenig_1x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_B_Bruenig_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_B_Bruenig, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_B_Bruenig_2x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_B_Bruenig_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_B_Bruenig, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_B_Bruenig_4x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_B_Bruenig_4x_mask.png")
+									{template_118trains_4x(0, 0)}									
+
+spriteset(spriteset_SBB_EWNG_loading, "gfx/SBB_EWNG/SBB_EWNG_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_loading_1x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_loading_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_loading_2x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_loading_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_loading_4x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_loading_4x_mask.png")
+									{template_118trains_4x(0, 0)}	
+									
+spritegroup spritegroup_SBB_EWNG_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_EWNG_loading];}											
+
+
+//Spritesets BD Brünigbahn
+
+spriteset(spriteset_SBB_EWNG_BD_Bruenig, "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_BD_Bruenig, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_1x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_BD_Bruenig, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_2x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_BD_Bruenig, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_4x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_EWNG_BD_Bruenig_loading, "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_BD_Bruenig_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_loading_1x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_loading_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_BD_Bruenig_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_loading_2x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_loading_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_BD_Bruenig_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_loading_4x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_loading_4x_mask.png")
+									{template_118trains_4x(0, 0)}	
+									
+spritegroup spritegroup_SBB_EWNG_BD_Bruenig_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_EWNG_BD_Bruenig_loading];}	
+
+
+//Spritesets Panoramic Coach Brünigbahn
+
+spriteset(spriteset_SBB_EWNG_PAN_Bruenig, "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_PAN_Bruenig, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_1x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_PAN_Bruenig, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_2x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_PAN_Bruenig, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_4x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+spriteset(spriteset_SBB_EWNG_PAN_Bruenig_loading, "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_PAN_Bruenig_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_loading_1x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_loading_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_PAN_Bruenig_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_loading_2x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_loading_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_PAN_Bruenig_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_loading_4x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_loading_4x_mask.png")
+									{template_118trains_4x(0, 0)}	
+									
+spritegroup spritegroup_SBB_EWNG_PAN_Bruenig_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_EWNG_PAN_Bruenig_loading];}	
+
+//Spritesets purchase
+
+spriteset(spriteset_SBB_EWNG_B_Bruenig_purchase, "gfx/SBB_EWNG/SBB_EWNG_B_Bruenig_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_B_Bruenig_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_B_Bruenig_1x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_B_Bruenig_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_EWNG_BD_Bruenig_purchase, "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_BD_Bruenig_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_1x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_BD_Bruenig_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_EWNG_PAN_Bruenig_purchase, "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SBB_EWNG_PAN_Bruenig_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_1x_32bpp.png", "gfx/SBB_EWNG/SBB_EWNG_PAN_Bruenig_1x_mask.png")
+									{template_purchase(0, 0)}
+
+//Switches
+								
+	switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_EWNG_A_Bruenig, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_SBB_EWNG_A_Bruenig;
+		1: spritegroup_SBB_EWNG_loading;}									
+			
+	switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_EWNG_AB_Bruenig, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_SBB_EWNG_AB_Bruenig;
+		1: spritegroup_SBB_EWNG_loading;}								
+			
+	switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_EWNG_B_Bruenig, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_SBB_EWNG_B_Bruenig;
+		1: spritegroup_SBB_EWNG_loading;}								
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_EWNG_BD_Bruenig, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_SBB_EWNG_BD_Bruenig;
+		1: spritegroup_SBB_EWNG_BD_Bruenig_loading;}
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_SBB_EWNG_PAN_Bruenig, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_SBB_EWNG_PAN_Bruenig;
+		1: spritegroup_SBB_EWNG_PAN_Bruenig_loading;}
+
+	switch (FEAT_TRAINS, SELF, random_choose_SBB_EWNG_Bruenig, switch_alternative_var_random_bits(1, 2)) {
+		1: switch_spritestack_SBB_EWNG_A_Bruenig;
+		2: switch_spritestack_SBB_EWNG_B_Bruenig;
+		3: switch_spritestack_SBB_EWNG_AB_Bruenig;							
+			switch_spritestack_SBB_EWNG_B_Bruenig;}	
+			
+	switch(FEAT_TRAINS, SELF, switch_length_SBB_EWNG, position_in_articulated_veh % 3) {
+		0: 4;
+		1: 3;
+		2: 4;}	
+
+	switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_EWNG, 1){
+		return 725;}								   
+
+	switch(FEAT_TRAINS, SELF, switch_graphics_SBB_EWNG_Bruenig, position_in_articulated_veh  % 3) {
+		0:     spriteset_empty;
+		1:     return random_choose_SBB_EWNG_Bruenig;
+		2:     spriteset_empty;}
+
+	switch (FEAT_TRAINS, SELF, switch_articulated_SBB_EWNG_Bruenig, extra_callback_info1) {
+		1 .. 2: return ITEM_SBB_EWNG_BRUENIG;												
+			return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SBB_EWNG_BRUENIG, 5500)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_EWNG_BRUENIG);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1966,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					NGRL;					
+						weight: 						22 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_EWNG_Bruenig;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_NARROW),
+											  string(STR_DESC_PASS),);
+			length							: switch_length_SBB_EWNG;
+			articulated_part				: switch_articulated_SBB_EWNG_Bruenig;
+			purchase						: spriteset_SBB_EWNG_B_Bruenig_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_SBB_EWNG;
+			purchase_running_cost_factor	: 2650;
+			}
+		}
+
+	switch(FEAT_TRAINS, SELF, switch_graphics_SBB_EWNG_BD_Bruenig, position_in_articulated_veh  % 3) {
+		0:     spriteset_empty;
+		1:     return switch_spritestack_SBB_EWNG_BD_Bruenig;
+		2:     spriteset_empty;}
+
+    switch(FEAT_TRAINS, SELF, switch_cargo_capacity_SBB_EWNG_BD_Bruenig, cargo_type_in_veh ) {
+        PASS: 18;
+        TOUR: 18;
+        MAIL: 18;
+        GOOD: 18;
+        VALU: 18;}	
+
+	switch (FEAT_TRAINS, SELF, switch_articulated_SBB_EWNG_BD_Bruenig, extra_callback_info1) {
+		1: return ITEM_SBB_EWNG_BD_BRUENIG;
+		2: return ITEM_MAIL_18;												
+			return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SBB_EWNG_BD_BRUENIG, 5501)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_EWNG_BD_BRUENIG);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1966,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					NGRL;					
+						weight: 						22 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_EWNG_BD_Bruenig;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_NARROW),
+											  string(STR_DESC_HALFBAGG),);										  
+			length							: switch_length_SBB_EWNG;
+			articulated_part				: switch_articulated_SBB_EWNG_BD_Bruenig;
+			purchase						: spriteset_SBB_EWNG_BD_Bruenig_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_SBB_EWNG;
+			purchase_running_cost_factor	: 2650;
+			cargo_capacity					: switch_cargo_capacity_BLS_BDt_LS;	
+			}
+		}
+
+	switch(FEAT_TRAINS, SELF, switch_graphics_SBB_EWNG_PAN_Bruenig, position_in_articulated_veh  % 3) {
+		0:     spriteset_empty;
+		1:     return switch_spritestack_SBB_EWNG_PAN_Bruenig;
+		2:     spriteset_empty;}
+
+
+	switch (FEAT_TRAINS, SELF, switch_articulated_SBB_EWNG_PAN_Bruenig, extra_callback_info1) {
+		1 .. 2: return ITEM_SBB_EWNG_PAN_BRUENIG;								
+			return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   												
+
+																						
+item (FEAT_TRAINS , ITEM_SBB_EWNG_PAN_BRUENIG, 5502)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_EWNG_PAN_BRUENIG);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1966,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					NGRL;					
+						weight: 						22 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_SBB_EWNG_PAN_Bruenig;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_NARROW),
+											  string(STR_DESC_PANORAMIC),);										  
+			length							: switch_length_SBB_EWNG;
+			articulated_part				: switch_articulated_SBB_EWNG_PAN_Bruenig;
+			purchase						: spriteset_SBB_EWNG_PAN_Bruenig_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_SBB_EWNG;
+			purchase_running_cost_factor	: 2650;
+			}
+		}		

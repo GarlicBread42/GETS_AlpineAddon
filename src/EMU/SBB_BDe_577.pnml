@@ -1,0 +1,1637 @@
+//##################
+//### BDe 577 CJ ###
+//##################
+
+//Spriteset creme
+
+spriteset(spriteset_SBB_BDe_577_CJ_creme, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_1x_8bpp.png")
+									{ template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_creme, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_1x_mask.png")
+									{template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_creme, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_2x_mask.png")
+									{template_138trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_creme, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_4x_mask.png")
+									{template_138trains_4x(0, 0)}
+								
+spriteset(spriteset_SBB_BDe_577_CJ_creme_REV, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_1x_8bpp.png")
+									{ template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_creme_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_1x_mask.png")
+									{template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_creme_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_2x_mask.png")
+									{template_138trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_creme_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_4x_mask.png")
+									{template_138trains_REV_4x(0, 0)}								
+
+								
+//Spriteset red (coach 101)
+
+spriteset(spriteset_SBB_BDe_577_CJ_red_101, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_1x_8bpp.png")
+									{ template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_red_101, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_1x_mask.png")
+									{template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_red_101, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_2x_mask.png")
+									{template_138trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_red_101, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_4x_mask.png")
+									{template_138trains_4x(0, 0)}
+								
+spriteset(spriteset_SBB_BDe_577_CJ_red_101_REV, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_1x_8bpp.png")
+									{ template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_red_101_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_1x_mask.png")
+									{template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_red_101_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_2x_mask.png")
+									{template_138trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_red_101_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_4x_mask.png")
+									{template_138trains_REV_4x(0, 0)}	
+
+//Spriteset red (coach 102)
+
+spriteset(spriteset_SBB_BDe_577_CJ_red_102, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_1x_8bpp.png")
+									{ template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_red_102, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_1x_mask.png")
+									{template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_red_102, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_2x_mask.png")
+									{template_138trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_red_102, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_4x_mask.png")
+									{template_138trains_4x(0, 0)}
+								
+spriteset(spriteset_SBB_BDe_577_CJ_red_102_REV, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_1x_8bpp.png")
+									{ template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_red_102_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_1x_mask.png")
+									{template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_red_102_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_2x_mask.png")
+									{template_138trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_red_102_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_4x_mask.png")
+									{template_138trains_REV_4x(0, 0)}	
+
+//Spriteset white
+
+spriteset(spriteset_SBB_BDe_577_CJ_white, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_1x_8bpp.png")
+									{ template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_1x_mask.png")
+									{template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_2x_mask.png")
+									{template_138trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_4x_mask.png")
+									{template_138trains_4x(0, 0)}
+								
+spriteset(spriteset_SBB_BDe_577_CJ_white_REV, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_1x_8bpp.png")
+									{ template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_1x_mask.png")
+									{template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_2x_mask.png")
+									{template_138trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_4x_mask.png")
+									{template_138trains_REV_4x(0, 0)}	
+
+
+//Spriteset Coat of Arms
+
+spriteset(spriteset_SBB_BDe_577_CJ_white_COA_1, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_1_1x_8bpp.png")
+									{ template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_COA_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_1_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_1_1x_mask.png")
+									{template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_COA_1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_1_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_1_2x_mask.png")
+									{template_138trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_COA_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_1_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_1_4x_mask.png")
+									{template_138trains_4x(0, 0)}
+								
+spriteset(spriteset_SBB_BDe_577_CJ_white_COA_1_REV, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_1_1x_8bpp.png")
+									{ template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_COA_1_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_1_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_1_1x_mask.png")
+									{template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_COA_1_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_1_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_1_2x_mask.png")
+									{template_138trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_COA_1_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_1_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_1_4x_mask.png")
+									{template_138trains_REV_4x(0, 0)}	
+
+
+
+spriteset(spriteset_SBB_BDe_577_CJ_white_COA_2, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_2_1x_8bpp.png")
+									{ template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_COA_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_2_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_2_1x_mask.png")
+									{template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_COA_2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_2_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_2_2x_mask.png")
+									{template_138trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_COA_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_2_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_2_4x_mask.png")
+									{template_138trains_4x(0, 0)}
+								
+spriteset(spriteset_SBB_BDe_577_CJ_white_COA_2_REV, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_2_1x_8bpp.png")
+									{ template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_COA_2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_2_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_2_1x_mask.png")
+									{template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_COA_2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_2_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_2_2x_mask.png")
+									{template_138trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_COA_2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_2_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_COA_2_4x_mask.png")
+									{template_138trains_REV_4x(0, 0)}	
+
+
+//Spriteset loading
+
+spriteset(spriteset_SBB_BDe_577_CJ_loading, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_loading_1x_8bpp.png")
+									{ template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_loading_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_loading_1x_mask.png")
+									{template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_loading_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_loading_2x_mask.png")
+									{template_138trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_loading_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_loading_4x_mask.png")
+									{template_138trains_4x(0, 0)}
+
+spritegroup spritegroup_SBB_BDe_577_CJ_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_BDe_577_CJ_loading];}
+										
+spriteset(spriteset_SBB_BDe_577_CJ_loading_REV, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_loading_1x_8bpp.png")
+									{ template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_loading_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_loading_1x_mask.png")
+									{template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_loading_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_loading_2x_mask.png")
+									{template_138trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_loading_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_loading_4x_mask.png")
+									{template_138trains_REV_4x(0, 0)}								
+
+spritegroup spritegroup_SBB_BDe_577_CJ_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_BDe_577_CJ_loading_REV];}
+		
+
+//Spriteset lights front
+
+spriteset(spriteset_SBB_BDe_577_CJ_lights_front, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_front_1x_8bpp.png")
+									{ template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_lights_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_front_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_front_1x_mask.png")
+									{template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_lights_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_front_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_front_2x_mask.png")
+									{template_138trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_lights_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_front_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_front_4x_mask.png")
+									{template_138trains_4x(0, 0)}
+								
+spriteset(spriteset_SBB_BDe_577_CJ_lights_front_REV, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_front_1x_8bpp.png")
+									{ template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_lights_front_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_front_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_front_1x_mask.png")
+									{template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_lights_front_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_front_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_front_2x_mask.png")
+									{template_138trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_lights_front_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_front_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_front_4x_mask.png")
+									{template_138trains_REV_4x(0, 0)}								
+								
+
+//Spriteset lights back
+
+spriteset(spriteset_SBB_BDe_577_CJ_lights_back, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_back_1x_8bpp.png")
+									{ template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_lights_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_back_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_back_1x_mask.png")
+									{template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_lights_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_back_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_back_2x_mask.png")
+									{template_138trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_lights_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_back_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_back_4x_mask.png")
+									{template_138trains_4x(0, 0)}
+								
+spriteset(spriteset_SBB_BDe_577_CJ_lights_back_REV, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_back_1x_8bpp.png")
+									{ template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_lights_back_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_back_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_back_1x_mask.png")
+									{template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_lights_back_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_back_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_back_2x_mask.png")
+									{template_138trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_lights_back_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_back_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_lights_back_4x_mask.png")
+									{template_138trains_REV_4x(0, 0)}								
+
+
+//Spritesets Bt 
+
+
+//Spriteset BT creme
+
+spriteset(spriteset_SBB_BDe_577_Bt_CJ_creme, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_creme_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_creme, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_creme_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_creme_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_creme, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_creme_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_creme_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_creme, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_creme_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_creme_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+								
+spriteset(spriteset_SBB_BDe_577_Bt_CJ_creme_REV, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_creme_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_creme_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_creme_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_creme_1x_mask.png")
+									{template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_creme_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_creme_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_creme_2x_mask.png")
+									{template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_creme_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_creme_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_creme_4x_mask.png")
+									{template_128trains_REV_4x(0, 0)}	
+
+//Spriteset BT red
+
+spriteset(spriteset_SBB_BDe_577_Bt_CJ_red, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_red_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_red_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_red_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_red_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_red_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_red_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_red_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+								
+spriteset(spriteset_SBB_BDe_577_Bt_CJ_red_REV, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_red_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_red_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_red_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_red_1x_mask.png")
+									{template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_red_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_red_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_red_2x_mask.png")
+									{template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_red_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_red_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_red_4x_mask.png")
+									{template_128trains_REV_4x(0, 0)}	
+
+//Spriteset BT white
+
+spriteset(spriteset_SBB_BDe_577_Bt_CJ_white, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_white, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_white, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_white, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+								
+spriteset(spriteset_SBB_BDe_577_Bt_CJ_white_REV, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_white_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_1x_mask.png")
+									{template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_white_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_2x_mask.png")
+									{template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_white_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_4x_mask.png")
+									{template_128trains_REV_4x(0, 0)}	                                    
+
+
+//Spriteset Bt loading
+
+spriteset(spriteset_SBB_BDe_577_Bt_CJ_loading, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_loading_1x_8bpp.png")
+									{ template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_loading_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_loading_1x_mask.png")
+									{template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_loading_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_loading_2x_mask.png")
+									{template_138trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_loading_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_loading_4x_mask.png")
+									{template_138trains_4x(0, 0)}
+
+spritegroup spritegroup_SBB_BDe_577_Bt_CJ_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_BDe_577_Bt_CJ_loading];}
+										
+spriteset(spriteset_SBB_BDe_577_Bt_CJ_loading_REV, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_loading_1x_8bpp.png")
+									{ template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_loading_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_loading_1x_mask.png")
+									{template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_loading_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_loading_2x_mask.png")
+									{template_138trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_loading_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_loading_4x_mask.png")
+									{template_138trains_REV_4x(0, 0)}								
+
+spritegroup spritegroup_SBB_BDe_577_Bt_CJ_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_BDe_577_Bt_CJ_loading_REV];}
+
+
+//Spriteset Bt white loading
+
+spriteset(spriteset_SBB_BDe_577_Bt_CJ_white_loading, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_loading_1x_8bpp.png")
+									{ template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_white_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_loading_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_loading_1x_mask.png")
+									{template_138trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_white_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_loading_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_loading_2x_mask.png")
+									{template_138trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_white_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_loading_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_loading_4x_mask.png")
+									{template_138trains_4x(0, 0)}
+
+spritegroup spritegroup_SBB_BDe_577_Bt_CJ_white_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_BDe_577_Bt_CJ_white_loading];}
+										
+spriteset(spriteset_SBB_BDe_577_Bt_CJ_white_loading_REV, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_loading_1x_8bpp.png")
+									{ template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_white_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_loading_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_loading_1x_mask.png")
+									{template_138trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_white_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_loading_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_loading_2x_mask.png")
+									{template_138trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_white_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_loading_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_white_loading_4x_mask.png")
+									{template_138trains_REV_4x(0, 0)}								
+
+spritegroup spritegroup_SBB_BDe_577_Bt_CJ_white_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_SBB_BDe_577_Bt_CJ_white_loading_REV];}
+
+
+//Spriteset lights front
+
+spriteset(spriteset_SBB_BDe_577_Bt_CJ_lights_front, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_front_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_lights_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_front_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_front_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_lights_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_front_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_front_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_lights_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_front_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_front_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+								
+spriteset(spriteset_SBB_BDe_577_Bt_CJ_lights_front_REV, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_front_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_lights_front_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_front_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_front_1x_mask.png")
+									{template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_lights_front_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_front_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_front_2x_mask.png")
+									{template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_lights_front_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_front_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_front_4x_mask.png")
+									{template_128trains_REV_4x(0, 0)}								
+								
+
+//Spriteset lights back
+
+spriteset(spriteset_SBB_BDe_577_Bt_CJ_lights_back, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_back_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_lights_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_back_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_back_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_lights_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_back_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_back_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_lights_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_back_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_back_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+								
+spriteset(spriteset_SBB_BDe_577_Bt_CJ_lights_back_REV, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_back_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_lights_back_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_back_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_back_1x_mask.png")
+									{template_128trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_lights_back_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_back_2x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_back_2x_mask.png")
+									{template_128trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_Bt_CJ_lights_back_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_back_4x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_Bt_CJ_lights_back_4x_mask.png")
+									{template_128trains_REV_4x(0, 0)}	
+
+
+//Spritesets purchase
+
+spriteset(spriteset_SBB_BDe_577_CJ_creme_purchase, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_creme_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_creme_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_BDe_577_CJ_red_101_purchase, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_red_101_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_101_1x_mask.png")
+									{template_purchase(0, 0)}
+
+spriteset(spriteset_SBB_BDe_577_CJ_red_102_purchase, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_red_102_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_red_102_1x_mask.png")
+									{template_purchase(0, 0)}               
+
+spriteset(spriteset_SBB_BDe_577_CJ_white_purchase, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_SBB_BDe_577_CJ_white_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_1x_32bpp.png", "gfx/SBB_BDe_577/SBB_BDe_577_CJ_white_1x_mask.png")
+									{template_purchase(0, 0)}                                                         
+
+
+//Switches
+
+    switch(FEAT_TRAINS,SELF, switch_purchase_SBB_BDe_577_CJ, current_year){
+           0 .. 1979: spriteset_SBB_BDe_577_CJ_creme_purchase;
+        1980 .. 1994: spriteset_SBB_BDe_577_CJ_red_101_purchase;
+        1995 .. 2050: spriteset_SBB_BDe_577_CJ_white_purchase;
+            spriteset_SBB_BDe_577_CJ_white_purchase;}	
+
+
+//Assmebling BDE
+
+    switch(FEAT_TRAINS, SELF, switch_SBB_BDe_577_CJ_lights_front, position_in_consist) {
+        0 .. 3: spriteset_SBB_BDe_577_CJ_lights_front;
+        spriteset_empty;}
+
+    switch(FEAT_TRAINS, SELF, switch_SBB_BDe_577_CJ_lights_front_REV, position_in_consist) {
+        0 .. 3: spriteset_SBB_BDe_577_CJ_lights_front_REV;
+        spriteset_empty;}
+
+    switch(FEAT_TRAINS, SELF, switch_SBB_BDe_577_CJ_lights_back, position_in_consist_from_end) {
+        0 .. 3: spriteset_SBB_BDe_577_CJ_lights_back;
+        spriteset_empty;}
+
+    switch(FEAT_TRAINS, SELF, switch_SBB_BDe_577_CJ_lights_back_REV, position_in_consist_from_end) {
+        0 .. 3: spriteset_SBB_BDe_577_CJ_lights_back_REV;
+        spriteset_empty;}        
+
+    switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_BDe_577_CJ_creme, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 4 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_SBB_BDe_577_CJ_creme;
+        1: spritegroup_SBB_BDe_577_CJ_loading;
+        2: switch_SBB_BDe_577_CJ_lights_front;
+        3: switch_SBB_BDe_577_CJ_lights_back;}	
+
+    switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_BDe_577_CJ_creme_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 4 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_SBB_BDe_577_CJ_creme_REV;
+        1: spritegroup_SBB_BDe_577_CJ_loading_REV;
+        2: switch_SBB_BDe_577_CJ_lights_front_REV;
+        3: switch_SBB_BDe_577_CJ_lights_back_REV;}	
+
+    switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_BDe_577_CJ_red_101, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 4 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_SBB_BDe_577_CJ_red_101;
+        1: spritegroup_SBB_BDe_577_CJ_loading;
+        2: switch_SBB_BDe_577_CJ_lights_front;
+        3: switch_SBB_BDe_577_CJ_lights_back;}	
+
+    switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_BDe_577_CJ_red_101_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 4 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_SBB_BDe_577_CJ_red_101_REV;
+        1: spritegroup_SBB_BDe_577_CJ_loading_REV;
+        2: switch_SBB_BDe_577_CJ_lights_front_REV;
+        3: switch_SBB_BDe_577_CJ_lights_back_REV;}		
+
+    switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_BDe_577_CJ_red_102, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 4 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_SBB_BDe_577_CJ_red_102;
+        1: spritegroup_SBB_BDe_577_CJ_loading;
+        2: switch_SBB_BDe_577_CJ_lights_front;
+        3: switch_SBB_BDe_577_CJ_lights_back;}	
+
+    switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_BDe_577_CJ_red_102_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 4 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_SBB_BDe_577_CJ_red_102_REV;
+        1: spritegroup_SBB_BDe_577_CJ_loading_REV;
+        2: switch_SBB_BDe_577_CJ_lights_front_REV;
+        3: switch_SBB_BDe_577_CJ_lights_back_REV;}	        
+
+    switch (FEAT_TRAINS, SELF, random_choose_SBB_BDe_577_CJ_white_COA, switch_alternative_var_random_bits(1, 2)) {
+        1: spriteset_SBB_BDe_577_CJ_white_COA_1;
+            spriteset_SBB_BDe_577_CJ_white_COA_2;}	
+
+    switch (FEAT_TRAINS, SELF, random_choose_SBB_BDe_577_CJ_white_COA_REV, switch_alternative_var_random_bits(1, 2)) {
+        1: spriteset_SBB_BDe_577_CJ_white_COA_1_REV;
+            spriteset_SBB_BDe_577_CJ_white_COA_2_REV;}	
+
+    switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_BDe_577_CJ_white, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 5 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_SBB_BDe_577_CJ_white;
+        1: spritegroup_SBB_BDe_577_CJ_loading;
+        2: random_choose_SBB_BDe_577_CJ_white_COA;
+        3: switch_SBB_BDe_577_CJ_lights_front;
+        4: switch_SBB_BDe_577_CJ_lights_back;}	
+
+    switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_BDe_577_CJ_white_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 5 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_SBB_BDe_577_CJ_white_REV;
+        1: spritegroup_SBB_BDe_577_CJ_loading_REV;
+        2: random_choose_SBB_BDe_577_CJ_white_COA_REV;
+        3: switch_SBB_BDe_577_CJ_lights_front_REV;
+        4: switch_SBB_BDe_577_CJ_lights_back_REV;}	
+
+
+//Assmebling Bt
+
+    switch(FEAT_TRAINS, SELF, switch_SBB_BDe_577_Bt_CJ_lights_back, position_in_consist) {
+        0 .. 3: spriteset_SBB_BDe_577_Bt_CJ_lights_back;
+        spriteset_empty;}
+
+    switch(FEAT_TRAINS, SELF, switch_SBB_BDe_577_Bt_CJ_lights_front_REV, position_in_consist_from_end) {
+        0 .. 3: spriteset_SBB_BDe_577_Bt_CJ_lights_front_REV;
+        spriteset_empty;}   
+
+    switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_BDe_577_Bt_CJ_creme, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 4 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_SBB_BDe_577_Bt_CJ_creme;
+        1: spritegroup_SBB_BDe_577_Bt_CJ_loading;
+        2: switch_SBB_BDe_577_Bt_CJ_lights_back;}	
+
+    switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_BDe_577_Bt_CJ_creme_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 4 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_SBB_BDe_577_Bt_CJ_creme_REV;
+        1: spritegroup_SBB_BDe_577_Bt_CJ_loading_REV;
+        2: switch_SBB_BDe_577_Bt_CJ_lights_front_REV;}	
+
+    switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_BDe_577_Bt_CJ_red, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 4 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_SBB_BDe_577_Bt_CJ_red;
+        1: spritegroup_SBB_BDe_577_Bt_CJ_loading;
+        2: switch_SBB_BDe_577_Bt_CJ_lights_back;}	
+
+    switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_BDe_577_Bt_CJ_red_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 4 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_SBB_BDe_577_Bt_CJ_red_REV;
+        1: spritegroup_SBB_BDe_577_Bt_CJ_loading_REV;
+        2: switch_SBB_BDe_577_Bt_CJ_lights_front_REV;}	
+
+    switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_BDe_577_Bt_CJ_white, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 4 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_SBB_BDe_577_Bt_CJ_white;
+        1: spritegroup_SBB_BDe_577_Bt_CJ_white_loading;
+        2: switch_SBB_BDe_577_Bt_CJ_lights_back;}	
+
+    switch(FEAT_TRAINS, SELF, switch_loadstack_SBB_BDe_577_Bt_CJ_white_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 4 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_SBB_BDe_577_Bt_CJ_white_REV;
+        1: spritegroup_SBB_BDe_577_Bt_CJ_white_loading_REV;
+        2: switch_SBB_BDe_577_Bt_CJ_lights_front_REV;}	
+
+//Reversing solitary BDe
+
+    switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_BDe_577_CJ_creme, vehicle_is_reversed) {
+        0: switch_loadstack_SBB_BDe_577_CJ_creme;
+            switch_loadstack_SBB_BDe_577_CJ_creme_REV;}
+
+    switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_BDe_577_CJ_red_101, vehicle_is_reversed) {
+        0: switch_loadstack_SBB_BDe_577_CJ_red_101;
+            switch_loadstack_SBB_BDe_577_CJ_red_101_REV;}
+
+    switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_BDe_577_CJ_red_102, vehicle_is_reversed) {
+        0: switch_loadstack_SBB_BDe_577_CJ_red_102;
+            switch_loadstack_SBB_BDe_577_CJ_red_102_REV;}
+
+    switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_BDe_577_CJ_white, vehicle_is_reversed) {
+        0: switch_loadstack_SBB_BDe_577_CJ_white;
+            switch_loadstack_SBB_BDe_577_CJ_white_REV;}            
+
+//Reversing BDe with trailer 
+
+    switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_BDe_577_CJ_creme_front, vehicle_is_reversed) {
+        0: switch_loadstack_SBB_BDe_577_CJ_creme;
+            switch_loadstack_SBB_BDe_577_Bt_CJ_creme_REV;}
+
+    switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_BDe_577_CJ_creme_back, vehicle_is_reversed) {
+        0: switch_loadstack_SBB_BDe_577_Bt_CJ_creme;
+            switch_loadstack_SBB_BDe_577_CJ_creme_REV;}
+
+    switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_BDe_577_CJ_red_101_front, vehicle_is_reversed) {
+        0: switch_loadstack_SBB_BDe_577_CJ_red_101;
+            switch_loadstack_SBB_BDe_577_Bt_CJ_red_REV;}
+
+    switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_BDe_577_CJ_red_101_back, vehicle_is_reversed) {
+        0: switch_loadstack_SBB_BDe_577_Bt_CJ_red;
+            switch_loadstack_SBB_BDe_577_CJ_red_101_REV;}
+
+    switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_BDe_577_CJ_red_102_front, vehicle_is_reversed) {
+        0: switch_loadstack_SBB_BDe_577_CJ_red_102;
+            switch_loadstack_SBB_BDe_577_Bt_CJ_red_REV;}
+
+    switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_BDe_577_CJ_red_102_back, vehicle_is_reversed) {
+        0: switch_loadstack_SBB_BDe_577_Bt_CJ_red;
+            switch_loadstack_SBB_BDe_577_CJ_red_102_REV;}
+
+    switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_BDe_577_CJ_white_front, vehicle_is_reversed) {
+        0: switch_loadstack_SBB_BDe_577_CJ_white;
+            switch_loadstack_SBB_BDe_577_Bt_CJ_white_REV;}
+
+    switch (FEAT_TRAINS, PARENT, switch_reverse_SBB_BDe_577_CJ_white_back, vehicle_is_reversed) {
+        0: switch_loadstack_SBB_BDe_577_Bt_CJ_white;
+            switch_loadstack_SBB_BDe_577_CJ_white_REV;}
+
+    switch (FEAT_TRAINS, SELF, random_choose_SBB_BDe_577_CJ_red_front, switch_alternative_var_random_bits(1, 1)) {
+        1: switch_reverse_SBB_BDe_577_CJ_red_101_front;
+            switch_reverse_SBB_BDe_577_CJ_red_102_front;}	
+            
+    switch (FEAT_TRAINS, SELF, random_choose_SBB_BDe_577_CJ_red_back, switch_alternative_var_random_bits(1, 1)) {
+        1: switch_reverse_SBB_BDe_577_CJ_red_101_back;
+            switch_reverse_SBB_BDe_577_CJ_red_102_back;}							
+
+//Switches solitary BDe
+
+
+    switch (FEAT_TRAINS, SELF, random_choose_SBB_BDe_577_CJ_red, switch_alternative_var_random_bits(1, 1)) {
+        1: switch_reverse_SBB_BDe_577_CJ_red_101;
+            switch_reverse_SBB_BDe_577_CJ_red_102;}	
+
+    switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_BDe_577_CJ, 1){
+        return 525;}
+
+    switch(FEAT_TRAINS, SELF, switch_FX_SBB_BDe_577_CJ_solitary_front, position_in_vehid_chain % 3) {
+        0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 0, DISABLE_WAGON_POWER);
+            return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}	
+
+    switch(FEAT_TRAINS, SELF, switch_FX_SBB_BDe_577_CJ_solitary_back, position_in_vehid_chain_from_end % 3) {
+        0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 0, DISABLE_WAGON_POWER);
+            return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}	
+
+    switch (FEAT_TRAINS, PARENT, switch_FX_SBB_BDe_577_CJ_solitary, vehicle_is_reversed) {
+    0: switch_FX_SBB_BDe_577_CJ_solitary_front;
+        switch_FX_SBB_BDe_577_CJ_solitary_back;}
+
+    switch(FEAT_TRAINS, SELF, switch_length_SBB_BDe_577_CJ, position_in_vehid_chain % 3) {
+        0: 4;
+        1: 5;
+        2: 4;}
+
+    switch(FEAT_TRAINS, SELF, switch_cargo_capacity_SBB_BDe_577_CJ_solitary, cargo_type_in_veh ) {
+        PASS: 19;
+        TOUR: 19;
+        MAIL: 19;
+        GOOD: 19;
+        VALU: 19;}		
+        
+    switch (FEAT_TRAINS,SELF, switch_SBB_BDe_577_CJ_solitary_build,build_year){
+           0 .. 1979: switch_reverse_SBB_BDe_577_CJ_creme;
+        1980 .. 1994: random_choose_SBB_BDe_577_CJ_red;
+        1995 .. 2050: switch_reverse_SBB_BDe_577_CJ_white;
+            switch_reverse_SBB_BDe_577_CJ_white;}	
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_solitary_build, position_in_vehid_chain % 3) {
+        0:	   spriteset_empty;
+        1:     return switch_SBB_BDe_577_CJ_solitary_build;
+        2:     spriteset_empty;}
+
+    switch (FEAT_TRAINS, SELF, switch_articulated_SBB_BDe_577_CJ_solitary_build, extra_callback_info1) {
+        1: return ITEM_SBB_BDE_577_CJ_SOLITARY_BUILD;
+        2: return ITEM_PASS_19;
+        return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_BDE_577_CJ_SOLITARY_BUILD, 4740)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_BDE_577_CJ_SOLITARY_BUILD);	
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);				
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1968,01,01);
+						model_life: 					46;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+                        cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					4;
+						cargo_capacity: 				19 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							70 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						868 hp;
+						weight: 						53 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_BDe_577_CJ_solitary_build;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_PASS),);
+			length							:switch_length_SBB_BDe_577_CJ;
+			articulated_part				:switch_articulated_SBB_BDe_577_CJ_solitary_build;
+			purchase						:switch_purchase_SBB_BDe_577_CJ;
+			cost_factor						: 38;
+			running_cost_factor				:switch_running_cost_SBB_BDe_577_CJ;			
+			visual_effect_and_powered		:switch_FX_SBB_BDe_577_CJ_solitary;	
+            cargo_capacity:                 switch_cargo_capacity_SBB_BDe_577_CJ_solitary;
+			}
+	}	
+
+    switch (FEAT_TRAINS,SELF, switch_SBB_BDe_577_CJ_solitary_current,current_year){
+           0 .. 1979: switch_reverse_SBB_BDe_577_CJ_creme;
+        1980 .. 1994: random_choose_SBB_BDe_577_CJ_red;
+        1995 .. 2050: switch_reverse_SBB_BDe_577_CJ_white;
+            switch_reverse_SBB_BDe_577_CJ_white;}	
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_solitary_current, position_in_vehid_chain % 3) {
+        0:	   spriteset_empty;
+        1:     return switch_SBB_BDe_577_CJ_solitary_current;
+        2:     spriteset_empty;}
+
+    switch (FEAT_TRAINS, SELF, switch_articulated_SBB_BDe_577_CJ_solitary_current, extra_callback_info1) {
+        1: return ITEM_SBB_BDE_577_CJ_SOLITARY_CURRENT; 
+        2: return ITEM_PASS_19;        
+        return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_BDE_577_CJ_SOLITARY_CURRENT, 4741)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_BDE_577_CJ_SOLITARY_CURRENT);	
+						variant_group:					4740;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1968,01,01);
+						model_life: 					46;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+                        cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					4;
+						cargo_capacity: 				19 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							70 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						868 hp;
+						weight: 						53 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_BDe_577_CJ_solitary_current;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_PASS),);
+			length							:switch_length_SBB_BDe_577_CJ;
+			articulated_part				:switch_articulated_SBB_BDe_577_CJ_solitary_current;
+			purchase						:switch_purchase_SBB_BDe_577_CJ;
+			cost_factor						: 38;
+			running_cost_factor				:switch_running_cost_SBB_BDe_577_CJ;			
+			visual_effect_and_powered		:switch_FX_SBB_BDe_577_CJ_solitary;	
+            cargo_capacity:                 switch_cargo_capacity_SBB_BDe_577_CJ_solitary;
+			}
+	}	    
+
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_solitary_creme, position_in_vehid_chain % 3) {
+        0:	   spriteset_empty;
+        1:     return switch_reverse_SBB_BDe_577_CJ_creme;
+        2:     spriteset_empty;}
+
+    switch (FEAT_TRAINS, SELF, switch_articulated_SBB_BDe_577_CJ_solitary_creme, extra_callback_info1) {
+        1: return ITEM_SBB_BDE_577_CJ_SOLITARY_CREME;
+        2: return ITEM_PASS_19;         
+        return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_BDE_577_CJ_SOLITARY_CREME, 4742)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_BDE_577_CJ_SOLITARY_CREME);	
+						variant_group:					4740;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1968,01,01);
+						model_life: 					46;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+                        cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					4;
+						cargo_capacity: 				19 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							70 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						868 hp;
+						weight: 						53 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_BDe_577_CJ_solitary_creme;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_PASS),);
+			length							:switch_length_SBB_BDe_577_CJ;
+			articulated_part				:switch_articulated_SBB_BDe_577_CJ_solitary_creme;
+			purchase						:spriteset_SBB_BDe_577_CJ_creme_purchase;
+			cost_factor						: 38;
+			running_cost_factor				:switch_running_cost_SBB_BDe_577_CJ;			
+			visual_effect_and_powered		:switch_FX_SBB_BDe_577_CJ_solitary;	
+            cargo_capacity:                 switch_cargo_capacity_SBB_BDe_577_CJ_solitary;
+			}
+	}	    
+
+
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_solitary_red, position_in_vehid_chain % 3) {
+        0:	   spriteset_empty;
+        1:     return random_choose_SBB_BDe_577_CJ_red;
+        2:     spriteset_empty;}
+
+    switch (FEAT_TRAINS, SELF, switch_articulated_SBB_BDe_577_CJ_solitary_red, extra_callback_info1) {
+        1: return ITEM_SBB_BDE_577_CJ_SOLITARY_RED; 
+        2: return ITEM_PASS_19;        
+        return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_BDE_577_CJ_SOLITARY_RED, 4743)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_BDE_577_CJ_SOLITARY_RED);	
+						variant_group:					4740;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1980,01,01);
+						model_life: 					34;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+                        cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					4;
+						cargo_capacity: 				19 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							70 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						868 hp;
+						weight: 						53 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_BDe_577_CJ_solitary_red;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_PASS),);
+			length							:switch_length_SBB_BDe_577_CJ;
+			articulated_part				:switch_articulated_SBB_BDe_577_CJ_solitary_red;
+			purchase						:spriteset_SBB_BDe_577_CJ_red_101_purchase;
+			cost_factor						: 38;
+			running_cost_factor				:switch_running_cost_SBB_BDe_577_CJ;			
+			visual_effect_and_powered		:switch_FX_SBB_BDe_577_CJ_solitary;	
+            cargo_capacity:                 switch_cargo_capacity_SBB_BDe_577_CJ_solitary;
+			}
+	}	  
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_solitary_white, position_in_vehid_chain % 3) {
+        0:	   spriteset_empty;
+        1:     return switch_reverse_SBB_BDe_577_CJ_white;
+        2:     spriteset_empty;}
+
+    switch (FEAT_TRAINS, SELF, switch_articulated_SBB_BDe_577_CJ_solitary_white, extra_callback_info1) {
+        1: return ITEM_SBB_BDE_577_CJ_SOLITARY_WHITE; 
+        2: return ITEM_PASS_19;        
+        return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SBB_BDE_577_CJ_SOLITARY_WHITE, 4744)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_BDE_577_CJ_SOLITARY_WHITE);	
+						variant_group:					4740;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1995,01,01);
+						model_life: 					19;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+                        cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					4;
+						cargo_capacity: 				19 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							70 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						868 hp;
+						weight: 						53 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_BDe_577_CJ_solitary_white;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_PASS),);
+			length							:switch_length_SBB_BDe_577_CJ;
+			articulated_part				:switch_articulated_SBB_BDe_577_CJ_solitary_white;
+			purchase						:spriteset_SBB_BDe_577_CJ_white_purchase;
+			cost_factor						: 38;
+			running_cost_factor				:switch_running_cost_SBB_BDe_577_CJ;			
+			visual_effect_and_powered		:switch_FX_SBB_BDe_577_CJ_solitary;	
+            cargo_capacity:                 switch_cargo_capacity_SBB_BDe_577_CJ_solitary;
+			}
+	}	
+
+
+//Switches for dual unit
+
+
+    switch(FEAT_TRAINS,PARENT,switch_running_cost_SBB_BDe_577_CJ_dual, 1){
+        return 1050;}
+
+    switch(FEAT_TRAINS, SELF, switch_FX_SBB_BDe_577_CJ_front, position_in_vehid_chain % 25) {
+        0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 0, DISABLE_WAGON_POWER);
+            return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}	
+
+    switch(FEAT_TRAINS, SELF, switch_FX_SBB_BDe_577_CJ_back, position_in_vehid_chain_from_end % 25) {
+        0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 0, DISABLE_WAGON_POWER);
+            return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}	
+
+    switch (FEAT_TRAINS, PARENT, switch_FX_SBB_BDe_577_CJ_dual, vehicle_is_reversed) {
+    0: switch_FX_SBB_BDe_577_CJ_front;
+        switch_FX_SBB_BDe_577_CJ_back;}     
+
+    switch(FEAT_TRAINS, SELF, switch_cargo_capacity_SBB_BDe_577_CJ_dual, cargo_type_in_veh ) {
+        PASS: 1;
+        TOUR: 1;
+        MAIL: 1;
+        GOOD: 1;
+        VALU: 1;}		
+
+    switch(FEAT_TRAINS, SELF, switch_length_SBB_BDe_577_CJ_dual, position_in_vehid_chain % 25) {
+        0: 1;
+        1: 1;
+        2: 1;
+        3: 1;
+        4: 1;
+        5: 1;
+        6: 1;
+        7: 1;
+        8: 1;
+        9: 1;
+        10: 1;
+        11: 1;
+        12: 1;
+        13: 1;
+        14: 1;
+        15: 1;
+        16: 1;
+        17: 1;
+        18: 1;
+        19: 1;
+        20: 1;
+        21: 1;
+        22: 1;
+        23: 1;
+        24: 1;}
+
+    switch (FEAT_TRAINS,SELF, switch_SBB_BDe_577_CJ_dual_build_front,build_year){
+           0 .. 1979: switch_reverse_SBB_BDe_577_CJ_creme_front;
+        1980 .. 1994: random_choose_SBB_BDe_577_CJ_red_front;
+        1995 .. 2050: switch_reverse_SBB_BDe_577_CJ_white_front;
+              switch_reverse_SBB_BDe_577_CJ_white_front;}	
+
+    switch (FEAT_TRAINS,SELF, switch_SBB_BDe_577_CJ_dual_build_back,build_year){
+           0 .. 1979: switch_reverse_SBB_BDe_577_CJ_creme_back;
+        1980 .. 1994: random_choose_SBB_BDe_577_CJ_red_back;
+        1995 .. 2050: switch_reverse_SBB_BDe_577_CJ_white_back;
+              switch_reverse_SBB_BDe_577_CJ_white_back;}	
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_build_front, position_in_vehid_chain % 25) {
+        0: spriteset_empty;
+        1: spriteset_empty;
+        2: spriteset_empty;
+        3: spriteset_empty;
+        4: switch_SBB_BDe_577_CJ_dual_build_front;
+        5: spriteset_empty;
+        6: spriteset_empty;
+        7: spriteset_empty;
+        8: spriteset_empty;
+        9: spriteset_empty;
+        10: spriteset_empty;
+        11: spriteset_empty;
+        12: spriteset_empty;
+        13: spriteset_empty;
+        14: spriteset_empty;
+        15: spriteset_empty;
+        16: spriteset_empty;
+        17: switch_SBB_BDe_577_CJ_dual_build_back;
+        18: spriteset_empty;
+        19: spriteset_empty;
+        20: spriteset_empty;
+        21: spriteset_empty;
+        22: spriteset_empty;
+        23: spriteset_empty;
+        24: spriteset_empty;}
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_build_back, position_in_vehid_chain % 25) {
+        0: spriteset_empty;
+        1: spriteset_empty;
+        2: spriteset_empty;
+        3: spriteset_empty;
+        4: switch_SBB_BDe_577_CJ_dual_build_front;
+        5: spriteset_empty;
+        6: spriteset_empty;
+        7: spriteset_empty;
+        8: spriteset_empty;
+        9: spriteset_empty;
+        10: spriteset_empty;
+        11: spriteset_empty;
+        12: spriteset_empty;
+        13: spriteset_empty;
+        14: spriteset_empty;
+        15: spriteset_empty;
+        16: switch_SBB_BDe_577_CJ_dual_build_back;
+        17: spriteset_empty;
+        18: spriteset_empty;
+        19: spriteset_empty;
+        20: spriteset_empty;
+        21: spriteset_empty;
+        22: spriteset_empty;
+        23: spriteset_empty;
+        24: spriteset_empty;}
+
+    switch (FEAT_TRAINS, PARENT, switch_graphics_SBB_BDe_577_CJ_dual, vehicle_is_reversed) {
+    0: switch_graphics_SBB_BDe_577_CJ_build_front;
+        switch_graphics_SBB_BDe_577_CJ_build_back;}              
+
+    switch (FEAT_TRAINS, SELF, switch_articulated_SBB_BDe_577_CJ_dual_build, extra_callback_info1) {
+        1 .. 23: return ITEM_SBB_BDE_577_CJ_DUAL_BUILD;
+        24: return ITEM_PASS_117;
+        return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }       
+
+item (FEAT_TRAINS , ITEM_SBB_BDE_577_CJ_DUAL_BUILD, 4745)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_BDE_577_CJ_DUAL_BUILD);	
+                        variant_group:					4740;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);				
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1968,01,01);
+						model_life: 					46;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+                        cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					4;
+						cargo_capacity: 				4 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							70 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						868 hp;
+						weight: 						53 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_BDe_577_CJ_dual;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_PASS),);
+			length							:switch_length_SBB_BDe_577_CJ_dual;
+			articulated_part				:switch_articulated_SBB_BDe_577_CJ_dual_build;
+			purchase						:switch_purchase_SBB_BDe_577_CJ;
+			cost_factor						: 38;
+			running_cost_factor				:switch_running_cost_SBB_BDe_577_CJ_dual;			
+			visual_effect_and_powered		:switch_FX_SBB_BDe_577_CJ_dual;	
+            cargo_capacity:                 switch_cargo_capacity_SBB_BDe_577_CJ_dual;
+			}
+	}	         
+
+    switch (FEAT_TRAINS,SELF, switch_SBB_BDe_577_CJ_dual_current_front,current_year){
+           0 .. 1979: switch_reverse_SBB_BDe_577_CJ_creme_front;
+        1980 .. 1994: random_choose_SBB_BDe_577_CJ_red_front;
+        1995 .. 2050: switch_reverse_SBB_BDe_577_CJ_white_front;
+              switch_reverse_SBB_BDe_577_CJ_white_front;}	
+
+    switch (FEAT_TRAINS,SELF, switch_SBB_BDe_577_CJ_dual_current_back,current_year){
+           0 .. 1979: switch_reverse_SBB_BDe_577_CJ_creme_back;
+        1980 .. 1994: random_choose_SBB_BDe_577_CJ_red_back;
+        1995 .. 2050: switch_reverse_SBB_BDe_577_CJ_white_back;
+              switch_reverse_SBB_BDe_577_CJ_white_back;}	
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_current_front, position_in_vehid_chain % 25) {
+        0: spriteset_empty;
+        1: spriteset_empty;
+        2: spriteset_empty;
+        3: spriteset_empty;
+        4: switch_SBB_BDe_577_CJ_dual_current_front;
+        5: spriteset_empty;
+        6: spriteset_empty;
+        7: spriteset_empty;
+        8: spriteset_empty;
+        9: spriteset_empty;
+        10: spriteset_empty;
+        11: spriteset_empty;
+        12: spriteset_empty;
+        13: spriteset_empty;
+        14: spriteset_empty;
+        15: spriteset_empty;
+        16: spriteset_empty;
+        17: switch_SBB_BDe_577_CJ_dual_current_back;
+        18: spriteset_empty;
+        19: spriteset_empty;
+        20: spriteset_empty;
+        21: spriteset_empty;
+        22: spriteset_empty;
+        23: spriteset_empty;
+        24: spriteset_empty;}
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_current_back, position_in_vehid_chain % 25) {
+        0: spriteset_empty;
+        1: spriteset_empty;
+        2: spriteset_empty;
+        3: spriteset_empty;
+        4: switch_SBB_BDe_577_CJ_dual_current_front;
+        5: spriteset_empty;
+        6: spriteset_empty;
+        7: spriteset_empty;
+        8: spriteset_empty;
+        9: spriteset_empty;
+        10: spriteset_empty;
+        11: spriteset_empty;
+        12: spriteset_empty;
+        13: spriteset_empty;
+        14: spriteset_empty;
+        15: spriteset_empty;
+        16: switch_SBB_BDe_577_CJ_dual_current_back;
+        17: spriteset_empty;
+        18: spriteset_empty;
+        19: spriteset_empty;
+        20: spriteset_empty;
+        21: spriteset_empty;
+        22: spriteset_empty;
+        23: spriteset_empty;
+        24: spriteset_empty;}
+
+    switch (FEAT_TRAINS, PARENT, switch_graphics_SBB_BDe_577_CJ_dual_current, vehicle_is_reversed) {
+    0: switch_graphics_SBB_BDe_577_CJ_current_front;
+        switch_graphics_SBB_BDe_577_CJ_current_back;}              
+
+    switch (FEAT_TRAINS, SELF, switch_articulated_SBB_BDe_577_CJ_dual_current, extra_callback_info1) {
+        1 .. 23: return ITEM_SBB_BDE_577_CJ_DUAL_CURRENT;
+        24: return ITEM_PASS_117;
+        return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }       
+
+item (FEAT_TRAINS , ITEM_SBB_BDE_577_CJ_DUAL_CURRENT, 4746)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_BDE_577_CJ_DUAL_CURRENT);	
+                        variant_group:					4740;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);				
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1968,01,01);
+						model_life: 					46;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+                        cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					4;
+						cargo_capacity: 				4 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							70 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						868 hp;
+						weight: 						53 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_BDe_577_CJ_dual_current;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_PASS),);
+			length							:switch_length_SBB_BDe_577_CJ_dual;
+			articulated_part				:switch_articulated_SBB_BDe_577_CJ_dual_current;
+			purchase						:switch_purchase_SBB_BDe_577_CJ;
+			cost_factor						: 38;
+			running_cost_factor				:switch_running_cost_SBB_BDe_577_CJ_dual;			
+			visual_effect_and_powered		:switch_FX_SBB_BDe_577_CJ_dual;	
+            cargo_capacity:                 switch_cargo_capacity_SBB_BDe_577_CJ_dual;
+			}
+	}	         
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_creme_front, position_in_vehid_chain % 25) {
+        0: spriteset_empty;
+        1: spriteset_empty;
+        2: spriteset_empty;
+        3: spriteset_empty;
+        4: switch_reverse_SBB_BDe_577_CJ_creme_front;
+        5: spriteset_empty;
+        6: spriteset_empty;
+        7: spriteset_empty;
+        8: spriteset_empty;
+        9: spriteset_empty;
+        10: spriteset_empty;
+        11: spriteset_empty;
+        12: spriteset_empty;
+        13: spriteset_empty;
+        14: spriteset_empty;
+        15: spriteset_empty;
+        16: spriteset_empty;
+        17: switch_reverse_SBB_BDe_577_CJ_creme_back;
+        18: spriteset_empty;
+        19: spriteset_empty;
+        20: spriteset_empty;
+        21: spriteset_empty;
+        22: spriteset_empty;
+        23: spriteset_empty;
+        24: spriteset_empty;}
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_creme_back, position_in_vehid_chain % 25) {
+        0: spriteset_empty;
+        1: spriteset_empty;
+        2: spriteset_empty;
+        3: spriteset_empty;
+        4: switch_reverse_SBB_BDe_577_CJ_creme_front;
+        5: spriteset_empty;
+        6: spriteset_empty;
+        7: spriteset_empty;
+        8: spriteset_empty;
+        9: spriteset_empty;
+        10: spriteset_empty;
+        11: spriteset_empty;
+        12: spriteset_empty;
+        13: spriteset_empty;
+        14: spriteset_empty;
+        15: spriteset_empty;
+        16: switch_reverse_SBB_BDe_577_CJ_creme_back;
+        17: spriteset_empty;
+        18: spriteset_empty;
+        19: spriteset_empty;
+        20: spriteset_empty;
+        21: spriteset_empty;
+        22: spriteset_empty;
+        23: spriteset_empty;
+        24: spriteset_empty;}
+
+    switch (FEAT_TRAINS, PARENT, switch_graphics_SBB_BDe_577_CJ_dual_creme, vehicle_is_reversed) {
+    0: switch_graphics_SBB_BDe_577_CJ_creme_front;
+        switch_graphics_SBB_BDe_577_CJ_creme_back;}              
+
+    switch (FEAT_TRAINS, SELF, switch_articulated_SBB_BDe_577_CJ_dual_creme, extra_callback_info1) {
+        1 .. 23: return ITEM_SBB_BDE_577_CJ_DUAL_CREME;
+        24: return ITEM_PASS_117;
+        return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }       
+
+item (FEAT_TRAINS , ITEM_SBB_BDE_577_CJ_DUAL_CREME, 4747)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_BDE_577_CJ_DUAL_CREME);	
+                        variant_group:					4740;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);				
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1968,01,01);
+						model_life: 					46;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+                        cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					4;
+						cargo_capacity: 				4 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							70 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						868 hp;
+						weight: 						53 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_BDe_577_CJ_dual_creme;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_PASS),);
+			length							:switch_length_SBB_BDe_577_CJ_dual;
+			articulated_part				:switch_articulated_SBB_BDe_577_CJ_dual_creme;
+			purchase						:spriteset_SBB_BDe_577_CJ_creme_purchase;
+			cost_factor						: 38;
+			running_cost_factor				:switch_running_cost_SBB_BDe_577_CJ_dual;			
+			visual_effect_and_powered		:switch_FX_SBB_BDe_577_CJ_dual;	
+            cargo_capacity:                 switch_cargo_capacity_SBB_BDe_577_CJ_dual;
+			}
+	}	   
+
+
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_rot_front, position_in_vehid_chain % 25) {
+        0: spriteset_empty;
+        1: spriteset_empty;
+        2: spriteset_empty;
+        3: spriteset_empty;
+        4: random_choose_SBB_BDe_577_CJ_red_front;
+        5: spriteset_empty;
+        6: spriteset_empty;
+        7: spriteset_empty;
+        8: spriteset_empty;
+        9: spriteset_empty;
+        10: spriteset_empty;
+        11: spriteset_empty;
+        12: spriteset_empty;
+        13: spriteset_empty;
+        14: spriteset_empty;
+        15: spriteset_empty;
+        16: spriteset_empty;
+        17: random_choose_SBB_BDe_577_CJ_red_back;
+        18: spriteset_empty;
+        19: spriteset_empty;
+        20: spriteset_empty;
+        21: spriteset_empty;
+        22: spriteset_empty;
+        23: spriteset_empty;
+        24: spriteset_empty;}
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_rot_back, position_in_vehid_chain % 25) {
+        0: spriteset_empty;
+        1: spriteset_empty;
+        2: spriteset_empty;
+        3: spriteset_empty;
+        4: random_choose_SBB_BDe_577_CJ_red_front;
+        5: spriteset_empty;
+        6: spriteset_empty;
+        7: spriteset_empty;
+        8: spriteset_empty;
+        9: spriteset_empty;
+        10: spriteset_empty;
+        11: spriteset_empty;
+        12: spriteset_empty;
+        13: spriteset_empty;
+        14: spriteset_empty;
+        15: spriteset_empty;
+        16: random_choose_SBB_BDe_577_CJ_red_back;
+        17: spriteset_empty;
+        18: spriteset_empty;
+        19: spriteset_empty;
+        20: spriteset_empty;
+        21: spriteset_empty;
+        22: spriteset_empty;
+        23: spriteset_empty;
+        24: spriteset_empty;}
+
+    switch (FEAT_TRAINS, PARENT, switch_graphics_SBB_BDe_577_CJ_dual_rot, vehicle_is_reversed) {
+    0: switch_graphics_SBB_BDe_577_CJ_rot_front;
+        switch_graphics_SBB_BDe_577_CJ_rot_back;}              
+
+    switch (FEAT_TRAINS, SELF, switch_articulated_SBB_BDe_577_CJ_dual_rot, extra_callback_info1) {
+        1 .. 23: return ITEM_SBB_BDE_577_CJ_DUAL_ROT;
+        24: return ITEM_PASS_117;
+        return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }       
+
+item (FEAT_TRAINS , ITEM_SBB_BDE_577_CJ_DUAL_ROT, 4748)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_BDE_577_CJ_DUAL_ROT);	
+                        variant_group:					4740;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);				
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1980,01,01);
+						model_life: 					34;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+                        cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					4;
+						cargo_capacity: 				4 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							70 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						868 hp;
+						weight: 						53 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_BDe_577_CJ_dual_rot;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_PASS),);
+			length							:switch_length_SBB_BDe_577_CJ_dual;
+			articulated_part				:switch_articulated_SBB_BDe_577_CJ_dual_rot;
+			purchase						:spriteset_SBB_BDe_577_CJ_red_101_purchase;
+			cost_factor						: 38;
+			running_cost_factor				:switch_running_cost_SBB_BDe_577_CJ_dual;			
+			visual_effect_and_powered		:switch_FX_SBB_BDe_577_CJ_dual;	
+            cargo_capacity:                 switch_cargo_capacity_SBB_BDe_577_CJ_dual;
+			}
+	} 
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_white_front, position_in_vehid_chain % 25) {
+        0: spriteset_empty;
+        1: spriteset_empty;
+        2: spriteset_empty;
+        3: spriteset_empty;
+        4: switch_reverse_SBB_BDe_577_CJ_white_front;
+        5: spriteset_empty;
+        6: spriteset_empty;
+        7: spriteset_empty;
+        8: spriteset_empty;
+        9: spriteset_empty;
+        10: spriteset_empty;
+        11: spriteset_empty;
+        12: spriteset_empty;
+        13: spriteset_empty;
+        14: spriteset_empty;
+        15: spriteset_empty;
+        16: spriteset_empty;
+        17: switch_reverse_SBB_BDe_577_CJ_white_back;
+        18: spriteset_empty;
+        19: spriteset_empty;
+        20: spriteset_empty;
+        21: spriteset_empty;
+        22: spriteset_empty;
+        23: spriteset_empty;
+        24: spriteset_empty;}
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_SBB_BDe_577_CJ_white_back, position_in_vehid_chain % 25) {
+        0: spriteset_empty;
+        1: spriteset_empty;
+        2: spriteset_empty;
+        3: spriteset_empty;
+        4: switch_reverse_SBB_BDe_577_CJ_white_front;
+        5: spriteset_empty;
+        6: spriteset_empty;
+        7: spriteset_empty;
+        8: spriteset_empty;
+        9: spriteset_empty;
+        10: spriteset_empty;
+        11: spriteset_empty;
+        12: spriteset_empty;
+        13: spriteset_empty;
+        14: spriteset_empty;
+        15: spriteset_empty;
+        16: switch_reverse_SBB_BDe_577_CJ_white_back;
+        17: spriteset_empty;
+        18: spriteset_empty;
+        19: spriteset_empty;
+        20: spriteset_empty;
+        21: spriteset_empty;
+        22: spriteset_empty;
+        23: spriteset_empty;
+        24: spriteset_empty;}
+
+    switch (FEAT_TRAINS, PARENT, switch_graphics_SBB_BDe_577_CJ_dual_white, vehicle_is_reversed) {
+    0: switch_graphics_SBB_BDe_577_CJ_white_front;
+        switch_graphics_SBB_BDe_577_CJ_white_back;}              
+
+    switch (FEAT_TRAINS, SELF, switch_articulated_SBB_BDe_577_CJ_dual_white, extra_callback_info1) {
+        1 .. 23: return ITEM_SBB_BDE_577_CJ_DUAL_WHITE;
+        24: return ITEM_PASS_117;
+        return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }       
+
+item (FEAT_TRAINS , ITEM_SBB_BDE_577_CJ_DUAL_WHITE, 4749)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SBB_BDE_577_CJ_DUAL_WHITE);	
+                        variant_group:					4740;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);				
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1995,01,01);
+						model_life: 					19;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+                        cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					4;
+						cargo_capacity: 				4 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							70 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						868 hp;
+						weight: 						53 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SBB_BDe_577_CJ_dual_white;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_PASS),);
+			length							:switch_length_SBB_BDe_577_CJ_dual;
+			articulated_part				:switch_articulated_SBB_BDe_577_CJ_dual_white;
+			purchase						:spriteset_SBB_BDe_577_CJ_white_purchase;
+			cost_factor						: 38;
+			running_cost_factor				:switch_running_cost_SBB_BDe_577_CJ_dual;			
+			visual_effect_and_powered		:switch_FX_SBB_BDe_577_CJ_dual;	
+            cargo_capacity:                 switch_cargo_capacity_SBB_BDe_577_CJ_dual;
+			}
+	}	              

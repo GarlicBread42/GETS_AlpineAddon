@@ -1,0 +1,157 @@
+//##################
+//### BLS Bti DVT###
+//##################
+
+//Spriteset Bt i grün
+
+spriteset(spriteset_BLS_Bti, "gfx/BLS_Bti/BLS_Bti_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_1x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_2x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_4x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+spriteset(spriteset_BLS_Bti_REV, "gfx/BLS_Bti/BLS_Bti_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_1x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_1x_mask.png")
+									{template_128trains_REV_1x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_2x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_2x_mask.png")
+									{template_128trains_REV_2x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_4x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_4x_mask.png")
+									{template_128trains_REV_4x(0, 0)}
+
+
+spriteset(spriteset_BLS_Bti_loading, "gfx/BLS_Bti/BLS_Bti_loading_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_loading_1x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_loading_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_loading_2x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_loading_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_loading_4x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_loading_4x_mask.png")
+									{template_128trains_4x(0, 0)}   
+
+spritegroup spritegroup_BLS_Bti_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_BLS_Bti_loading];}	 
+
+
+spriteset(spriteset_BLS_Bti_loading_REV, "gfx/BLS_Bti/BLS_Bti_loading_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_loading_1x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_loading_1x_mask.png")
+									{template_128trains_REV_1x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_loading_2x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_loading_2x_mask.png")
+									{template_128trains_REV_2x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_loading_4x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_loading_4x_mask.png")
+									{template_128trains_REV_4x(0, 0)}   
+
+spritegroup spritegroup_BLS_Bti_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_BLS_Bti_loading_REV];}	
+
+spriteset(spriteset_BLS_Bti_lights_front_REV, "gfx/BLS_Bti/BLS_Bti_lights_front_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_lights_front_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_lights_front_1x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_lights_front_1x_mask.png")
+									{template_128trains_REV_1x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_lights_front_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_lights_front_2x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_loading_2x_mask.png")
+									{template_128trains_REV_2x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_lights_front_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_lights_front_4x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_loading_4x_mask.png")
+									{template_128trains_REV_4x(0, 0)}       
+                                    
+ spriteset(spriteset_BLS_Bti_lights_back, "gfx/BLS_Bti/BLS_Bti_lights_back_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_lights_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_lights_back_1x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_lights_back_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_lights_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_lights_back_2x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_loading_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_lights_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_lights_back_4x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_loading_4x_mask.png")
+									{template_128trains_4x(0, 0)}     
+
+//Spriteset purchase  
+
+spriteset(spriteset_BLS_Bti_purchase, "gfx/BLS_Bti/BLS_Bti_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_BLS_Bti_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_Bti/BLS_Bti_1x_32bpp.png", "gfx/BLS_Bti/BLS_Bti_1x_mask.png")
+									{template_purchase(0, 0)}
+
+//Switches
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_BLS_Bti, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_BLS_Bti;
+        1: spritegroup_BLS_Bti_loading;
+        2: spriteset_BLS_Bti_lights_back;}  
+
+    switch(FEAT_TRAINS, SELF, switch_length_BLS_Bti, position_in_articulated_veh % 3) {
+        0: 4;
+        1: 4;
+        2: 4;}	
+
+    switch (FEAT_TRAINS, PARENT, switch_running_cost_BLS_Bti,  switch_check_Restaurant_0()) {
+        1: return 0;
+        0: return 1600;}	
+        
+    switch (FEAT_TRAINS, PARENT, switch_cargo_aging_BLS_Bti,  switch_check_Restaurant_0()) {
+        1: return 233;
+        0: return 185;}	  
+
+    switch(FEAT_TRAINS, SELF, switch_graphics_BLS_Bti, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return switch_spritestack_BLS_Bti;
+        2:     spriteset_empty;}
+
+    switch (FEAT_TRAINS, SELF, switch_articulated_BLS_Bti, extra_callback_info1) {
+        1 .. 2: return ITEM_BLS_BTI;												
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+
+item (FEAT_TRAINS , ITEM_BLS_BTI, 7942)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BLS_BTI);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1967,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						26 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					22;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_graphics_BLS_Bti;
+			additional_text					: string(STR_CONCAT_3,
+											  string(STR_GAUGE_STANDARD),                                                                                          
+											  string(STR_DESC_EXPRESS),
+                                              string(STR_DESC_DVT),);
+			length							: switch_length_BLS_Bti;
+			articulated_part				: switch_articulated_BLS_Bti;
+			purchase						: spriteset_BLS_Bti_purchase;
+			cost_factor						: 500;
+			running_cost_factor				: switch_running_cost_BLS_Bti;
+			purchase_running_cost_factor	: 1600;
+			cargo_age_period				: switch_cargo_aging_BLS_Bti;	
+			}
+		}                   

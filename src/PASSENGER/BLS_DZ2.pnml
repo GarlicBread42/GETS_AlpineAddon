@@ -1,0 +1,91 @@
+//#############################
+//### BLS DZ2Gepäckwagen###
+//#############################
+
+//Spriteset grün
+
+spriteset(spriteset_BLS_DZ2_gruen, "gfx/BLS_DZ2/BLS_DZ2_gruen_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+		alternative_sprites (spriteset_BLS_DZ2_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_DZ2/BLS_DZ2_gruen_1x_32bpp.png", "gfx/BLS_DZ2/BLS_DZ2_gruen_1x_mask.png")
+									{template_88trains_1x(0, 0)}
+		alternative_sprites (spriteset_BLS_DZ2_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BLS_DZ2/BLS_DZ2_gruen_2x_32bpp.png", "gfx/BLS_DZ2/BLS_DZ2_gruen_2x_mask.png")
+									{template_88trains_2x(0, 0)}
+		alternative_sprites (spriteset_BLS_DZ2_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BLS_DZ2/BLS_DZ2_gruen_4x_32bpp.png", "gfx/BLS_DZ2/BLS_DZ2_gruen_4x_mask.png")
+									{template_88trains_4x(0, 0)}
+
+spriteset(spriteset_BLS_DZ2_gruen_loading, "gfx/BLS_DZ2/BLS_DZ2_gruen_loading_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+		alternative_sprites (spriteset_BLS_DZ2_gruen_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_DZ2/BLS_DZ2_gruen_loading_1x_32bpp.png", "gfx/BLS_DZ2/BLS_DZ2_gruen_loading_1x_mask.png")
+									{template_88trains_1x(0, 0)}
+		alternative_sprites (spriteset_BLS_DZ2_gruen_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BLS_DZ2/BLS_DZ2_gruen_loading_2x_32bpp.png", "gfx/BLS_DZ2/BLS_DZ2_gruen_loading_2x_mask.png")
+									{template_88trains_2x(0, 0)}
+		alternative_sprites (spriteset_BLS_DZ2_gruen_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BLS_DZ2/BLS_DZ2_gruen_loading_4x_32bpp.png", "gfx/BLS_DZ2/BLS_DZ2_gruen_loading_4x_mask.png")
+									{template_88trains_4x(0, 0)}
+									
+spritegroup spritegroup_BLS_DZ2_gruen_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_BLS_DZ2_gruen_loading];}		
+
+//Spriteset purchase
+
+spriteset(spriteset_BLS_DZ2_gruen_purchase, "gfx/BLS_DZ2/BLS_DZ2_gruen_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_BLS_DZ2_gruen_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BLS_DZ2/BLS_DZ2_gruen_1x_32bpp.png", "gfx/BLS_DZ2/BLS_DZ2_gruen_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BLS_DZ2_gruen, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BLS_DZ2_gruen;
+							1: spritegroup_BLS_DZ2_gruen_loading;}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BLS_DZ2_gruen, 1){
+							return 1250;}
+
+item (FEAT_TRAINS , ITEM_BLS_DZ2, 7767)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BLS_DZ2);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1966,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_MAIL);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							125 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						20 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					108;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_spritestack_BLS_DZ2_gruen;
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_BAGG_EXP),);
+			purchase						: spriteset_BLS_DZ2_gruen_purchase;
+			cost_factor						: 410;
+			running_cost_factor				: switch_running_cost_BLS_DZ2_gruen;
+			purchase_running_cost_factor	: 1950;
+			}
+		}
