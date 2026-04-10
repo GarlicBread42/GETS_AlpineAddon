@@ -1,2 +1,4 @@
-# NML cache
 .nmlcache/
+*.grf
+GETS_ALPINE.nml
+
