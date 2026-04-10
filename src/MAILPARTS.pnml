@@ -237,3 +237,164 @@ item (FEAT_TRAINS , ITEM_MAIL_48, 3985)
 			default							: spriteset_empty;		
 			 }
 		}
+
+item (FEAT_TRAINS , ITEM_MAIL_22, 3986)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_MAIL_25);
+						climates_available: 			NO_CLIMATE;
+						introduction_date: 				date(1600,01,01);
+						model_life: 					99;
+						vehicle_life: 					99;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    0;
+						running_cost_base:              RUNNING_COST_STEAM;
+						running_cost_factor: 			0;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							900 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						1 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					22;
+						ai_engine_rank: 				0;
+						length: 						4;
+	}		
+
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spriteset_empty;		
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_MAIL_18, 3987)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_MAIL_25);
+						climates_available: 			NO_CLIMATE;
+						introduction_date: 				date(1600,01,01);
+						model_life: 					99;
+						vehicle_life: 					99;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    0;
+						running_cost_base:              RUNNING_COST_STEAM;
+						running_cost_factor: 			0;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							900 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						1 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					18;
+						ai_engine_rank: 				0;
+						length: 						4;
+	}		
+
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spriteset_empty;		
+			 }
+		}		
+
+//########################
+//### Passenger-compartments###
+//########################
+
+
+item (FEAT_TRAINS , ITEM_PASS_19, 3995)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_MAIL_25);
+						climates_available: 			NO_CLIMATE;
+						introduction_date: 				date(1600,01,01);
+						model_life: 					99;
+						vehicle_life: 					99;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    0;
+						running_cost_base:              RUNNING_COST_STEAM;
+						running_cost_factor: 			0;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							900 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						1 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					19;
+						ai_engine_rank: 				0;
+						length: 						4;
+	}		
+
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spriteset_empty;		
+			 }
+		}		
+
+item (FEAT_TRAINS , ITEM_PASS_117, 3996)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_MAIL_25);
+						climates_available: 			NO_CLIMATE;
+						introduction_date: 				date(1600,01,01);
+						model_life: 					99;
+						vehicle_life: 					99;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    0;
+						running_cost_base:              RUNNING_COST_STEAM;
+						running_cost_factor: 			0;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							900 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						1 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					117;
+						ai_engine_rank: 				0;
+						length: 						1;
+	}		
+
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spriteset_empty;		
+			 }
+		}		

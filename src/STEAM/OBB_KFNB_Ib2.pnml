@@ -6,13 +6,10 @@
 
 spriteset(spriteset_OBB_KFNB_Ib2_KFNB, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_KFNB_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_KFNB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_KFNB_1x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_KFNB_1x_mask.png")
 									{template_58trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_KFNB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_KFNB_2x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_KFNB_2x_mask.png")
 									{template_58trains_2x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_KFNB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_KFNB_4x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_KFNB_4x_mask.png")
 									{template_58trains_4x(0, 0)}
 									
@@ -20,13 +17,10 @@ spriteset(spriteset_OBB_KFNB_Ib2_KFNB, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_KFNB_1x_8b
 
 spriteset(spriteset_OBB_KFNB_Ib2_kkstb, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_kkstb_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_kkstb, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_kkstb_1x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_kkstb_1x_mask.png")
 									{template_58trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_kkstb, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_kkstb_2x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_kkstb_2x_mask.png")
 									{template_58trains_2x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_kkstb, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_kkstb_4x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_kkstb_4x_mask.png")
 									{template_58trains_4x(0, 0)}
 									
@@ -34,49 +28,37 @@ spriteset(spriteset_OBB_KFNB_Ib2_kkstb, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_kkstb_1x_
 
 spriteset(spriteset_OBB_KFNB_Ib2_anim1, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim1_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim1_1x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim1_1x_mask.png")
 									{template_58trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim1_2x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim1_2x_mask.png")
 									{template_58trains_2x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim1_4x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim1_4x_mask.png")
 									{template_58trains_4x(0, 0)}
 									
 spriteset(spriteset_OBB_KFNB_Ib2_anim2, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim2_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim2_1x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim2_1x_mask.png")
 									{template_58trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim2_2x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim2_2x_mask.png")
 									{template_58trains_2x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim2_4x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim2_4x_mask.png")
 									{template_58trains_4x(0, 0)}
 									
 spriteset(spriteset_OBB_KFNB_Ib2_anim3, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim3_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim3_1x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim3_1x_mask.png")
 									{template_58trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim3_2x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim3_2x_mask.png")
 									{template_58trains_2x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim3_4x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim3_4x_mask.png")
 									{template_58trains_4x(0, 0)}
 									
 spriteset(spriteset_OBB_KFNB_Ib2_anim4, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim4_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim4_1x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim4_1x_mask.png")
 									{template_58trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim4_2x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim4_2x_mask.png")
 									{template_58trains_2x(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim4_4x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim4_4x_mask.png")
 									{template_58trains_4x(0, 0)}																																																						
 									
@@ -85,19 +67,16 @@ spriteset(spriteset_OBB_KFNB_Ib2_anim4, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim4_1x_
 
 spriteset(spriteset_OBB_KFNB_Ib2_KFNB_purchase, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_KFNB_1x_8bpp.png")
 									{ template_purchase(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_KFNB_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_KFNB_1x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_KFNB_1x_mask.png")
 									{template_purchase(0, 0)}
 									
 spriteset(spriteset_OBB_KFNB_Ib2_kkstb_purchase, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_kkstb_1x_8bpp.png")
 									{ template_purchase(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_kkstb_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_kkstb_1x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_kkstb_1x_mask.png")
 									{template_purchase(0, 0)}	
 									
 spriteset(spriteset_OBB_KFNB_Ib2_anim_purchase, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim1_1x_8bpp.png")
 									{ template_purchase(0, 0)}
-				
 	alternative_sprites (spriteset_OBB_KFNB_Ib2_anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim1_1x_32bpp.png", "gfx/OBB_KFNB_Ib2/OBB_KFNB_Ib2_anim1_1x_mask.png")
 									{template_purchase(0, 0)}
 									

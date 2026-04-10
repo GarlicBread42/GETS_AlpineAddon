@@ -170,11 +170,11 @@
             1: return 1;
            return switch_check_Restaurant_7;} 
            
-     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_5, [count_veh_id(5512) > 0]) {
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_5, [count_veh_id(7641) > 0]) {
             1: return 1;
            return switch_check_Restaurant_6;} 
            
-     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_4, [count_veh_id(5511) > 0]) {
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_4, [count_veh_id(7640) > 0]) {
             1: return 1;
            return switch_check_Restaurant_5;}            
            

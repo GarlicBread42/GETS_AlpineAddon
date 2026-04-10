@@ -1,15 +1,23 @@
-    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_aging_3, [count_veh_id(7583) > 0]) {
-            1: return 1;
-           return 0;}
+switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_aging_5, [count_veh_id(7641) > 0]) {
+        1: return 1;
+        return 0;}
+        
+switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_aging_4, [count_veh_id(7640) > 0]) {
+        1: return 1;
+        return switch_check_Restaurant_aging_5;}
 
-    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_aging_2, [count_veh_id(7582) > 0]) {
-            1: return 1;
-           return switch_check_Restaurant_aging_3;}
+switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_aging_3, [count_veh_id(7583) > 0]) {
+        1: return 1;
+        return switch_check_Restaurant_aging_4;}
 
-    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_aging_1, [count_veh_id(7581) > 0]) {
-            1: return 1;
-           return switch_check_Restaurant_cost_2;}
-            				
-    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_aging_0, [count_veh_id(7580) > 0]) {
-            1: return 1;
-            return switch_check_Restaurant_cost_1;}	
+switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_aging_2, [count_veh_id(7582) > 0]) {
+        1: return 1;
+        return switch_check_Restaurant_aging_3;}
+
+switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_aging_1, [count_veh_id(7581) > 0]) {
+        1: return 1;
+        return switch_check_Restaurant_cost_2;}
+                                
+switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_aging_0, [count_veh_id(7580) > 0]) {
+        1: return 1;
+        return switch_check_Restaurant_cost_1;}	

@@ -18,6 +18,8 @@ sort(FEAT_TRAINS, [
 
 0011,
 
+0015,
+
 0027,
 
 0028,
@@ -52,6 +54,8 @@ sort(FEAT_TRAINS, [
 1028,
 
 1040,
+
+1414,
 
 1267,
 
@@ -167,6 +171,8 @@ sort(FEAT_TRAINS, [
 
 //EMU SBB
 
+4608, 4609, 4610, 4611, 4612, 4613, 4614, 4615, 4616, 4617, 4618, 4619,
+
 4542,
 
 4530,
@@ -235,6 +241,8 @@ sort(FEAT_TRAINS, [
 
 1661,
 
+4740,
+
 //#########
 //###OBB###
 //#########
@@ -285,6 +293,8 @@ sort(FEAT_TRAINS, [
 
 //Passenger Coaches (National) Express SBB
 
+6665,
+
 6675,
 
 6709, 6710, 6711, 6712, 6713, 6714,
@@ -324,6 +334,8 @@ sort(FEAT_TRAINS, [
 
 7695,
 
+7712,
+
 //Half-Baggage SBB
 
 7754,
@@ -338,15 +350,41 @@ sort(FEAT_TRAINS, [
 
 //Passenger Coaches BLS
 
+6844,
+
+6850,
+
 6864,
 
 6870,
 
 //DVT's BLS
 
+7935,
+
+7942,
+
+7943,
+
 7949, 
 
+//Restaurant BLS
+
+7640,
+
+//Full Baggage BLS
+
+7760,
+
+7766,
+
+7767,
+
+7772,
+
 //Half-Baggage BLS
+
+7783,
 
 7790,
 
@@ -413,7 +451,56 @@ sort(FEAT_TRAINS, [
 
 //Rollende Landstraße
 
-9900,
+8950,
+
+
+
+//########################
+//###Narrow Gauge Swiss###
+//########################
+
+
+//Electric Locomotives
+
+5010,
+
+5020,
+
+5000,
+
+//Coaches
+
+5688,
+
+5695,
+
+5500,
+
+5502,
+
+//Half-Baggage
+
+5501,
+
+//Baggage
+
+//Freight
+
+5750,
+
+5800,
+
+5900,
+
+5850,
+
+5851,
+
+5852,
+
+5900,
+
+5950,
 
 ]);
 

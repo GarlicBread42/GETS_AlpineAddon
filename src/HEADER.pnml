@@ -5,10 +5,10 @@ GRF block defines everything - grf-ID is unique
 */
 
 grf {
-			grfid: "SA\1C\1C" ;
+grfid: "SA\1C\1C" ;
 			name: string(STR_GRF_NAME) ;
 			desc: string(STR_GRF_DESC) ;
-			version: 2;
+			version: 4;
 			min_compatible_version: 36;
 
 	param 0{

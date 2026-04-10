@@ -299,7 +299,23 @@ spriteset (spriteset_OBB_KFNB_1837_Open_purchase, "gfx\OBB_KFNB_1837_Open/OBB_KF
 							bitmask(CC_PIECE_GOODS) : return switch_loadstack_OBB_KFNB_1837_Open_Box;
 							bitmask(CC_LIQUID): return switch_loadstack_OBB_KFNB_1837_Open_Barrell;
 								switch_loadstack_OBB_KFNB_1837_Open_Box;}
-						
+
+					switch(FEAT_TRAINS, SELF, switch_OBB_KFNB_1837_Open_Liquid, hasbit(cargo_classes, CC_LIQUID)) {
+							0: switch_loadstack_OBB_KFNB_1837_Open_Box;
+								switch_loadstack_OBB_KFNB_1837_Open_Barrell;}	
+
+					switch(FEAT_TRAINS, SELF, switch_OBB_KFNB_1837_Open_CC_Piece, hasbit(cargo_classes, CC_PIECE_GOODS)) {
+							0: switch_OBB_KFNB_1837_Open_Liquid;
+								switch_loadstack_OBB_KFNB_1837_Open_Box;}		
+
+					switch(FEAT_TRAINS, SELF, switch_OBB_KFNB_1837_Open_CC_Bulk, hasbit(cargo_classes, CC_BULK)) {
+						0: switch_OBB_KFNB_1837_Open_CC_Piece;
+							switch_loadstack_OBB_KFNB_1837_Open_Bulk;}
+
+					switch(FEAT_TRAINS, SELF, switch_OBB_KFNB_1837_Open_CC_Bulk_Covered, hasbit(cargo_classes, CC_COVERED & CC_BULK)) {
+						0: switch_OBB_KFNB_1837_Open_CC_Bulk;
+							switch_loadstack_OBB_KFNB_1837_Open_Bulk_covered;}		
+
 					switch (FEAT_TRAINS, SELF, switch_OBB_KFNB_1837_Open_cargo_type, cargo_type_in_veh) {
 							STEL: return switch_loadstack_OBB_KFNB_1837_Open_Steel;
 							METL: return switch_loadstack_OBB_KFNB_1837_Open_Steel;
@@ -342,7 +358,7 @@ spriteset (spriteset_OBB_KFNB_1837_Open_purchase, "gfx\OBB_KFNB_1837_Open/OBB_KF
 							COAT: return switch_loadstack_OBB_KFNB_1837_Open_Barrell;
 							
 							LVST: return switch_loadstack_OBB_KFNB_1837_Open_LVST;
-								switch_OBB_KFNB_1837_Open_cargo_classes;}																								
+								switch_OBB_KFNB_1837_Open_CC_Bulk_Covered;}																								
 																		
 					switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_KFNB_1837_Open, 1){
 						return 45;}						

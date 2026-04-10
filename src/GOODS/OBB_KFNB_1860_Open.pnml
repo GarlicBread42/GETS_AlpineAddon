@@ -267,14 +267,22 @@ spriteset (spriteset_OBB_KFNB_1860_Open_purchase, "gfx\OBB_KFNB_1860_Open/OBB_KF
 					switch(FEAT_TRAINS, SELF, switch_loadstack_OBB_KFNB_1860_Open_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
 						0: spriteset_OBB_KFNB_1860_Open;
 						1: spritegroup_OBB_KFNB_1860_Open_load_Wood;}
-								
-					switch(FEAT_TRAINS, SELF, switch_OBB_KFNB_1860_Open_cargo_classes, cargo_classes) {
-							bitmask(CC_BULK): return switch_loadstack_OBB_KFNB_1860_Open_Bulk;
-							bitmask(CC_COVERED): return switch_loadstack_OBB_KFNB_1860_Open_Bulk_covered;
-							bitmask(CC_POWDERIZED): return switch_loadstack_OBB_KFNB_1860_Open_Box;
-							bitmask(CC_PIECE_GOODS) : return switch_loadstack_OBB_KFNB_1860_Open_Box;
-							bitmask(CC_LIQUID): return switch_loadstack_OBB_KFNB_1860_Open_Barrell;
-								switch_loadstack_OBB_KFNB_1860_Open_Box;}
+
+					switch(FEAT_TRAINS, SELF, switch_OBB_KFNB_1860_Open_Liquid, hasbit(cargo_classes, CC_LIQUID)) {
+							0: switch_loadstack_OBB_KFNB_1860_Open_Box;
+								switch_loadstack_OBB_KFNB_1860_Open_Barrell;}	
+
+					switch(FEAT_TRAINS, SELF, switch_OBB_KFNB_1860_Open_CC_Piece, hasbit(cargo_classes, CC_PIECE_GOODS)) {
+							0: switch_OBB_KFNB_1860_Open_Liquid;
+								switch_loadstack_OBB_KFNB_1860_Open_Box;}		
+
+					switch(FEAT_TRAINS, SELF, switch_OBB_KFNB_1860_Open_CC_Bulk, hasbit(cargo_classes, CC_BULK)) {
+						0: switch_OBB_KFNB_1860_Open_CC_Piece;
+							switch_loadstack_OBB_KFNB_1860_Open_Bulk;}
+
+					switch(FEAT_TRAINS, SELF, switch_OBB_KFNB_1860_Open_CC_Bulk_Covered, hasbit(cargo_classes, CC_COVERED & CC_BULK)) {
+						0: switch_OBB_KFNB_1860_Open_CC_Bulk;
+							switch_loadstack_OBB_KFNB_1860_Open_Bulk_covered;}	
 						
 					switch (FEAT_TRAINS, SELF, switch_OBB_KFNB_1860_Open_cargo_type, cargo_type_in_veh) {
 							STEL: return switch_loadstack_OBB_KFNB_1860_Open_Steel;
@@ -318,7 +326,7 @@ spriteset (spriteset_OBB_KFNB_1860_Open_purchase, "gfx\OBB_KFNB_1860_Open/OBB_KF
 							COAT: return switch_loadstack_OBB_KFNB_1860_Open_Barrell;
 							
 							LVST: return switch_loadstack_OBB_KFNB_1860_Open_LVST;
-								switch_OBB_KFNB_1860_Open_cargo_classes;}																								
+								switch_OBB_KFNB_1860_Open_CC_Bulk_Covered;}																								
 																		
 					switch(FEAT_TRAINS,PARENT,switch_running_cost_OBB_KFNB_1860_Open, 1){
 						return 120;}						

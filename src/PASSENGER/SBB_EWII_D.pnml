@@ -228,7 +228,9 @@ item (FEAT_TRAINS , ITEM_SBB_EW2_D_BUILD, 7695)
 	//Vehicels Graphics
 			graphics{
 			default							: switch_graphics_SBB_EW2_D_build;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_BAGG_EXP),);
 			length							: switch_length_SBB_EW2_D;
 			articulated_part				: switch_articulated_SBB_EW2_D_build;
 			purchase						: switch_SBB_EW2_D_purchase;
@@ -294,7 +296,9 @@ item (FEAT_TRAINS , ITEM_SBB_EW2_D_CURRENT, 7696)
 	//Vehicels Graphics
 			graphics{
 			default							: switch_graphics_SBB_EW2_D_current;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_BAGG_EXP),);
 			length							: switch_length_SBB_EW2_D;
 			articulated_part				: switch_articulated_SBB_EW2_D_current;
 			purchase						: switch_SBB_EW2_D_purchase;
@@ -354,7 +358,9 @@ item (FEAT_TRAINS , ITEM_SBB_EW2_D_GRUEN, 7697)
 	//Vehicels Graphics
 			graphics{
 			default							: switch_graphics_SBB_EW2_D_gruen;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_BAGG_EXP),);
 			length							: switch_length_SBB_EW2_D;
 			articulated_part				: switch_articulated_SBB_EW2_D_gruen;
 			purchase						: spriteset_SBB_EW2_D_gruen_purchase;
@@ -414,7 +420,9 @@ item (FEAT_TRAINS , ITEM_SBB_EW2_D_KOMFORT, 7698)
 	//Vehicels Graphics
 			graphics{
 			default							: switch_graphics_SBB_EW2_D_Komfort;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_BAGG_EXP),);
 			length							: switch_length_SBB_EW2_D;
 			articulated_part				: switch_articulated_SBB_EW2_D_Komfort;
 			purchase						: spriteset_SBB_EW2_D_Komfort_purchase;
@@ -473,7 +481,9 @@ item (FEAT_TRAINS , ITEM_SBB_EW2_D_PAPAGEI, 7699)
 	//Vehicels Graphics
 			graphics{
 			default							: switch_graphics_SBB_EW2_D_Papagei;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_BAGG_EXP),);
 			length							: switch_length_SBB_EW2_D;
 			articulated_part				: switch_articulated_SBB_EW2_D_Papagei;
 			purchase						: spriteset_SBB_EW2_D_Papagei_purchase;
@@ -534,7 +544,9 @@ item (FEAT_TRAINS , ITEM_SBB_EW2_D_GRUENWEISS, 7700)
 	//Vehicels Graphics
 			graphics{
 			default							: switch_graphics_SBB_EW2_D_gruenweiss;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2,
+											  string(STR_GAUGE_STANDARD),
+											  string(STR_DESC_BAGG_EXP),);
 			length							: switch_length_SBB_EW2_D;
 			articulated_part				: switch_articulated_SBB_EW2_D_gruenweiss;
 			purchase						: spriteset_SBB_EW2_D_gruenweiss_purchase;

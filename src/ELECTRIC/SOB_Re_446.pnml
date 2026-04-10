@@ -7,13 +7,10 @@
 
 spriteset(spriteset_SOB_Re_446_old, "gfx/SOB_Re_446/SOB_Re_446_old_1x_8bpp.png")
 									{ template_108trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_SOB_Re_446_old, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_old_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_old_1x_mask.png")
 									{template_108trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_SOB_Re_446_old, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_old_2x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_old_2x_mask.png")
 									{template_108trains_2x(0, 0)}
-				
 	alternative_sprites (spriteset_SOB_Re_446_old, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_old_4x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_old_4x_mask.png")
 									{template_108trains_4x(0, 0)}
 									
@@ -21,13 +18,10 @@ spriteset(spriteset_SOB_Re_446_old, "gfx/SOB_Re_446/SOB_Re_446_old_1x_8bpp.png")
 
 spriteset(spriteset_SOB_Re_446_new, "gfx/SOB_Re_446/SOB_Re_446_new_1x_8bpp.png")
 									{ template_108trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_SOB_Re_446_new, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_new_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_new_1x_mask.png")
 									{template_108trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_SOB_Re_446_new, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_new_2x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_new_2x_mask.png")
 									{template_108trains_2x(0, 0)}
-				
 	alternative_sprites (spriteset_SOB_Re_446_new, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_new_4x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_new_4x_mask.png")
 									{template_108trains_4x(0, 0)}									
 
@@ -35,37 +29,72 @@ spriteset(spriteset_SOB_Re_446_new, "gfx/SOB_Re_446/SOB_Re_446_new_1x_8bpp.png")
 
 spriteset(spriteset_SOB_Re_446_silver, "gfx/SOB_Re_446/SOB_Re_446_silver_1x_8bpp.png")
 									{ template_108trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_SOB_Re_446_silver, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_silver_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_silver_1x_mask.png")
 									{template_108trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_SOB_Re_446_silver, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_silver_2x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_silver_2x_mask.png")
 									{template_108trains_2x(0, 0)}
-				
 	alternative_sprites (spriteset_SOB_Re_446_silver, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_silver_4x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_silver_4x_mask.png")
 									{template_108trains_4x(0, 0)}
 
+//Spritesets Commercials
+
+spriteset(spriteset_SOB_Re_446_100years, "gfx/SOB_Re_446/SOB_Re_446_100years_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+	alternative_sprites (spriteset_SOB_Re_446_100years, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_100years_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_100years_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+	alternative_sprites (spriteset_SOB_Re_446_100years, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_100years_2x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_100years_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+	alternative_sprites (spriteset_SOB_Re_446_100years, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_100years_4x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_100years_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+									
+spriteset(spriteset_SOB_Re_446_LO, "gfx/SOB_Re_446/SOB_Re_446_LO_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+	alternative_sprites (spriteset_SOB_Re_446_LO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_LO_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_LO_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+	alternative_sprites (spriteset_SOB_Re_446_LO, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_LO_2x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_LO_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+	alternative_sprites (spriteset_SOB_Re_446_LO, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_LO_4x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_LO_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+									
+spriteset(spriteset_SOB_Re_446_Ostwind, "gfx/SOB_Re_446/SOB_Re_446_Ostwind_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+	alternative_sprites (spriteset_SOB_Re_446_Ostwind, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_Ostwind_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_Ostwind_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+	alternative_sprites (spriteset_SOB_Re_446_Ostwind, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_Ostwind_2x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_Ostwind_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+	alternative_sprites (spriteset_SOB_Re_446_Ostwind, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_Ostwind_4x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_Ostwind_4x_mask.png")
+									{template_108trains_4x(0, 0)}
+									
+spriteset(spriteset_SOB_Re_446_Shoes, "gfx/SOB_Re_446/SOB_Re_446_Shoes_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+	alternative_sprites (spriteset_SOB_Re_446_Shoes, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_Shoes_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_Shoes_1x_mask.png")
+									{template_108trains_1x(0, 0)}
+	alternative_sprites (spriteset_SOB_Re_446_Shoes, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_Shoes_2x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_Shoes_2x_mask.png")
+									{template_108trains_2x(0, 0)}
+	alternative_sprites (spriteset_SOB_Re_446_Shoes, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_Shoes_4x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_Shoes_4x_mask.png")
+									{template_108trains_4x(0, 0)}
 
 //Spriteset purchase
 
 spriteset(spriteset_SOB_Re_446_old_purchase, "gfx/SOB_Re_446/SOB_Re_446_old_1x_8bpp.png")
 									{ template_purchase(0, 0)}
-				
 	alternative_sprites (spriteset_SOB_Re_446_old_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_old_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_old_1x_mask.png")
 									{template_purchase(0, 0)}
 
 spriteset(spriteset_SOB_Re_446_new_purchase, "gfx/SOB_Re_446/SOB_Re_446_new_1x_8bpp.png")
 									{ template_purchase(0, 0)}
-				
 	alternative_sprites (spriteset_SOB_Re_446_new_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_new_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_new_1x_mask.png")
 									{template_purchase(0, 0)}
 
 spriteset(spriteset_SOB_Re_446_silver_purchase, "gfx/SOB_Re_446/SOB_Re_446_silver_1x_8bpp.png")
 									{ template_purchase(0, 0)}
-				
 	alternative_sprites (spriteset_SOB_Re_446_silver_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_silver_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_silver_1x_mask.png")
 									{template_purchase(0, 0)}
-																		
+
+spriteset(spriteset_SOB_Re_446_commercials_purchase, "gfx/SOB_Re_446/SOB_Re_446_100years_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+	alternative_sprites (spriteset_SOB_Re_446_commercials_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/SOB_Re_446/SOB_Re_446_100years_1x_32bpp.png", "gfx/SOB_Re_446/SOB_Re_446_100years_1x_mask.png")
+									{template_purchase(0, 0)}																		
 									
 //Switches
 
@@ -424,3 +453,74 @@ item (FEAT_TRAINS , ITEM_SOB_RE_446_SILVER, 1849)
 			visual_effect_and_powered		:switch_FX_SOB_Re_446;	
 			}
 	}
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_SOB_Re_446_commercials, switch_alternative_var_random_bits(2, 2)) {
+							1: spriteset_SOB_Re_446_100years;
+							2: spriteset_SOB_Re_446_LO;
+							3: spriteset_SOB_Re_446_Ostwind;
+							   spriteset_SOB_Re_446_Shoes;}
+
+					switch(FEAT_TRAINS, SELF, switch_graphics_SOB_Re_446_commercials, position_in_vehid_chain % 2) {
+						0:	   spriteset_empty;
+						1:     random_choose_SOB_Re_446_commercials;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_SOB_Re_446_commercials, extra_callback_info1) {
+						1: return ITEM_SOB_RE_446_COMMERCIALS; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+item (FEAT_TRAINS , ITEM_SOB_RE_446_COMMERCIALS, 1850)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SOB_RE_446_COMMERCIALS);	
+						variant_group:					1845;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);										
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2002,01,01);
+						model_life: 					45;
+						vehicle_life: 					45;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						6745 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							:switch_graphics_SOB_Re_446_commercials;
+			additional_text					:string(STR_CONCAT_3, 
+											 string(STR_GAUGE_STANDARD), 
+											 string(STR_TRACTION_ELECTRIC), 
+											 string(STR_DESC_UNIVERSAL),);
+			length							:switch_length_SOB_Re_446;
+			articulated_part				:switch_articulated_SOB_Re_446_commercials;
+			purchase_cargo_capacity		    :0 ;
+			cargo_capacity	                :return 0 ;
+			purchase						:spriteset_SOB_Re_446_commercials_purchase;
+			cost_factor						:170;
+			running_cost_factor				:switch_running_cost_SOB_Re_446;			
+			visual_effect_and_powered		:switch_FX_SOB_Re_446;	
+			}
+	}							   

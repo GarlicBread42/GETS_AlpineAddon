@@ -3,7 +3,7 @@
 
 # GRF name and description definitions
 
-STR_GRF_NAME        : GETS AlpineAddon 0.2
+STR_GRF_NAME        : GETS AlpineAddon 0.3.1
 STR_GRF_DESC :{BLACK}Alpine Addon for GETS {}{}Graphics by {GOLD}Garlic_Bread42; WyndBain; SweDuke, RaphyD and others{BLACK}, code by {GOLD}Garlic_Bread42{BLACK}.
 
 STR_PARAM_RUNNING_COST: Running cost
@@ -79,7 +79,20 @@ STR_NAME_OBB_KFNB_IX901_CURRENT			:KFNB Reihe IX 901/kkStB 3 Current Year livery
 STR_NAME_OBB_KFNB_IX901_KFNB			:KFNB Reihe IX 901
 STR_NAME_OBB_KFNB_IX901_KKSTB			:kkStB 3
 
+STR_NAME_OBB_KFNB_IIC_BUILD				:KFNB Reihe IIc/kkStB 104
+STR_NAME_OBB_KFNB_IIC_CURRENT			:KFNB Reihe IIc/kkStB 104 Current Year livery
+STR_NAME_OBB_KFNB_IIC_KFNB				:KFNB Reihe IIc
+STR_NAME_OBB_KFNB_IIC_KKSTB				:kkstB 104
+
 ###Electric Locos###
+
+STR_NAME_OBB_RH_1014_BUILD              :ÖBB Rh 1014
+STR_NAME_OBB_RH_1014_CURRENT            :ÖBB Rh 1014 Current Year livery
+STR_NAME_OBB_RH_1014_ROTWEISS           :ÖBB Rh 1014 red/white livery
+STR_NAME_OBB_RH_1014_WORT               :ÖBB Rh 1014 red/white livery w/Wortmarke
+STR_NAME_OBB_RH_1014_RCA                :ÖBB Rh 1014 RailCargo Austria livery
+STR_NAME_OBB_RH_1014_CAT                :ÖBB Rh 1014 CityAirportTrain livery
+STR_NAME_OBB_RH_1014_ZTT                :ÖBB Rh 1014 Zeller Transport Technik livery
 
 STR_NAME_OBB_RH_1016_BUILD				:ÖBB Rh 1016 "Taurus"
 STR_NAME_OBB_RH_1016_CURRENT			:ÖBB Rh 1016 Current Year livery
@@ -116,8 +129,10 @@ STR_NAME_OBB_RH_1044_ROT_MOD_WORT		:ÖBB Rh 1044 modified, red livery Wortmarke
 STR_NAME_OBB_RH_1044_VALOUSEK_WORT		:ÖBB Rh 1044 orange/beige livery Wortmarke
 STR_NAME_OBB_RH_1044_501				:ÖBB Rh 1044 501 High speed experimental loco
 
-STR_NAME_OBB_RH_1293_WORT				:ÖBB Rh 1293 Siemens Vectron
-STR_NAME_OBB_RH_1293_ELL				:Siemens Vectron European Locomotive Leasing livery
+STR_NAME_OBB_RH_1193_WLC                :ÖBB Rh 1193 Siemens Vectron Wiener Localbahn livery
+
+STR_NAME_OBB_RH_1293_WORT				:ÖBB Rh 1293 Siemens Vectron Multisystem
+STR_NAME_OBB_RH_1293_ELL				:Siemens Vectron Multisystem European Locomotive Leasing livery
 
 STR_NAME_OBB_RH_1822_OBB				:ÖBB Rh 1822 "Brennerlok"
 STR_NAME_OBB_RH_1822_PP					:Rh 1822 P&P Eisenbahntechnik livery
@@ -183,6 +198,10 @@ STR_NAME_SBB_RE_456_BT_WAP				:Re 456 "KTU-Lok" Bodensee-Toggenburg livery
 STR_NAME_SBB_RE_456_SZU_ORANGE			:Re 456 Sihltalbahn (old) livery
 STR_NAME_SBB_RE_456_SZU_ROT				:Re 456 Sihltalbahn (new) livery
 STR_NAME_SBB_RE_456_SZU_SPECIAL			:Re 456 Sihltalbahn Special liveries (random)
+STR_NAME_SBB_RE_456_VHB                 :Re 456 Vereinigte Huttwill Bahnen (VHB) livery
+STR_NAME_SBB_RE_456_RM                  :Re 456 Regionalverkehr Mittelland (RM) livery
+STR_NAME_SBB_RE_456_UTL                 :Re 456 UTL Bahnlogistik livery
+STR_NAME_SBB_RE_456_MRAIL               :Re 456 M Rail livery
 
 STR_NAME_SBB_RE_460_BUILD				:SBB Re 460 "Lok 2000"
 STR_NAME_SBB_RE_460_CURRENT				:SBB Re 460 Current Year livery
@@ -254,6 +273,7 @@ STR_NAME_SOB_RE_446_CURRENT				:SOB Re 446 Current Year livery
 STR_NAME_SOB_RE_446_OLD					:SOB Re 446 Red livery w/ yellow stripe
 STR_NAME_SOB_RE_446_NEW					:SOB Re 446 red/white livery
 STR_NAME_SOB_RE_446_SILVER				:SOB Re 446 red/silver livery
+STR_NAME_SOB_RE_446_COMMERCIALS         :SOB Re 446 w/ commercials
 
 STR_NAME_SBB_EURO9000_COOP				:Stadler Euro 9000
 
@@ -356,6 +376,18 @@ STR_NAME_OBB_4748						:ÖBB Rh 4748
 
 STR_NAME_SBB_ETR_610_CIS				:SBB ETR610/RABe 503 "Astoro"
 
+
+STR_NAME_SBB_RBE_540_BUILD				:SBB RBe 540
+STR_NAME_SBB_RBE_540_CURRENT			:SBB RBe 540 Current Year livery
+STR_NAME_SBB_RBE_540_PROTO_GRUEN		:SBB RBe 540 Prototype
+STR_NAME_SBB_RBE_540_PROTO_GRUEN_NEU	:SBB RBe 540 Prototype (New Logo)
+STR_NAME_SBB_RBE_540_PROTO_SEETAL		:SBB RBe 540 Prototype Seetal livery
+STR_NAME_SBB_RBE_540_PROTO_EXSEETAL		:SBB RBe 540 Prototype High visibility front
+STR_NAME_SBB_RBE_540_SERIE_GRUEN		:SBB RBe 540 green livery
+STR_NAME_SBB_RBE_540_SERIE_GRUEN_NEU	:SBB RBe 540 green livery (New Logo)
+STR_NAME_SBB_RBE_540_SERIE_ROT			:SBB RBe 540 red front
+STR_NAME_SBB_RBE_540_SERIE_KOLIBRI		:SBB RBe 540 Kolibri livery
+
 STR_NAME_SBB_RBDe_560_2_COLIBRI			:SBB RBDe 560 "NPZ" (2-Part)
 STR_NAME_SBB_RBDe_560_2_PROTO			:SBB RBDe 560 (2-Part) Prototype
 STR_NAME_SBB_RBDe_560_2_TDV				:SBB RBDe 560 (2-Part) Train des Vignes livery
@@ -424,6 +456,18 @@ STR_NAME_SBB_RABE_523_4_TRN				:TRN RABe 523 4-Part Transports Régionaux Neucha
 STR_NAME_SBB_RABE_524_4_SBB				:SBB RABe 524 Flirt 3 (4-Part)
 STR_NAME_SBB_RABE_524_6_TILO			:Flirt 3 6-Part TILO livery
 STR_NAME_SBB_RABE_524_3_THURBO			:Flirt 3 3-Part Thurbo livery
+
+STR_NAME_SBB_BDE_577_CJ_SOLITARY_BUILD  :CJ BDe 577
+STR_NAME_SBB_BDE_577_CJ_SOLITARY_CURRENT:CJ BDe 577 Current Year livery
+STR_NAME_SBB_BDE_577_CJ_SOLITARY_CREME  :CJ BDe 577 red/cream livery
+STR_NAME_SBB_BDE_577_CJ_SOLITARY_RED    :CJ BDe 577 red livery w/white stripe
+STR_NAME_SBB_BDE_577_CJ_SOLITARY_WHITE  :CJ BDe 577 red livery w/broad white stripe
+
+STR_NAME_SBB_BDE_577_CJ_DUAL_BUILD      :CJ BDe 577 2-Part
+STR_NAME_SBB_BDE_577_CJ_DUAL_CURRENT    :CJ BDe 577 2-Part Current Year livery
+STR_NAME_SBB_BDE_577_CJ_DUAL_CREME      :CJ BDe 577 2-Part red/cream livery
+STR_NAME_SBB_BDE_577_CJ_DUAL_ROT        :CJ BDe 577 2-Part red livery w/white stripe
+STR_NAME_SBB_BDE_577_CJ_DUAL_WHITE      :CJ BDe 577 2-Part red livery w/broad white stripe
 
 ITEM_SBB_DE_44_BRAUN					:SBB De 4/4
 ITEM_SBB_DE_44_SEETAL					:SBB De 4/4 Seetal livery
@@ -494,6 +538,9 @@ STR_NAME_OBB_EUROFIMA_GRAU				:ÖBB Eurofima Coach gray/red livery
 
 STR_NAME_OBB_RAILJET_2008_RANDOM		:ÖBB Railjet
 
+STR_NAME_SBB_RIC                        :SBB RIC-Schlieren Coach
+STR_NAME_SBB_RIC_SR                     :SBB RIC-Schlieren "Kindergarten" Coach
+
 STR_NAME_SBB_EW1_COACH_BUILD			:SBB EW I Coach
 STR_NAME_SBB_EW1_COACH_CURRENT			:SBB EW I Coach Current Year livery
 STR_NAME_SBB_EW1_COACH_GRUEN			:SBB EW I Coach Green livery
@@ -531,6 +578,21 @@ STR_NAME_SBB_IC2000_CURRENT				:SBB IC 2000 Current Year livery
 STR_NAME_SBB_IC2000_OLD					:SBB IC 2000 old livery
 STR_NAME_SBB_IC2000_NEW					:SBB IC 2000 modernized livery
 
+STR_NAME_BLS_RIC_BUILD                  :BLS RIC-Schlieren Coach
+STR_NAME_BLS_RIC_CURRENT                :BLS RIC-Schlieren Coach current livery
+STR_NAME_BLS_RIC                        :BLS RIC-Schlieren Coach w/ Corridor connection
+STR_NAME_BLS_RIC_WULST                  :BLS RIC-Schlieren Coach w/ Rubber connection
+
+STR_NAME_BLS_EW1_COACH_BUILD			:BLS EW I Coach
+STR_NAME_BLS_EW1_COACH_CURRENT			:BLS EW I Coach Current Year livery
+STR_NAME_BLS_EW1_COACH_GRUEN			:BLS EW I Coach green livery
+STR_NAME_BLS_EW1_COACH_BLAU 			:BLS EW I Coach blue livery w/ old logo 
+STR_NAME_BLS_EW1_COACH_LB1  			:BLS EW I Coach blue livery w/new logo
+STR_NAME_BLS_EW1_COACH_INVERT1 			:BLS EW I Coach white/blue livery
+STR_NAME_BLS_EW1_COACH_INVERT2 			:BLS EW I Coach white/blue livery (additional 1.Class coaches)
+STR_NAME_BLS_EW1_COACH_LB2  			:BLS EW I Coach blue livery w/new logo
+STR_NAME_BLS_EW1_COACH_ZEBRA  			:BLS EW I Coach Zebra livery
+STR_NAME_BLS_EW1_COACH_GOLD  			:BLS EW I Coach Golden Pass livery
 
 STR_NAME_BLS_EW4_COACH_BLAU				:BLS EW IV Coach
 
@@ -584,6 +646,23 @@ STR_NAME_SBB_IC2000_DVT_CURRENT			:SBB IC 2000 DVT Current Year livery
 STR_NAME_SBB_IC2000_DVT_OLD				:SBB IC 2000 DVT old livery
 STR_NAME_SBB_IC2000_DVT_NEW				:SBB IC 2000 DVT modernized livery
 
+STR_NAME_BLS_BT_EW1_BUILD               :BLS EW I DVT
+STR_NAME_BLS_BT_EW1_CURRENT             :BLS EW I DVT Current Year livery
+STR_NAME_BLS_BT_EW1_GRUEN               :BLS EW I DVT green livery
+STR_NAME_BLS_BT_EW1_BLAU1               :BLS EW I DVT blue livery w/ old logo 
+STR_NAME_BLS_BT_EW1_BLAU2               :BLS EW I DVT blue livery w/ new logo 
+STR_NAME_BLS_BT_EW1_LB                  :BLS EW I DVT blue livery w/ new logo 
+STR_NAME_BLS_BT_EW1_ZEBRA               :BLS EW I DVT Zebra livery
+
+STR_NAME_BLS_BTI                        :BLS Bti DVT
+
+STR_NAME_BLS_BDT_LS_BUILD               :BLS BDt DVT
+STR_NAME_BLS_BDT_LS_CURRENT             :BLS BDt DVT Current Year livery
+STR_NAME_BLS_BDT_LS_GRUEN               :BLS BDt DVT green livery
+STR_NAME_BLS_BDT_LS_LB                  :BLS BDt DVT blue livery w/new logo
+STR_NAME_BLS_BDT_LS_ZEBRA               :BLS BDt DVT Zebra livery
+STR_NAME_BLS_BDT_LS_GOLD                :BLS BDt DVT Golden Pass livery
+
 STR_NAME_BLS_EW3_SILBER_DVT				:BLS EW III DVT
 
 STR_NAME_SOB_REVVIVO_DVT				:SOB Revvivo DVT "Voralpen Express" 
@@ -600,6 +679,9 @@ STR_NAME_SBB_EW4_WR_BUILD				:SBB EW IV Restaurant Car
 STR_NAME_SBB_EW4_WR_CURRENT				:SBB EW IV Restaurant Car Current Year livery
 STR_NAME_SBB_EW4_WR_ROT					:SBB EW IV Restaurant Car red livery
 STR_NAME_SBB_EW4_WR_ROT_NEU				:SBB EW IV Restaurant Car modernized red livery	
+
+STR_NAME_BLS_EW1_WR_INVERT1             :BLS EW I Restaurant Car
+STR_NAME_BLS_EW1_WR_GOLD                :BLS EW I Restaurant Car Golden Pass livery
 
 ###Sleepers###
 
@@ -647,12 +729,40 @@ STR_NAME_SBB_EW2_D_GRUENWEISS			:SBB EW II Baggage Coach Green/white livery
 
 STR_NAME_SBB_EW3_SWISSEX_AD				:SBB EW III "Swiss Express" Half-Baggage Coach
 
+STR_NAME_SBB_CORAIL_BUILD				:SBB Corail Baggage Coach
+STR_NAME_SBB_CORAIL_CURRENT				:SBB Corail Baggage Coach Current Year livery
+STR_NAME_SBB_CORAIL_GRUEN				:SBB Corail Baggage Coach green/white livery
+STR_NAME_SBB_CORAIL_WEISS				:SBB Corail Baggage Coach black/white livery
+
+
 STR_NAME_SBB_IC2000_AD_BUILD			:SBB IC 2000 Bi-Level Half-Baggage Coach
 STR_NAME_SBB_IC2000_AD_CURRENT			:SBB IC 2000 Half-Baggage Coach Current Year livery
 STR_NAME_SBB_IC2000_AD_OLD				:SBB IC 2000 Half-Baggage Coach old livery
 STR_NAME_SBB_IC2000_AD_NEW				:SBB IC 2000 Half-Baggage Coach modernized livery
 
+STR_NAME_BLS_EW1_BUILD					:BLS EW I Baggage Coach
+STR_NAME_BLS_EW1_CURRENT				:BLS EW I Baggage Coach Current Year livery
+STR_NAME_BLS_EW1_GRUEN					:BLS EW I Baggage Coach green livery
+STR_NAME_BLS_EW1_BLAU					:BLS EW I Baggage Coach blue/beige livery
+STR_NAME_BLS_EW1_LB1					:BLS EW I Baggage Coach blue/beige livery
+STR_NAME_BLS_EW1_IC						:BLS EW I Baggage Coach blue/grey livery
+
+STR_NAME_BLS_EW1_BD_BUILD               :BLS EW I Half-Baggage Coach
+STR_NAME_BLS_EW1_BD_CURRENT             :BLS EW I Half-Baggage Coach Current Year livery
+STR_NAME_BLS_EW1_BD_LB1                 :BLS EW I Half-Baggage Coach blue livery w/ new logo
+STR_NAME_BLS_EW1_BD_INVERT1             :BLS EW I Half-Baggage Coach white/blue livery
+STR_NAME_BLS_EW1_BD_LB2                 :BLS EW I Half-Baggage Coach blue livery w/ new logo
+STR_NAME_BLS_EW1_BD_ZEBRA               :BLS EW I Half-Baggage Coach Zebra livery
+
+
 STR_NAME_BLS_EW3_SILBER_AD				:BLS EW III Coach Half-Baggage Coach
+
+STR_NAME_BLS_D2							:BLS D 2 Baggage Coach
+
+STR_NAME_BLS_DZ2						:BLS DZ 2 Baggage Coach
+
+STR_NAME_SBB_CORAIL_BLS					:BLS Corail Baggage Coach
+
 
 ###Post Coaches###
 
@@ -678,6 +788,68 @@ STR_NAME_SAADKMS_ERA4					:SBB Saadkms w/ Era 4 trucks (let's see what we can do
 ###PWG/Caboose###
 
 
+###Narrow Gauge Electric###
+
+STR_NAME_RHB_GE_44II_BUILD                      :RhB Ge 4/4 II
+STR_NAME_RHB_GE_44II_CURRENT                    :RhB Ge 4/4 II Current Year livery
+STR_NAME_RHB_GE_44II_1973_GREEN                 :RhB Ge 4/4 II green livery
+STR_NAME_RHB_GE_44II_1973_RED                   :RhB Ge 4/4 II red livery
+STR_NAME_RHB_GE_44II_1999_RED                   :RhB Ge 4/4 II modernized, red livery
+STR_NAME_RHB_GE_44II_2004_RED                   :RhB Ge 4/4 II refit, red livery
+STR_NAME_RHB_GE_44II_2004_RHB                   :RhB Ge 4/4 II refit, big Logo
+STR_NAME_RHB_GE_44II_SUDOSTSCHWEIZ              :RhB Ge 4/4 II Südostschweiz livery
+
+STR_NAME_RHB_GE_44III_BUILD                     :RhB Ge 4/4 III
+STR_NAME_RHB_GE_44III_CURRENT                   :RhB Ge 4/4 III Current Year livery
+STR_NAME_RHB_GE_44III_1993                      :RhB Ge 4/4 III small logo
+STR_NAME_RHB_GE_44III_2016                      :RhB Ge 4/4 III large logo
+
+STR_NAME_SBB_HGE_44II_SBB_BRUENIG				:SBB HGe 4/4 II SBB Brünigbahn livery
+STR_NAME_SBB_HGE_44II_FO						:HGe 4/4 II Furka-Oberalp livery
+
+
+###Narrow Gauge Coaches###
+
+STR_NAME_RHB_EW_II_BUILD                        :RhB Einheitswagen II
+STR_NAME_RHB_EW_II_CURRENT                      :RhB Einheitswagen II Current Year livery
+STR_NAME_RHB_EW_II_1978_GREEN                   :RhB Einheitswagen II green livery
+STR_NAME_RHB_EW_II_1978_RED                     :RhB Einheitswagen II red livery
+STR_NAME_RHB_EW_II_2004_VAR1                    :RhB Einheitswagen II modernized (old Logo)
+STR_NAME_RHB_EW_II_2004_VAR2                    :RhB Einheitswagen II modernized
+STR_NAME_RHB_EW_II_2004_VAR3                    :RhB Einheitswagen II modernized
+
+STR_NAME_RHB_EW_II_KURZ_BUILD                   :RhB Einheitswagen II shortened (1. Class only)
+STR_NAME_RHB_EW_II_KURZ_CURRENT                 :RhB Einheitswagen II shortened (1. Class only) Current Year livery
+STR_NAME_RHB_EW_II_KURZ_1978                    :RhB Einheitswagen II shortened (1. Class only) red livery
+STR_NAME_RHB_EW_II_KURZ_1983                    :RhB Einheitswagen II shortened (1. Class only) red/black livery
+STR_NAME_RHB_EW_II_KURZ_2000                    :RhB Einheitswagen II shortened (1. Class only) red livery w/ new Logo
+STR_NAME_RHB_EW_II_KURZ_2004                    :RhB Einheitswagen II shortened (1. Class only) red livery 1 door
+STR_NAME_RHB_EW_II_KURZ_2006                    :RhB Einheitswagen II shortened (1. Class only) red livery 2 doors
+
+STR_NAME_SBB_EWNG_BRUENIG						:SBB Einheitswagen Brünigbahn livery
+STR_NAME_SBB_EWNG_BD_BRUENIG                    :SBB Einheitswagen Half-Baggage Coach Brünigbahn livery
+STR_NAME_SBB_EWNG_PAN_BRUENIG                   :SBB Einheitswagen Panoramic Coach Brünigbahn livery
+
+###Narrow Gauge Freight###
+
+STR_NAME_SBB_RHB_HAIK							:RhB Sliding Door Van "Haik"
+
+STR_NAME_SBB_RHB_HAIK_KUEHL						:RhB Refrigerated Van "Haik"
+
+STR_NAME_RHB_FAC                                :RhB Self Discharger "Fac"
+STR_NAME_RHB_FAC_BROWN                          :RhB Self Discharger "Fac" brown livery
+STR_NAME_RHB_FAC_BASE                           :RhB Self Discharger "Fac" gray livery
+
+STR_NAME_RHB_RW                                 :RhB Stake Wagon "R-w"
+
+STR_NAME_RHB_REW                                 :RhB Stake Wagon "Re-w"
+
+STR_NAME_RHB_RET                                 :RhB Stake Wagon "Re-t"
+
+STR_NAME_RHB_ZA                                  :RhB Tanker Wagon "Za"
+
+STR_NAME_RHB_UAC                                 :RhB Silo Wagon "Uac"
+
 ###Mail Compartments###
 STR_NAME_MAIL_25			:Mail 25
 STR_NAME_MAIL_23			:Mail 23
@@ -687,6 +859,8 @@ STR_NAME_MAIL_42			:Mail 42
 ####GAUGE ###
 #############
 STR_GAUGE_STANDARD			:Gauge:{GOLD} Standard (1.435mm) {}
+
+STR_GAUGE_NARROW			:Gauge:{GOLD} Narrow Gauge (1.000mm) {}
 
 ###########################
 ####Vehicle Description ###
@@ -702,6 +876,7 @@ STR_DESC_EXPRESS		:{BLACK}Usage:{PURPLE} (national) Express Passenger{}
 STR_DESC_INTEX			:{BLACK}Usage:{PURPLE} (international) Express Passenger{}
 STR_DESC_PASS			:{BLACK}Usage:{DKGREEN} Passenger{}
 STR_DESC_SLEEP			:{BLACK}Usage:{PURPLE} Sleeper{}
+STR_DESC_PANORAMIC      :{BLACK}Usage:{DKGREEN} Passenger{}{BLACK} Panoramic Coach
 STR_DESC_PASS_TRAIL		:{BLACK}Usage:{DKGREEN} Passenger{}{BLACK} Trailer for Multiple Unit.
 STR_DESC_UNIVERSAL		:{BLACK}Usage:{BLUE} Universal{}
 STR_DESC_POST			:{BLACK}Usage:{GREEN} Mail{}
